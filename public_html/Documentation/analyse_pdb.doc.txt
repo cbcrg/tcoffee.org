@@ -1,0 +1,297 @@
+
+
+ANALYSE_PDB
+	
+		1-Description/Purpose
+		2-Algorithm				
+		3-Flags
+		4-usage/example
+		5-Installation
+		6-FAQ
+		7-BUG REPORTS
+		
+
+1-Description/Purpose
+
+Analyse PDB is a routine meant to evaluate the quality of a multiple
+sequence alignment of PDB structures. Given a multiple alignment containing
+sequences with known structures (all the sequences do not need to have
+known structures within the alignment), ANALYSE_PDB returns a measure of
+quality for each individual sequence and a global measure for the
+multiple alignment of the structures.
+
+Analyse PDB can be useful if you wish to evaluate the quality of a multiple
+sequence alignment containing structures.
+
+For practical purposes, please note that the program can deal with sequence
+inconsistencies in a similar manner as aln_compare. This means that if your
+alignment does not contain the *COMPLETE* structure, the program will be
+able to make the analyses on the relevant portions only. This remains true
+as long as the discrepancies with the pdb sequence/structure only involve
+insertions/deletions (either internal or terminal).
+
+2-Algorithm
+
+By default the algorithm has the following complexity:
+	   space (o) N(L^2). 
+	   time  (o)(NL)^2.
+
+N is the number of Structure and L their Length. If Quadratic space is not
+practical for your structure, you can use the -distance_on_request
+flag. Beware that this may slow the program up to 10-folds.
+
+
+Four distinct measures have been defined, they all depend on the value of
+specific parameters.
+
+	Measure 1
+	
+	Given a residue A(i) aligned with residue B(j) and the distance D
+	("-maximum_distance" flag).          
+	The pair of aligned residues
+		      A(x)/B(y) 
+		      is only considered if
+			 d(A(i),A(x))<D AND d(B(j),B(y))<D.
+		      with 
+			 DELTA=|d(A(i),A(x))- d(B(j),B(y))|
+	
+	For these residues 
+	        M1=(SUM (DELTA))/Number of considered pairs.
+	
+	M1 can be computed for each residue, for each sequence or for the
+	whole alignment.
+
+	pairs of residues i,j for which no associated pair x,y was found,
+	are considered non-aligned.
+
+	The expected effect is that this measure should not be very sensitive to
+	the unaligned residues, while still being sensitive to the overall
+	quality of the alignment.
+
+	Measure 0
+	
+	It is only an indicator. It equals the ratio between the number of
+	aligned residues as defined above and the total number of
+	residues.
+	
+	Measure 2
+	
+	Given a threshold T (-rmsd_threshold flag), a distance D
+	("-maximum_distance" flag) and two aligned residues  A(i),B(j),
+	
+		N1=number of pairs A(x)/B(y)  where d ( A(i),A(x))<D
+		AND   d (B(j),B(y))<D.
+
+		N2=number of pairs A(x)/B(y) counted in N1 and with DELTA<T
+		(DELTA=|d ( A(i),A(x))-d (B(j),B(y))|)
+
+		M2=N2*100/N1;
+
+	In my opinion, this measure is slightly more sensitive than the
+	M1 because it gives a better idea of the number of Ca that
+	effectively contribute to M1.
+
+	This measure is the one used to produced the colorized alignment,
+	where each residue receives a color proportional to its M2 (0..10).
+	(Such alignment can be requested with  -output=score_ps, see the
+	flag section)
+	
+	Measure 3
+	
+	Given a second threshold T2 (-similarity_threshold flag),
+
+	      N1=Total Number of aligned residues
+	      N2=number of residues with M2>T2
+	
+	      M3=N2*100/N1;
+
+	This is a good indicator of the overall quality of the alignment 
+	(i.e. is the value measured in M1 caused by MOST of the aligned
+	residues, or only a small fraction).
+
+	
+	These are simply the most straightforward measures I could come out
+	with. You are welcome to propose/implement new ones. The code for
+	measures is in evaluate_for_struc.c, while the structures are at
+	the top of util_constraint_list.h. Several important functions are
+	also in reformat_struc.c. Do not hesitate to contact me if you
+	need some help on the code.
+
+3-Flags
+	-aln <file>
+	
+	This flag indicates the name of the file containing the multiple
+	alignment. Most current formats are valid ( clustal, msf,
+	fasta). See the t_coffee documentation for further information.
+	If the flag is omitted, the first argument is assumed to be the aln
+	file.
+			
+	-in <file1 file2 file3...>
+	This flag indicates the name of the files containing the PDB
+	structures. These structures are read with the extract_from_pdb
+	routine ran by default. This means that if a PDB file contains
+	several chains, the first one only will be considered.
+
+	If you need to consider another chain (B, 2..) extract it yourself
+	into a file with extract_from_pdb and provide it to the program (Cf
+	the example in 4-usage/example ).
+	
+	The PDB sequences in the multiple alignment MUST have valid PDB
+	names. It is only thanks to this name that the program associates a
+	PDB file to one of the aligned sequences. The name of the PDB file
+	must also be a valid PDB name.
+
+	If you do not indicate any pdb file with -in, the program will look
+	for each sequence, if there is a pdb file name after that
+	sequence in the current directory. If not it will then look for that
+	file in the "PDB" directory. "PDB" is a global variable you can set
+	before running the program. It must point to the directory
+	containing your PDB database. If no adequate pdb file is found, the
+	sequence will be considered to have no associated pdb file, and
+	therefore no structure.
+	
+	When I have time I will implement more sophisticated procedure
+	including:
+		-automatic extraction of the appropriate chain
+		-handling of compressed files
+		-handling of netfetch
+	
+
+	-n_excluded_nb  (default=1)
+	This flag indicates the number of Ngb. to exclude when measuring
+	the RMSd. Since the first one on each side is trivial, it is always
+	excluded, hence the default value of 1 which means that given A(i)/B(j), 
+	A(i+1)/B(*),A(*)/B(j+1), A(i-1)/B(*) and A(*)/B(j-1)  are systematically ignored 
+
+	-maximum_distance (default=10.00 Angstrom)
+	Cf (2-Algorithm, Measure1)
+	
+	-rmsd_threshold   (default=1.00  Angstrom)
+	Cf (2-Algorithm, Measure2)	
+	
+	-similarity_threshold (default= 70%)
+	Cf (2-Algorithm, Measure3)	
+
+	-distance_on_request
+	This will cause the space complexity of the algorithm to become
+	linear with the structure length, rather than quadratic. This takes
+	about ten times longer than the quadratic alternative.
+
+	-io_format hsgd0123
+	Indicates the format of your output. This is similar to the
+	equivalent flag in aln_compare:
+		h->header
+		s->Individual result ( for each structure)
+		g->Global Result (for the whole alignment)   	
+		d->Definitions
+		0->output only measure 0
+		1->output only measure 1
+		2->output only measure 2
+		3->output only measure 3
+		#->output ALL the measures
+		*->output EVERYTHING  that possibly can, and the rest ;-)
+	
+	-output (default: none), <format1, format2, ....>
+	This flag takes a list of formats as an argument.
+
+	It will output the alignment aln changing its format. All the
+	t_coffee formats are supported. If score_ps, pdf, html or ascii is
+	requested, the score of each residue/sequence will be computed using the
+	Measure 2.
+	The overall score of the alignment will be Measure 3.
+
+	If you request as an output format pdb_aln, all the residues that
+	have a score M1==0 will be in lower case (unaligned).
+
+	as with t_coffee, several output formats can simultaneously be requested.
+
+	WARNING: -outfile must be set
+	
+	
+	-outfile (default: none)
+	This is the name of the output file.
+
+       
+4-usage/example
+	
+	if you have an alignment of four structures, and the corresponding
+	pdb_files are in the current directory, with each sequence being
+	named after its structure and accordingly with the PDB file:
+
+	file pdb_aln
+
+	pdb1_A xxxxx---xxxxxx----
+	pdb1_B --xxx---xxxx------
+	pdb3   ---xxxxxxxxxxxxxxx
+	pdb4   xxxxxxx---xxxxxxxx
+
+
+	you must have extracted pdb1_B into the pdb1_B.pdb file:
+	
+		extract_from_pdb -infile pdb1.pdb -chain B -mode pdb >
+		pdb1_B.pdb
+
+	and you must have in your current directory the following files:
+	
+		pdb1.pdb, pdb1_B.pdb, pdb3.pdb, pdb4.pdb
+
+	you may also have the pdb files in your pdb_base directory. In that
+	case, set PDB to "your pdb_base directory", and you will only need
+	to have in the current directory:
+	
+		pdb1_B.pdb
+	
+	Then run:
+	
+		analyse_pdb -aln pdb_aln
+ 
+
+	If you only want the structural analysis to be carried out on pdb3
+	and pdb4, type
+	
+	        analyse_pdb -aln pdb_aln -in pdb3.pdb pdb4.pdb
+
+	If you are only interested in the measure 3 for the whole
+	alignment:
+		
+		analyse_pdb -aln pdb_aln -in pdb3.pdb pdb4.pdb -io_format g3
+	
+		
+	If your structures are too large and you get a core-dump with
+	'impossible to alloc', use the flag:
+	
+		analyse_pdb -aln pdb_aln -distance_on_request
+		
+	
+5-Installation
+
+	For now, the code leaves in my home directory:
+
+	    /home/cnotreda/packages/ANALYSE_PDB_distribution_Version_0.1
+
+        It is only compiled and installed on isrec-sun1. To install it, go
+        into /home/cnotreda/packages/ANALYSE_PDB_distribution_Version_0.1
+        and type ./install.
+	The executable will be copied into the bin directory. Take it to the
+        location where you want it to leave.
+
+	
+	
+
+	analyse_pdb is not a stand-alone-program, it also requires the
+	perl_script 
+		    extract_from_pdb 
+
+	That script is distributed along with the analyse_pdb, but should
+	already be installed on all the machines.
+	    
+
+6-FAQ
+	not ready yet
+	   
+7-BUG REPORTS
+      please report all bugs and problems to:
+
+	    cedric.notredame@europe.com
+ 	  
+	

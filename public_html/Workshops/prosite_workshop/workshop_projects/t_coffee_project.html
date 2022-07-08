@@ -1,0 +1,83 @@
+<html>
+
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>PROSITE Workshop 2001</title>
+ </head>
+
+ <body bgcolor="#ffffff">
+  <center>
+   <table noborder cellpadding="0" width="580" nosave>
+    <tr nosave>
+     <td align="center" width="187" bgcolor="#ffffff"><a
+href="http://www.isb-sib.ch"><img src="../images/siblogosmall.gif"
+align="CENTER" border="0"></a></td>
+     <th align="center" colspan="2" bgcolor="#222299" nosave>
+      <h2><font color="#66cdaa">2nd PROSITE Workshop, 
+      <h2><font color="#ffffff">27-29 June 2001</font></h2>
+      <h2><a href="http://igs-server.cnrs-mrs.fr"><font color="#ffffff">IGS</font></a>-Marseille</font><h2>
+     </th>
+     <td align="center" width="187" bgcolor="#ffffff"><a
+href="http://www.expasy.ch/prosite"><img border="0" height="90"
+width="187" src="../images/prosite.gif"></a></td>
+    </tr>
+   </table>
+   
+   <BR><BR><BR>
+   <H1> <font color=red> Workshop Project </font><H2>
+   <H2> Structure Combination Using T-Coffee</H2>
+   <table width=50% border="5">
+   <tr><td><center><H3> Purpose </H3></center></td></tr>
+   <tr><td>
+   <P>The aim of this project is to evaluate the possibility of using T-Coffee
+   along with some structure superimposition algorithm, such as sap, in
+   order to bridge two distantly related groups of sequences.
+   Each group should  contain at least one representative structure, and a
+   meaningful structure based alignment of these two structures must exist.
+   </P>
+   <P>Reasons why T-Coffee's current algorithm is not well suited for that
+   purpose will be discussed, and a new variant algorithm will be
+   proposed.<P>	
+   <P>Establishing how that information can be passed to t_coffee in order
+   to improve a multiple sequence alignmnent quality and the
+   sensitivity of the resulting profile forms the bases of this
+   project.</P>     
+   <P>In a later stage, the possibility of using the t_coffee local
+   consistency measure in order to filter out uninformative residues will
+   be analysed, especialy for its effect on the profile
+   sensitivity/specificity.</P>
+   </tr></td>
+   <tr><td>
+   <center><H3>Proposed Procedure</H3>
+   </tr></td>
+   <tr><td>
+   <P>Category 3 of BaliBase will be used to provide the testcase, sequences
+   will be analysed and structures retrieved from PDB. Various protocols
+   will be set up using T-Coffee and the quqlity of the resulting
+   alignments will be analysed by comparison with BaliBase, using
+   aln_compare.
+   </P>
+   <P>The resulting alignment will be turned into a profile using the
+   pftools and used to scan databases.</P>
+   </tr></td>
+   <tr><td>
+   <center><H3>Tools</H3></center>
+   </tr></td>
+   <tr><td>
+   <P>aln_compare, seq_reformat, sap, process_pdb and t_coffee will be
+   used. They can be downloaded from my <A
+   href="http://igs-server.cnrs-mrs.fr/~cnotred/Projects_home_page/Prosite_workshop.html">home
+   page</A>. 
+   </tr></td>
+   <tr><td>
+   <center><H3> Contact </H3></center>
+   </tr></td>
+   <tr><td>
+  <a
+   href="mailto:cedric.notredame@igs.cnrs-mrs.fr?subject=PROSITE-Workshop2001">C.Notredame</a>
+   </tr></td>
+   </table>
+ </body>
+
+</html>

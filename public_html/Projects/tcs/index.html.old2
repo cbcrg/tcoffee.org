@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0036)http://www.tcoffee.org/Projects/tcs/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <title>Transitive Consistency Score Home Page</title>
+    
+<script type="text/javascript" async="" src="./Transitive Consistency Score Home Page_files/ga.js"></script><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16712397-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+    
+  <style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+    <body text="#000000" bgcolor="white" link="#0000EE" vlink="#551A8B" alink="#FF0000" screen_capture_injected="true">
+    <font face="Arial">
+    <center>
+   
+ <table width="80%" cellpadding="15" cellspacing="0" bgcolor="#FFEBCD" border="1" bordercolor="#8B4513">
+	  <tbody><tr>
+	    <td>
+	      <table width="100%" cellpadding="15" cellspacing="0" cellborder="0" valign="TOP" border="0">
+		  <tbody><tr bgcolor="#FFEBCD">
+		    <td colspan="1" bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan="1" bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan="1" bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan="1" bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan="1" bgcolor="#FFEBCD" width="5%"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD">
+		      <center><table><tbody><tr><td align="center"><b> <font size="7" color="#8B4513">TCS <br>Transitive Consistency Score for MSA evaluation</font></b></td></tr></tbody></table></center>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFE4C4">
+		      <hr>
+		      <center>
+			<table width="100%" cellpadding="15" cellspacing="0" cellborder="0" valign="top">
+			    <tbody><tr align="center">
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/homepage.html"><font color="#8B4513">HOME</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;" style="background-color: rgb(255, 228, 196);"><b><a href="http://www.tcoffee.org/Projects/tcs/#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#COMMANDS"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#OUTPUT"><font color="#8B4513">OUTPUT</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+			      
+			    </tr>
+			    
+			</tbody></table>
+		      </center>
+		      <hr>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td rowspan="3" bgcolor="#FFEBCD"><br></td>
+		    <td rowspan="3" bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513">What is TCS?</font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr>
+			    <td>
+			      <p align="justify">TCS is an alignment evaluation score that mes it possible to identify the positions most likely to be structuraly correct as well most likely to yield an improved phylogenetic tree. The TCS evaluation and filtering procedure is implemented in the T-Coffee package and can be used to evaluate and filter any third party multiple sequence alignment (including T-Coffee of course!).</p>
+			      <p>A pre-print is available <a target="_blank" href="http://www.tcoffee.org/Publications/Pdf/062-MBE-TCS.preprint.pdf">here</a>.</p>
+			      <p>A powerpoint is available <a target="_blank" href="201403_TCS_MBE.pptx">here</a>.</p>
+			    </td>
+			  </tr>
+		      </tbody></table>
+		      
+		    </td>
+		    
+		    <td colspan="1" rowspan="3" bgcolor="#FFEBCD"><br></td>
+		    <td colspan="1" rowspan="1" bgcolor="white">
+		      <center><h2><font color="#8B4513"><a name="SERVERS">SERVERS</a></font></h2></center>
+		      <table bgcolor="white">
+			
+			  <tbody><tr><td>
+			      <ul>
+				<li><a href="http://tcoffee.crg.cat/tcs">http://tcoffee.crg.cat/tcs</a></li>
+			      </ul>
+			    </td></tr>
+		      </tbody></table>
+		    </td><td rowspan="3" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="1" rowspan="1" bgcolor="white">
+		      <center><h2><font color="#8B4513"><a name="DOWNLOAD">DOWNLOAD</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr><td>
+			      <ul>
+				<li>The tcs evaluation is only a special mode of T-Coffee. Download the latest T-Coffee version <a href="http://www.tcoffee.org/Projects/tcoffee/index.html#DOWNLOAD">here</a>.</li>
+			      </ul>
+			    </td></tr>
+		      </tbody></table>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		    <td colspan="3" bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513"><a name="INSTALLATION">INSTALLATION</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr>
+			    <td>
+			      <p align="justify"><b>1-</b>Follow the standard T-Coffee <a href="http://www.tcoffee.org/Projects/tcoffee/index.html#INSTALLATION">installation procedure</a>.</p>
+			    </td>
+			  </tr>
+		      </tbody></table>
+		    </td>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td colspan="1" rowspan="5" bgcolor="#FFEBCD"><br></td>
+		    <td colspan="1" rowspan="5" bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513"><a name="OUTPUT">OUTPUT</a></font></h2></center>
+		      <center><table bgcolor="white">
+			    <tbody>
+			      <tr>
+			      <td>
+				<p align="justify">Given an alignment file <a href='BB11001.aln' target='_blank'>BB11001.aln</a>, TCS outputs a file named <code>BB11001.score_html</code> that contains a color coded indicating the agreement between the library and the considered alignment. Red brick regions are in perfect transitive consistant relation between the library and the the input alignment, while blue regions have a very poor agreement.
+				Red brick regions can safely be assumed to be trusted while blue regions should be discarted. Green and Yellow regions should also be used with caution, especially when reconstructing a tree or building a profile. The top of the output provides the average conistency (0-100) for each sequence, thus indicating wether some sequences may have a less reliable alignment. A score lower than 50 should be considered poor.</p>
+				<img border="0" src="F4_scoreHtml.jpg">
+			      </td>
+			    </tr>
+			    <tr>
+			      <td>
+				<p align="justify">Besides .score_html, there are other detailed outputs:				
+				  <ul>
+				    <li> <i>score_ascii</i> : contains ascii format for score_html.
+				    <li> <i>score_pdf</i> : will transfer score_html into pdf format.
+				    <li> <i>sp_ascii</i> : is a format reporting the TCS score of every aligned pair in the target MSA.
+				    <li> <i>tcs_column_filter2</i> : outputs an MSA in which columns having ColumnTCS lower than 2 are removed.
+				    <li> <i>tcs_weighted</i> : outputs an MSA in which columns are duplicated according to their ColumnTCS weight.
+				    <li> <i>tcs_replicate100</i> : outputs 100 replicate MSAs in which columns are randomly drawn according to their weights.
+				</ul>
+			      </td>
+			    </tr>  
+			      
+			</tbody></table></center>
+		    </td>
+		    <td colspan="1" rowspan="5" bgcolor="#FFEBCD"><br></td>
+		    <td colspan="1" bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513"><a name="COMMANDS">DOCUMENTATION</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr>
+			    <td>
+			      <p>The full documentation is on the <a href="http://www.tcoffee.org/Projects/tcs/index.html#DOCUMENTATION">T-Coffee Homepage</a>. But the following shortcuts may be useful.</p>
+			      <table border="0" width="100%" cellpadding="5" bgcolor="white">
+				  <tbody><tr>
+				    <td bgcolor="grey"></td>
+				  </tr>
+				  <tr>
+				    <td>To run the current default T-Coffee whose libraries are populated using the ProbCons pair-HMM, type</td>
+				  </tr>
+				  <tr>
+				    <td>
+				      <code> t_coffee -infile <i>BB11001.aln</i> -evaluate -method proba_pair</code>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td bgcolor="grey"></td>
+				  </tr>
+				  <tr>
+				    <td>This protocol corresponds to the original T-Coffee. It involves computing all pairwise alignments using ClustalW and Lalign, type</td>
+				  </tr>
+				  <tr>
+				    <td>
+				      <code> t_coffee -infile <i>BB11001.aln</i> -evaluate -method clustalw_pair,lalign_id_pair</code>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td colspan="3" bgcolor="grey"></td>
+				  </tr>
+				  <tr>
+				    <td>This protocol uses the procedure developed for the Ensembl Compara pipeline and relies on generating MSAs using fast aligners: MAFFT, MUSCLE and Kalign, type</td>
+				  </tr>
+				  <tr>
+				    <td>
+				      <code> t_coffee -infile <i>BB11001.aln</i> -evaluate -method kafft_msa,kalign_msa,muscle_msa</code>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td colspan="3" bgcolor="grey"></td>
+				  </tr>
+			      </tbody></table>
+			      
+			    </td>
+			  </tr>
+		      </tbody></table>
+		    </td>
+		    <td colspan="1" rowspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td colspan="1" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513"><a name="LINKS">LINKS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr>
+			    <td>
+			      structural validation
+			      <ul>
+			      <li><a href="http://lbgi.fr/balibase/">BAliBASE 3</a></li>
+			      <li><a href="http://www.drive5.com/bench/">PREFAB 4</a></li>
+			      </ul>
+			      phylogenetic validation
+			      <ul>
+				<li><a href="http://www.ncbi.nlm.nih.gov/pubmed/18218900">yeasts</a> from Wong et al. Science, 2008</li>
+				<li><a href="geneList_YeastToL.txt">subset gene list </a> : at least one aligner yields a phylogeny topology identical to the canonical yeast ToL</li>
+			        <li><a href="http://molevol.cmima.csic.es/castresana/Gblocks.html">tips16</a> from Gblocks</li>
+			        <li><a href="http://trimal.cgenomics.org/">tips32, tips64</a> from trimAl</li>
+			      </ul>
+			    </td>
+			  </tr>
+		      </tbody></table>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="1" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td bgcolor="white" valign="top">
+		      <center><h2><font color="#8B4513"><a name="CONTACT">CONTACT</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tbody><tr>
+			    <td>
+			      <p>Our projects relie on your feeback. Please send me an
+				E-mail if you wish to make a request, a comment, or report a bug! 
+				<code>
+				  <br><br>
+				  *******************************************<br>
+				  Dr. Cedric Notredame, PhD.                 <br>       
+				  Group Leader                               <br>
+				  Comparative Bioinformatics Group           <br>
+				  Bioinformatics and Genomics Programme      <br>
+				  Center for Genomic Regulation (CRG)        <br>
+				  Dr Aiguader, 88                            <br>
+				  08003 Barcelona                            <br>
+				  Spain                                      <br>
+				  Email:  <a href="mailto:cedric.notredame@europe.com">cedric.notredame@europe.com</a>    <br>
+				  HOME :  <a href="http://www.tcoffee.org/">http://www.tcoffee.org/</a><br>
+				  GROUP:  <a href="http://pasteur.crg.es/portal/page/portal/Internet/02_Research/01_Programmes/01_Bioinformatics_Genomics/03_Comparative_Bioinformatics">CRG</a><br>
+				  Phone:  +34 933 160 271                <br>
+				  *******************************************       <br>
+				</code>
+			    </p></td>
+			  </tr>
+		      </tbody></table>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="5" bgcolor="#FFE4C4">
+		      
+		      <center>
+			<hr>
+				<table width="100%" cellpadding="15" cellspacing="0" cellborder="0" valign="top">
+			    <tbody><tr align="center">
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/index.html"><font color="#8B4513">HOME</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#COMMANDS"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#OUTPUT"><font color="#8B4513">OUTPUT</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+			      
+			    </tr>
+			    
+			</tbody></table>
+			<hr>
+		      </center>
+		      
+		    </td>
+    
+  
+  </tr>
+  </tbody></table>
+  </td>
+  </tr>
+  </tbody></table>
+  </center>
+  </font>
+  
+
+</body></html>

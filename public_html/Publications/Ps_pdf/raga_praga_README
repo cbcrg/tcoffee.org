@@ -1,0 +1,31 @@
+RAGA: SEQUENCE ALIGNMENT BY GENETIC ALGORITHM
+
+NOTREDAME C. , E. O'Brien and HIGGINS D. NAR.
+
+This is the version 0.91
+
+Authors can be contacted 
+
+cedric.notredame@ebi.ac.uk
+des.higgins@ebi.ac.uk
+
+The EMBL outstation
+The EBI
+Hinxton HAll
+Hinxton
+CB10 1RQ CAMBRIDGE
+
+
+The program is in the file RAGA_DISTRIB.tar.Z
+
+To run the programm:
+
+1 uncompress and untar the file by typing :
+	zcat RAGA_DISTRIB.tar.z | tar xvf -
+	
+2 The documentation is in PS format in the directory RAGA_DISTRIB/RAGA/DOC/
+it contains a brief manual on how to use RAGA and PRAGA (ga_doc.ps)
+If you cannot read the documentation, HArd copies are available from the
+authors at the above address
+
+   

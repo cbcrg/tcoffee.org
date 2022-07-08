@@ -1,0 +1,93 @@
+<html>
+
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>PROSITE Workshop 2001</title>
+ </head>
+
+ <body bgcolor="#ffffff">
+  <center>
+   <table noborder cellpadding="0" width="580" nosave>
+    <tr nosave>
+     <td align="center" width="187" bgcolor="#ffffff"><a
+href="http://www.isb-sib.ch"><img src="../images/siblogosmall.gif"
+align="CENTER" border="0"></a></td>
+     <th align="center" colspan="2" bgcolor="#222299" nosave>
+      <h2><font color="#66cdaa">2nd PROSITE Workshop, 
+      <h2><font color="#ffffff">27-29 June 2001</font></h2>
+      <h2><a href="http://igs-server.cnrs-mrs.fr"><font color="#ffffff">IGS</font></a>-Marseille</font><h2>
+     </th>
+     <td align="center" width="187" bgcolor="#ffffff"><a
+href="http://www.expasy.ch/prosite"><img border="0" height="90"
+width="187" src="../images/prosite.gif"></a></td>
+    </tr>
+   </table>
+   
+   <BR><BR><BR>
+   <H1> <font color=red> Workshop Project </font><H2>
+   <H2>!!! MORE RULES IN PROSITE !!!</H2>
+   <table width=50% border="5">
+   <tr><td><center><H3> Purpose </H3></center></td></tr>
+   <tr><td>
+   <P>
+Here below are the criteria of acceptation/rejection of the matches by
+motif descriptor as used to produce the InterPro hit list:</P>
+<P>Prosite Profiles - Only matches with score exceeding the so-called
+   LEVEL=0 cutoff are accepted. The fact that a protein has multiple
+   matches by a domain is not considered.</P>
+ <P>
+Pfam HMMs - The computation that produces the decision to accept
+   match(es) of a motif on a protein is quite intricate. The raw score of
+   every match and the sum of the score of individual matches are first
+   re-evaluated by the search program to take into account the
+   composition of the matched protein (this step can be skipped with the
+   --null2 option). Then, the acceptation of matches rely upon the TWO
+   cutoffs declared on the GA line of every Pfam entry: the first one is
+   for sum of all matches (the per protein cumulated score), the second
+   one is for the highest scoring individual match (the per match
+   score). According to the HMMER2.0 manual, the cutoff is set by default
+   to zero for the acceptation of the remaining individualmatchs...but
+   the actual behaviour of hmmsearch might be different!</P>
+
+<P>The Pfam startegy is clearly advantageous for the detection of domains
+that usually occur reapeated in a protein. The goal of this workshop
+is to write the specifications (part of the user manual) of a new type
+of Prosite rules, that would permit to improve the detection multiple
+domains in a protein. There are three points to work out</P>
+
+   - The envisaged modification to the Prosite format.<BR>
+   - The stategy used to combine the matches.<BR>
+   - Extensive case studies to evaluate the appropriateness of the
+     envisaged startegy.<BR>
+
+<P>The following miscellaneous points might fuel the debate:</P>
+
+<P>   The Pfam stategy is actually problematic on one point. "Scanning"
+   or "searching" several proteins with several HMMs may result in
+   different list of matches. This is basically an implementation
+   problem, but new rules that suffer from this kind of ambiguities
+   have to be rejected.
+</P>
+<P>   Another weekness of the Pfam strategy is that it can only deal with
+   multiple occurences of the same motif. A domain described by two
+   sub-domains would strongly benefit from a co-evaluation of the scores.</P>
+
+<P>   It must be stressed that all these considerations are
+   "proteinocentric". The concept of multiple matches on a DNA sequence is
+   not very relevant because of the size of the molecules which is
+   usually quite arbitrarilly fixed in databases. The "proximity" of two
+   matches should be taken into account.
+   </P>
+   </tr></td>
+   <tr><td>
+   <center><H3> Contact </H3></center>
+   </tr></td>
+   <tr><td>
+  <a href="mailto:Marco.Pagni@isb-sib.ch?subject=PROSITE-Workshop2001">Marco.Pagni</a>
+   </tr></td>
+   </table>
+ </body>
+
+</html>
+

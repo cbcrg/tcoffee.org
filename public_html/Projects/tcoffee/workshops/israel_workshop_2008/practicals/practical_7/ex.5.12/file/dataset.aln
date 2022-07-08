@@ -1,0 +1,114 @@
+CLUSTAL FORMAT for T-COFFEE Version_6.86 [http://www.tcoffee.org] [MODE:  ], CPU=9.62 sec, SCORE=58, Nseq=20, Len=274 
+
+14|1qq4A|gi|18311212  -----------QE-------------G------------LGSG-FIIN-E-DGYVVTNYH
+23|1qq4A|gi|7445360   FGEL-------PPG-----F-E-RQ-V---------A-SLGSG-FIFD-P-EGYILTNYH
+29|1qq4A|gi|23125899  ---Q-------PQ--------E-RV-V---------R-GLGSG-FVID-P-NGRILTNAH
+1qq4A                 ---A---NIVGGIE-----Y-S-IN-N---------A-SLCSVGFSVTRGATKGFVTAGH
+70|1svpA|gi|3342806   ------------------------------------------------------------
+93|1svpA|gi|755731    ------------------------------------------------------------
+74|1svpA|gi|11528014  ------------------------------------------------------------
+71|1svpA|gi|9280545   ------------------------------------------------------------
+89|1svpA|gi|27368030  ------------------------------------------------------------
+38|1qq4A|gi|23116959  -------------------P-Q-ER-I---------NESLGSG-VIID-AKNGYVLTNHH
+5|1qq4A|gi|1170411    -----------AEQFGGRGE-S-KRNF---------R-GLGSG-VIIN-ASKGYVLTNNH
+20|1qq4A|gi|9478261   ---G-------L---------P-PG-FGGEGNGPARQ-GAGSG-FIID-A-SGIVLTNNH
+8|1qq4A|gi|23015791   ---D-------A-------P-S-RK-A---------T-SLGSG-FIID-A-AGYIVTNNH
+9|1qq4A|gi|15619212   ---Q-------T-----------PK-S---------V-PLGSG-FIIE-P-NGLIVTNYH
+1svpA                 ----LKLEADRLFD-----V-KNED-G---------D-VIGHA-LAME----GKVMKPLH
+55|1svpA|gi|4240569   ---ALKFEADRTF------VGKNED-G---------K-IMGYA-VAME----GKVIKPLH
+36|1svpA|gi|6166361   ----MKLESDKTFP-----I-ML-N-G---------Q-VNGYA-CVVG----GRVFKPLH
+9|1svpA|gi|4262319    ---AMKLESDKTFP-----I-RL-D-G---------K-INGYA-CVVG----GKLFRPLH
+7|1svpA|gi|28193973   ----MKIENDCIFP-----V-ML-D-G---------K-VNGYA-CLVG----DKVMKPAH
+65|1svpA|gi|19171522  ---SVKRARQSTFP-----V-YH-D-G---------A-ISGYA-VLIG----SRVFKPAH
+                                                                                  
+
+14|1qq4A|gi|18311212  VINGAQEVKVIFSDGKEVNAKVVNYDA-ERDIAVIKITD-D--VKMPG--------IAQL
+23|1qq4A|gi|7445360   VVGGADNITVTMLDGSKYDAEYIGGDE-ELDIAVIKIKASD--KKFPY--------L-EF
+29|1qq4A|gi|23125899  VVSDADTVTVSFSDGRTVEGKVLGKDA-VSDVAVVQIPG-T--N-LPT--------V-EI
+1qq4A                 CGTVNATARI---GGAVV-GTFAARVFPGNDRAWVSLTS-A--QTLLPRVANGSSFV-TV
+70|1svpA|gi|3342806   ------------------------------------------------------------
+93|1svpA|gi|755731    ------------------------------------------------------------
+74|1svpA|gi|11528014  ------------------------------------------------------------
+71|1svpA|gi|9280545   ------------------------------------------------------------
+89|1svpA|gi|27368030  ------------------------------------------------------------
+38|1qq4A|gi|23116959  VIEGADEVSVTLADGRTVKADFIGSDP-DTDVALMRI---PA-QNLSA--------I-SL
+5|1qq4A|gi|1170411    VIDGADKITVQLQDGREFKAKLVGKDE-QSDIALVQLEK-P--SNLTE--------I-KF
+20|1qq4A|gi|9478261   VVEDADQVRVKLDDGRAFDAEVMGRDP-LTDVALLKLKGAP--GNLPA--------V-PL
+8|1qq4A|gi|23015791   VIADADEISVKLHDDTVFQATLVGRDP-KVDLALLKIE--PGKKPLVP--------V-PF
+9|1qq4A|gi|15619212   VIANVDKINIKLADNTELSAKLIGNDT-KTDLALLKIDS-E--EPLPF--------V-EF
+1svpA                 VKG--------TIDHPVLSKLKFTKSS-AYDMEFAQLPV-N--MRSEA--------F-TY
+55|1svpA|gi|4240569   VKG--------TIDHPALAKLKFTKSS-SYDMEFAKLPT-E--MKSDA--------F-GY
+36|1svpA|gi|6166361   VEG--------RIDNEQLAAIKLKKAS-IYDLEYGDVPQ-C--MKSDT--------L-QY
+9|1svpA|gi|4262319    VEG--------KIDNDILAALKTKKAS-KYDLEYADVPQ-S--MRSDT--------F-KY
+7|1svpA|gi|28193973   VKG--------TIDNPELAKLTFKKSS-KYDLECAQVPV-C--MKSDA--------S-KF
+65|1svpA|gi|19171522  VKG--------KFDHPELADIKFQVAE-VMDLEAAAYPK-C--MRDQA--------A-EP
+                                                                                  
+
+14|1qq4A|gi|18311212  GDSSTVKAGEEVIAIGNPLGKEFSSTVTKGI-VSSPNRKM-KTEN-----G--NV--LDY
+23|1qq4A|gi|7445360   GDSDKVKIGEWAIAIGNPLG--FQHTVTVGV-VSATNRRIPKPDGSGYYVG------L--
+29|1qq4A|gi|23125899  ANSDTLKPGQWAVAIGNPLG--LQQTVTVGV-ISAINRSL-NLSTR--PSS------Y--
+1qq4A                 RGSTEAAVGAAVCHSGRTT------GYQCGT-ITAKNVTA-NY-AEGAVRG------L--
+70|1svpA|gi|3342806   -------------------------ANIQTK-PGVFRTPFGE-------VG------A--
+93|1svpA|gi|755731    --------------------------NVQTK-PGIFKTAHGE-------IG------A--
+74|1svpA|gi|11528014  --------------------------NVQTK-PGVFKTPEGE-------IG------A--
+71|1svpA|gi|9280545   --------------------------AVQTK-PGLFKTNTGT-------IG------A--
+89|1svpA|gi|27368030  --------------------------NVQTT-PGTFKTPEGE-------VG------A--
+38|1qq4A|gi|23116959  ADSDALRVGDFVVAVGNPFG--IGQTVTSGI-VSAVGRSG-LR--GLGYQN------F--
+5|1qq4A|gi|1170411    ADSDKLRVGDFTVAIGNPFG--LGQTVTSGI-VSALGRST-GSDSG-TYEN------Y--
+20|1qq4A|gi|9478261   GDSDALRVGDAVMAIGNPFG--LASSVSAGI-LSARARDI-QAG---PYDE------F--
+8|1qq4A|gi|23015791   GNSDEARVGDWVLAIGNPFG--FGGTVTAGI-VSARARDI----------NAGPYDDF--
+9|1qq4A|gi|15619212   GDSNDARVGDWVIAIGNPFGN-LGGTVTSGI-ISSKGRDI-DIDTDNIVDN------F--
+1svpA                 T--SEHPEG-FYNWH-----------HGAVQ-YSGG--------------R------F--
+55|1svpA|gi|4240569   T--TEHPEV-FYNWH-----------HGAVQ-FSGG--------------R------F--
+36|1svpA|gi|6166361   T--SDKPPG-FYNWH-----------HGAVQ-YENN--------------R------F--
+9|1svpA|gi|4262319    T--HEKPRG-YYSWH-----------HGAVQ-YENG--------------R------F--
+7|1svpA|gi|28193973   T--HEKPEG-HYNWH-----------HGAVQ-FSNG--------------R------F--
+65|1svpA|gi|19171522  ---ATMMDG-VYNGE-----------YGNIQEWRTI--------------L------Y--
+                                                                                  
+
+14|1qq4A|gi|18311212  IQTDAAINPGNSGGPLINSKGEVIGINTAKKVG---E----D---IEGIGFAI-PINEVK
+23|1qq4A|gi|7445360   IQTDAAINPGNSGGPLLNIHGEVIGINTAI-VNP--Q----E---AVNLGFAI-PINTVK
+29|1qq4A|gi|23125899  IQTDAAINPGNSGGPLLNARGQVIVINTAI-I----Q----G---AEGIGFAI-PIDTAQ
+1qq4A                 TQSNACMGRGDSGGSWITSAGQAQGVMSGG-NVQ-SNGNNCGIPASQRSSLFE-RLQPIL
+70|1svpA|gi|3342806   VSL--DYPRGTSGSPILDSNGDIIGLYGNGVELG-DG----S---YV--SAIVQGERQEE
+93|1svpA|gi|755731    VSL--DYPIGTSGSPIVNSNGEIIGLYGNGVILG-NG----A---YV--SAIVQGERVEE
+74|1svpA|gi|11528014  VTL--DYPTGTSGSPIVDKNGDVIGLYGNGVIMP-NG----S---YI--SAIVQGERMEE
+71|1svpA|gi|9280545   VSL--DFSPGTSGSPIVDKKGKVVGLYGNGVVTR-SG----T---YV--SAIAQTEKS--
+89|1svpA|gi|27368030  IAL--DFKPGTSGSPIVNREGKIVGLYGNGVVTT-SG----T---YV--SAIAQAKTSQE
+38|1qq4A|gi|23116959  IQTDASINPGNSGGALVNLNGELIGINTAS-FNP-QG-SMAG---NIGLGFAI-PVNLAR
+5|1qq4A|gi|1170411    IQTDAAVNRGNSGGALVNLNGELIGINTAI-ISP-SG----G---NAGIAFAI-PSNQAS
+20|1qq4A|gi|9478261   LQTDAAINPGNSGGPLFNMQGEVVGMNTAI-V----G----G---ATGIGFAV-PSKLIQ
+8|1qq4A|gi|23015791   LQTDAAINRGNSGGSMFNMKGEVIGINSAI-ISP-SG----G---SIGIGFAV-PAALAV
+9|1qq4A|gi|15619212   IQTDAAINNGNSGGPMFNLDQKVIGVNTAI-FSP-LG----T---NIGIGFAI-PSNTAK
+1svpA                 TIPRGVGGRGDAGRPIMDNSGRVVAIVLGG-ADE--G----T---R-TALSVV-TWNSKG
+55|1svpA|gi|4240569   TIPTGVGGPGDSGRPILDNSGKVVAIVLGG-ANEVPG----T------ALSVV-TWNKKG
+36|1svpA|gi|6166361   TVPRGVGGKGDSGRPILDNKGRVVAIVLGG-VNE--G----S---R-TALSVV-TWNQKG
+9|1svpA|gi|4262319    TVPKGVGAKGDSGRPILDNQGRVVAIVLGG-ANE--G----S---R-TALSVV-TWNERG
+7|1svpA|gi|28193973   TIPTGSGKPGDSGRPIFDNTGKVVAIVLGG-ANE--G----A---R-TALSVV-TWNK-D
+65|1svpA|gi|19171522  SMRAAEASRGDSGRPFTDNSGKVVGIVLGG-GPD--G----R---R-TRLSVI-GFDKKL
+                               * :* .          :                                  
+
+14|1qq4A|gi|18311212  TRLGSLSKPILKLGI-T----------AR----T
+23|1qq4A|gi|7445360   KFLDTI--------L-TQKKVEKAYLGVT-VM-T
+29|1qq4A|gi|23125899  RIAEQL--------I-T----------KG--K-V
+1qq4A                 SQYGLS--------L-V--------------T-G
+70|1svpA|gi|3342806   ----------PVPE--------------A-YT-P
+93|1svpA|gi|755731    ----------PVPE--------------A-YN-P
+74|1svpA|gi|11528014  -----------PAP--------------AGFE-P
+71|1svpA|gi|9280545   -------------I--------------EDNP-E
+89|1svpA|gi|27368030  -------G--P-LP--------------EIEE-E
+38|1qq4A|gi|23116959  NIKDQL--------IAN----------NGVVR-R
+5|1qq4A|gi|1170411    NLVQQI--------L-E----------FGQVR-R
+20|1qq4A|gi|9478261   ALLPQL--------K-E----------TGVVR-R
+8|1qq4A|gi|23015791   PVLDDL--------R-K----------FGKVR-R
+9|1qq4A|gi|15619212   PIIERL--------K-K----------DGKVS-R
+1svpA                 KTIKTT--------P-E----------GTEEWSA
+55|1svpA|gi|4240569   AAIKTT--------H-E----------DTVEW-S
+36|1svpA|gi|6166361   VTVKDT--------P-E----------GSEPW-S
+9|1svpA|gi|4262319    VTVKYT--------P-E----------NCEPW-S
+7|1svpA|gi|28193973   MVTRIT--------P-E----------ESVEWSA
+65|1svpA|gi|19171522  KAREIA--------Y-S----------EAIPW-T
+                                                        
+
+
+

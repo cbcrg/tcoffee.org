@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Using The T-Coffee Webserver</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+            
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    
+	    <p>Open the the T-Coffee web server <A href="http://www.tcoffee.org">www.tcoffee.org</A></p>
+	    <p>Carry out the following tasks: 
+	    <OL><LI>Align the following <A href="./trimed_dataset.fasta"> sequences </A> using the T-Coffee regular mode.
+	        <LI>Try to make sense of the output. Do you think your alignment is correct.</LI>
+                <LI>Use the T-Coffee advanced mode to select a specific output or change the selected methods.</LI>
+                <LI>Use the Expresso Mode. Do you see any improvement?</LI>
+	        <LI>What are the structural templates that were used by Expresso.</LI>
+	        <LI>Use the M-Coffee mode to align your sequences. Switch to the advanced mode to change the selected methods</LI> 
+                <LI>Do you think the MSA methods are producing consistent alignments? </LI>
+		<LI>Of all the alignments you have been producing, which one do you believe to be the most accurate for the two structures? The reference structural alignment is <a href="./file/ref_aln.aln">here</a></LI>
+	        <LI>Why does the M-Coffee alignment 'look' better that the Expresso?</LI>
+	        <LI>Try to get a better Expresso alignment</LI>
+	    </OL>
+	    
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@igs.cnrs-mrs.fr">C.Notredame</a> </font></center>
+ </body>
+ </html>

@@ -1,0 +1,112 @@
+Cedric Notredame 
+Assistant Professor in Bioinformatics 
+Institute of Genetic and Structural Information 
+CNRS-UMR 1889 
+13402 Marseilles Cedex 20 
+France 
+Tel. : +33 491 165 606 
+Fax : +33 491 164 549 
+E-mail: cedric.notredame@europe.com 
+WWW: http://igs-server.cnrs-mrs.fr/~cnotred/ 
+
+Personal situation 
+Nationality: French 
+Date of birth: 30/10/70 
+Educational Background 
+1998 
+Ph.D. in Bioinformatics, obtained with honors in Toulouse, Universite Paul Sabatier. The work for this Ph.D. was carried out in Germany (EMBL-Heidelberg) and in the U.K. (EMBL-EBI) with Des Higgins as a supervisor.
+1993 
+Master in Microbiology and Biotechnology in Toulouse (LBME.), obtained with honors (Mention Bien).
+1992 
+Maitrise de Biochimie' obtained with honors (Mention Tres Bien) at the 'Universite Paul Sabatier', Toulouse. This corresponds to a fourth year specialized in Biochemistry in the French system.
+1991 
+'Licence de Biochimie' obtained with honors (Mention Tres Bien) at the 'Universite Paul Sabatier', Toulouse. This corresponds to a third year specialized in Biochemistry. 
+'Licence de Physiologie Cellulaire' obtained with honors (Mention Tres Bien) at the Universite Paul Sabatier, Toulouse. This corresponds to a third year specialized in Cell physiology.
+1990 
+'DEUGS B' obtained with honors (Mention Bien). These are the two first years of university. The 'B' implies a specialization in Biology.
+1988 
+'Baccalaureat C' ( A-level specialized in mathematics).
+
+
+Qualifications 
+Languages 
+-French (maternal). 
+-English: spoken, read and written fluently. 
+-Italian: notions. 
+.
+Bioinformatics 
+-Dynamic Programming and Hidden Markov Models. 
+-Multiple Sequence Alignments. 
+-RNA secondary structure analysis and prediction. 
+-Good knowledge of the general bioinformatics tools (FASTA, BLAST, ClustalW......). 
+-ICARUS and other SRS related Tools. 
+.
+Computer Science 
+-Good knowledge of UNIX and openVMS. 
+-Good knowledge of the C language. 
+-Experience in conception and coding of algorithms (mostly in C). 
+Teaching Experience 
+Embnet Courses of Sequence Analysis 
+ 
+-September 1998, Lausanne, Switzerland (Course organized by ISREC and the Ludwig Institute). 
+-September 1999, Lausanne, Switzerland (Course organized by ISREC and the Ludwig Institute). 
+-November 1999, Johannesburg, South Africa (Course organized by SANBI). 
+-November 1999, Cape Town, South Africa (Course organized by SANBI). 
+ 
+
+University Courses 
+
+-The theory of multiple sequence alignments. 
+-Practical work on multiple sequence alignments. 
+ 
+All these courses have been provided along with practicals. They were mostly based on the GCG environment. My main contribution has been a series of tutorial on sequence analysis with a special emphasis on multiple sequence alignments. 
+
+Research Experience  
+September 1999... 
+Assistant Professor in Bioinformatics at Marseilles University. Research at the IGS in the group of Jean Michel Claverie. 
+
+November 1998-September 1999 
+Post Doc with Jaap Heringa and Willie Taylor in the department of Mathematical Biology of the MRC in Mill Hill. 
+
+June 1998- November 1998 
+Visit of Philip Bucher at ISREC (Institut Suisse de Recherche et d'Experimentation Sur le Cancer). This short stay gave me a chance to be initiated to the concept of HMMs, Profiles and Probabilistic techniques thanks to the strong expertise of the group in this field.
+September 1996-April 1998 
+Joined Thure Etzold group at the European Bioinformatics Institute. Development of new projects integrated in an SRS framework. This gave me a chance to be introduced to the main concepts of SRS the Sequence Retrieval System.
+July 1994-September 1996 
+Joined Des Higgins group at the EBI in Hinxton (U.K.). Detailed introduction to the main techniques involved in sequence analysis, and more specifically in multiple sequence analysis. Building of contacts in the sequence analysis community. Development of new algorithms, Genetic Algorithms based, for improved analysis. This includes the programs SAGA and RAGA. 
+
+March 1994-July 1994 
+Joined the Data Library at the European Molecular Biology Laboratory in Heidelberg (Germany). Initiation to the general techniques of Bioinformatics. 
+
+December 1992-October 1993 
+Joined the group of Prof F. Amalric at the 'Laboratoire de Biologie Moleculaire des Eucaryotes' in Toulouse. wet lab work. Analyse of the interaction between a protein (Nucleolin) and a fragment of ribosomal RNA. Development of a software for analyzing the output of some wet lab techniques based on the SELEX method (finding consensus among small nucleotide sequences). On the bases of this work, allocation of a PhD grant from the European Molecular Biology Laboratory. 
+
+Current Projects 
+
+-SNIPS Analyses.
+-RNA Chips design.
+-Gene Prediction by Multiple Sequence Alignment.
+-Multiple Genome Alignment.
+-Development of new criteria for the assessment of multiple sequence alignment quality. 
+-Optimization of Hidden Markov Models by Genetic Algorithm. 
+-RNA secondary and tertiary structure threading. 
+-Protein threading. 
+
+Publications 
+	-Gene Prediction by multiple sequence alignments. C. Notredame, H. Ogata, Manuscript in preparation.
+	
+-T Coffee: A new tool for fast and accurate multiple sequence alignments. C. Notredame, D. Higgins and J. Heringa, Submitted to P.N.A.S (1999).
+
+-Optimization of RNA Profile Alignments, E.A. O'Brien, C. Notredame, D.G. Higgins, Bioinformatics, 1998. 
+available in [ps].
+
+-COFFEE: A New Objective Function For Multiple Sequence Alignment. C. Notredame, L. Holme and D.G. Higgins, Bioinformatics, Vol 14 (5) 407-422, 1998 
+available in [ps][pdf]. 
+
+-RAGA: RNA alignment by Genetic Algorithm, C.Notredame, E.A. O'Brien, D.G. Higgins, Nucleic Acid Research, Vol. 25, 4570-4580, 1997. 
+available in [ps][pdf][html]. 
+
+-SAGA: Sequence Alignment by Genetic Algorithm, C. Notredame, D.G. Higgins, Nucleic Acid Research, Vol. 24, 1515-1524, 1996. 
+available in [ps][pdf][html]. 
+Interests - personal 
+Traveling: In 1993, I backpacked through Asia for six months. Writing: I have published several short stories in some specialized French magazines. Archaeology: from 1987 to 1992 I have spent most of my summers working in several sites in the south of France.

@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Getting the best out of T-Coffee  </h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<UL>
+	<tr>
+	  <td>
+	    <LI><b>T-Coffee</b>
+	      <OL>
+		<LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a></code><br> Produces an alignment with an accuracy of 22.5%</LI><br>
+	    <LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -method  slow_pair</code><br>Produces an alignment with an accuracy of 27%</LI><br>	      
+	    <LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -method slow_pair slow_pair@EP@MATRIX@pam250mt </code><br>Produces an accuracy of 25.6 </LI><br>
+	    <LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -aln <a href="./file/ref_aln.aln">ref_aln.aln</a> -method slow_pair</code><br> Produces an alignment with an accuracy of 27.1%. This lack of improvement over the 'fair' command line results from the wide disagreemnet between all the pairwise alignments. A single pair is not enough to compensate. As an alternative, you can overweight the library.</LI><br>
+	    <LI>
+	      <UL>
+		<LI><code>t_coffee -aln <a href="./file/ref_aln.aln">ref_aln.aln</a> -lib_only -outlib reflib -weight 1000</code></LI>
+		<LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -lib reflib -method slow_pair</code><br> This time we get an alignment 40% correct</LI>
+	      </UL>
+	    </LI><br>
+	    <LI><code>t_coffee -profile <a href="./file/prf1">prf1</A> <a href="./file/prf2">prf2 </a> -method slow_pair </code><br>has an accuracy of 32% (without cheating!)</LI><br>
+	    <LI><code>t_coffee -profile <a href="./file/prf1">prf1</A> <a href="./file/prf2">prf2 </a> -aln ref_aln.aln </code><br>has an accuracy of 100% (OK we cheat a 'little' here!)</LI>
+	    <p>Note that in the last exemple, the profiles are threaded onto the reference alignment. This is the ideal way to force an alignment that you know is correct onto a bunch of homologous sequences.</p>
+	  </OL>
+	  </LI>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@europe.com">C.Notredame</a> </font></center>
+ </body>
+ </html>

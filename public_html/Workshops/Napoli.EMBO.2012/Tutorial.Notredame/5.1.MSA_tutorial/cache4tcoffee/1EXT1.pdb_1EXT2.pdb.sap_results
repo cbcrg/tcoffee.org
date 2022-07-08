@@ -1,0 +1,71 @@
+ file1 = 24078_1.4253.sap_tmp
+ prot1->Compound =  CHAIN: A;                                                  
+ file2 = 24078_2.4938.sap_tmp
+ prot2->Compound =  CHAIN: A;                                                  
+ARNDCQEGHILKMFPSTWYVBZX
+matrix constant = 8
+Cycle 1, 11 residues selected
+Cycle 2, 13 residues selected
+Cycle 3, 15 residues selected
+Cycle 4, 17 residues selected
+Cycle 5, 19 residues selected
+
+ score = 185.992493
+
+Percent sel on aln =   63.16
+Percent aln in sel =   31.58
+  C    1  21.2   1 C  
+  E    2  18.9   2 P  
+  S    3  20.9   3 Q  
+  G    4  22.2   4 G* 
+ *S    5  23.8   5 K**
+**F    6   7.3   6 Y* 
+ *T    7   0.9   7 I* 
+ *A    8   0.1   8 H**
+  S    9   0.1   9 P  
+  E   10   0.0  10 Q  
+ *N   11   0.1  11 N* 
+  H   12   0.0  12 N* 
+  R   14   0.5  13 S  
+  H   15   0.3  14 I* 
+**C   16   0.8  15 C* 
+  L   17  20.9  16 C**
+  S   18  22.8  17 T* 
+**C   19  19.6  18 K**
+ *S   20  19.4  19 C* 
+ *K   21   1.5  20 H  
+**C   22   0.2  21 K  
+  M   26   0.0  22 G  
+  G   27   0.0  23 T* 
+ *Q   28   0.1  24 Y* 
+ *V   29   0.1  25 L* 
+ *E   30   0.0  26 Y  
+  I   31   3.6  27 N  
+  S   32   0.1  28 D* 
+ *S   33   0.1  29 C* 
+**C   34   0.3  30 P  
+  T   35   0.9  31 G* 
+  V   36   0.4  32 P* 
+ *D   37   0.9  33 G  
+  R   38   2.7  34 Q* 
+ *D   39   1.7  35 D  
+ *T   40   3.9  36 T**
+ *V   41   5.1  37 D  
+  C   42   6.5  38 C* 
+24078_2.4938.sap_tmp Weighted RMSd =   3.722 over 38 atoms 21.751265 228.349426  18.4 18.657606
+24078_2.4938.sap_tmp Un-weighted RMSd =   0.507 over best 11 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   3.993 over best 15 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   4.107 over best 17 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   5.064 over best 21 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   5.759 over best 23 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   5.953 over best 26 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   6.769 over best 30 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.449 over best 36 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.517 over best 37 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over best 38 atoms ( 228.349426   18.4 )
+24078_2.4938.sap_tmp Un-weighted RMSd =   7.528 over all 38 matched atoms 21.751265 228.349426   18.4 18.657606

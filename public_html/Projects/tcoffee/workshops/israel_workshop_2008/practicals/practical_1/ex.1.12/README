@@ -1,0 +1,14 @@
+LEVEL: Beginner/Middle
+TITLE: Identifying an Enzyme Catalytic Site with an MSA  
+SUBJECT: ex.1.12 Build an MSA with proteases
+SUBJECT: ex.1.12 Identify conserved sites
+SUBJECT: ex.1.12 Add a known inactive member to refine the search
+TECHNIQUES: ex.1.12 MALN, Blast
+TIME: ex.1.12 1-2 hours
+USED:
+	1999 EmBnet Course
+
+UPDATE: No Update Required
+LAST_UPDATE: 21/11/01 
+AUTHOR: Cedric Notredame
+FEASABILITY: not evaluated

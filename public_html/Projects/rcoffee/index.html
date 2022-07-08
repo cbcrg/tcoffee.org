@@ -1,0 +1,114 @@
+<HTML>
+  <HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+    <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [en] (X11; I; IRIX 6.2 IP22) [Netscape]">
+    <META NAME="Author" CONTENT="cedric notredame">
+    <META NAME="Keywords" CONTENT="Multiple sequence,alignment T-COFFEE RNA">
+    <TITLE>r_coffee home page</TITLE>
+    
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16712397-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+    
+  </HEAD>
+  <BODY TEXT="#000000" BGCOLOR="#FFEBCD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+    <HR WIDTH="100%">
+    <H1 align=center>
+
+      R-COFFEE HOME PAGE</FONT>
+    </H1>
+
+    <H2 align=center><font color=red>Multiple RNA Sequence Alignments</font></H2>
+  </H2>
+    <HR WIDTH="100%">
+    <UL>
+      <LI><H2><FONT COLOR="#8B4513">What Is R-Coffee?</FONT></H2></LI>
+    <P>R-Coffee is a multiple sequence alignment package specificaly designed for RNA. Given a set of
+      RNA sequences, R-Coffee generates a multiple sequence
+      alignment using structural information. R-Coffee is included in the main distribution of T-Coffee (Version 5.60 or higher).
+      
+    </P>
+    <LI><H2><FONT COLOR="#8B4513">How Does It Work</FONT></H2></LI>
+    <P>R-Coffee uses RNAlpfold to compute the secondary structure of the provided sequences. A modified version of T-Coffee is then used to compute the multiple sequence alignment having the best agreement with the sequences and the structures. R-Coffee can be combined with any existing sequence alignment method</P>
+    
+    <LI><H2><FONT COLOR="#8B4513">Related Publications</FONT></H2></LI>
+    <UL>	      
+      <LI><P>R-Coffee: A Method for Multiple Alignment of Non-Coding RNA
+	    Andreas Wilm, Desmond G. Higgins & Cédric Notredame.<B>N.A.R. (in press)</B></LI>
+    </UL>
+    <LI><H2><FONT COLOR="#8B4513">Downloading T-Coffee and related packages</FONT></H2></LI>
+    <UL>
+	<P>
+      <LI>Please download the latest T-Coffee version and its documentation <A HREF="../tcoffee/index.html">T-Coffee Home page</A></LI>
+      <LI>Previous versions are available on request: <A HREF="mailto:cedric.notredame@europe.com">cedric.notredame@europe.com</A></LI>
+      <LI>To make the best of R-Coffee you will also need to install the following packages:
+	<BR><BR><UL>
+	  <LI>RNAlpfold frorm the vienna package (<b>Compulsory</b>) [<A HREF="http://www.tbi.univie.ac.at/~ivo/RNA/">*</A>]</LI>
+	  <LI>Mafft [<A HREF="http://align.bmr.kyushu-u.ac.jp/mafft/software/">*</A>]</LI>
+	  <LI>Muscle [<A HREF="http://www.drive5.com/muscle/">*</A>]</LI>
+	  <LI>ProbCons [<A HREF="http://probcons.stanford.edu/">*</A>]</LI>
+	  <LI>ConSan [<A HREF="http://selab.janelia.org/software/consan/">*</A>]</LI>
+	 </UL></LI>   
+    </P>
+    </UL>
+    
+    <LI><H2><FONT COLOR="#8B4513">Using R-Coffee: Documentation and Tutorials</FONT></H2></LI>
+    <UL>
+      <LI><P>Simplest usage: 
+	  <UL>
+	  <LI><b>t_coffee -mode rcoffee  sequence_file</b><br>
+	         Requires RNAlpfold to be installed</LI>
+	  <LI><b>t_coffee -mode rcoffee_fast_approximate  sequence_file</b><br>
+	         Requires Mafft, Muscle, ProbConsRNA and RNAlpfold</LI>
+	         
+	  <LI><b>t_coffee -mode rcoffee_slow_accurate  sequence_file</b><br>
+                 Requires Consan and RNAlpfold to be installed</LI>
+	  </UL></LI>
+	  
+    <BR><LI><P>Download the documentation from
+	<UL>
+      <LI><A target="_blank" HREF="../../Documentation/t_coffee/README">README</A></LI>
+      <LI>Tutorial: 
+	[<A target="_blank" HREF="../../Documentation/t_coffee/t_coffee_tutorial.doc">doc</A>]
+	[<A target="_blank" HREF="../../Documentation/t_coffee/t_coffee_tutorial.htm">html</A>]
+	[<A target="_blank" HREF="../../Documentation/t_coffee/data.tar.gz">Examples Data</A>]
+      </LI>
+      <LI>Technical Notes: 
+	[<A target="_blank" HREF="../../Documentation/t_coffee/t_coffee_technical.doc">doc</A>]
+	[<A target="_blank" HREF="../../Documentation/t_coffee/t_coffee_technical.htm">html</A>]
+	[<A target="_blank" HREF="../../Documentation/t_coffee/data.tar.gz">Examples Data</A>]
+      </LI>
+	</UL></LI>
+    </P>
+  </UL>
+    
+   
+    
+    <LI><H2><FONT COLOR="#8B4513">Servers</FONT></H2></LI>
+    
+    <P> 
+      R-Coffee is currently only available on the main server, but drop me a line if you want to set up a mirror.
+    <P>Available R_coffee servers:
+    <UL>
+      
+	<P> <LI>[<A target="_blank" HREF=http://server.tcoffee.org>server.tcoffee.org</A>]</LI>
+      
+     
+    </P>
+    </UL>
+  </P>	
+    </UL>
+    <FONT SIZE=+1><A HREF="http://www.tcoffee.org/homepage.html">back to my Homepage</A></FONT>
+    
+
+</BODY>
+</HTML>

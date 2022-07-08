@@ -1,0 +1,519 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <title>T-Coffee Home Page</title>
+    <!-- The following script will load the latest version numbers -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+		$.get('/Packages/Beta/.version',function(data) {
+			$('.ver_beta').text($.trim(data));
+		} );
+
+		$.get('/Packages/Stable/.version',function(data) {
+			$('.ver_stable').text($.trim(data));
+		} );
+		
+    });
+    </script>
+    
+  </head>
+    <BODY TEXT="#000000" BGCOLOR=white LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <FONT FACE="Arial">
+      <center>
+	<table width="80%"       cellpadding=15 cellspacing=0 bgcolor="#FFEBCD" border=1 bordercolor="#8B4513">
+	  <tr>
+	    <td>
+	      <table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign="TOP" border=0>
+		<tr bgcolor="#FFEBCD" >
+		  <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		  <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		  <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		  <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		  <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		</tr>
+		
+		<tr>
+		  <td colspan=5 bgcolor="#FFEBCD">
+		    <center><table><tr><td align="center"><b> <FONT size="7" color="#8B4513">T-Coffee <br>Multiple Sequence Alignment Tools</font></b></td></tr></table></center>
+		  </td>
+		</tr>
+		
+		<tr>
+		  <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		</tr>
+		  
+		
+		<tr>
+		  <td colspan=5 bgcolor="#FFE4C4">
+		    <HR>
+		      <center>
+			<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+			  <tr align=center>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="../index.html"><font color="#8B4513">HOME</font></a></b></td>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="http://tcoffee.crg.cat"><font color="#8B4513">SERVERS</font></a></b></td>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOCUMENTATION"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#FAQ"><font color="#8B4513">FAQ</font></a></b></td>
+			    <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+			    
+			  </tr>
+			  
+			</table>
+		      </center>
+		      <HR>
+		  </td>
+		</tr>
+		
+		<tr>
+		  <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		</tr>
+		
+		<tr>
+		  <td rowspan=3 bgcolor="#FFEBCD"><br></td>
+		  <td rowspan=3 bgcolor="white" valign="top">
+		    <center><h2><FONT color="#8B4513">What is T-Coffee?</FONT></h2></center>
+		    <table bgcolor="white">
+		      <tr>
+			<td>
+			  <P align="justify"> T-Coffee is a multiple sequence alignment package. You can use T-Coffee to align sequences or to combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (<a href="../mcoffee/index.html">M-Coffee</a>).
+			    <br><br>T-Coffee can align Protein, DNA and RNA sequences. It is also able to combine sequence information with protein structural information (<a href="../expresso/index.html">3D-Coffee/Expresso</a>), profile information (PSI-Coffee) or RNA secondary structures (<a href="../rcoffee/index.html">R-Coffee</a>).
+				
+				<p align="justify">This <a target="_blank" href="./presentations/tcoffee.ppt">presentation</a> gives an overview of the T-Coffee algorithm and of the original implementation and validatation of the package. 
+				  The full list of associated papers is available on the following links: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/18689823,18420654,16845081,16556910,15201059,10964570,9682054">algorithms</a> 
+				  and <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/18483080,17526519,16845081,15215345,12824354">servers</a>. The original T-Coffee paper is: 
+				</P>
+				<P><i>T-Coffee: A novel method for multiple sequence alignments.</i><br>
+				    Notredame,Higgins,Heringa,<B>JMB</B>,302(205-217)<B>2000</b> [<A HREF="./papers/tcoffee.pdf" target="_blank" >pdf</A>][<a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10964570">medline</a>]</P>
+			</td>
+			
+		      </tr>
+		      <tr>
+			<td>
+			  <br><br><br>
+				T-Coffee is a freeware opensource package distributed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU public license</a>
+			</td>
+		      </tr>
+		    </table>
+		    
+		  </td>
+		  
+		  <td colspan=1 rowspan=3 bgcolor="#FFEBCD"><br></td>
+		  <td colspan=1 rowspan=1 bgcolor="white">
+		    <center><h2><FONT color="#8B4513"><a name="SERVERS">SERVERS</a></font></h2></center>
+		    <table bgcolor="white">
+		      
+		      <tr><td>
+			      <UL>
+				<LI><A HREF="http://www.tcoffee.org">www.tcoffee.org</A></LI>
+				<LI><A target="_blank" HREF="http://tcoffee.crg.cat" title="T-Coffee web server at Centre for Genomic Regulation (CRG)" >CRG</A></LI>
+				<LI><A target="_blank" HREF="http://tcoffee.vital-it.ch/apps/tcoffee/index.html" title="T-Coffee web server at Swiss Institute of Bioinformatics (SIB)">SIB</A></LI>
+				<LI><A target="_blank" HREF="http://phylogeny.lirmm.fr/phylo_cgi/one_task.cgi?task_type=tcoffee" title="T-Coffee web server at LIRMM lab (CNRS)">CNRS</A></LI>
+				<LI><A target="_blank"  HREF="http://www.ebi.ac.uk/Tools/msa/tcoffee/" title="T-Coffee web server at European Bioinformatics Institute (EBI)">EBI</A></LI>
+			      </UL>
+			    </td></tr>
+		      </table>
+		    <td rowspan=3 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=1 rowspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="DOWNLOAD">DOWNLOAD</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr><td>
+			      <table>
+				  <tr >
+				    <td colspan=4>T-Coffee runs on Linux and MacOSX.Check out the <b>Untested Source Code</b> from <a href="https://github.com/cbcrg/tcoffee">Github</a> or Download the latest tested <b>Binaries and Sources</b> as provided below.<p><b>Note</b> that if you want to use the <A HREF="https://www.biorxiv.org/content/early/2018/12/07/490235">New Regressive T-Coffee</A> allowing Large scale alignments, we recommand Downloading the Beta Version below. A brief documentation is available <a href="http://www.tcoffee.org/Projects/tcoffee/documentation/index.html#quick-start-regressive-algorithm">here</a></b>.</td>
+				  </tr>
+				  <tr>
+				    <td colspan=4><br></td>
+			          </tr> 
+				  
+				  <tr>
+				    <td>[ <a HREF="../../Packages/Stable/Latest">Stable</A> ]</td>
+				  </tr>
+				  <tr>
+				    <td>[ <a HREF="../../Packages/Beta/Latest">Beta</A> ]</td>
+				  </tr>
+				  <tr>
+				    <td>[ <a HREF="../../Packages/NatureProtocols" >Nature Protocol Version</A> ]</td>
+				  </tr>
+
+				  <tr>
+				    <td>[ <a HREF="../../Packages/Archives">Archives</A> ]</td>
+				  </tr>
+				  <tr>
+				    <td colspan=3><A HREF="mailto:cedric.notredame@gmail.com">cedric.notredame@gmail.com</A></td>
+				  </tr>
+			      </table>
+			    </td></tr>
+		      </table>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		    <td colspan=3 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="INSTALLATION">INSTALLATION</a></font></h2></center>
+
+			<p>
+			Installation instructions are available from <a href="https://github.com/cbcrg/tcoffee/blob/master/docs/tcoffee_installation.rst#t-coffee-installation">Github</href>
+			</p>
+			</div>
+			
+			
+		    </td>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="COMMANDS">MAIN COMMANDS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <TABLE border=0 WIDTH="100%" CELLPADDING=5 bgcolor="white">
+				  
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+				  <TR>
+				    <TD width="15%">mode</td>
+				    <TD width="15%"><b><A HREF="https://www.biorxiv.org/content/10.1101/490235v1">Regressive</A></b> </td>
+				    <TD width="70%"rowspan=3><code>t_coffee <i>-seq=foo.seq -reg</i></code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>All</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>High - Suitable for very large datasets</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <TR>
+				    <TD width="15%">mode</td>
+				    <TD width="15%"><b>Fast</b> </td>
+				    <TD width="70%"rowspan=3><code>t_coffee <i>foo.seq</i></code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>All</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>Medium</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+				  <TR>
+				    <TD>mode</td>
+				    <TD><b>Accurate</b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode accurate</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>Proteins</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>High but slow</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+				  <TR>
+				    <TD>mode</td>
+				    <TD><b><a href="./rcoffee.html">R-Coffee<A></b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode rcoffee</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>RNA</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>High</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+				  <TR>
+				    <TD>mode</td>
+				    <TD><b>Very Fast</b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode quickaln</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>All</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>Medium Low</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+				   <TR>
+				    <TD>mode</td>
+				    <TD><b>Low Mem.</b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode memory</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>RNA</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>Medium</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  <TR>
+				    <TD>mode</td>
+				    <TD><b><a href="./expresso/index.html">Expresso</a></b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode expresso</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>All</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>High</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  <TR>
+				    <TD>mode</td>
+				    <TD><b><a href="./mcoffee/index.html">M-Coffee</a></b> </td>
+				    <TD rowspan=3><code>t_coffee <i>foo.seq</i> -mode mcoffee</code></td>
+				  </TR>
+				  <TR>
+				    <TD>Seq.</TD>
+				    <TD>All</td>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD>Accuracy</TD>
+				    <TD>Medium High</TD>
+				    <TD><BR></TD>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+				  
+			      </table>
+			      
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="DOCUMENTATION">DOCUMENTATION</a></font></h2></center>
+		    <center><table bgcolor="white">
+			
+			<tr>
+			  <td>
+			    <Table border="2" WIDTH="50%" CELLPADDING="5">
+			      <tr>
+				<td><b>INSTALLATION</b></td>
+				<td colspan=3><a href="#INSTALLATION">Procedure</A></td>
+			      </tr>
+			      <td><b>MANUAL</b></td>
+                                <td colspan=3>[<A target="_blank" HREF="./documentation/index.html">html</A>]</td>
+                              </tr>
+			      <tr>
+				<td rowspan="2"><b>WORKSHOPS and Tutorials</b></td>
+				<td colspan=3>
+				  <A target="_blank" HREF="./workshops/israel_workshop_2008/index.html">Weizmann</A>
+				</td>
+			      </tr>
+			      <tr>
+				<td colspan=3>
+				  <a href="./workshops/tcoffeetutorials/index.html" target="_blank" >Nature Protocols</a>
+				</td>
+			      </tr>
+			      
+			      
+			    </table></center>
+		    </td>
+		  </tr>
+	      </table>
+	    </td>
+	    <td bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	  
+	  <tr>
+	    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	  
+	  <tr>
+	    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+      	    <td colspan=3 bgcolor="white">
+	  <center><h2><FONT color="#8B4513"><a name="FAQ">FREQUENTLY ASKED QUESTIONS</a></font></h2></center>
+	  <table bgcolor="white">
+		  <tr>
+		    <td>
+		      <UL>
+			<LI><P><B>Q: What is the most accurate mode?</B></P>
+			  <P>A: for proteins, try <code>t_coffee yourseq -mode accurate</code>. For RNA, try: <code>t_coffee -mode rcoffee</code>. 
+			</LI>
+		        <LI><P><B>Q: What is the meaning of the color coded html output?</B></P>
+			  <P>A: Red bits are very reliable, while green and blue bits are unreliable. This color scheme is named the <A href=../tcs/index.html>TCS index</a> and it uses the consistency among pairwise alignments for this estimationto estimate reliability. An extensive validation of the TCS is available from the original <a href="http://www.ncbi.nlm.nih.gov/pubmed/24694831">MBE paper</a> and more details are given on the <a href="../tcs/index.html">TCS homepage</a>. Online evaluations can be carried out on the <a href="http://tcoffee.crg.cat/tcs">TCS server</a>.
+		      </LI>
+			<LI><P><B>Q: Which mode should I use on www.tcoffee.org server to get the best alignment ?</B></P>
+			  <P>A: If you have proteins, Expresso is likely to be the most accurate flavor, as it uses potential known 3D-Structures similar to your sequences. 
+			  Otherwise, our benchmarks indicate that M-Coffee is the next best alternative. 
+			  M-Coffee runs most known Multiple Sequence Alignment methods and combines them into one final 
+			  alignment. The most accurate mode (-mode=accurate) is now available at this <a href="http://tcoffee.crg.cat" target="_target" >T-Coffee web server mirror</a></P> 
+			</LI>
+			
+			<LI><P><B>Q: Which Paper Shall I cite ?</B></P>
+			  <P>A: It is very important you cite us if you use our ressources. We depend on it for funding! If you use the local version of T-Coffee, cite the original 2000 paper (cf above). Otherwise, cite the paper corresponding to the server you have been using (click on the "cite" button associated with every server on www.tcoffee.org).
+			  </P>
+			<LI><P><B>Q: What to do if I run out of memory ? (I)</B></P>
+			  <P>A: Here is the less memory hungry mode of t_coffee (and slightly less accurate):</P> 
+			  <P><pre>t_coffee  your_seq.pep -mode memory  </pre></P>
+			</LI>
+			<LI><P><B>Q: What to do if I still run out of memory ? (II)</B></P>
+			  <P>A: Divide your sequences in subgroups, align them individually and use</P> 
+			  <P><pre>t_coffee -profile aln1 aln2 aln3</pre></P>
+			</LI>
+			<LI><P><B>Q: What is the meaning of the name "T-Coffee" ?</B></P>
+			  <P>A: T-Coffee stands for <b>T</b>ree based <b>C</b>onsistency <b>O</b>bjective <b>F</b>unction <b>F</b>or Alignm<b>E</b>nt <b>E</b>valuation.
+			</LI>
+		      </UL>
+		    </td>
+		  </tr>
+	      </table>
+	    </td>
+	    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	  
+	  <tr>
+	    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	  
+	  <tr>
+	    <td bgcolor="#FFEBCD"><br></td>
+	    <td bgcolor="white" valign="top">
+	  <center><h2><FONT color="#8B4513"><a name="LINKS">LINKS</a></font></h2></center>
+	  <table bgcolor="white">
+		 
+		  <tr>
+		    <td>
+		      <LI><a href="https://groups.google.com/forum/#!forum/tcoffee">T-Coffee Google Group</a>
+		      <LI><a target="_blank" href="https://github.com/cbcrg/tcoffee" >T-Coffee Github developers community</a></LI>
+		      
+		      <LI><A target="_blank" HREF="http://www.bio.inf.uni-jena.de/Software/MARNA/index.html">MARNA: RNA multiple Structural Alignment</A></LI>
+		      <LI>T-Coffee is incorporated in both <A target="_blank" href="http://bioperl.org/>bioperl"</A> and <a href="www.biopython.org">Biopython</a>.</LI>
+		      <LI>T-Coffee and M-Coffee are part of the <a target="_blank" href="http://packages.debian.org"> Debian </a>  distribution ( A big thanks to Charles Plessy).</LI>
+		      <LI>T-Coffee and M-Coffee are part of the <a target="_blank" href="http://packages.ubuntu.com"> Ubuntu </a> distribution.</LI>
+
+ 		      <LI>T-Coffee is integrated in the <a target="_blank" href="http://macvector.com/blog/2012/01/macvector-12-5-creating-alignments-with-t-coffee-and-muscle/"> MacVector </a> sequence analys tool.</LI>
+		    </td>
+		  </tr>
+	      </table>
+	    </td>
+	    <td bgcolor="#FFEBCD"><br></td>
+	<td bgcolor="white" valign="top">
+	  <center><h2><FONT color="#8B4513"><a name="CONTACT">CONTACT</a></font></h2></center>
+	  <table bgcolor="white">
+	      <tr>
+		<td>
+		  <P>T-Coffee relies on your feeback. Please send me an
+		    Email if you wish to make a request, a comment, or report a bug! 
+			<code>
+			  <br><br>
+			  *******************************************<br>
+			  Dr. Cedric Notredame, PhD.                 <br>       
+			  Group Leader                               <br>
+			  Comparative Bioinformatics Group           <br>
+			  Bioinformatics and Genomics Programme      <br>
+			  Center for Genomic Regulation (CRG)        <br>
+			  Dr Aiguader, 88                            <br>
+			  08003 Barcelona                            <br>
+			  Spain                                      <br>
+			  Email:  <A href="MAILTO:cedric.notredame@gmail.com">cedric.notredame@gmail.com</A>    <br>
+			  HOME :  <A HREF="http://www.tcoffee.org/">http://www.tcoffee.org/index.html</A><br>
+			  GROUP:  <a href="http://pasteur.crg.es/portal/page/portal/Internet/02_Research/01_Programmes/01_Bioinformatics_Genomics/03_Comparative_Bioinformatics">CRG</A><br>
+			  Phone:  +34 933 160 271                <br>
+			  *******************************************       <br>
+			</code>
+		    </td>
+		  </tr>
+	      </table>
+	      
+	    </td>
+	    <td bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	  
+	  <tr>
+	    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+	  </tr>
+	
+      <tr>
+	<td colspan=5 bgcolor="#FFE4C4">
+	      
+	      <center>
+		<HR>
+		<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+		<tr align=center>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="../../index.html"><font color="#8B4513">HOME</font></a></b></td>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOCUMENTATION"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#FAQ"><font color="#8B4513">FAQ</font></a></b></td>
+		      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+		    </tr>
+		</table>
+		<HR>
+	      </center>
+	    
+	    </td>
+	  </center>
+	</td>
+      </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </center>
+  </font>
+  </body>
+</html>

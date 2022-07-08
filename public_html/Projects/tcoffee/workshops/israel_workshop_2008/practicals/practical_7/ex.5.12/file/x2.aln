@@ -1,0 +1,20 @@
+CLUSTAL FORMAT for T-COFFEE Version_6.86 [http://www.tcoffee.org] [MODE: expresso ], CPU=0.55 sec, SCORE=100, Nseq=2, Len=205 
+
+1svpA           LKLEADRLFDVKNEDGDVIGHALAME----GKVMKPLHVKG-----TIDHPVLSKLKFTK
+1qq4A           --ANIVGGIEYSINNASLCSVGFSVTRGATKGFVTAGHCGTVNATARIGGAVVGTFAARV
+                   :    :: . ::..: . .:::       .:.. *         *. .*:..:    
+
+1svpA           SSAYDMEFAQLPVNMRSEAF-----------TYTSEHPEGFYNWH------HGAVQYSGG
+1qq4A           FPGNDRAWVSLTSAQTLLPRVANGSSFVTVRGSTEAAVGAAVCHSGRTTGYQCGTITAKN
+                 .. *  :..*.      .              *.    .           : ..  : .
+
+1svpA           -----------RFTIPRGVGGRGDAGRPIMDNSGRVVAIVLGGADEG---------TRTA
+1qq4A           VTANYAEGAVRGLTQSNACMGRGDSGGSWITSAGQAQGVMSGGNVQSNGNNCGIPASQRS
+                            :* ...  ****:* . : .:*:. .:: **  :.         :: :
+
+1svpA           LSVVTWNSKGKTIKTTPEGTEEWSA
+1qq4A           SLFERLQPILSQYGLSLV-TG----
+                  .   :.  .    :   *     
+
+
+

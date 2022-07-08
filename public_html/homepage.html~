@@ -1,0 +1,404 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Notredame Lab Home Page - Comparative Bioinformatics</title>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16712397-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+
+  </head>
+  <BODY TEXT="#000000" BGCOLOR=white LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <FONT FACE="Arial">
+    <center>
+      
+      <table width="80%"       cellpadding=15 cellspacing=0 bgcolor="#FFEBCD" border=1 bordercolor="#8B4513">
+	  <tr>
+	    <td>
+	      <table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign="TOP" border=0>
+		  <tr bgcolor="#FFEBCD" >
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD">
+		      <center><table><tr><td align="center"><b> <FONT size="7" color="#8B4513">Notredame's Lab<br>Comparative Bioinformatics</font></b></td></tr></table></center>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFE4C4">
+		      <HR>
+		      <center>
+			<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+			    <tr align=center>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="https://www.crg.eu/en/programmes-groups/notredame-lab"><font color="#8B4513">GROUP</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="http://tcoffee.crg.cat"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Projects/tcoffee/index.html"><font color="#8B4513">T-COFFEE</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#RESEARCH"><font color="#8B4513">RESEARCH</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#TEACHING"><font color="#8B4513">TEACHING</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Packages/"><font color="#8B4513">DOWNLOADS</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Jobs/index.html"><font color="#8B4513">JOBS</font></a></b></td>
+			      
+			    </tr>
+			    
+			</table>
+		      </center>
+		      <HR>
+		    </td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td rowspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=3 rowspan=1 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513">WELCOME!</FONT></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <p align="justify">
+			     Welcome to the <A target="_blank" HREF="https://www.crg.eu/en/programmes-groups/notredame-lab">Comparative Bionformatics Group Homepage</A>(aka Notredame's lab) a research group of the <A HREF="http://www.crg.es" target="_blank">Center for Genomic Regulation</A> in Barcelona. The main focus of our group is the development of novel algorithms for the comparison of multiple biological sequences. Multiple comparisons have the advantage of precisely revealing evolutionary traces, thus allowing the identification of functional constraints imposed on the evolution of biological entities. Most comparisons are currently carried out on the basis of sequence similarity. Our goal is to extend this scope by allowing comparisons based on any relevant biological signal such as sequence homology, structural similarity, genomic structure, functional similarity and more generally any signal that may be identified within biological sequences. Using such heterogeneous signals serves two complementary purposes: (i) producing better models that take advantage of the signal evolutionary resilience, (ii) improving our understanding of the evolutionary processes that lead to the diversification of biological functions. All the applications related to our work are provided to the community through an international network of web servers that can be accessed from <a href="http://tcoffee.crg.cat" target="_blank">server.tcoffee.org</a>.</P> 
+			    </td>
+			  </tr>
+		      </table>
+		      
+		    </td>
+		    
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=3 rowspan=1 bgcolor="white" align="center">
+		      <center><h2><FONT color="#8B4513"><a name="RESEARCH">RESEARCH PROJECTS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <table>
+				  <tr><td colspan=4><BR></td></tr>
+				  <tr>
+				    <td><b>T-Coffee</b></td>
+				    <td>A Multiple Sequence Alignment Package</td>
+				    <td><A HREF="Projects/tcoffee/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="Projects/tcoffee/presentations/tcoffee.ppt"><b>ppt</b></A></td>
+				    <td><A HREF="http://www.tcoffee.org"><b>server</b></A></td>
+
+			    </tr>
+			    <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>TCS</b></td>
+				    <td>Evaluation and filtering of multiple Sequence Alignments</td>
+				    <td><A HREF="Projects/tcs/index.html"><b>homepage</b></A></td>
+				    <td><b>ppt</b></td>
+				    <td><A HREF="http://tcoffee.crg.cat/apps/tcoffee/do:core"><b>server</b></A></td>
+				
+			    </tr>
+			    <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>M-Coffee</b></td>
+				    <td>Combination of Multiple Sequence Alignment Packages</td>
+				    <td><A HREF="./Projects/mcoffee/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="./Projects/mcoffee/presentations/mcoffee.ppt"><b>ppt</b></A></td>
+				    <td><A HREF="http://www.tcoffee.org"><b>server</b></A></td>
+				
+			    </tr>
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>3D-Coffee/Expresso</b></td>
+				    <td>Combination of Sequences and Structures</td>
+				    <td><A HREF="./Projects/expresso/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="./Projects/expresso/presentations/3dcoffee.ppt"><b>ppt</b></A></td>
+				    <td><A HREF="http://www.tcoffee.org"><b>server</b></A></td>
+				    
+				  </tr>
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>R-Coffee</b></td>
+				    <td>RNA Multiple Sequence Alignment</td>
+				    <td><A HREF="Projects/rcoffee/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="Projects/rcoffee/presentations/rcoffee.ppt"><b>ppt</b></A></td>
+				    <td><A HREF="http://www.tcoffee.org"><b>server</b></A></td>
+
+				  </tr>
+ 
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>Sara-Coffee</b></td>
+				    <td>RNA Multiple Sequence Alignment Using Structural Information</td>
+				    <td><A HREF="Projects/saracoffee/index.html"><b>homepage</b></A></td>
+			          </tr>
+			    
+			          <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>T-RMSD</b></td>
+				    <td>T-RMSD   Structure based clustering</td>
+				    <td><A HREF="Projects/trmsd/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="Projects/trmsd/presentations/trmsd.ppt"><b>ppt</b></A></td>
+				    <td>&nbsp;</td>
+				  </tr>
+
+
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>MOCCA</b></td>
+				    <td>Repeat Discovery with T-Coffee</td>
+				    <td><A HREF="Projects/mocca/index.html"><b>homepage</b></A></td>
+				    <td><BR></td>
+				  </tr>
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>SAGA and Coffee</b></td>
+				    <td>Multiple Protein Alignment by Genetic Algorithm</td>
+				    <td><A HREF="Projects/saga/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="Projects/saga/presentations/saga.ppt"><b>ppt</b></A></td>
+				    <td><BR></td>
+
+				  </tr>
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>(P)RAGA</b></td>
+				    <td>RNA Alignment by Genetic Algorithm</td>
+				    <td><A HREF="Projects/raga/index.html"><b>homepage</b></A></td>
+				    <td><A HREF="Projects/raga/presentations/raga.ppt"><b>ppt</b></A></td>
+				    <td><BR></td>
+				  </tr>
+
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>Blast-R</b></td>
+				    <td>Fast and accurate database searches for non-coding RNAs</td>
+				    <td><A HREF="Projects/blastr/index.html"><b>homepage</b></A></td>
+				    <td>&nbsp;</td>
+				    <td><BR></td>
+				  </tr>
+				  
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>Strike</b></td>
+				    <td>A sequence alignment scoring tool</td>
+				    <td><A HREF="Projects/strike/index.html"><b>homepage</b></A></td>
+				    <td>&nbsp;</td>
+			      <td><BR></td>
+				  </tr>
+				  
+				  <tr><td colspan=4><hr></td></tr>
+				  <tr>
+				    <td><b>Pro-Coffee</b></td>
+				    <td>Aligns homologous promoter regions</td>
+				    <td><A HREF="Projects/procoffee/index.html"><b>homepage</b></A></td>
+				    <td>&nbsp;</td>
+			      <td><BR></td>
+				  </tr>
+				 
+                                  <tr><td colspan=4><hr></td></tr>
+                                  <tr>
+                                    <td><b>Nextflow</b></td>
+                                    <td>Data-driven computational toolkit for highly scalable pipelines</td>
+                                    <td><A HREF="http://www.nextflow.io" target='_blank'><b>homepage</b></A></td>
+                                    <td>&nbsp;</td>
+                              <td><BR></td>
+                                  </tr>
+ 
+			      </table>
+			    </td>
+			  </tr>
+		      </table>
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=1 bgcolor="white" align="center">
+		      <center><h2><FONT color="#8B4513"><a name="TEACHING">TEACHING</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td align="center">
+			      <table>
+				  <tr>
+				    <td><b>Courses and Lectures</b></td>
+				    <td><b>[<A href="Courses/Exercises/index.html">web</a>]</b></td>
+				  </tr>
+				  <tr>
+				    <td><b>Workshops</b></td>
+				    <td><b>[<a href="Workshops/index.html">web</A>]</b></td>
+				  </tr>
+				  
+			      </table>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="PUBLICATIONS">PUBLICATIONS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+ The Medline list of the lab's publications is available on <b>[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20887892,20868492,20838655,20614016,20605929,20471393,20205190,20080951,19648142,19008347,18689823,18483080,18428722,18420654,17973996,17784778,17526519,17032685,16873492,16845081,16845080,16556910,15215460,15215345,15201059,14649299,12855461,12824354,11966409,11301309,10964570,11125048,9682054,9632828,9358168,8628686,">Medline</a>]</b>.
+
+			    </td>
+			  </tr>
+			  <tr>
+			    <td>
+			      Some of our papers are available as <b>[<a href="Publications/Pdf/">PDF preprints</a>]</b>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td>
+			      My PhD
+			      <b>[<A HREF="Publications/Ps_pdf/phd_intro.ps.gz">ps</A>]</b>
+			      <b>[<A HREF="Publications/Ps_pdf/phd_intro.pdf">pdf</A>]</b>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=5 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=1 bgcolor="white" valign="TOP">
+		      <center><h2><FONT color="#8B4513"><a name="LINKS">LINKS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <table>
+				  <tr>
+				    <td><b><A HREF="http://tcoffee.crg.cat" target='_blank'>T-Coffee</a></b></td>
+				    <td><b>Multiple Sequence Alignments Online</b></td>
+				  </tr>
+				  <tr>
+				    <td><b><A HREF="https://github.com/cbcrg/tcoffee" target='_blank'>Github</a></b></td>
+				    <td><b>Repository where you can download T-Coffee source code</b></td>
+				  </tr>
+				  <tr>
+				    <td><b><A HREF="Resources/aligner_list.html" >Alignment Links</a></b></td>
+				    <td><b>Structure and Sequence Alignment Packages</b></td>
+				  </tr>
+				  <tr>
+				    <td><b><A HREF="Resources/book_list.html">Books</b></td>
+				    <td><b>My Favorite Scientific Books</b></td>
+				  </tr>
+				  <tr>
+				    <td><b><a target='_blank' HREF="http://www.dummies.com/WileyCDA/DummiesTitle/productCd-0470089857,page-1.html">Dummies</a></b></td>
+				    <td><b>Bioinformatics For Dummies Links</b></td>
+				  </tr>
+				  <tr>
+				    <td><b><a target='_blank' HREF="http://evolution.genetics.washington.edu/phylip.html">Trees</a> </b></td>
+				    <td><b>THE site for phylogeny</b></td>
+				  </tr>
+				 
+				   <tr>
+				    <td><b><a target='_blank' href="http://ch.embnet.org">EMBnet</b></td>
+				    <td><b>Online Tools at the Swiss EMBnet</b></td>
+				  </tr>
+				   <tr>
+				    <td><b><a target='_blank' href="http://www.expasy.org">ExPasy</a></b></td>
+				    <td><b>SwissProt Home</b></td>
+				  </tr>
+				</table>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td colspan=1 rowspan=1 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="CONTACT">CONTACT</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <H4>
+				<br>
+				<code>
+				  <br><br>
+				*******************************************<br>
+				Dr. Cedric Notredame, PhD.                 <br>       
+				Group Leader                               <br>
+				Comparative Bioinformatics Group           <br>
+				Bioinformatics and Genomics Programme      <br>
+				Center for Genomic Regulation (CRG)        <br>
+				Dr Aiguader, 88                            <br>
+				08003 Barcelona                            <br>
+				Spain                                      <br>
+				Email:  <A href="MAILTO:cedric.notredame@europe.com">cedric.notredame@europe.com</A>    <br>
+				HOME :  <A HREF="http://www.tcoffee.org/homepage.html">http://www.tcoffee.org/homepage.html</A><br>
+			        GROUP:  <a href="https://www.crg.eu/en/programmes-groups/notredame-lab">CRG</A><br>	
+		                Phone   :  +34 933 160 271                <br>
+				*******************************************       <br>
+			      </code>
+			      </H4>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td rowspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFE4C4">
+		      <HR>
+		      <center>
+			<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+			    <tr align=center>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="https://www.crg.eu/en/programmes-groups/notredame-lab"><font color="#8B4513">GROUP</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="http://tcoffee.crg.cat"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Projects/tcoffee/index.html"><font color="#8B4513">T-COFFEE</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#RESEARCH"><font color="#8B4513">RESEARCH</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#TEACHING"><font color="#8B4513">TEACHING</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Packages/"><font color="#8B4513">DOWNLOADS</font></a></b></td>			      
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="./Jobs/index.html"><font color="#8B4513">JOBS</font></a></b></td>
+			    </tr>
+			    
+			</table>
+		      </center>
+		      <HR>
+		    </td>
+		  </tr>
+	    </td>
+	  </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+    </center>
+  </font>
+  </body>
+</html>

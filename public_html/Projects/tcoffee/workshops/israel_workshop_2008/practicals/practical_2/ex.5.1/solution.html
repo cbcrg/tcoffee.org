@@ -1,0 +1,37 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Using the T-Coffee Web Server<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    <OL>
+	      <LI><p>In the Default T-Coffee alignment, the red portions are the most likely to be correct. You can compare this alignment with the <a href="./file/ref_aln.aln">reference alignment</a> as provided in prefab (use the command line <code>t_coffee -other_pg aln_compare -al1 aln1 -al2 aln2</code> if you want a more precise comparison). For your information, <b>27 %</b> of the positions are correct in this alignment when considering the two structures <b>1svpA and 1qq4A</b>.</p></LI>
+	    <UL>
+	      <LI><A href="./file/trimed_dataset.tcoffee.aln">T-Coffee alignment</A></LI>
+	      <LI><a href="./file/trimed_dataset.tcoffee.htm">Colored Output</A></LI>
+	    </UL><br>
+	    <LI><p>Expresso uses BLAST to find the best structural templates, and reports them in the <a href="./file/template_file.template_list">template_file</a>. Expresso then combines the structure based alignments (sap) with the sequence based alignment methods (slow_pair, lalign_id_pair). Overall, the <a href="./file/trimed_dataset.expresso.aln">alignment</a> is better, but this does not show very well in the scoring scheme (<a href="./file/trimed_dataset.expresso.htm">*</a>) because the sequence based alignments (slow_pair, lalign_id_pair) are still as unconsistent (and unreliable) as they were before. For your information, <b>69%</b> of the positions are correct in the alignment of <b>1svpA with 1qq4A</b></P></LI>
+	    <LI><p>M-Coffee produces a <a href="./file/trimed_dataset.mcoffee.aln"> multiple sequence alignment </a> with the most common methods. Because they tend to use similar algorithm, these methods often produce more consistent output than the default T-Coffee, thus making the consistency output slightly less informative. However, you can safely assume that highly consistent regions (red brick columns) are correctly aligned (<a href="./file/trimed_dataset.mcoffee.htm">*</a>). In this case, the accuracy for the two structures is about the same as the default T-Coffee (<b>27%</b>). </LI> 
+	    <LI><p>You can run Expresso without using the sequence based methods by going into the advanced mode and unchecking the slow_pair and lalign_id_pair boxes and run your job. As you can see (<a href="./file/trimed_dataset.expresso2.htm">*</a>) the consistency score is now much higher. This is because the pairwise structural alignment tend to agree very much with one another. This alignment is a whooping <b>91%</b> correct with respect to the two considered structures. The sequences not colored are those for which a structure was not available. </LI>
+	  </OL>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@europe.com">C.Notredame</a> </font></center>
+ </body>
+ </html>

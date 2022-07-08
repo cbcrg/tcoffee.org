@@ -1,0 +1,3021 @@
+  ------------------------------------------------------------------------
+  ExPASy Home
+      page     Site Map Search ExPASy Contact us Proteomics toolsSwiss-Prot
+  ------------------------------------------------------------------------
+
+
+
+============================================================================
+
+                  Welcome to the SIB BLAST Network Service
+
+If results of this search are reported or published, please mention that
+the computation was performed at the SIB using the BLAST network service.
+The SIB BLAST network service uses a server developed at SIB and the NCBI
+BLAST 2 software. It is implemented on hardware provided by HP.
+
+In case of problems, please contact us.
+
+NCBI BLAST program reference [PMID:9254694]:
+Altschul S.F., Madden T.L., Schäffer A.A., Zhang J., Zhang Z., Miller W.,
+Lipman D.J.  Gapped BLAST and PSI-BLAST: a new generation of protein
+database search programs.  Nucleic Acids Res. 25:3389-3402(1997).
+
+============================================================================
+
+Query length: 255 AA (of which 12% low-complexity regions filtered out)
+Date run: 2003-02-18 14:34:35 UTC+0100 on sib-blast.unil.ch
+Program: NCBI BLASTP 2.2.5 [Nov-16-2002]
+Database: XXswissprot
+           127,732 sequences; 48,443,204 total letters
+           Swiss-Prot Release 40.43 of 12-Feb-2003
+
+List of potentially matching sequences
+
+Send selected sequences to
+
+ Include query sequence
+
+  Db    AC        Description                                            Score E-value
+
+ sp    P08311    CATG_HUMAN Cathepsin G precursor (EC 3.4.21.20) (CG) [... 451 e-127
+ sp    P28293    CATG_MOUSE Cathepsin G precursor (EC 3.4.21.20) (Vimen... 301 6e-82
+ sp    P80931    MCT1_SHEEP Mast cell protease 1A precursor (EC 3.4.21.... 259 4e-69
+ sp    O46683    MCT3_SHEEP Mast cell protease 3 precursor (EC 3.4.21.-... 253 2e-67
+ sp    P80219    DDN1_BOVIN Duodenase I (EC 3.4.21.-) (Duodenum serine ... 250 2e-66
+ sp    P20718    GRAH_HUMAN Granzyme H precursor (EC 3.4.21.-) (Cytotox... 248 6e-66
+ sp    P10144    GRAB_HUMAN Granzyme B precursor (EC 3.4.21.79) (T-cell... 243 3e-64
+ sp    P04187    GRAB_MOUSE Granzyme B(G,H) precursor (EC 3.4.21.79) (C... 241 1e-63
+ sp    P18291    NKP1_RAT Natural killer cell protease 1 precursor (EC ... 238 9e-63
+ sp    Q06605    GRL1_RAT Granzyme-like protein I precursor (EC 3.4.21.... 231 8e-61
+ sp    P21812    MCT4_MOUSE Mast cell protease 4 precursor (EC 3.4.21.-... 224 2e-58
+ sp    P23946    MCT1_HUMAN Chymase precursor (EC 3.4.21.39) (Mast cell... 222 5e-58
+ sp    P43430    MCT8_MOUSE Mast cell protease 8 precursor (EC 3.4.21.-... 221 1e-57
+ sp    P52195    MCT1_PAPHA Chymase precursor (EC 3.4.21.39) (Mast cell... 220 2e-57
+ sp    P56435    MCT1_MACFA Chymase precursor (EC 3.4.21.39) (Mast cell... 218 7e-57
+ sp    Q06606    GRL2_RAT Granzyme-like protein II precursor (EC 3.4.21... 217 2e-56
+ sp    P13366    GRAG_MOUSE Granzyme G precursor (EC 3.4.21.-) (CTL ser... 215 6e-56
+ sp    P79204    MCT2_SHEEP Mast cell protease 2 precursor (EC 3.4.21.-... 214 2e-55
+ sp    P11034    MCT1_MOUSE Mast cell protease 1 precursor (EC 3.4.21.-... 213 3e-55
+ sp    P21842    MCT1_CANFA Chymase precursor (EC 3.4.21.39) (Mast cell... 210 2e-54
+ sp    P08882    GRAC_MOUSE Granzyme C precursor (EC 3.4.21.-) (Cytotox... 209 3e-54
+ sp    P97594    MCT8_RAT Mast cell protease VIII precursor (EC 3.4.21.... 209 4e-54
+ sp    P09650    MCT1_RAT Mast cell protease I precursor (EC 3.4.21.39)... 208 7e-54
+ sp    P50340    MCT1_MERUN Mast cell protease 1 precursor (EC 3.4.21.-... 207 1e-53
+ sp    P08883    GRAF_MOUSE Granzyme F precursor (EC 3.4.21.-) (Cytotox... 206 3e-53
+ sp    P08884    GRAE_MOUSE Granzyme E precursor (EC 3.4.21.-) (Cytotox... 204 1e-52
+ sp    P00770    MCT2_RAT Mast cell protease II precursor (EC 3.4.21.-)... 202 4e-52
+ sp    P11033    GRAD_MOUSE Granzyme D precursor (EC 3.4.21.-) [GZMD] [... 202 4e-52
+ sp    P97592    MCT4_RAT Mast cell protease IV precursor (EC 3.4.21.-)... 201 1e-51
+ sp    O35164    MCT9_MOUSE Mast cell protease 9 precursor (EC 3.4.21.-... 200 3e-51
+ sp    Q00356    MCTX_MOUSE Mast cell protease-like protein precursor (... 196 4e-50
+ sp    P50339    MCT3_RAT Mast cell protease III precursor (EC 3.4.21.-... 187 1e-47
+ sp    P50341    MCT2_MERUN Mast cell protease 2 precursor (EC 3.4.21.-... 186 4e-47
+ sp    P21844    MCT5_MOUSE Mast cell protease 5 precursor (EC 3.4.21.-... 186 5e-47
+ sp    P15119    MCT2_MOUSE Mast cell protease 2 precursor (EC 3.4.21.-... 185 9e-47
+ sp    P35033    TRY3_SALSA Trypsin III precursor (EC 3.4.21.4) (Fragme... 141 1e-33
+ sp    P70059    TRY2_XENLA Trypsin precursor (EC 3.4.21.4) [Xenopus la... 141 1e-33
+ sp    P35032    TRY2_SALSA Trypsin II precursor (EC 3.4.21.4) (Fragmen... 137 2e-32
+ sp    P00762    TRY1_RAT Trypsin I, anionic precursor (EC 3.4.21.4) (P... 137 2e-32
+ sp    P24158    PRN3_HUMAN Myeloblastin precursor (EC 3.4.21.76) (Leuk... 137 2e-32
+ sp    P06872    TRY2_CANFA Trypsin, anionic precursor (EC 3.4.21.4) [C... 137 3e-32
+ sp    P35031    TRY1_SALSA Trypsin I precursor (EC 3.4.21.4) [Salmo sa... 136 5e-32
+ sp    P07477    TRY1_HUMAN Trypsin I precursor (EC 3.4.21.4) (Cationic... 135 6e-32
+ sp    P15951    TRY3_HUMAN Trypsin III precursor (EC 3.4.21.4) [PRSS3]... 134 2e-31
+ sp    P16049    TRY1_GADMO Trypsin I precursor (EC 3.4.21.4) [Gadus mo... 133 3e-31
+ sp    Q9UKR3    KLKD_HUMAN Kallikrein 13 precursor (EC 3.4.21.-) (Kall... 133 3e-31
+ sp    Q90627    TRY1_CHICK Trypsin I-P1 precursor (EC 3.4.21.4) [Gallu... 133 4e-31
+ sp    Q91041    TRYX_GADMO Trypsin X precursor (EC 3.4.21.4) [Gadus mo... 132 5e-31
+ sp    P00761    TRYP_PIG Trypsin precursor (EC 3.4.21.4) [Sus scrofa (... 132 9e-31
+ sp    P08426    TRY3_RAT Trypsin III, cationic precursor (EC 3.4.21.4)... 132 9e-31
+ sp    Q90628    TRY2_CHICK Trypsin I-P38 precursor (EC 3.4.21.4) [Gall... 131 1e-30
+ sp    P00746    CFAD_HUMAN Complement factor D precursor (EC 3.4.21.46... 131 2e-30
+ sp    P07146    TRY2_MOUSE Trypsin II, anionic precursor (EC 3.4.21.4)... 130 2e-30
+ sp    P12544    GRAA_HUMAN Granzyme A precursor (EC 3.4.21.78) (Cytoto... 130 2e-30
+ sp    P51779    CFAD_PIG Complement factor D precursor (EC 3.4.21.46) ... 130 2e-30
+ sp    P00763    TRY2_RAT Trypsin II, anionic precursor (EC 3.4.21.4) (... 130 3e-30
+ sp_vs P35030-02 SPLICE ISOFORM C OF P35030 [PRSS4] [Homo sapiens...       130 3e-30
+ sp_vs P35030-01 SPLICE ISOFORM B OF P35030 [PRSS4] [Homo sapiens...       130 3e-30
+ sp    P35030    TRY4_HUMAN Trypsin IV precursor (EC 3.4.21.4) (Brain t... 130 3e-30
+ sp    Q9H2R5    KLKF_HUMAN Kallikrein 15 precursor (EC 3.4.21.-) (ACO ... 130 3e-30
+ sp    Q9P0G3    KLKE_HUMAN Kallikrein 14 precursor (EC 3.4.21.-) (Kall... 129 4e-30
+ sp    P06871    TRY1_CANFA Trypsin, cationic precursor (EC 3.4.21.4) [... 129 6e-30
+ sp_vs P11032-01 SPLICE ISOFORM HF2 OF P11032 [GZMA] [Mus musculu...       129 7e-30
+ sp    P19799    TRY1_XENLA Trypsin precursor (EC 3.4.21.4) [Xenopus la... 129 7e-30
+ sp    P11032    GRAA_MOUSE Granzyme A precursor (EC 3.4.21.78) (T cell... 129 7e-30
+ sp    P07478    TRY2_HUMAN Trypsin II precursor (EC 3.4.21.4) (Anionic... 128 1e-29
+ sp    P49864    GRAK_RAT Granzyme K precursor (EC 3.4.21.-) (NK-trypta... 128 1e-29
+ sp    Q90629    TRY3_CHICK Trypsin II-P29 precursor (EC 3.4.21.4) [Gal... 127 2e-29
+ sp    P49863    GRAK_HUMAN Granzyme K precursor (EC 3.4.21.-) (Granzym... 127 2e-29
+ sp    P00760    TRY1_BOVIN Trypsinogen, cationic precursor (EC 3.4.21.... 127 3e-29
+ sp    O35205    GRAK_MOUSE Granzyme K precursor (EC 3.4.21.-) [GZMK] [... 126 4e-29
+ sp    P32822    TRYB_RAT Trypsin V-B precursor (EC 3.4.21.4) [Rattus n... 126 5e-29
+ sp    Q9Y5K2    KLK4_HUMAN Kallikrein 4 precursor (EC 3.4.21.-) (Prost... 126 5e-29
+ sp    P32821    TRYA_RAT Trypsin V-A precursor (EC 3.4.21.4) [Rattus n... 125 6e-29
+ sp    Q61096    PRN3_MOUSE Myeloblastin precursor (EC 3.4.21.76) (Prot... 124 1e-28
+ sp    Q92876    KLK6_HUMAN Kallikrein 6 precursor (EC 3.4.21.-) (Prote... 124 1e-28
+ sp    P12788    TRY4_RAT Trypsin IV precursor (EC 3.4.21.4) (Pretrypsi... 124 2e-28
+ sp    P00764    TRYP_SQUAC Trypsin precursor (EC 3.4.21.4) [Squalus ac... 121 1e-27
+ sp    Q29463    TRY2_BOVIN Trypsin, anionic precursor (EC 3.4.21.4) [B... 121 2e-27
+ sp    P32038    CFAD_RAT Complement factor D precursor (EC 3.4.21.46) ... 121 2e-27
+ sp    P49862    KLK7_HUMAN Kallikrein 7 precursor (EC 3.4.21.-) (Strat... 120 3e-27
+ sp_vs O60259-01 SPLICE ISOFORM 2 OF O60259 [KLK8] [Homo sapiens ...       120 3e-27
+ sp    O60259    KLK8_HUMAN Neuropsin precursor (EC 3.4.21.-) (NP) (Kal... 120 3e-27
+ sp    P09582    ESTA_CANFA Arginine esterase precursor (EC 3.4.21.35) ... 119 5e-27
+ sp    P36178    CTR2_PENVA Chymotrypsin BII precursor (EC 3.4.21.1) [P... 119 5e-27
+ sp    Q00871    CTR1_PENVA Chymotrypsin BI precursor (EC 3.4.21.1) [Pe... 119 8e-27
+ sp    P08246    ELNE_HUMAN Leukocyte elastase precursor (EC 3.4.21.37)... 118 1e-26
+ sp    P00771    COGS_UCAPU Brachyurin (EC 3.4.21.32) (Collagenolytic p... 117 2e-26
+ sp    P00756    KLK3_MOUSE Glandular kallikrein K3 precursor (EC 3.4.2... 117 2e-26
+ sp    P15946    KLKB_MOUSE Glandular kallikrein K11 precursor (EC 3.4.... 116 4e-26
+ sp_vs P03953-01 SPLICE ISOFORM 2 OF P03953 [DF] [Mus musculus (M...       115 9e-26
+ sp    P03953    CFAD_MOUSE Complement factor D precursor (EC 3.4.21.46... 115 9e-26
+ sp    O88780    NRPN_RAT Neuropsin precursor (EC 3.4.21.-) (NP) (Kalli... 115 1e-25
+ sp    P20151    KLK2_HUMAN Glandular kallikrein 2 precursor (EC 3.4.21... 115 1e-25
+ sp    P51124    GRAM_HUMAN Granzyme M precursor (EC 3.4.21.-) (Met-ase... 114 2e-25
+ sp_vs Q9UBX7-01 SPLICE ISOFORM 2 OF Q9UBX7 [KLK11] [Homo sapiens...       114 2e-25
+ sp    P35034    TRYP_PLEPL Trypsin precursor (EC 3.4.21.4) [Pleuronect... 114 2e-25
+ sp    Q9UBX7    KLKB_HUMAN Kallikrein 11 precursor (EC 3.4.21.-) (Hipp... 114 2e-25
+ sp    Q61955    NRPN_MOUSE Neuropsin precursor (EC 3.4.21.-) (NP) (Kal... 113 3e-25
+ sp    P15947    KLK1_MOUSE Glandular kallikrein K1 precursor (EC 3.4.2... 112 9e-25
+ sp    P15948    KLKM_MOUSE Glandular kallikrein K22 precursor (EC 3.4.... 111 2e-24
+ sp    P00758    KLK1_RAT Glandular kallikrein, pancreatic 1 precursor ... 110 3e-24
+ sp    P06870    KLK1_HUMAN Glandular kallikrein 1 precursor (EC 3.4.21... 110 3e-24
+ sp    P00767    CTRB_BOVIN Chymotrypsinogen B (EC 3.4.21.1) [Bos tauru... 110 3e-24
+ sp    P33619    KLK3_MACMU Prostate specific antigen precursor (EC 3.4... 110 4e-24
+ sp    P06868    PLMN_BOVIN Plasminogen precursor (EC 3.4.21.7) [PLG] [... 109 6e-24
+ sp    P15945    KLK5_MOUSE Glandular kallikrein K5 precursor (EC 3.4.2... 109 6e-24
+ sp    Q28773    KLK1_PAPHA Glandular kallikrein 1 precursor (EC 3.4.21... 109 6e-24
+ sp    P08419    EL2_PIG Elastase 2 precursor (EC 3.4.21.71) [ELA2] [Su... 109 6e-24
+ sp    P47796    CTRA_GADMO Chymotrypsin A precursor (EC 3.4.21.1) [Gad... 109 6e-24
+ sp    P20160    CAP7_HUMAN Azurocidin precursor (Cationic antimicrobia... 108 8e-24
+ sp    P81286    PLMN_SHEEP Plasminogen (EC 3.4.21.7) (Fragment) [PLG] ... 108 1e-23
+ sp    P36374    KLK8_RAT Glandular kallikrein 8, prostatic precursor (... 108 1e-23
+ sp    P12323    KLK2_CAVPO Glandular kallikrein, prostatic (EC 3.4.21.... 108 1e-23
+ sp    P40313    CTRL_HUMAN Chymotrypsin-like protease CTRL-1 precursor... 108 1e-23
+ sp    P07288    KLK3_HUMAN Prostate specific antigen precursor (EC 3.4... 108 1e-23
+ sp    P07338    CTRB_RAT Chymotrypsinogen B precursor (EC 3.4.21.1) [C... 108 1e-23
+ sp    P00766    CTRA_BOVIN Chymotrypsinogen A (EC 3.4.21.1) [Bos tauru... 108 1e-23
+ sp    Q03238    GRAM_RAT Granzyme M precursor (EC 3.4.21.-) (MET-ase) ... 107 2e-23
+ sp    P15949    KLK9_MOUSE Glandular kallikrein K9 precursor (EC 3.4.2... 106 4e-23
+ sp    P36368    KLKD_MOUSE Glandular kallikrein K13 precursor (EC 3.4.... 106 5e-23
+ sp    P00755    KLK6_MOUSE Glandular kallikrein K6 precursor (EC 3.4.2... 106 5e-23
+ sp    Q07276    KLK1_MACFA Glandular kallikrein 1 precursor (EC 3.4.21... 106 5e-23
+ sp    P04813    CTR2_CANFA Chymotrypsinogen 2 precursor (EC 3.4.21.1) ... 106 5e-23
+ sp    P36369    KLKZ_MOUSE Glandular kallikrein K26 precursor (EC 3.4.... 105 7e-23
+ sp    P00757    KLK4_MOUSE 7S nerve growth factor alpha chain precurso... 105 7e-23
+ sp    Q28153    EL1_BOVIN Elastase 1 precursor (EC 3.4.21.36) [ELA1] [... 105 7e-23
+ sp    P00752    KLK_PIG Glandular kallikrein precursor (EC 3.4.21.35) ... 104 2e-22
+ sp    P05208    EL2_MOUSE Elastase 2 precursor (EC 3.4.21.71) [ELA2] [... 104 2e-22
+ sp    P17538    CTRB_HUMAN Chymotrypsinogen B precursor (EC 3.4.21.1) ... 103 3e-22
+ sp    P80015    CAP7_PIG Azurocidin (Cationic antimicrobial protein CA... 103 3e-22
+ sp    P20918    PLMN_MOUSE Plasminogen precursor (EC 3.4.21.7) [Contai... 103 4e-22
+ sp    P35037    TRY3_ANOGA Trypsin 3 precursor (EC 3.4.21.4) [TRYP3] [... 102 6e-22
+ sp    P07628    KLK8_MOUSE Glandular kallikrein K8 precursor (EC 3.4.2... 102 6e-22
+ sp    Q29461    EL2_BOVIN Elastase 2 precursor (EC 3.4.21.71) [ELA2] [... 102 6e-22
+ sp    P29786    TRY3_AEDAE Trypsin 3A1 precursor (EC 3.4.21.4) [Aedes ... 102 8e-22
+ sp    P36375    KLKA_RAT Glandular kallikrein 10 precursor (EC 3.4.21.... 102 8e-22
+ sp    P09093    EL3A_HUMAN Elastase IIIA precursor (EC 3.4.21.70) (Pro... 102 8e-22
+ sp    P00774    EL2_RAT Elastase 2 precursor (EC 3.4.21.71) [ELA2] [Ra... 102 8e-22
+ sp    P36373    KLK7_RAT Glandular kallikrein 7, submandibular/renal p... 102 1e-21
+ sp    P07647    KLK9_RAT Glandular kallikrein 9, submandibular precurs... 101 1e-21
+ sp    P35036    TRY2_ANOGA Trypsin 2 precursor (EC 3.4.21.4) [TRYP2] [... 101 2e-21
+ sp    P35035    TRY1_ANOGA Trypsin 1 precursor (EC 3.4.21.4) [TRYP1] [... 101 2e-21
+ sp    P08217    EL2A_HUMAN Elastase 2A precursor (EC 3.4.21.71) [Homo ... 101 2e-21
+ sp    P80009    PLMN_CANFA Plasminogen (EC 3.4.21.7) (Fragment) [PLG] ... 100 2e-21
+ sp    P36376    KLKC_RAT Glandular kallikrein 12, submandibular/renal ... 100 2e-21
+ sp    P00772    EL1_PIG Elastase 1 precursor (EC 3.4.21.36) [ELA1] [Su... 100 2e-21
+ sp    P20231    TRB2_HUMAN Tryptase beta-2 precursor (EC 3.4.21.59) (T... 100 3e-21
+ sp    Q15661    TRB1_HUMAN Tryptase beta-1 precursor (EC 3.4.21.59) (T... 100 3e-21
+ sp    P00759    KLK2_RAT Tonin precursor (EC 3.4.21.35) (Esterase 1) (... 100 4e-21
+ sp    P00773    EL1_RAT Elastase 1 precursor (EC 3.4.21.36) [ELA1] [Ra... 100 4e-21
+ sp    P00747    PLMN_HUMAN Plasminogen precursor (EC 3.4.21.7) [Contai...  99 8e-21
+ sp    Q9UNI1    EL1_HUMAN Elastase 1 precursor (EC 3.4.21.36) [ELA1] [...  99 8e-21
+ sp    P08519    APOA_HUMAN Apolipoprotein(a) precursor (EC 3.4.21.-) (...  99 8e-21
+ sp    Q9UKR0    KLKC_HUMAN Kallikrein 12 precursor (EC 3.4.21.-) (Kall...  99 1e-20
+ sp    P08861    EL3B_HUMAN Elastase IIIB precursor (EC 3.4.21.70) (Pro...  98 1e-20
+ sp    P29787    TRY5_AEDAE Trypsin 5G1 precursor (EC 3.4.21.4) (Fragme...  98 2e-20
+ sp    Q9Y5Q5    CORI_HUMAN Atrial natriuteric peptide-converting enzym...  97 2e-20
+ sp    P35041    TRY7_ANOGA Trypsin 7 precursor (EC 3.4.21.4) [TRYP7] [...  96 5e-20
+ sp    P98064    CRAR_MOUSE Complement-activating component of Ra-react...  96 5e-20
+ sp    Q16651    PSS8_HUMAN Prostasin precursor (EC 3.4.21.-) [PRSS8] [...  96 7e-20
+ sp    O13059    VSP1_TRIGA Venom serine proteinase 1 precursor (EC 3.4...  96 9e-20
+ sp    Q9UKQ9    KLK9_HUMAN Kallikrein 9 precursor (EC 3.4.21.-) (Kalli...  96 9e-20
+ sp    P80646    CTRB_GADMO Chymotrypsin B (EC 3.4.21.1) [Gadus morhua ...  96 9e-20
+ sp    P12545    PLMN_MACMU Plasminogen precursor (EC 3.4.21.7) [PLG] [...  95 1e-19
+ sp    Q9Z319    CORI_MOUSE Atrial natriuteric peptide-converting enzym...  95 1e-19
+ sp_vs P98072-01 SPLICE SHORT ISOFORM OF P98072 [PRSS7] [Bos taur...        95 2e-19
+ sp    P49150    URTG_DESRO Salivary plasminogen activator gamma precur...  95 2e-19
+ sp    P98121    URTB_DESRO Salivary plasminogen activator beta precurs...  95 2e-19
+ sp    P15638    URT2_DESRO Salivary plasminogen activator alpha 2 prec...  95 2e-19
+ sp    P35038    TRY4_ANOGA Trypsin 4 precursor (EC 3.4.21.4) [TRYP4] [...  95 2e-19
+ sp    P06867    PLMN_PIG Plasminogen (EC 3.4.21.7) [PLG] [Sus scrofa (...  95 2e-19
+ sp    P98072    ENTK_BOVIN Enteropeptidase precursor (EC 3.4.21.9) (En...  95 2e-19
+ sp_vs Q15661-01 SPLICE ISOFORM 2 OF Q15661 [TPSB1] [Homo sapiens...        94 3e-19
+ sp    P98074    ENTK_PIG Enteropeptidase precursor (EC 3.4.21.9) (Ente...  94 3e-19
+ sp    P31394    PRTC_RAT Vitamin-K dependent protein C precursor (EC 3...  94 3e-19
+ sp    Q29485    PLMN_ERIEU Plasminogen precursor (EC 3.4.21.7) [PLG] [...  94 3e-19
+ sp    P14417    APOA_MACMU Apolipoprotein(a) (EC 3.4.21.-) (Apo(a)) (L...  94 3e-19
+ sp    Q99895    CLCR_HUMAN Caldecrin precursor (EC 3.4.21.2) (Chymotry...  93 5e-19
+ sp    Q9DG84    VSP7_TRIMU Serpentokallikrein-2 precursor (EC 3.4.21.-...  93 6e-19
+ sp    P32824    KLKR_PRANA Glandular kallikrein, renal precursor (EC 3...  93 6e-19
+ sp    Q91511    VSP5_TRIMU Mucrofibrase 5 precursor (EC 3.4.21.-) [Tri...  92 8e-19
+ sp    O13063    VSP3_TRIGA Venom serine proteinase 3 precursor (EC 3.4...  92 8e-19
+ sp    P81824    VSP1_BOTJA Platelet-aggregating proteinase PA-BJ (EC 3...  92 8e-19
+ sp    P98119    URT1_DESRO Salivary plasminogen activator alpha 1 prec...  92 8e-19
+ sp    P80010    PLMN_HORSE Plasminogen (EC 3.4.21.7) (Fragment) [PLG] ...  92 8e-19
+ sp    O08762    NETR_MOUSE Neurotrypsin precursor (EC 3.4.21.-) (Motop...  92 8e-19
+ sp    P48740    CRAR_HUMAN Complement-activating component of Ra-react...  92 8e-19
+ sp    Q91053    VSP1_AGKCA Calobin precursor (EC 3.4.21.-) [Agkistrodo...  92 1e-18
+ sp    Q9Y337    KLK5_HUMAN Kallikrein 5 precursor (EC 3.4.21.-) (Strat...  92 1e-18
+ sp    P25155    FA10_CHICK Coagulation factor X precursor (EC 3.4.21.6...  92 1e-18
+ sp    Q28661    PRTC_RABIT Vitamin-K dependent protein C precursor (EC...  92 1e-18
+ sp    P98073    ENTK_HUMAN Enteropeptidase precursor (EC 3.4.21.9) (En...  92 1e-18
+ sp    P81176    VSP1_AGKHA Halystase (EC 3.4.21.-) [Agkistrodon halys ...  91 2e-18
+ sp    P15157    TRYA_HUMAN Alpha-tryptase precursor (EC 3.4.21.59) (Tr...  91 2e-18
+ sp    Q9ES87    PSS8_RAT Prostasin precursor (EC 3.4.21.-) [PRSS8] [Ra...  91 2e-18
+ sp    Q9ESD1    PSS8_MOUSE Prostasin precursor (EC 3.4.21.-) (Channel ...  91 2e-18
+ sp    P04071    KLKG_MOUSE Gamma-renin, submandibular gland precursor ...  91 2e-18
+ sp    O43240    KLKA_HUMAN Kallikrein 10 precursor (EC 3.4.21.-) (Prot...  91 2e-18
+ sp    Q9R098    HGFA_MOUSE Hepatocyte growth factor activator precurso...  91 2e-18
+ sp    Q9YGI6    VSP2_AGKHP Pallabin 2 precursor (EC 3.4.21.-) [JZTHR7]...  91 3e-18
+ sp    P04070    PRTC_HUMAN Vitamin-K dependent protein C precursor (EC...  91 3e-18
+ sp    P56730    NETR_HUMAN Neurotrypsin precursor (EC 3.4.21.-) (Motop...  91 3e-18
+ sp    P08218    EL2B_HUMAN Elastase 2B precursor (EC 3.4.21.71) [Homo ...  91 3e-18
+ sp    Q61129    CFAI_MOUSE Complement factor I precursor (EC 3.4.21.45...  91 3e-18
+ sp    P18965    VSPG_DABRU Vipera russelli proteinase RVV-V gamma (EC ...  90 4e-18
+ sp    O60235    HATT_HUMAN Airway trypsin-like protease precursor (EC ...  90 4e-18
+ sp    P97435    ENTK_MOUSE Enteropeptidase (EC 3.4.21.9) (Enterokinase...  90 4e-18
+ sp    Q9YGJ2    VSP1_AGKHP Pallabin precursor (EC 3.4.21.-) [JZTHR5] [...  90 5e-18
+ sp    Q9GLP2    PRTC_PIG Vitamin-K dependent protein C precursor (EC 3...  90 5e-18
+ sp    P18964    VSPA_DABRU Vipera russelli proteinase RVV-V alpha (EC ...  89 9e-18
+ sp    Q9PSN3    VSP2_AGKBI Bilineobin (EC 3.4.21.-) [Agkistrodon bilin...  89 9e-18
+ sp    Q9N2D1    TRYT_PIG Tryptase precursor (EC 3.4.21.59) [MCT7] [Sus...  89 9e-18
+ sp    Q04756    HGFA_HUMAN Hepatocyte growth factor activator precurso...  89 9e-18
+ sp    P27435    MCT7_RAT Mast cell protease 7 precursor (EC 3.4.21.59)...  89 1e-17
+ sp    O13057    VSP2_TRIFL Venom serine proteinase 2 precursor (EC 3.4...  88 1e-17
+ sp    Q9I8X1    VSP2_AGKAC Venom serine proteinase Dav-PA precursor (E...  88 1e-17
+ sp    P50342    TRYT_MERUN Mast cell tryptase precursor (EC 3.4.21.59)...  88 1e-17
+ sp    P33587    PRTC_MOUSE Vitamin-K dependent protein C precursor (EC...  88 1e-17
+ sp    Q91510    VSP4_TRIMU Mucrofibrase 4 precursor (EC 3.4.21.-) [Tri...  88 2e-17
+ sp    Q91509    VSP3_TRIMU Mucrofibrase 3 precursor (EC 3.4.21.-) [Tri...  88 2e-17
+ sp    P21845    MCT6_MOUSE Mast cell protease 6 precursor (EC 3.4.21.5...  88 2e-17
+ sp    P03952    KAL_HUMAN Plasma kallikrein precursor (EC 3.4.21.34) (...  88 2e-17
+ sp    P00768    CTR2_VESOR Chymotrypsin II (EC 3.4.21.1) [Vespa orient...  88 2e-17
+ sp    O13062    VSPC_TRIGA Venom serine proteinase 2C precursor (EC 3....  87 3e-17
+ sp    Q9PT41    VSP1_VIPLE Factor V activating enzyme precursor (EC 3....  87 3e-17
+ sp    Q9XSM2    TRYT_SHEEP Tryptase 2 precursor (EC 3.4.21.59) [Ovis a...  87 3e-17
+ sp    P24664    TRYP_SACER Trypsin (EC 3.4.21.4) (SET) [Saccharopolysp...  87 3e-17
+ sp    P11214    TPA_MOUSE Tissue-type plasminogen activator precursor ...  87 3e-17
+ sp_vs Q9UKR0-01 SPLICE ISOFORM 2 OF Q9UKR0 [KLK12] [Homo sapiens...        87 3e-17
+ sp_vs P03951-01 SPLICE ISOFORM 2 OF P03951 [F11] [Homo sapiens (...        87 3e-17
+ sp    Q91508    VSP2_TRIMU Mucrofibrase 2 precursor (EC 3.4.21.-) (Tri...  87 3e-17
+ sp    P50343    MCT6_RAT Mast cell protease 6 precursor (EC 3.4.21.59)...  87 3e-17
+ sp    P03951    FA11_HUMAN Coagulation factor XI precursor (EC 3.4.21....  87 3e-17
+ sp_vs Q9ER04-03 SPLICE ISOFORM 1 OF Q9ER04 [TMPRSS5] [Mus muscul...        87 4e-17
+ sp_vs Q9ER04-02 SPLICE ISOFORM 3 OF Q9ER04 [TMPRSS5] [Mus muscul...        87 4e-17
+ sp_vs Q9ER04-01 SPLICE ISOFORM 2 OF Q9ER04 [TMPRSS5] [Mus muscul...        87 4e-17
+ sp    O13060    VSPA_TRIGA Venom serine proteinase 2A precursor (EC 3....  87 4e-17
+ sp    P26324    VSP1_AGKRH Ancrod (EC 3.4.21.74) (Venombin A) (Protein...  87 4e-17
+ sp    P19637    TPA_RAT Tissue-type plasminogen activator precursor (E...  87 4e-17
+ sp    Q9ER04    TMS5_MOUSE Transmembrane protease, serine 5 (EC 3.4.21...  87 4e-17
+ sp_vs P15157-01 SPLICE ISOFORM 2 OF P15157 [TPS1] [Homo sapiens ...        86 6e-17
+ sp    Q28198    TPA_BOVIN Tissue-type plasminogen activator precursor ...  86 6e-17
+ sp    Q91507    VSP1_TRIMU Mucrofibrase 1 precursor (EC 3.4.21.-) [Tri...  86 7e-17
+ sp    P00750    TPA_HUMAN Tissue-type plasminogen activator precursor ...  86 7e-17
+ sp    P05805    CAC3_BOVIN Proproteinase E precursor (Procarboxypeptid...  86 7e-17
+ sp    P15944    TRYT_CANFA Tryptase precursor (EC 3.4.21.59) [Canis fa...  86 1e-16
+ sp    P00765    TRYP_ASTFL Trypsin I (EC 3.4.21.4) [Astacus fluviatili...  86 1e-16
+ sp_vs Q9H2R5-03 SPLICE ISOFORM 3 OF Q9H2R5 [KLK15] [Homo sapiens...        85 1e-16
+ sp    P05620    VSP1_TRIFL Flavoxobin precursor (EC 3.4.21.-) [TLF1] [...  85 1e-16
+ sp    Q9NRR2    TRYG_HUMAN Tryptase gamma precursor (EC 3.4.21.-) (Tra...  85 1e-16
+ sp    Q9H3S3    TMS5_HUMAN Transmembrane protease, serine 5 (EC 3.4.21...  85 1e-16
+ sp    Q9WUW3    CFAI_RAT Complement factor I precursor (EC 3.4.21.45) ...  85 1e-16
+ sp    O13069    VSP2_BOTJA Kinin-releasing and fibrinogen-clotting ser...  85 2e-16
+ sp    Q9PTU8    VSP3_BOTJA Venom serine proteinase A precursor (EC 3.4...  84 2e-16
+ sp    P81661    VSPA_BOTJA Bothrombin (EC 3.4.21.74) (Reptilase) [Both...  84 4e-16
+ sp    P14272    KAL_RAT Plasma kallikrein precursor (EC 3.4.21.34) (Pl...  84 4e-16
+ sp    P26928    HGFL_MOUSE Hepatocyte growth factor-like protein precu...  84 4e-16
+ sp    P09872    VSP1_AGKCO Ancrod (EC 3.4.21.74) (Venombin A) (Protein...  83 5e-16
+ sp    P00769    CTR2_VESCR Chymotrypsin II (EC 3.4.21.1) [Vespa crabro...  83 5e-16
+ sp    P48038    ACRO_RABIT Acrosin precursor (EC 3.4.21.10) [ACR] [Ory...  83 5e-16
+ sp    O13058    VSP3_TRIFL Venom serine proteinase 3 precursor (EC 3.4...  83 6e-16
+ sp    Q91516    VSP1_TRIST Venom plasminogen activator precursor (EC 3...  82 8e-16
+ sp    P00749    UROK_HUMAN Urokinase-type plasminogen activator precur...  82 8e-16
+ sp    Q02844    MCT7_MOUSE Mast cell protease 7 precursor (EC 3.4.21.5...  82 8e-16
+ sp    P15950    KLK3_RAT Glandular kallikrein 3, submandibular (EC 3.4...  82 8e-16
+ sp    Q9DF67    VSP2_TRIJE Venom serine proteinase 2 precursor (EC 3.4...  82 1e-15
+ sp    P35040    TRY6_ANOGA Trypsin 6 precursor (EC 3.4.21.4) [TRYP6] [...  82 1e-15
+ sp    P16294    FA9_MOUSE Coagulation factor IX precursor (EC 3.4.21.2...  81 2e-15
+ sp    P19540    FA9_CANFA Coagulation factor IX precursor (EC 3.4.21.2...  81 2e-15
+ sp    P55091    CLCR_RAT Caldecrin precursor (EC 3.4.21.2) (Chymotryps...  81 2e-15
+ sp    P51588    TRYP_SARBU Trypsin precursor (EC 3.4.21.4) [Sarcophaga...  81 2e-15
+ sp    P35039    TRY5_ANOGA Trypsin 5 precursor (EC 3.4.21.4) [TRYP5] [...  81 2e-15
+ sp    P05049    SNAK_DROME Serine protease snake precursor (EC 3.4.21....  81 2e-15
+ sp    O42207    VSP2_AGKCA Capillary permeability-increasing enzyme-2 ...  80 3e-15
+ sp    Q05319    STUB_DROME Serine proteinase stubble (EC 3.4.21.-) (St...  80 3e-15
+ sp    P98159    NDL_DROME Serine protease nudel precursor (EC 3.4.21.-...  80 3e-15
+ sp    Q9I8W9    VSP4_AGKAC Venom serine proteinase Dav-X precursor (EC...  80 4e-15
+ sp    Q05589    UROK_BOVIN Urokinase-type plasminogen activator precur...  80 4e-15
+ sp    P00745    PRTC_BOVIN Vitamin-K dependent protein C precursor (EC...  80 5e-15
+ sp    P16296    FA9_RAT Coagulation factor IX (EC 3.4.21.22) (Christma...  80 5e-15
+ sp    Q9DF66    VSP3_TRIJE Venom serine proteinase 3 precursor (EC 3.4...  79 7e-15
+ sp_vs P20151-01 SPLICE ISOFORM 2 OF P20151 [KLK2] [Homo sapiens ...        79 9e-15
+ sp    P04971    VSPA_BOTAT Batroxobin precursor (EC 3.4.21.74) (Bothro...  79 9e-15
+ sp    Q9I8X2    VSP1_AGKAC Acutobin precursor (EC 3.4.21.-) (Acuthromb...  79 9e-15
+ sp    P05981    HEPS_HUMAN Serine protease hepsin (EC 3.4.21.-) (Trans...  79 9e-15
+ sp    P05156    CFAI_HUMAN Complement factor I precursor (EC 3.4.21.45...  79 9e-15
+ sp_vs P57727-01 SPLICE ISOFORM B OF P57727 [TMPRSS3] [Homo sapie...        79 1e-14
+ sp    O13061    VSPB_TRIGA Venom serine proteinase 2B precursor (EC 3....  79 1e-14
+ sp    P57727    TMS3_HUMAN Transmembrane protease, serine 3 (EC 3.4.21...  79 1e-14
+ sp    P26262    KAL_MOUSE Plasma kallikrein precursor (EC 3.4.21.34) (...  79 1e-14
+ sp    P16295    FA9_CAVPO Coagulation factor IX (EC 3.4.21.22) (Christ...  79 1e-14
+ sp    P39675    DER3_DERPT Mite allergen Der p 3 precursor (EC 3.4.21....  79 1e-14
+ sp    Q9JHJ7    TEST_MOUSE Testisin precursor (EC 3.4.21.-) (Tryptase ...  78 2e-14
+ sp    P26927    HGFL_HUMAN Hepatocyte growth factor-like protein precu...  78 2e-14
+ sp    Q9BZJ3    TRYD_HUMAN Putative tryptase delta precursor (EC 3.4.2...  78 2e-14
+ sp    Q26422    LFC_CARRO Limulus clotting factor C precursor (EC 3.4....  78 2e-14
+ sp    O97370    EUM3_EURMA Mite allergen Eur m 3 precursor (EC 3.4.21....  78 2e-14
+ sp    P28175    LFC_TACTR Limulus clotting factor C precursor (EC 3.4....  77 3e-14
+ sp    Q9DG83    VSP6_TRIMU Serpentokallikrein-1 precursor (EC 3.4.21.-...  77 3e-14
+ sp    Q9DF68    VSP1_TRIJE Venom serine proteinase-like protein precur...  77 4e-14
+ sp    P16227    UROK_PAPCY Urokinase-type plasminogen activator precur...  77 4e-14
+ sp    O35453    HEPS_MOUSE Serine protease hepsin (EC 3.4.21.-) [HPN] ...  77 4e-14
+ sp    P00740    FA9_HUMAN Coagulation factor IX precursor (EC 3.4.21.2...  77 4e-14
+ sp    Q07943    VDP_BOMMO Vitellin-degrading protease precursor (EC 3....  76 6e-14
+ sp    P29293    ACRO_RAT Acrosin precursor (EC 3.4.21.10) [ACR] [Rattu...  76 6e-14
+ sp    P10323    ACRO_HUMAN Acrosin precursor (EC 3.4.21.10) [ACR] [Hom...  76 6e-14
+ sp    Q9PT40    VSP2_VIPLE Venom serine proteinase-like protein 2 prec...  76 8e-14
+ sp    Q9UL52    DES1_HUMAN Serine protease DESC1 precursor (EC 3.4.21....  76 8e-14
+ sp    P35003    CTRL_HALRU Chymotrypsin-like serine proteinase precurs...  76 8e-14
+ sp    Q9ER10    BSS4_MOUSE Brain-specific serine protease 4 precursor ...  76 8e-14
+ sp    P15120    UROK_CHICK Urokinase-type plasminogen activator precur...  75 1e-13
+ sp    Q17025    CTR2_ANOGA Chymotrypsin 2 precursor (EC 3.4.21.1) [CHY...  75 1e-13
+ sp_vs P20151-02 SPLICE ISOFORM 3 OF P20151 [KLK2] [Homo sapiens ...        75 1e-13
+ sp_vs Q08048-01 SPLICE SHORT ISOFORM OF Q08048 [HGF] [Mus muscul...        75 1e-13
+ sp    P04185    UROK_PIG Urokinase-type plasminogen activator precurso...  75 1e-13
+ sp    P17945    HGF_RAT Hepatocyte growth factor precursor (Scatter fa...  75 1e-13
+ sp    Q08048    HGF_MOUSE Hepatocyte growth factor precursor (Scatter ...  75 1e-13
+ sp    P21902    PCE_TACTR Proclotting enzyme precursor (EC 3.4.21.86) ...  75 2e-13
+ sp    P70375    FA7_MOUSE Coagulation factor VII precursor (EC 3.4.21....  75 2e-13
+ sp    P00748    FA12_HUMAN Coagulation factor XII precursor (EC 3.4.21...  75 2e-13
+ sp    P98140    FA12_BOVIN Coagulation factor XII precursor (EC 3.4.21...  75 2e-13
+ sp    O19045    FA10_RABIT Coagulation factor X precursor (EC 3.4.21.6...  75 2e-13
+ sp    Q9I8X0    VSP3_AGKAC Venom serine proteinase Dav-KN precursor (E...  74 2e-13
+ sp    P06869    UROK_MOUSE Urokinase-type plasminogen activator precur...  74 2e-13
+ sp    P16292    FA9_RABIT Coagulation factor IX (EC 3.4.21.22) (Christ...  74 2e-13
+ sp    P22457    FA7_BOVIN Coagulation factor VII (EC 3.4.21.21) (Serum...  74 2e-13
+ sp    P19236    TRYM_CANFA Mastocytoma protease precursor (EC 3.4.21.-...  74 3e-13
+ sp    P17205    SER1_DROME Serine proteases 1/2 precursor (EC 3.4.21.-...  74 3e-13
+ sp    P14210    HGF_HUMAN Hepatocyte growth factor precursor (Scatter ...  74 3e-13
+ sp_vs Q9Y6M0-01 SPLICE ISOFORM 2 OF Q9Y6M0 [PRSS21] [Homo sapien...        74 4e-13
+ sp    P54627    TRYE_DROER Trypsin epsilon precursor (EC 3.4.21.4) [TR...  74 4e-13
+ sp    P49275    DEF3_DERFA Mite allergen Der f 3 precursor (EC 3.4.21....  74 4e-13
+ sp    Q27289    CTR1_ANOGA Chymotrypsin 1 precursor (EC 3.4.21.1) [CHY...  74 4e-13
+ sp_vs Q9H2R5-02 SPLICE ISOFORM 2 OF Q9H2R5 [KLK15] [Homo sapiens...        73 5e-13
+ sp_vs Q9H2R5-01 SPLICE ISOFORM 4 OF Q9H2R5 [KLK15] [Homo sapiens...        73 5e-13
+ sp    P42278    TRYT_DROME Trypsin theta precursor (EC 3.4.21.4) [TRY-...  73 5e-13
+ sp    Q9QUL7    TRYG_MOUSE Tryptase gamma precursor (EC 3.4.21.-) (Tra...  73 5e-13
+ sp    Q9BQR3    MPN_HUMAN Marapsin precursor (EC 3.4.21.-) [MPN] [Homo...  73 5e-13
+ sp    P16293    FA9_PIG Coagulation factor IX (EC 3.4.21.22) (Christma...  73 5e-13
+ sp    P08001    ACRO_PIG Acrosin precursor (EC 3.4.21.10) (53 kDa fuco...  73 5e-13
+ sp    P35042    TRYP_CHOFU Trypsin CFT-1 precursor (EC 3.4.21.4) [Chor...  73 6e-13
+ sp    P56677    ST14_MOUSE Suppressor of tumorigenicity 14 (EC 3.4.21....  73 6e-13
+ sp    Q9GZN4    BSS4_HUMAN Brain-specific serine protease 4 precursor ...  73 6e-13
+ sp    P54629    TRYU_DROER Trypsin eta precursor (EC 3.4.21.4) [TRY-ET...  72 8e-13
+ sp    P00741    FA9_BOVIN Coagulation factor IX (EC 3.4.21.22) (Christ...  72 8e-13
+ sp    P23578    ACRO_MOUSE Acrosin precursor (EC 3.4.21.10) [ACR] [Mus...  72 8e-13
+ sp    P35005    TRYE_DROME Trypsin epsilon precursor (EC 3.4.21.4) [EP...  72 1e-12
+ sp    P35045    TRYA_MANSE Trypsin, alkaline A precursor (EC 3.4.21.4)...  72 1e-12
+ sp    O15393    TMS2_HUMAN Transmembrane protease, serine 2 precursor ...  72 1e-12
+ sp    P00742    FA10_HUMAN Coagulation factor X precursor (EC 3.4.21.6...  72 1e-12
+ sp    P00743    FA10_BOVIN Coagulation factor X precursor (EC 3.4.21.6...  72 1e-12
+ sp_vs P08709-01 SPLICE ISOFORM B OF P08709 [F7] [Homo sapiens (H...        72 1e-12
+ sp    P47797    VSP2_AGKRH Ancrod precursor (EC 3.4.21.74) (Venombin A...  72 1e-12
+ sp    P42279    TRYU_DROME Trypsin eta precursor (EC 3.4.21.4) [TRY-ET...  72 1e-12
+ sp    P54628    TRYT_DROER Trypsin theta precursor (EC 3.4.21.4) [TRY-...  72 1e-12
+ sp    P35046    TRYB_MANSE Trypsin, alkaline B precursor (EC 3.4.21.4)...  72 1e-12
+ sp    P08709    FA7_HUMAN Coagulation factor VII precursor (EC 3.4.21....  72 1e-12
+ sp    Q04962    FA12_CAVPO Coagulation factor XII precursor (EC 3.4.21...  72 1e-12
+ sp    Q9Y5Y6    ST14_HUMAN Suppressor of tumorigenicity 14 (EC 3.4.21....  71 2e-12
+ sp    Q05511    HEPS_RAT Serine protease hepsin (EC 3.4.21.-) [HPN] [R...  71 2e-12
+ sp    P33589    VSPA_LACMU Gyroxin analog (EC 3.4.21.74) (Thrombin-lik...  71 2e-12
+ sp    P13582    EAST_DROME Serine protease easter precursor (EC 3.4.21...  71 2e-12
+ sp    P35044    TRY4_LUCCU Trypsin alpha-4 precursor (EC 3.4.21.4) [Lu...  70 3e-12
+ sp    Q9Y6M0    TEST_HUMAN Testisin precursor (EC 3.4.21.-) (Eosinophi...  70 3e-12
+ sp    P52905    TRYI_DROME Trypsin iota precursor (EC 3.4.21.4) [IOTA-...  70 5e-12
+ sp    O93267    TRP3_PSEAM Trypsinogen-like protein 3 precursor [TRP3]...  70 5e-12
+ sp    P29598    UROK_RAT Urokinase-type plasminogen activator precurso...  69 7e-12
+ sp    P54630    TRYZ_DROER Trypsin zeta precursor (EC 3.4.21.4) [TRY-Z...  69 7e-12
+ sp    P49276    DEF6_DERFA Mite allergen Der f 6 precursor (EC 3.4.21....  69 7e-12
+ sp    P35048    TRYP_SIMVI Trypsin precursor (EC 3.4.21.4) (Fragment) ...  69 1e-11
+ sp    P16291    FA9_SHEEP Coagulation factor IX (EC 3.4.21.22) (Christ...  69 1e-11
+ sp    P54624    TRYA_DROER Trypsin alpha precursor (EC 3.4.21.4) [TRY-...  68 2e-11
+ sp    P08897    COGS_HYPLI Collagenase precursor (EC 3.4.21.-) (Hypode...  68 2e-11
+ sp    P54625    TRYB_DROER Trypsin beta precursor (EC 3.4.21.4) [TRY-B...  68 2e-11
+ sp    P35047    TRYC_MANSE Trypsin, alkaline C precursor (EC 3.4.21.4)...  67 3e-11
+ sp    Q9NRS4    TMS4_HUMAN Transmembrane protease, serine 4 (EC 3.4.21...  67 3e-11
+ sp    Q17004    S24D_ANOGA Serine protease SP24D precursor (EC 3.4.21....  67 5e-11
+ sp    P54626    TRYD_DROER Trypsin delta/gamma precursor (EC 3.4.21.4)...  66 6e-11
+ sp    P04814    TRYA_DROME Trypsin alpha precursor (EC 3.4.21.4) [ALPH...  66 6e-11
+ sp    P42276    TRYD_DROME Trypsin delta precursor (EC 3.4.21.4) [TRY-...  65 1e-10
+ sp    Q54179    TRYP_STRGA Trypsin-like protease precursor (EC 3.4.21....  65 1e-10
+ sp    P42277    TRYG_DROME Trypsin gamma precursor (EC 3.4.21.4) [TRY-...  65 1e-10
+ sp    P17207    SER3_DROME Serine protease 3 precursor (EC 3.4.21.-) [...  65 2e-10
+ sp    P98139    FA7_RABIT Coagulation factor VII precursor (EC 3.4.21....  65 2e-10
+ sp    P15156    CASP_MESAU Calcium-dependent serine proteinase precurs...  65 2e-10
+ sp    Q9JIQ8    TMS2_MOUSE Transmembrane protease, serine 2 (EC 3.4.21...  64 2e-10
+ sp    P35004    TRYB_DROME Trypsin beta precursor (EC 3.4.21.4) [TRY-B...  64 3e-10
+ sp_vs Q9Y6M0-02 SPLICE ISOFORM 3 OF Q9Y6M0 [PRSS21] [Homo sapien...        63 5e-10
+ sp    P09871    C1S_HUMAN Complement C1s component precursor (EC 3.4.2...  61 2e-09
+ sp_vs P21845-01 SPLICE SHORT ISOFORM OF P21845 [MCPT6] [Mus musc...        60 3e-09
+ sp    P35588    HYPB_HYPLI Hypodermin B precursor (EC 3.4.21.-) (HB) [...  60 4e-09
+ sp    P00734    THRB_HUMAN Prothrombin precursor (EC 3.4.21.5) (Coagul...  60 6e-09
+ sp    P19221    THRB_MOUSE Prothrombin precursor (EC 3.4.21.5) [F2] [M...  59 7e-09
+ sp    P81428    FA10_TROCA Coagulation factor X (EC 3.4.21.6) (Trocari...  59 7e-09
+ sp    P00736    C1R_HUMAN Complement C1r component precursor (EC 3.4.2...  59 1e-08
+ sp    P42280    TRYZ_DROME Trypsin zeta precursor (EC 3.4.21.4) [TRY-Z...  59 1e-08
+ sp    P35049    TRYP_FUSOX Trypsin precursor (EC 3.4.21.4) [Fusarium o...  58 2e-08
+ sp    Q28380    PRTC_HORSE Vitamin-K dependent protein C (EC 3.4.21.69...  58 2e-08
+ sp    P35587    HYPA_HYPLI Hypodermin A precursor (EC 3.4.21.-) (HA) [...  58 2e-08
+ sp    P00775    TRYP_STRGR Trypsin precursor (EC 3.4.21.4) (SGT) [SPRT...  57 5e-08
+ sp    Q28412    PRTC_FELCA Vitamin-K dependent protein C (EC 3.4.21.69...  57 5e-08
+ sp    P18292    THRB_RAT Prothrombin precursor (EC 3.4.21.5) [F2] [Rat...  56 6e-08
+ sp    P35043    TRY3_LUCCU Trypsin alpha-3 (EC 3.4.21.4) (Fragment) [L...  56 8e-08
+ sp    Q28506    PRTC_MACMU Vitamin-K dependent protein C (EC 3.4.21.69...  55 1e-07
+ sp    Q28278    PRTC_CANFA Vitamin-K dependent protein C (EC 3.4.21.69...  55 1e-07
+ sp    P43685    GILX_HELHO Gilatoxin (EC 3.4.21.-) [Heloderma horridum...  55 1e-07
+ sp    P00735    THRB_BOVIN Prothrombin precursor (EC 3.4.21.5) [F2] [B...  55 2e-07
+ sp    P23604    ACH1_LONAC Achelase I (EC 3.4.21.-) [Lonomia achelous ...  54 3e-07
+ sp    P00738    HPT2_HUMAN Haptoglobin-2 precursor [HP] [Homo sapiens ...  53 7e-07
+ sp    P00737    HPT1_HUMAN Haptoglobin-1 precursor [HP] [Homo sapiens ...  53 7e-07
+ sp    O00187    MAS2_HUMAN Mannan-binding lectin serine protease 2 pre...  52 1e-06
+ sp    P23605    ACH2_LONAC Achelase II (EC 3.4.21.-) [Lonomia achelous...  52 2e-06
+ sp    P50417    HPT_ATEGE Haptoglobin precursor [HP] [Ateles geoffroyi...  49 1e-05
+ sp    P00739    HPTR_HUMAN Haptoglobin-related protein precursor [HPR]...  46 6e-05
+ sp    P19006    HPT_CANFA Haptoglobin alpha and beta chains [HP] [Cani...  46 8e-05
+ sp    Q28315    PRTC_CAPHI Vitamin-K dependent protein C (EC 3.4.21.69...  45 1e-04
+ sp_vs P22891-01 SPLICE ISOFORM 2 OF P22891 [PROZ] [Homo sapiens ...        45 2e-04
+ sp    P22891    PRTZ_HUMAN Vitamin K-dependent protein Z precursor [PR...  45 2e-04
+ sp    Q62558    HPT_MUSSA Haptoglobin precursor [HP] [Mus saxicola (Sp...  44 4e-04
+ sp    P04186    CFAB_MOUSE Complement factor B precursor (EC 3.4.21.47...  42 0.002
+ sp    P06866    HPT_RAT Haptoglobin precursor [HP] [Rattus norvegicus ...  41 0.003
+ sp    P00744    PRTZ_BOVIN Vitamin K-dependent protein Z [PROZ] [Bos t...  40 0.006
+ sp    P12546    CERC_SCHMA Cercarial protease precursor (EC 3.4.21.-) ...  39 0.008
+ sp    P00751    CFAB_HUMAN Complement factor B precursor (EC 3.4.21.47...  38 0.017
+ sp_vs P57727-02 SPLICE ISOFORM D OF P57727 [TMPRSS3] [Homo sapie...        37 0.030
+ sp    P37357    EL2A_HORSE Neutrophil elastase 2A (EC 3.4.21.-) (Prote...  37 0.030
+ sp_vs P00751-01 SPLICE ISOFORM 2 OF P00751 [BF] [Homo sapiens (H...        37 0.051
+ sp    P17977    CATG_RAT Cathepsin G (EC 3.4.21.20) (Fragment) [CTSG] ...  36 0.086
+ sp    P58840    ACRL_HUMAN Hypothetical acrosin-like protease (EC 3.4....  34  0.25
+ sp    P81038    VSPA_CERCE Cerastotin (EC 3.4.21.-) (Fragments) [Ceras...  33  0.56
+ sp    P06681    CO2_HUMAN Complement C2 precursor (EC 3.4.21.43) (C3/C...  33  0.56
+ sp    P21180    CO2_MOUSE Complement C2 precursor (EC 3.4.21.43) (C3/C...  32   1.2
+ sp    P34168    LCLP_HUMAN Chymotrypsin-like serine proteinase (EC 3.4...  32   1.6
+ sp    P31961    EDD_PSEAE Phosphogluconate dehydratase (EC 4.2.1.12) (...  32   1.6
+ sp_vs P21180-01 SPLICE SHORT ISOFORM OF P21180 [C2] [Mus musculu...        31   2.1
+ sp    P21843    MCT3_MOUSE Mast cell protease 3 (EC 3.4.21.-) (MMCP-3)...  31   2.1
+ sp    P39790    MPR_BACSU Extracellular metalloprotease precursor (EC ...  30   3.6
+ sp    O62589    GD_DROME Serine protease gd precursor (EC 3.4.21.-) (G...  30   3.6
+ sp_vs P57727-03 SPLICE ISOFORM T OF P57727 [TMPRSS3] [Homo sapie...        30   4.7
+ sp    Q9VGB4    C132_DROME Probable cytochrome P450 313a2 (EC 1.14.-.-...  29   8.1
+
+Graphical overview of the alignments
+
+  to resubmit your query after masking regions matching PROSITE       [new]
+  profiles or Pfam HMMs
+  (use ScanProsite for more details about PROSITE matches)
+
+
+ [PaintBlast]
+
+Alignments
+
+  sp  P08311      Cathepsin G precursor (EC    255 AA
+      CATG_HUMAN  3.4.21.20) (CG) [CTSG]
+                  [Homo sapiens
+                  (Human)]
+
+   Score =  451 bits (1159), Expect = e-127
+   Identities = 224/255 (87%), Positives = 224/255 (87%)
+
+  Query: 1   MQPXXXXXXXXXPTXXXXXXXXXXRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVL 60
+             MQP         PT          RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVL
+  Sbjct: 1   MQPLLLLLAFLLPTGAEAGEIIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVL 60
+
+  Query: 61  TAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXX 120
+             TAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLS
+  Sbjct: 61  TAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRR 120
+
+  Query: 121 XXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYD 180
+                    ALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYD
+  Sbjct: 121 NRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYD 180
+
+  Query: 181 PRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRT 240
+             PRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRT
+  Sbjct: 181 PRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRT 240
+
+  Query: 241 TMRSFKLLDQMETPL 255
+             TMRSFKLLDQMETPL
+  Sbjct: 241 TMRSFKLLDQMETPL 255
+
+  sp  P28293      Cathepsin G precursor (EC            261 AA
+      CATG_MOUSE  3.4.21.20) (Vimentin-specific        align
+                  protease)
+                  (VSP) [CTSG] [Mus musculus (Mouse)]
+
+   Score =  301 bits (772), Expect = 6e-82
+   Identities = 147/221 (66%), Positives = 171/221 (77%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             RE+RPHS PYMA+L IQSP G S CGGFLVREDFVLTAAHC GS+INVTLGAHNIQ RE
+  Sbjct: 25  REARPHSYPYMAFLLIQSPEGLSACGGFLVREDFVLTAAHCLGSSINVTLGAHNIQMRER 84
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ IT  RAIRHP YN + I+NDIMLLQL             ALP+A + L+PG LCTV
+  Sbjct: 85  TQQLITVLRAIRHPDYNPQNIRNDIMLLQLRRRARRSGSVKPVALPQASKKLQPGDLCTV 144
+
+  Query: 145 AGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             AGWGRVS  RGT+ L+EVQLRVQ D+ C   F  Y+ + QICVG+ RERK+AF+GDSGGP
+  Sbjct: 145 AGWGRVSQSRGTNVLQEVQLRVQMDQMCANRFQFYNSQTQICVGNPRERKSAFRGDSGGP 204
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSF 245
+             L+C+NVA GIVSYG ++G PP VFT++ SF+PWI+ TMR F
+  Sbjct: 205 LVCSNVAQGIVSYGSNNGNPPAVFTKIQSFMPWIKRTMRRF 245
+
+  sp  P80931      Mast cell protease 1A     245 AA
+      MCT1_SHEEP  precursor (EC 3.4.21.-)   align
+                  (SMCP-1A) [Ovis aries
+                  (Sheep)]
+
+   Score =  259 bits (662), Expect = 4e-69
+   Identities = 126/221 (57%), Positives = 156/221 (70%), Gaps = 1/221 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E++PHSRPYMA+LQI+      RCGGFLV EDFVLTAAHC GS+I+VTLGAHNI  RE T
+  Sbjct: 25  EAKPHSRPYMAFLQIKISGKSYRCGGFLVHEDFVLTAAHCLGSSISVTLGAHNIVDRERT 84
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I  RRAI HP YN +T+ NDIMLLQL+             LPR+ E ++PG +C+VA
+  Sbjct: 85  QQVIQVRRAIPHPHYNDKTLANDIMLLQLTRKAEMSDAVSPINLPRSLEKVKPGMMCSVA 144
+
+  Query: 146 GWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG++ +     D L+EV L VQ + +C+  F +Y P  QIC GD  +RK +F GDSGGP
+  Sbjct: 145 GWGQLGVNMPSADKLQEVNLEVQSEEECIARFKNYIPITQICAGDSTKRKNSFSGDSGGP 204
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSF 245
+             L+CN VA GIVSYGK  G  P+V+TR+SSFL WI+ TMR +
+  Sbjct: 205 LVCNGVAQGIVSYGKDDGTTPDVYTRISSFLSWIQRTMRRY 245
+
+  sp  O46683      Mast cell protease 3      251 AA
+      MCT3_SHEEP  precursor (EC 3.4.21.-)   align
+                  (SMCP-3) [Ovis aries
+                  (Sheep)]
+
+   Score =  253 bits (647), Expect = 2e-67
+   Identities = 125/222 (56%), Positives = 152/222 (68%), Gaps = 1/222 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E++PHSRPYMA+LQ +       CGGFLVREDFVLTAAHC GS+INVTLGAH I  +E T
+  Sbjct: 25  EAKPHSRPYMAFLQFKISGKSYICGGFLVREDFVLTAAHCLGSSINVTLGAHTITDQERT 84
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I  RRAI HP YN  T  NDIMLLQL+             LPR+ E ++PG +C+VA
+  Sbjct: 85  QQVIQVRRAIPHPDYNDETCANDIMLLQLTRKAEMTDAVSLINLPRSLEKVKPGMMCSVA 144
+
+  Query: 146 GWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG++ +     D L+EV L VQR+ +C+  F  Y P  QIC GD  +RK +F GDSGGP
+  Sbjct: 145 GWGQLGVNMPSADKLQEVDLEVQREEKCIARFKDYIPVTQICAGDPSKRKDSFLGDSGGP 204
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFK 246
+             L+C+ VA GIVSYGK  G  P V+TR+SSFL WI+ TMR +K
+  Sbjct: 205 LVCDGVAQGIVSYGKDDGTTPNVYTRISSFLSWIQRTMRQYK 246
+
+  sp  P80219      Duodenase I (EC           226 AA
+      DDN1_BOVIN  3.4.21.-) (Duodenum       align
+                  serine protease) [Bos
+                  taurus
+                  (Bovine)]
+
+   Score =  250 bits (639), Expect = 2e-66
+   Identities = 124/222 (55%), Positives = 153/222 (68%), Gaps = 2/222 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E++PHSRPYMA+L  ++      CGGFLVREDFVLTAAHC GS INVTLGAHNI  RE T
+  Sbjct: 6   EAKPHSRPYMAFLLFKTSGKSHICGGFLVREDFVLTAAHCLGS-INVTLGAHNIMERERT 64
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I  RR I HP YN  T+ NDIMLL+L+             LPR+   ++PG +C+VA
+  Sbjct: 65  QQVIPVRRPIPHPDYNDETLANDIMLLKLTRKADITDKVSPINLPRSLAEVKPGMMCSVA 124
+
+  Query: 146 GWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWGR+ +    TD L+EV L VQ + +C+  F +Y P  QIC GD  +R+ +F GDSGGP
+  Sbjct: 125 GWGRLGVNMPSTDKLQEVDLEVQSEEKCIARFKNYIPFTQICAGDPSKRRNSFSGDSGGP 184
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFK 246
+             L+CN VA GIVSYGK+ G  P+V+TR+SSFLPWI+  M  FK
+  Sbjct: 185 LVCNGVAQGIVSYGKNDGTTPDVYTRISSFLPWIKRVMYLFK 226
+
+  sp  P20718      Granzyme H precursor (EC      246 AA
+      GRAH_HUMAN  3.4.21.-) (Cytotoxic          align
+                  T-lymphocyte
+                  proteinase) (Cathepsin
+                  G-like 2) (CTSGL2) (CCP-X)
+                  (Cytotoxic serine
+                  protease-C) (CSP-C) [GZMH]
+                  [Homo
+                  sapiens (Human)]
+
+   Score =  248 bits (634), Expect = 6e-66
+   Identities = 120/219 (54%), Positives = 151/219 (68%), Gaps = 1/219 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E++PHSRPYMA++Q      + RCGG LVR+DFVLTAAHC GS+INVTLGAHNI+ +E T
+  Sbjct: 26  EAKPHSRPYMAFVQFLQEKSRKRCGGILVRKDFVLTAAHCQGSSINVTLGAHNIKEQERT 85
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I  +R I HP YN +   NDIMLLQL              LP ++  ++PG LC+VA
+  Sbjct: 86  QQFIPVKRPIPHPAYNPKNFSNDIMLLQLERKAKWTTAVRPLRLPSSKAQVKPGQLCSVA 145
+
+  Query: 146 GWGRVSMRRGTDTLREVQLRVQRDRQCLRIF-GSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG VSM     TL+EV L VQ+D QC R+F G+Y    +ICVGD ++ +  FKGDSGGP
+  Sbjct: 146 GWGYVSMSTLATTLQEVLLTVQKDCQCERLFHGNYSRATEICVGDPKKTQTGFKGDSGGP 205
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             L+C +VA GI+SYG   G PP V+ +VS FLPWI+ TM+
+  Sbjct: 206 LVCKDVAQGILSYGNKKGTPPGVYIKVSHFLPWIKRTMK 244
+
+  sp  P10144      Granzyme B precursor (EC      247 AA
+      GRAB_HUMAN  3.4.21.79) (T-cell serine     align
+                  protease 1-3E)
+                  (Cytotoxic T-lymphocyte
+                  proteinase 2) (Lymphocyte
+                  protease) (SECT) (Granzyme
+                  2) (Cathepsin G-like 1)
+                  (CTSGL1) (CTLA-1)
+                  (Fragmentin 2) (Human
+                  lymphocyte
+                  protein) (HLP) (C11) [GZMB]
+                  [Homo sapiens (Human)]
+
+   Score =  243 bits (620), Expect = 3e-64
+   Identities = 118/224 (52%), Positives = 156/224 (69%), Gaps = 6/224 (2%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E++PHSRPYMAYL I       RCGGFL+++DFVLTAAHCWGS+INVTLGAHNI+ +E T
+  Sbjct: 26  EAKPHSRPYMAYLMIWDQKSLKRCGGFLIQDDFVLTAAHCWGSSINVTLGAHNIKEQEPT 85
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I  +R I HP YN +   NDIMLLQL              LP  +  ++PG  C+VA
+  Sbjct: 86  QQFIPVKRPIPHPAYNPKNFSNDIMLLQLERKAKRTRAVQPLRLPSNKAQVKPGQTCSVA 145
+
+  Query: 146 GWGRVS-MRRGTDTLREVQLRVQRDRQC---LRIFGSYDPRRQICVGDRRERKAAFKGDS 201
+             GWG+ + + + + TL+EV++ VQ DR+C   LR +  YD   ++CVGD   +K +FKGDS
+  Sbjct: 146 GWGQTAPLGKHSHTLQEVKMTVQEDRKCESDLRHY--YDSTIELCVGDPEIKKTSFKGDS 203
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSF 245
+             GGPL+CN VA GIVSYG+++G+PP   T+VSSF+ WI+ TM+ +
+  Sbjct: 204 GGPLVCNKVAQGIVSYGRNNGMPPRACTKVSSFVHWIKKTMKRY 247
+
+  sp  P04187      Granzyme B(G,H) precursor    247 AA
+      GRAB_MOUSE  (EC 3.4.21.79) (Cytotoxic    align
+                  cell protease
+                  1) (CCP1) (CTLA-1)
+                  (Fragmentin 2) [GZMB] [Mus
+                  musculus
+                  (Mouse)]
+
+   Score =  241 bits (615), Expect = 1e-63
+   Identities = 120/221 (54%), Positives = 152/221 (68%), Gaps = 2/221 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E +PHSRPYMA L I+    ++ CGGFL+REDFVLTAAHC GS INVTLGAHNI+ +E T
+  Sbjct: 26  EVKPHSRPYMALLSIKDQQPEAICGGFLIREDFVLTAAHCEGSIINVTLGAHNIKEQEKT 85
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             QQ I   + I HP YN +T  NDIMLL+L              LPR    ++PG +C VA
+  Sbjct: 86  QQVIPMVKCIPHPDYNPKTFSNDIMLLKLKSKAKRTRAVRPLNLPRRNVNVKPGDVCYVA 145
+
+  Query: 146 GWGRVS-MRRGTDTLREVQLRVQRDRQCLRIF-GSYDPRRQICVGDRRERKAAFKGDSGG 203
+             GWGR++ M + ++TL+EV+L VQ+DR+C   F   Y+   QIC GD + ++A+F+GDSGG
+  Sbjct: 146 GWGRMAPMGKYSNTLQEVELTVQKDRECESYFKNRYNKTNQICAGDPKTKRASFRGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PL+C  VA GIVSYG   G PP  FT+VSSFL WI+ TM+S
+  Sbjct: 206 PLVCKKVAAGIVSYGYKDGSPPRAFTKVSSFLSWIKKTMKS 246
+
+  sp  P18291    Natural killer cell protease   248 AA
+      NKP1_RAT  1 precursor (EC 3.4.21.-)      align
+                (RNKP-1)
+                (Fragmentin) [Rattus
+                norvegicus (Rat)]
+
+   Score =  238 bits (607), Expect = 9e-63
+   Identities = 118/221 (53%), Positives = 153/221 (69%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSP-AGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E++PHSRPYMAYLQI    +G  +CGGFL+REDFVLTAAHC GS INVTLGAHNI+ +E
+  Sbjct: 26  EAKPHSRPYMAYLQIMDEYSGSKKCGGFLIREDFVLTAAHCSGSKINVTLGAHNIKEQEK 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+              QQ I   + I HP YN +TI NDIMLL+L              LPR    ++PG +C V
+  Sbjct: 86  MQQIIPVVKIIPHPAYNSKTISNDIMLLKLKSKAKRSSAVKPLNLPRRNVKVKPGDVCYV 145
+
+  Query: 145 AGWGRVS-MRRGTDTLREVQLRVQRDRQCLRIFGSY-DPRRQICVGDRRERKAAFKGDSG 202
+             AGWG++  M + +DTL+EV+L VQ D++C     +Y D   +IC GD + ++A+F+GDSG
+  Sbjct: 146 AGWGKLGPMGKYSDTLQEVELTVQEDQKCESYLKNYFDKANEICAGDPKIKRASFRGDSG 205
+
+  Query: 203 GPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             GPL+C  VA GIVSYG++ G  P  FT+VS+FL WI+ TM+
+  Sbjct: 206 GPLVCKKVAAGIVSYGQNDGSTPRAFTKVSTFLSWIKKTMK 246
+
+  sp  Q06605    Granzyme-like protein I         248 AA
+      GRL1_RAT  precursor (EC 3.4.21.-)         align
+                [Rattus norvegicus
+                (Rat)]
+
+   Score =  231 bits (590), Expect = 8e-61
+   Identities = 117/221 (52%), Positives = 150/221 (67%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E+ PHSRPYMAYLQ ++   +   CGGFL+REDFVLTAAHC GS INVTLGAHNI+ +E
+  Sbjct: 26  EADPHSRPYMAYLQYKNEDSRDTICGGFLIREDFVLTAAHCSGSKINVTLGAHNIKEQEK 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I HP YN +TI NDIMLL+L             +LPR+   ++PG +C V
+  Sbjct: 86  TQQVIPVVKIIPHPAYNAKTISNDIMLLKLKSKAKRTRAVKTLSLPRSNFKVKPGDVCYV 145
+
+  Query: 145 AGWGRVS-MRRGTDTLREVQLRVQRDRQC-LRIFGSYDPRRQICVGDRRERKAAFKGDSG 202
+             AGWG++  M +  D L+EV+L VQ D++C   +  +YD   QIC GD + + A+F+GDSG
+  Sbjct: 146 AGWGKLGPMGKFPDKLQEVELTVQEDQECETYLKNAYDKANQICAGDPKIKCASFQGDSG 205
+
+  Query: 203 GPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             GPL+C  VA GIVSYG+  G  P  FT+VS+FL WI  TM+
+  Sbjct: 206 GPLVCKKVAAGIVSYGRKDGSTPRAFTKVSTFLSWIEETMK 246
+
+  sp  P21812      Mast cell protease 4      246 AA
+      MCT4_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-4) (Serosal mast
+                  cell protease) (MSMCP)
+                  [MCPT4] [Mus musculus
+                  (Mouse)]
+
+   Score =  224 bits (570), Expect = 2e-58
+   Identities = 109/220 (49%), Positives = 147/220 (66%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ESRPHSRPYMA+L+I +  G  + CGGFL+   FV+TAAHC G  I VTLGAH++ + E+
+  Sbjct: 26  ESRPHSRPYMAHLEITTERGFTATCGGFLITRQFVMTAAHCSGREITVTLGAHDVSKTES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I HP+YN  +  +DIMLL+L              LPR  + ++PG +C
+  Sbjct: 86  TQQKIKVEKQIVHPKYNFYSNLHDIMLLKLQKKAKETPSVNVIPLPRPSDFIKPGKMCRA 145
+
+  Query: 145 AGWGRVSMRRGT-DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR  +   T DTLREV+LR+  D++  + +  YD   Q+CVG  R++++A+KGDSGG
+  Sbjct: 146 AGWGRTGVTEPTSDTLREVKLRIM-DKEACKNYWHYDYNLQVCVGSPRKKRSAYKGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  VAHGIVSYG+    PP VFTR+SS++PWI   ++
+  Sbjct: 205 PLLCAGVAHGIVSYGRGDAKPPAVFTRISSYVPWINRVIK 244
+
+  sp  P23946      Chymase precursor (EC       247 AA
+      MCT1_HUMAN  3.4.21.39) (Mast cell       align
+                  protease I) [CMA1]
+                  [Homo sapiens (Human)]
+
+   Score =  222 bits (566), Expect = 5e-58
+   Identities = 112/221 (50%), Positives = 145/221 (65%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E +PHSRPYMAYL+I +  G S+ CGGFL+R +FVLTAAHC G +I VTLGAHNI   E+
+  Sbjct: 27  ECKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +  RHP+YN  T+ +DIMLL+L               P     + PG +C V
+  Sbjct: 87  TWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQFNFVPPGRMCRV 146
+
+  Query: 145 AGWGRVS-MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR   ++ G+DTL+EV+LR+  D Q    F  +D   Q+CVG+ R+ K+AFKGDSGG
+  Sbjct: 147 AGWGRTGVLKPGSDTLQEVKLRLM-DPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PLLC  VA GIVSYG+S   PP VFTR+S + PWI   +++
+  Sbjct: 206 PLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQA 246
+
+  sp  P43430      Mast cell protease 8      247 AA
+      MCT8_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-8) [MCPT8] [Mus
+                  musculus (Mouse)]
+
+   Score =  221 bits (563), Expect = 1e-57
+   Identities = 111/225 (49%), Positives = 148/225 (65%), Gaps = 4/225 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             ES+PHSRPYMAY++        RCGGFLV  D V+TAAHC G  INVTLG HN+++++NT
+  Sbjct: 26  ESKPHSRPYMAYIRFNDSKSVYRCGGFLVARDIVMTAAHCNGKVINVTLGIHNLKKKKNT 85
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             Q  I    AI H  ++  T+ NDIMLL+L             ALP++++ ++PG +CTVA
+  Sbjct: 86  QL-IPVSEAIPHESFDNETLVNDIMLLKLERKAQLNSAVDTIALPKSKDWVKPGQVCTVA 144
+
+  Query: 146 GWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPL 205
+             GWG+++    +DTL+EV L VQ+ ++C  +  +Y+   Q+CVG+  E KA  KGDSGGP
+  Sbjct: 145 GWGKLANCTLSDTLQEVNLEVQKGQKCRSMSQTYNDSIQLCVGNPSENKATGKGDSGGPF 204
+
+  Query: 206 LCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFKLLDQ 250
+             +CN V  GIVS    +G  P VFTR+SSF+PWIR TM   KLL Q
+  Sbjct: 205 VCNGVVQGIVSCRLCTGTLPRVFTRISSFMPWIRKTM---KLLQQ 246
+
+  sp  P52195      Chymase precursor (EC       247 AA
+      MCT1_PAPHA  3.4.21.39) (Mast cell       align
+                  protease I) [CMA1]
+                  [Papio hamadryas
+                  (Hamadryas baboon)]
+
+   Score =  220 bits (561), Expect = 2e-57
+   Identities = 111/221 (50%), Positives = 145/221 (65%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E +PHSRPYMAYL+I +  G S+ CGGFL+R +FVLTAAHC G +I VTLGAHNI  +E+
+  Sbjct: 27  ECKPHSRPYMAYLEIVTSNGPSKSCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +  RHP+YN  T+ +DIMLL+L               P     + PG +C V
+  Sbjct: 87  TWQELEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQFNFVPPGRMCRV 146
+
+  Query: 145 AGWGRVS-MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR   ++ G+DTL+EV+LR+  D Q    F  +D   Q+CVG+ R+ K+AFKGDSGG
+  Sbjct: 147 AGWGRTGVLKPGSDTLQEVKLRLM-DPQACSHFRYFDHNLQLCVGNPRKTKSAFKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PLLC  VA GIVSYG+    PP VFTR+S + PWI   +++
+  Sbjct: 206 PLLCAGVAQGIVSYGRLDAKPPAVFTRISHYRPWINKILQA 246
+
+  sp  P56435      Chymase precursor (EC         247 AA
+      MCT1_MACFA  3.4.21.39) (Mast cell         align
+                  protease I) [CMA1]
+                  [Macaca fascicularis (Crab
+                  eating macaque) (Cynomolgus
+                  monkey)]
+
+   Score =  218 bits (556), Expect = 7e-57
+   Identities = 110/221 (49%), Positives = 144/221 (65%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E +PHSRPYMAYL+I +  G S+ CGGFL+R +FVLTA HC G +I VTLGAHNI  +E+
+  Sbjct: 27  ECKPHSRPYMAYLEIVTSNGPSKSCGGFLIRRNFVLTAVHCAGRSITVTLGAHNITEKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +  RHP+YN  T+ +DIMLL+L               P     + PG +C V
+  Sbjct: 87  TWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQFNFVPPGRMCRV 146
+
+  Query: 145 AGWGRVS-MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR   ++ G+DTL+EV+LR+  D Q    F  +D   Q+CVG+ R+ K+AFKGDSGG
+  Sbjct: 147 AGWGRTGVLKPGSDTLQEVKLRLM-DPQACSHFRYFDHNLQLCVGNPRKTKSAFKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PLLC  VA GIVSYG+    PP VFTR+S + PWI   +++
+  Sbjct: 206 PLLCAGVAQGIVSYGRLDAKPPAVFTRISHYRPWINKILQA 246
+
+  sp  Q06606    Granzyme-like protein II        248 AA
+      GRL2_RAT  precursor (EC 3.4.21.-)         align
+                [Rattus norvegicus
+                (Rat)]
+
+   Score =  217 bits (553), Expect = 2e-56
+   Identities = 110/219 (50%), Positives = 150/219 (68%), Gaps = 2/219 (0%)
+
+  Query: 26  ESRPHSRPYMAYLQI-QSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES+PHSRPYMA+++   S +    CGGFLV +D V+TAAHC G NI VTLGAHNI+++EN
+  Sbjct: 26  ESKPHSRPYMAFIKFYDSNSEPHHCGGFLVAKDIVMTAAHCNGRNIKVTLGAHNIKKQEN 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQ  I+  +A  H  Y++ +  NDIMLL+L             ALPR+Q+ ++PG +CTV
+  Sbjct: 86  TQV-ISVVKAKPHENYDRDSHFNDIMLLKLERKAQLNGVVKTIALPRSQDWVKPGQVCTV 144
+
+  Query: 145 AGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             AGWGR++    ++TL+EV L VQ+ ++C  +   Y+   Q+CVG+  E KA  KGDSGGP
+  Sbjct: 145 AGWGRLANCTSSNTLQEVNLEVQKGQKCQDMSEDYNDSIQLCVGNPSEGKATGKGDSGGP 204
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+              +C+ VA GIVSY   +G  P VFTR+SSF+PWI+ TM+
+  Sbjct: 205 FVCDGVAQGIVSYRLCTGTLPRVFTRISSFIPWIQKTMK 243
+
+  sp  P13366      Granzyme G precursor (EC  248 AA
+      GRAG_MOUSE  3.4.21.-) (CTL serine     align
+                  protease 1) (MCSP-1)
+                  [GZMG] [Mus musculus
+                  (Mouse)]
+
+   Score =  215 bits (548), Expect = 6e-56
+   Identities = 106/246 (43%), Positives = 152/246 (61%), Gaps = 3/246 (1%)
+
+  Query: 1   MQPXXXXXXXXXPTXXXXXXXXXXRESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFV 59
+             M P         P            E +PHSRPYMA+++     G+ + CGGFLV++DFV
+  Sbjct: 1   MPPILILLTLLLPLRAGAEEIIGGHEVKPHSRPYMAFIKSVDIEGKKKYCGGFLVQDDFV 60
+
+  Query: 60  LTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXX 119
+             LTAAHC   ++ VTLGAHNI+ +E TQQ I   +AI HP +N++   NDIMLL+L
+  Sbjct: 61  LTAAHCRNRSMTVTLGAHNIKAKEETQQIIPVAKAIPHPAFNRKHGTNDIMLLKLESKAK 120
+
+  Query: 120 XXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMR--RGTDTLREVQLRVQRDRQCLRIFG 177
+                      LPR    ++PG +C+VAGWG+ S+   + +  LRE QL +Q D +C +++
+  Sbjct: 121 RTKAVRPLKLPRPNARVKPGDVCSVAGWGKTSINATKASARLREAQLIIQEDEECKKLWY 180
+
+  Query: 178 SYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPW 237
+             +Y    QIC GD ++ +A ++G+SGGPL+C+N+A+G+VSYG +  + P VFT+V  FLPW
+  Sbjct: 181 TYSKTTQICAGDPKKVQAPYEGESGGPLVCDNLAYGVVSYGINRTITPGVFTKVVHFLPW 240
+
+  Query: 238 IRTTMR 243
+             I T M+
+  Sbjct: 241 ISTNMK 246
+
+  sp  P79204      Mast cell protease 2      246 AA
+      MCT2_SHEEP  precursor (EC 3.4.21.-)   align
+                  (SMCP-2) [Ovis aries
+                  (Sheep)]
+
+   Score =  214 bits (544), Expect = 2e-55
+   Identities = 111/220 (50%), Positives = 144/220 (65%), Gaps = 4/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQI-QSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES+PHSRPYMAYL+I  S   Q  CGGFL+R DFVLTAAHC G ++ VTLGAHNIQ++E+
+  Sbjct: 27  ESKPHSRPYMAYLEIVTSQEKQVACGGFLIRRDFVLTAAHCAGRSVTVTLGAHNIQKKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +   +P+Y    + +DIMLL+L              LP     +RPG +C V
+  Sbjct: 87  TWQRLEVIKQFPYPKYEPVGV-HDIMLLKLKEKANLTLAVGTLPLPPHVTFIRPGRMCQV 145
+
+  Query: 145 AGWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR  ++   + TL+EV+LR+   R C R F ++D   Q+CVG+ +  K+AFKGDSGG
+  Sbjct: 146 AGWGRTGVKEPASSTLQEVKLRLMEPRAC-RHFRAFDHNLQLCVGNPQSTKSAFKGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  VA GIVSYG SS  PP VFTR+S + PWI   ++
+  Sbjct: 205 PLLCAGVAQGIVSYGLSSAKPPAVFTRISPYRPWIDEVLK 244
+
+  sp  P11034      Mast cell protease 1      246 AA
+      MCT1_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-1) [MCPT1] [Mus
+                  musculus (Mouse)]
+
+   Score =  213 bits (542), Expect = 3e-55
+   Identities = 107/219 (48%), Positives = 141/219 (64%), Gaps = 3/219 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E+RPHSRPYMA+L+I +  G + RCGGFL+   FVLTAAHC G  I VTLGAH++ + E+
+  Sbjct: 26  EARPHSRPYMAHLKIITDRGSEDRCGGFLIAPQFVLTAAHCKGREITVTLGAHDVSKSES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I H  YN      DIMLL+L              LP   + + PG +C
+  Sbjct: 86  TQQRIKVEKQIIHKNYNVSFNLYDIMLLKLEEKAELTPTVDVIPLPGPSDFIDPGKMCWT 145
+
+  Query: 145 AGWGRVSMRRGT-DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+   +  T +TLREV+LR+  D++  +++  YD   Q+CVG   + K A+ GDSGG
+  Sbjct: 146 AGWGKTGEKEPTSETLREVELRIM-DKEACKMYKHYDYNFQVCVGSSTKLKTAYMGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTM 242
+             PLLC  VAHGIVSYG S G PP VFTR+S+++PWI+T +
+  Sbjct: 205 PLLCAGVAHGIVSYGDSHGKPPAVFTRISAYVPWIKTVI 243
+
+  sp  P21842      Chymase precursor (EC       249 AA
+      MCT1_CANFA  3.4.21.39) (Mast cell       align
+                  protease I) [Canis
+                  familiaris (Dog)]
+
+   Score =  210 bits (535), Expect = 2e-54
+   Identities = 108/223 (48%), Positives = 147/223 (65%), Gaps = 3/223 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES+PHSRPYMA+L+I +     + CGGFL+R +FVLTAAHC G  I VTLGAHNIQ++E+
+  Sbjct: 27  ESKPHSRPYMAHLEILTLRNHLASCGGFLIRRNFVLTAAHCAGRFIMVTLGAHNIQKKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +   HP+Y+  T+++DIMLL+L              L      + PG +C V
+  Sbjct: 87  TWQKLEVIKQFPHPKYDDLTLRHDIMLLKLKEKANLTLAVGTLPLSPQFNFVPPGRMCRV 146
+
+  Query: 145 AGWGRVSMR-RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+  +   G+DTL+EV+LR+  D Q  R + ++D   Q+CVG+ R+ K+AFKGDSGG
+  Sbjct: 147 AGWGKRQVNGSGSDTLQEVKLRLM-DPQACRHYMAFDHNLQLCVGNPRKTKSAFKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFK 246
+             PLLC  VA GIVSYG++   PP VFTR+S + PWI   ++  K
+  Sbjct: 206 PLLCAGVAQGIVSYGQNDAKPPAVFTRISHYRPWINKVLKQNK 248
+
+  sp  P08882      Granzyme C precursor (EC    248 AA
+      GRAC_MOUSE  3.4.21.-) (Cytotoxic cell   align
+                  protease 2)
+                  (CCP2) (B10) [GZMC] [Mus
+                  musculus (Mouse)]
+
+   Score =  209 bits (533), Expect = 3e-54
+   Identities = 115/246 (46%), Positives = 144/246 (58%), Gaps = 3/246 (1%)
+
+  Query: 1   MQPXXXXXXXXXPTXXXXXXXXXXRESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFV 59
+             M P         P            E  PHSRPYMAY +     G+   CGGFLVR+ FV
+  Sbjct: 1   MPPVLILLTLLLPLRAGAEEIIGGNEISPHSRPYMAYYEFLKVGGKKMFCGGFLVRDKFV 60
+
+  Query: 60  LTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXX 119
+             LTAAHC GS++ VTLGAHNI+ +E TQQ I   +AI HP YN     NDIMLL+L
+  Sbjct: 61  LTAAHCKGSSMTVTLGAHNIKAKEETQQIIPVAKAIPHPDYNPDDRSNDIMLLKLVRNAK 120
+
+  Query: 120 XXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSM-RRGTDTLREVQLRVQRDRQCLRIF-G 177
+                      LPR    ++PG  C VAGWG+V+       TL EV+L VQ+D+ C   F
+  Sbjct: 121 RTRAVRPLNLPRRNAHVKPGDECYVAGWGKVTPDGEFPKTLHEVKLTVQKDQVCESQFQS 180
+
+  Query: 178 SYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPW 237
+             SY+   +ICVGD + + A+F+ DSGGPL+C   A GIVSYG++ G  P+VFTRV SF+ W
+  Sbjct: 181 SYNRANEICVGDSKIKGASFEEDSGGPLVCKRAAAGIVSYGQTDGSAPQVFTRVLSFVSW 240
+
+  Query: 238 IRTTMR 243
+             I+ TM+
+  Sbjct: 241 IKKTMK 246
+
+  sp  P97594    Mast cell protease VIII        248 AA
+      MCT8_RAT  precursor (EC 3.4.21.-)        align
+                (RMCP-VIII)
+                (RMCP-8) [Rattus norvegicus
+                (Rat)]
+
+   Score =  209 bits (532), Expect = 4e-54
+   Identities = 113/226 (50%), Positives = 149/226 (65%), Gaps = 5/226 (2%)
+
+  Query: 26  ESRPHSRPYMAYLQIQ-SPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES+PHSRPYMA L      + +  CGGFLV +D V+TAAHC GSNI VTLGAHNI+++E
+  Sbjct: 26  ESKPHSRPYMASLMFYYGNSYRHYCGGFLVAKDIVMTAAHCNGSNIKVTLGAHNIKKQEK 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQ  I   +A  H  Y++ +  NDIMLL+L             ALPR+Q+ ++PG +CTV
+  Sbjct: 86  TQV-IAVVKAKPHENYDRHSRFNDIMLLKLERKAQLNGAVKTIALPRSQDWVKPGQVCTV 144
+
+  Query: 145 AGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             AGWG ++    ++TL+EV L VQ  ++C  +  +Y+   Q+CVG+  E KA  KGDSGGP
+  Sbjct: 145 AGWGCLANCSLSNTLQEVNLEVQEGQKCEDMSRNYNDSIQLCVGNPSEGKATGKGDSGGP 204
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFKLLDQ 250
+              +C+ VA GIVSY   +G  P VFTR+SSF+PWI+ TM   KLL Q
+  Sbjct: 205 FVCDGVAQGIVSYRLCTGTLPRVFTRISSFIPWIQKTM---KLLQQ 247
+
+  sp  P09650    Mast cell protease I         260 AA
+      MCT1_RAT  precursor (EC 3.4.21.39)     align
+                (RMCP-I) (RMCP-1)
+                (Chymase) [Rattus
+                norvegicus (Rat)]
+
+   Score =  208 bits (530), Expect = 7e-54
+   Identities = 107/235 (45%), Positives = 146/235 (62%), Gaps = 7/235 (2%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ESRPHSRPYMA+L+I +  G ++ CGGFLV   FV+TAAHC G    VTLG H++ + E+
+  Sbjct: 26  ESRPHSRPYMAHLEITTERGYKATCGGFLVTRQFVMTAAHCKGRETTVTLGVHDVSKTES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I HP YN  +  +DIMLL+L              LP+  + L+PG +C
+  Sbjct: 86  TQQKIKVEKQIVHPNYNFYSNLHDIMLLKLQKKAKVTPAVDVIPLPQPSDFLKPGKMCRA 145
+
+  Query: 145 AGWGRVSMRRGT-DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+  + + T +TLREV+ R+     C   F  Y+   Q+CVG  R+ ++A+KGDSGG
+  Sbjct: 146 AGWGQTGVTKPTSNTLREVKQRIMDKEACKNYF-HYNYNFQVCVGSPRKIRSAYKGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFKL----LDQMETP 254
+             PL+C  VAHGIVSYG+    PP VFTR+S ++PWI   ++   L    L + E+P
+  Sbjct: 205 PLVCAGVAHGIVSYGRGDAKPPAVFTRISPYVPWINKVIKGKDLTSLSLHESESP 259
+
+  sp  P50340      Mast cell protease 1          246 AA
+      MCT1_MERUN  precursor (EC 3.4.21.-)       align
+                  [Meriones unguiculatus
+                  (Mongolian jird) (Mongolian
+                  gerbil)]
+
+   Score =  207 bits (528), Expect = 1e-53
+   Identities = 103/220 (46%), Positives = 139/220 (63%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES+PHSRPYMA+L I +  G  + CGGFL+   FV+TAAHC G  I VTLGAH++ ++E+
+  Sbjct: 26  ESKPHSRPYMAHLTITTKQGFTASCGGFLINPQFVMTAAHCKGREITVTLGAHDVSKKES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I HP Y+  +  +DIMLL+L             +LP   + + PG +C
+  Sbjct: 86  TQQKIKVAKQIAHPSYSFYSNLHDIMLLKLQKKAKVTASVDVISLPSPSDFINPGKVCRA 145
+
+  Query: 145 AGWGRVSMRRGT-DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR  +   T D LREV+LR+     C + +  YD   Q+CVG   + ++A+KGDSGG
+  Sbjct: 146 AGWGRTGVTEPTSDKLREVKLRIMTKAAC-KNYEHYDYNFQVCVGSPSKIRSAYKGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PL+C  VAHGIVSYG+    PP VFTR+S ++PWI   +R
+  Sbjct: 205 PLVCAGVAHGIVSYGRIDAKPPAVFTRISPYVPWINLVIR 244
+
+  sp  P08883      Granzyme F precursor (EC    248 AA
+      GRAF_MOUSE  3.4.21.-) (Cytotoxic cell   align
+                  protease 4)
+                  (CCP4) (CTL serine
+                  protease 3) (C134)
+                  (Cytotoxic serine
+                  protease 3) (MCSP3) [GZMF]
+                  [Mus musculus (Mouse)]
+
+   Score =  206 bits (525), Expect = 3e-53
+   Identities = 104/246 (42%), Positives = 146/246 (59%), Gaps = 3/246 (1%)
+
+  Query: 1   MQPXXXXXXXXXPTXXXXXXXXXXRESRPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFV 59
+             M P         P            E +PHSRPYMA ++     G+   CGGFLV++ FV
+  Sbjct: 1   MPPILILLTLLLPLRAGAEEIIGGHEVKPHSRPYMARVRFVKDNGKRHSCGGFLVQDYFV 60
+
+  Query: 60  LTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXX 119
+             LTAAHC GS++ V LGAHNI+ +E TQQ I   +AI HP Y+ +   +DIMLL+L
+  Sbjct: 61  LTAAHCTGSSMRVILGAHNIRAKEETQQIIPVAKAIPHPAYDDKDNTSDIMLLKLESKAK 120
+
+  Query: 120 XXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMR--RGTDTLREVQLRVQRDRQCLRIFG 177
+                      LPR    ++PG +C+VAGWGR S+   + +  LRE QL +Q+D++C + F
+  Sbjct: 121 RTKAVRPLKLPRPNARVKPGHVCSVAGWGRTSINATQRSSCLREAQLIIQKDKECKKYFY 180
+
+  Query: 178 SYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPW 237
+              Y    QIC GD ++ ++ + GDSGGPL+CNN A+G+++YG +  + P VFT+V  +LPW
+  Sbjct: 181 KYFKTMQICAGDPKKIQSTYSGDSGGPLVCNNKAYGVLTYGLNRTIGPGVFTKVVHYLPW 240
+
+  Query: 238 IRTTMR 243
+             I   M+
+  Sbjct: 241 ISRNMK 246
+
+  sp  P08884      Granzyme E precursor (EC    248 AA
+      GRAE_MOUSE  3.4.21.-) (Cytotoxic cell   align
+                  protease 3)
+                  (CCP3) (CTL serine
+                  protease 2) (D12)
+                  (Cytotoxic serine
+                  protease 2) (MCSP2) [GZME]
+                  [Mus musculus (Mouse)]
+
+   Score =  204 bits (519), Expect = 1e-52
+   Identities = 101/219 (46%), Positives = 137/219 (62%), Gaps = 3/219 (1%)
+
+  Query: 28  RPHSRPYMAYLQIQSPAGQSR-CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQ 86
+             +PHSRPYMA+++     G  R CGGFLV++DFVLTAAHC    + VTLGAHNI+ +E TQ
+  Sbjct: 28  KPHSRPYMAFVKSVDIEGNRRYCGGFLVQDDFVLTAAHCRNRTMTVTLGAHNIKAKEETQ 87
+
+  Query: 87  QHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAG 146
+             Q I   +AI HP YN     +DIMLL+L              LPR    ++PG +C+VAG
+  Sbjct: 88  QIIPVAKAIPHPDYNATAFFSDIMLLKLESKAKRTKAVRPLKLPRPNARVKPGDVCSVAG 147
+
+  Query: 147 WGRVSMR--RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             WG  S+   + +  LRE QL +Q D +C + F  Y    +IC GD ++ K  FKGDSGGP
+  Sbjct: 148 WGSRSINDTKASARLREAQLVIQEDEECKKRFRHYTETTEICAGDLKKIKTPFKGDSGGP 207
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             L+C+N A+G+++Y K+  +   VFT++  FLPWI   M+
+  Sbjct: 208 LVCDNKAYGLLAYAKNRTISSGVFTKIVHFLPWISRNMK 246
+
+  sp  P00770    Mast cell protease II precursor   247 AA
+      MCT2_RAT  (EC 3.4.21.-) (RMCP-II) (RMCP-2)  align
+                (Group-specific protease)
+                [Rattus norvegicus (Rat)]
+
+   Score =  202 bits (515), Expect = 4e-52
+   Identities = 104/221 (47%), Positives = 137/221 (61%), Gaps = 3/221 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES PHSRPYMA+L I +  G +  CGGFL+   FVLTAAHC G  I V LGAH++++RE+
+  Sbjct: 26  ESIPHSRPYMAHLDIVTEKGLRVICGGFLISRQFVLTAAHCKGREITVILGAHDVRKRES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I H  YN     +DIMLL+L              LP   + + PG +C
+  Sbjct: 86  TQQKIKVEKQIIHESYNSVPNLHDIMLLKLEKKVELTPAVNVVPLPSPSDFIHPGAMCWA 145
+
+  Query: 145 AGWGRVSMRRGTD-TLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+  +R  T  TLREV+LR+  ++ C+  +  Y+ + Q+CVG     +AAF GDSGG
+  Sbjct: 146 AGWGKTGVRDPTSYTLREVELRIMDEKACVD-YRYYEYKFQVCVGSPTTLRAAFMGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PLLC  VAHGIVSYG     PP +FTRVS+++PWI   + +
+  Sbjct: 205 PLLCAGVAHGIVSYGHPDAKPPAIFTRVSTYVPWINAVINT 245
+
+  sp  P11033      Granzyme D precursor (EC  248 AA
+      GRAD_MOUSE  3.4.21.-) [GZMD] [Mus     align
+                  musculus (Mouse)]
+
+   Score =  202 bits (515), Expect = 4e-52
+   Identities = 99/219 (45%), Positives = 137/219 (62%), Gaps = 3/219 (1%)
+
+  Query: 28  RPHSRPYMAY-LQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQ 86
+             +PHSRPYMA+ + +     +  CGGFL+++DFVLTAAHC  S++ VTLGAHNI  +E TQ
+  Sbjct: 28  KPHSRPYMAFVMSVDIKGNRIYCGGFLIQDDFVLTAAHCKNSSMTVTLGAHNITAKEETQ 87
+
+  Query: 87  QHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAG 146
+             Q I   + I HP YN     +DIMLL+L              LPR+   ++PG +C+VAG
+  Sbjct: 88  QIIPVAKDIPHPDYNATIFYSDIMLLKLESKAKRTKAVRPLKLPRSNARVKPGDVCSVAG 147
+
+  Query: 147 WGRVSMR--RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             WG  S+   + +  LREVQL +Q D +C + F  Y    +IC GD ++ K  FKGDSGGP
+  Sbjct: 148 WGSRSINDTKASARLREVQLVIQEDEECKKRFRYYTETTEICAGDLKKIKTPFKGDSGGP 207
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             L+C+N A+G+ +Y K+  +   +FT+V  FLPWI   M+
+  Sbjct: 208 LVCHNQAYGLFAYAKNGTISSGIFTKVVHFLPWISWNMK 246
+
+  sp  P97592    Mast cell protease IV        246 AA
+      MCT4_RAT  precursor (EC 3.4.21.-)      align
+                (RMCP-IV) (RMCP-4)
+                [Rattus norvegicus (Rat)]
+
+   Score =  201 bits (511), Expect = 1e-51
+   Identities = 105/220 (47%), Positives = 142/220 (64%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES PHSRPYMA L+I +  G  + CGGFL+   FVLTAAHC G  I VTLGAH++ +RE+
+  Sbjct: 26  ESIPHSRPYMALLKIVTEEGHVTFCGGFLISLQFVLTAAHCHGREITVTLGAHDMSKRES 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I   +YN  +   DIMLL+L              LP++ + ++PGT+C
+  Sbjct: 86  TQQKIKVVKQIFPLKYNLFSNFRDIMLLKLEQKAVLTPSVNVIPLPQSSDIIKPGTMCLA 145
+
+  Query: 145 AGWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+  ++   ++TLREV LR+   + C + +  YD R QICVG  +  K A+KGDSGG
+  Sbjct: 146 AGWGQTGVKEPNSNTLREVMLRIMEMKAC-KDYRHYDNRFQICVGIPQMLKLAYKGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PL+C  VAHGIVS+G   G+PP +FTR+SS++ WI   +R
+  Sbjct: 205 PLVCAGVAHGIVSHGPGRGIPPIIFTRISSYVSWINRVIR 244
+
+  sp  O35164      Mast cell protease 9      246 AA
+      MCT9_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-9) [MCPT9] [Mus
+                  musculus (Mouse)]
+
+   Score =  200 bits (508), Expect = 3e-51
+   Identities = 101/220 (45%), Positives = 136/220 (61%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES PHSRPYMAY+   S  G  + CGGFL+   FV+TAAHC G  + VTLGAHN+++RE
+  Sbjct: 26  ESEPHSRPYMAYVNTFSKKGYVAICGGFLIAPQFVMTAAHCSGRRMTVTLGAHNVRKREC 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I  P YN  +  NDI+LL+L              LP   +  +PGT+C
+  Sbjct: 86  TQQKIKVEKYILPPNYNVSSKFNDIVLLKLKKQANLTSAVDVVPLPGPSDFAKPGTMCWA 145
+
+  Query: 145 AGWGRVSMRRG-TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR  +++  + TLREV+L++  ++ C +IF  Y    QICVG   +  + + GDSGG
+  Sbjct: 146 AGWGRTGVKKSISHTLREVELKIVGEKAC-KIFRHYKDSLQICVGSSTKVASVYMGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  VAHGIVS G+ +  PP +FTR+S  +PWI   ++
+  Sbjct: 205 PLLCAGVAHGIVSSGRGNAKPPAIFTRISPHVPWINRVIK 244
+
+  sp  Q00356      Mast cell protease-like         246 AA
+      MCTX_MOUSE  protein precursor (EC           align
+                  3.4.21.-) [MCPTL]
+                  [Mus musculus (Mouse)]
+
+   Score =  196 bits (498), Expect = 4e-50
+   Identities = 100/220 (45%), Positives = 135/220 (61%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             ES PHSRPYMAY+      G  + CGGFL+   FV+TAAHC G  + VTLGAHN+++RE
+  Sbjct: 26  ESEPHSRPYMAYVNTFRRKGYVAICGGFLITPQFVMTAAHCRGRRMTVTLGAHNVRKREC 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   + I  P YN  +  NDI+LL+L              LP   +  +PGT+C
+  Sbjct: 86  TQQKIKVEKYILPPNYNVSSKFNDIVLLKLKKQANLTSAVDVVPLPGPSDFAKPGTMCWA 145
+
+  Query: 145 AGWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWGR  +++  + TLREV+L++  ++ C +IF  Y    QICVG   +  + + GDSGG
+  Sbjct: 146 AGWGRTGVKKIISHTLREVELKIVGEKAC-KIFRHYKDSLQICVGSSTKVASVYMGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  VAHGIVS G+ +  PP +FTR+S  +PWI   ++
+  Sbjct: 205 PLLCAGVAHGIVSSGRGNAKPPAIFTRISPHVPWINRVIK 244
+
+  sp  P50339    Mast cell protease III       247 AA
+      MCT3_RAT  precursor (EC 3.4.21.-)      align
+                (RMCP-III) (RMCP-3)
+                [Rattus norvegicus (Rat)]
+
+   Score =  187 bits (476), Expect = 1e-47
+   Identities = 95/220 (43%), Positives = 133/220 (60%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E  PHSRPYMAYL+I +     S C GFL+R +FVLTAAHC G +I V LGAHN   +E+
+  Sbjct: 27  ECIPHSRPYMAYLEIVTSDNYLSACSGFLIRRNFVLTAAHCAGRSITVLLGAHNKTYKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +   HP Y++R + +DIMLL+L              L      + PG +C
+  Sbjct: 87  TWQKLEVEKQFIHPNYDKRLVLHDIMLLKLKEKAKLTLGVGTLPLSANFNFIPPGRMCRA 146
+
+  Query: 145 AGWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+              GWGR ++    +DTL+EV++R+Q  + C + F S+  + Q+CVG+ ++ +  +KGDSGG
+  Sbjct: 147 VGWGRTNVNEPASDTLQEVKMRLQEPQSC-KHFTSFQHKSQLCVGNPKKMQNVYKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  +A GI SY   +  PP VFTR+S + PWI   +R
+  Sbjct: 206 PLLCAGIAQGIASYVHPNAKPPAVFTRISHYRPWINKILR 245
+
+  sp  P50341      Mast cell protease 2          247 AA
+      MCT2_MERUN  precursor (EC 3.4.21.-)       align
+                  [Meriones unguiculatus
+                  (Mongolian jird) (Mongolian
+                  gerbil)]
+
+   Score =  186 bits (472), Expect = 4e-47
+   Identities = 94/220 (42%), Positives = 133/220 (60%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E +PHSRPYMAYL+I +     S C GFL+R +FVLTAAHC G +I V LGAHN   +E+
+  Sbjct: 27  ECKPHSRPYMAYLEIATSKNYLSTCSGFLIRRNFVLTAAHCSGRSITVLLGAHNKTAKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q I   +   HP+Y+  ++ +DIMLL+L              LP     + PG +C
+  Sbjct: 87  TWQKIEVEKQFPHPKYDDYSVLHDIMLLKLKEKAKLTLAVGTLPLPAKFSFIPPGRVCRA 146
+
+  Query: 145 AGWGRVSMRRGT-DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+              GWG+ ++   T DTL+EV++R+     C + F ++    Q+CVG+ ++ +  +KGDSGG
+  Sbjct: 147 VGWGKTNVNEPTSDTLQEVKMRLLEAEGC-KHFTNFYHSSQLCVGNPKKMQNVYKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  +A GI SY + +  PP VFTR+S + PWI   +R
+  Sbjct: 206 PLLCAGIAQGIASYVRRNARPPAVFTRISHYRPWINKILR 245
+
+  sp  P21844      Mast cell protease 5      247 AA
+      MCT5_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-5) (Mast cell
+                  chymase 1) [MCPT5] [Mus
+                  musculus (Mouse)]
+
+   Score =  186 bits (471), Expect = 5e-47
+   Identities = 94/220 (42%), Positives = 132/220 (60%), Gaps = 3/220 (1%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQ-SRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E  PHSRPYMAYL+I +     S C GFL+R +FVLTAAHC G +I V LGAHN   +E+
+  Sbjct: 27  ECIPHSRPYMAYLEIVTSENYLSACSGFLIRRNFVLTAAHCAGRSITVLLGAHNKTSKED 86
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             T Q +   +   HP+Y++  + +DIMLL+L              L      + PG +C
+  Sbjct: 87  TWQKLEVEKQFLHPKYDENLVVHDIMLLKLKEKAKLTLGVGTLPLSANFNFIPPGRMCRA 146
+
+  Query: 145 AGWGRVSMRR-GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+              GWGR ++    +DTL+EV++R+Q  + C + F S+    Q+CVG+ ++ +  +KGDSGG
+  Sbjct: 147 VGWGRTNVNEPASDTLQEVKMRLQEPQAC-KHFTSFRHNSQLCVGNPKKMQNVYKGDSGG 205
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             PLLC  +A GI SY   +  PP VFTR+S + PWI   +R
+  Sbjct: 206 PLLCAGIAQGIASYVHRNAKPPAVFTRISHYRPWINKILR 245
+
+  sp  P15119      Mast cell protease 2      244 AA
+      MCT2_MOUSE  precursor (EC 3.4.21.-)   align
+                  (MMCP-2) [MCPT2] [Mus
+                  musculus (Mouse)]
+
+   Score =  185 bits (469), Expect = 9e-47
+   Identities = 96/221 (43%), Positives = 135/221 (61%), Gaps = 5/221 (2%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAG-QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             E++PHSRPYMAYL+  +  G + RCGGFL+   FV+TAAHC GS I+V LGAHNI + E
+  Sbjct: 26  EAKPHSRPYMAYLKFTTKNGSKERCGGFLIAPQFVMTAAHCNGSEISVILGAHNINKNEP 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+             TQQ I   +   HP++   +   DIMLL+L             +LP + + ++PG +C
+  Sbjct: 86  TQQIIKTEKTFVHPKFQYLSGFYDIMLLKLQKKAELNSDVDVISLPSSSDFIKPGKMCWT 145
+
+  Query: 145 AGWGRVSMRRGTD-TLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             AGWG+         TLREV+LR+  D++  +    YD + Q+C G     K+  +GDSGG
+  Sbjct: 146 AGWGKTGKNNPLSVTLREVELRIM-DQEACKDHSDYDYQLQVCAGSPTTSKSIGQGDSGG 204
+
+  Query: 204 PLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             PL+C++VAHGI S  ++    P VFTR+S +LPWI   ++S
+  Sbjct: 205 PLVCDSVAHGIASSYEAKA--PAVFTRISYYLPWIYKVLKS 243
+
+  sp  P35033      Trypsin III precursor (EC   238 AA
+      TRY3_SALSA  3.4.21.4) (Fragment)        align
+                  [Salmo salar
+                  (Atlantic salmon)]
+
+   Score =  141 bits (356), Expect = 1e-33
+   Identities = 84/223 (37%), Positives = 114/223 (51%), Gaps = 10/223 (4%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E R +S  Y A LQ    +G   CGG L+   +V++AAHC+ S I V LG HNI   E T
+  Sbjct: 21  ECRKNSASYQASLQ----SGYHFCGGSLISSTWVVSAAHCYKSRIQVRLGEHNIAVNEGT 76
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             +Q I + + I HP YN R + NDIML++LS            ALP +      GT C V+
+  Sbjct: 77  EQFIDSVKVIMHPSYNSRNLDNDIMLIKLSKPASLNSYVSTVALPSSCAS--SGTRCLVS 134
+
+  Query: 146 GWGRVSMRRGT--DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGG 203
+             GWG +S       DTLR + L +     C   +         C G     K + +GDSGG
+  Sbjct: 135 GWGNLSGSSSNYPDTLRCLDLPILSSSSCNSAYPGQITSNMFCAGFMEGGKDSCQGDSGG 194
+
+  Query: 204 PLLCNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             P++CN    G+VS  YG +    P V+T+V ++  WI +TM S
+  Sbjct: 195 PVVCNGQLQGVVSWGYGCAQRNKPGVYTKVCNYRSWISSTMSS 237
+
+  sp  P70059      Trypsin precursor (EC     244 AA
+      TRY2_XENLA  3.4.21.4) [Xenopus        align
+                  laevis (African clawed
+                  frog)]
+
+   Score =  141 bits (355), Expect = 1e-33
+   Identities = 78/211 (36%), Positives = 114/211 (54%), Gaps = 8/211 (3%)
+
+  Query: 39  QIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHP 98
+             Q+   AG   CGG L+   +V++AAHC+ S I V LG HNI   E T+Q I +++ I+HP
+  Sbjct: 36  QVSLNAGYHFCGGSLINSQWVVSAAHCYKSRIQVRLGEHNIALNEGTEQFIDSQKVIKHP 95
+
+  Query: 99  QYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGT-- 156
+              YN R + NDIML++LS             LP A      GT C ++GWG  ++  GT
+  Sbjct: 96  NYNSRNLDNDIMLIKLSTTARLSANIQSVPLPSACAS--AGTNCLISGWGN-TLSSGTNY 152
+
+  Query: 157 -DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIV 215
+              D L+ +   +  D QC   +     +   C G     K + +GDSGGP++CN    G+V
+  Sbjct: 153 PDLLQCLNAPILTDSQCSNSYPGEITKNMFCAGFLAGGKDSCQGDSGGPVVCNGQLQGVV 212
+
+  Query: 216 S--YGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             S  YG +    P V+T+V +F+ WI++T+ S
+  Sbjct: 213 SWGYGCAQRNYPGVYTKVCNFVTWIQSTISS 243
+
+  sp  P35032      Trypsin II precursor (EC    231 AA
+      TRY2_SALSA  3.4.21.4) (Fragment)        align
+                  [Salmo salar
+                  (Atlantic salmon)]
+
+   Score =  137 bits (346), Expect = 2e-32
+   Identities = 78/223 (34%), Positives = 119/223 (53%), Gaps = 9/223 (4%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E + +S+P+    Q+   +G   CGG LV E++V++AAHC+ S + V LG HNIQ  E +
+  Sbjct: 15  ECKAYSQPH----QVSLNSGYHFCGGSLVNENWVVSAAHCYQSRVEVRLGEHNIQVTEGS 70
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             +Q I++ R IRHP Y+   I NDIML++LS            ALP +      GT+CTV+
+  Sbjct: 71  EQFISSSRVIRHPNYSSYNIDNDIMLIKLSKPATLNTYVQPVALPTS--CAPAGTMCTVS 128
+
+  Query: 146 GWGR-VSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG  +S     + L+ + + +     C   +         C G     K + +GDSGGP
+  Sbjct: 129 GWGNTMSSTADKNKLQCLNIPILSYSDCNNSYPGMITNAMFCAGYLEGGKDSCQGDSGGP 188
+
+  Query: 205 LLCNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTMRSF 245
+             ++CN    G+VS+G     P  P V+ +V  F  W+ +TM ++
+  Sbjct: 189 VVCNGELQGVVSWGYGCAEPGNPGVYAKVCIFNDWLTSTMATY 231
+
+  sp  P00762    Trypsin I, anionic precursor (EC    246 AA
+      TRY1_RAT  3.4.21.4) (Pretrypsinogen I)        align
+                [TRY1] [Rattus norvegicus (Rat)]
+
+   Score =  137 bits (345), Expect = 2e-32
+   Identities = 81/217 (37%), Positives = 112/217 (51%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             HS PY    Q+   +G   CGG L+ + +V++AAHC+ S I V LG HNI   E  +Q I
+  Sbjct: 33  HSVPY----QVSLNSGYHFCGGSLINDQWVVSAAHCYKSRIQVRLGEHNINVLEGDEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + I+HP Y+  T+ NDIML++LS            ALP A      GT C ++GWG
+  Sbjct: 89  NAAKIIKHPNYSSWTLNNDIMLIKLSSPVKLNARVAPVALPSA--CAPAGTQCLISGWGN 146
+
+  Query: 150 VSMR--RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+                      D L+ V   V     C   +        ICVG     K + +GDSGGP++C
+  Sbjct: 147 TLSNGVNNPDLLQCVDAPVLSQADCEAAYPGEITSSMICVGFLEGGKDSCQGDSGGPVVC 206
+
+  Query: 208 NNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             N    GIVS+G    +P  P V+T+V +F+ WI+ T+
+  Sbjct: 207 NGQLQGIVSWGYGCALPDNPGVYTKVCNFVGWIQDTI 243
+
+  sp  P24158      Myeloblastin precursor (EC    256 AA
+      PRN3_HUMAN  3.4.21.76) (Leukocyte         align
+                  proteinase 3)
+                  (PR-3) (PR3) (AGP7)
+                  (Wegener's autoantigen)
+                  (P29)
+                  (C-ANCA antigen) (Neutrophil
+                  proteinase 4) (NP-4)
+                  [PRTN3] [Homo sapiens
+                  (Human)]
+
+   Score =  137 bits (345), Expect = 2e-32
+   Identities = 81/226 (35%), Positives = 118/226 (52%), Gaps = 18/226 (7%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGS----NINVTLGAHNIQR 81
+             E++PHSRPYMA LQ++   G   CGG L+   FVLTAAHC        +NV LGAHN++
+  Sbjct: 33  EAQPHSRPYMASLQMRGNPGSHFCGGTLIHPSFVLTAAHCLRDIPQRLVNVVLGAHNVRT 92
+
+  Query: 82  RENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+             +E TQQH +  +   +  Y+     ND++L+QLS             LP+  + +  GT
+  Sbjct: 93  QEPTQQHFSVAQVFLN-NYDAENKLNDVLLIQLSSPANLSASVATVQLPQQDQPVPHGTQ 151
+
+  Query: 142 CTVAGWGRVSMR-RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGD 200
+             C   GWGRV         L+E+ + V            +     IC    R +     GD
+  Sbjct: 152 CLAMGWGRVGAHDPPAQVLQELNVTV---------VTFFCRPHNICTFVPRRKAGICFGD 202
+
+  Query: 201 SGGPLLCNNVAHGI---VSYGKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             SGGPL+C+ +  GI   V +G ++ + P+ FTRV+ ++ WIR+T+R
+  Sbjct: 203 SGGPLICDGIIQGIDSFVIWGCATRLFPDFFTRVALYVDWIRSTLR 248
+
+  sp  P06872      Trypsin, anionic precursor  247 AA
+      TRY2_CANFA  (EC 3.4.21.4) [Canis        align
+                  familiaris (Dog)]
+
+   Score =  137 bits (344), Expect = 3e-32
+   Identities = 80/218 (36%), Positives = 117/218 (53%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   AG   CGG L+ + +V++AAHC+ S I V LG +NI   E  +Q I
+  Sbjct: 33  NSVPY----QVSLNAGYHFCGGSLISDQWVVSAAHCYKSRIQVRLGEYNIDVLEGNEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              + + IRHP YN   + NDIML++LS            +LPRA     PGT C ++GWG
+  Sbjct: 89  NSAKVIRHPNYNSWILDNDIMLIKLSSPAVLNARVATISLPRACAA--PGTQCLISGWGN 146
+
+  Query: 150 VSMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  GT   + L+ +   +    QC   +        IC G     K + +GDSGGP++
+  Sbjct: 147 -TLSSGTNYPELLQCLDAPILTQAQCEASYPGQITENMICAGFLEGGKDSCQGDSGGPVV 205
+
+  Query: 207 CNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTM 242
+             CN    GIVS  YG +    P V+T+V +F+ WI++T+
+  Sbjct: 206 CNGELQGIVSWGYGCAQKNKPGVYTKVCNFVDWIQSTI 243
+
+  sp  P35031      Trypsin I precursor (EC   242 AA
+      TRY1_SALSA  3.4.21.4) [Salmo salar    align
+                  (Atlantic salmon)]
+
+   Score =  136 bits (342), Expect = 5e-32
+   Identities = 76/217 (35%), Positives = 115/217 (52%), Gaps = 5/217 (2%)
+
+  Query: 32  RPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITA 91
+             + Y    Q+   +G   CGG LV E++V++AAHC+ S + V LG HNI+  E ++Q I++
+  Sbjct: 28  KAYSQTHQVSLNSGYHFCGGSLVNENWVVSAAHCYKSRVEVRLGEHNIKVTEGSEQFISS 87
+
+  Query: 92  RRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR-V 150
+              R IRHP Y+   I NDIML++LS            ALP +      GT+CTV+GWG  +
+  Sbjct: 88  SRVIRHPNYSSYNIDNDIMLIKLSKPATLNTYVQPVALPTS--CAPAGTMCTVSGWGNTM 145
+
+  Query: 151 SMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNV 210
+             S    ++ L+ + + +     C   +         C G     K + +GDSGGP++CN
+  Sbjct: 146 SSTADSNKLQCLNIPILSYSDCNNSYPGMITNAMFCAGYLEGGKDSCQGDSGGPVVCNGE 205
+
+  Query: 211 AHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTMRSF 245
+               G+VS+G     P  P V+ +V  F  W+ +TM S+
+  Sbjct: 206 LQGVVSWGYGCAEPGNPGVYAKVCIFNDWLTSTMASY 242
+
+  sp  P07477      Trypsin I precursor (EC       247 AA
+      TRY1_HUMAN  3.4.21.4) (Cationic           align
+                  trypsinogen) [PRSS1]
+                  [Homo sapiens (Human)]
+
+   Score =  135 bits (341), Expect = 6e-32
+   Identities = 76/217 (35%), Positives = 114/217 (52%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++A HC+ S I V LG HNI+  E  +Q I
+  Sbjct: 33  NSVPY----QVSLNSGYHFCGGSLINEQWVVSAGHCYKSRIQVRLGEHNIEVLEGNEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHPQY+++T+ NDIML++LS            +LP A      GT C ++GWG
+  Sbjct: 89  NAAKIIRHPQYDRKTLNNDIMLIKLSSRAVINARVSTISLPTAPPA--TGTKCLISGWGN 146
+
+  Query: 150 VSMRRG--TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+              +       D L+ +   V    +C   +         CVG     K + +GDSGGP++C
+  Sbjct: 147 TASSGADYPDELQCLDAPVLSQAKCEASYPGKITSNMFCVGFLEGGKDSCQGDSGGPVVC 206
+
+  Query: 208 NNVAHGIVSYGKSSGV--PPEVFTRVSSFLPWIRTTM 242
+             N    G+VS+G        P V+T+V +++ WI+ T+
+  Sbjct: 207 NGQLQGVVSWGDGCAQKNKPGVYTKVYNYVKWIKNTI 243
+
+  sp  P15951      Trypsin III precursor     247 AA
+      TRY3_HUMAN  (EC 3.4.21.4) [PRSS3]     align
+                  [Homo sapiens (Human)]
+
+   Score =  134 bits (336), Expect = 2e-31
+   Identities = 78/218 (35%), Positives = 117/218 (53%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++AAHC+ + I V LG HNI+  E  +Q I
+  Sbjct: 33  NSLPY----QVSLNSGSHFCGGSLISEQWVVSAAHCYKTRIQVRLGEHNIKVLEGNEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN+ T+ NDIML++LS            +LP A      GT C ++GWG
+  Sbjct: 89  NAAKIIRHPKYNRDTLDNDIMLIKLSSPAVINARVSTISLPTAPPA--AGTECLISGWGN 146
+
+  Query: 150 VSMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G    D L+ +   V R+ +C             CVG     K ++K DSGGP++
+  Sbjct: 147 -TLSFGADYPDELKCLDAPVLREAECKASCPGKITNSMFCVGFLEGGKDSWKRDSGGPVV 205
+
+  Query: 207 CNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             CN    G+VS+G        P V+T+V +++ WI+ T+
+  Sbjct: 206 CNGQLQGVVSWGHGCAWKNRPGVYTKVYNYVDWIKDTI 243
+
+  sp  P16049      Trypsin I precursor (EC   241 AA
+      TRY1_GADMO  3.4.21.4) [Gadus morhua   align
+                  (Atlantic cod)]
+
+   Score =  133 bits (335), Expect = 3e-31
+   Identities = 78/223 (34%), Positives = 117/223 (52%), Gaps = 9/223 (4%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E   HS+ +    Q+   +G   CGG LV +D+V++AAHC+ S + V LG H+I+  E T
+  Sbjct: 25  ECTKHSQAH----QVSLNSGYHFCGGSLVSKDWVVSAAHCYKSVLRVRLGEHHIRVNEGT 80
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             +Q+I++   IRHP Y+   I NDIML++L+            ALP   E     T+CTV+
+  Sbjct: 81  EQYISSSSVIRHPNYSSYNINNDIMLIKLTKPATLNQYVHAVALP--TECAADATMCTVS 138
+
+  Query: 146 GWGR-VSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG  +S     D L+ + L +     C   +     +   C G     K + +GDSGGP
+  Sbjct: 139 GWGNTMSSVADGDKLQCLSLPILSHADCANSYPGMITQSMFCAGYLEGGKDSCQGDSGGP 198
+
+  Query: 205 LLCNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTMRSF 245
+             ++CN V  G+VS  YG +    P V+ +V     W+R TM ++
+  Sbjct: 199 VVCNGVLQGVVSWGYGCAERDHPGVYAKVCVLSGWVRDTMANY 241
+
+  sp  Q9UKR3      Kallikrein 13 precursor (EC        277 AA
+      KLKD_HUMAN  3.4.21.-) (Kallikrein-like         align
+                  protein 4)
+                  (KLK-L4) [KLK13] [Homo sapiens
+                  (Human)]
+
+   Score =  133 bits (335), Expect = 3e-31
+   Identities = 82/231 (35%), Positives = 120/231 (51%), Gaps = 13/231 (5%)
+
+  Query: 29  PHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQH 88
+             PHS+P+ A L +Q   G+  CGG LV   +VLTAAHC    + V LG H + R E  +Q
+  Sbjct: 44  PHSQPWQAALLVQ---GRLLCGGVLVHPKWVLTAAHCLKEGLKVYLGKHALGRVEAGEQV 100
+
+  Query: 89  ITARRAIRHPQYNQRTIQ----NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTV 144
+                  +I HP+Y +        +DIMLL+L              L      L PGT C V
+  Sbjct: 101 REVVHSIPHPEYRRSPTHLNHDHDIMLLELQSPVQLTGYIQTLPLSHNNR-LTPGTTCRV 159
+
+  Query: 145 AGWGRVSMRRGT--DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSG 202
+             +GWG  +  +     TL+   ++++ D +C +++        +C G +   K + +GDSG
+  Sbjct: 160 SGWGTTTSPQVNYPKTLQCANIQLRSDEECRQVYPGKITDNMLCAGTKEGGKDSCEGDSG 219
+
+  Query: 203 GPLLCNNVAHGIVSYGK-SSGVP--PEVFTRVSSFLPWIRTTMRSFKLLDQ 250
+             GPL+CN   +GIVS+G    G P  P V+TRVS ++ WIR T+R ++   Q
+  Sbjct: 220 GPLVCNRTLYGIVSWGDFPCGQPDRPGVYTRVSRYVLWIRETIRKYETQQQ 270
+
+  sp  Q90627      Trypsin I-P1 precursor (EC  248 AA
+      TRY1_CHICK  3.4.21.4) [Gallus gallus    align
+                  (Chicken)]
+
+   Score =  133 bits (334), Expect = 4e-31
+   Identities = 74/211 (35%), Positives = 115/211 (54%), Gaps = 8/211 (3%)
+
+  Query: 39  QIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHP 98
+             Q+   +G   CGG L+   +VL+AAHC+ S+I V LG +N+  ++ ++Q I++ + IRH
+  Sbjct: 40  QVSLNSGYHFCGGSLISSQWVLSAAHCYKSSIQVKLGEYNLAAQDGSEQTISSSKVIRHS 99
+
+  Query: 99  QYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGT-- 156
+              YN  T+ NDIML++LS             LP +   +  GT C ++GWG  ++  G+
+  Sbjct: 100 GYNANTLNNDIMLIKLSKAATLNSYVNTVPLPTS--CVTAGTTCLISGWGN-TLSSGSLY 156
+
+  Query: 157 -DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIV 215
+              D L+ +   V    QC   +        IC+G     K + +GDSGGP++CN    GIV
+  Sbjct: 157 PDVLQCLNAPVLSSSQCSSAYPGRITSNMICIGYLNGGKDSCQGDSGGPVVCNGQLQGIV 216
+
+  Query: 216 SYGKSSGVP--PEVFTRVSSFLPWIRTTMRS 244
+             S+G        P V+T+V +++ WI+TTM S
+  Sbjct: 217 SWGIGCAQKGYPGVYTKVCNYVSWIKTTMSS 247
+
+  sp  Q91041      Trypsin X precursor (EC   241 AA
+      TRYX_GADMO  3.4.21.4) [Gadus morhua   align
+                  (Atlantic cod)]
+
+   Score =  132 bits (333), Expect = 5e-31
+   Identities = 76/210 (36%), Positives = 111/210 (52%), Gaps = 5/210 (2%)
+
+  Query: 39  QIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHP 98
+             Q+   +G   CGG LV +D+V++AAHC+ S + V LG H+I+  E T+Q I++   IRHP
+  Sbjct: 34  QVSLNSGYHFCGGSLVSKDWVVSAAHCYKSVLRVRLGEHHIRVNEGTEQFISSSSVIRHP 93
+
+  Query: 99  QYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR-VSMRRGTD 157
+              Y+   I NDIML++L+            ALP   E     T+CTV+GWG  +S     D
+  Sbjct: 94  NYSSYNIDNDIMLIKLTEPATLNQYVHAVALP--TECAADATMCTVSGWGNTMSSVDDGD 151
+
+  Query: 158 TLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVS- 216
+              L+ + L +     C   +     +   C G     K + +GDSGGP++CN V  G+VS
+  Sbjct: 152 KLQCLNLPILSHADCANSYPGMITQSMFCAGYLEGGKDSCQGDSGGPVVCNGVLQGVVSW 211
+
+  Query: 217 -YGKSSGVPPEVFTRVSSFLPWIRTTMRSF 245
+              YG +    P V+ +V     W+R TM S+
+  Sbjct: 212 GYGCAERDNPGVYAKVCVLSGWVRDTMASY 241
+
+  sp  P00761    Trypsin precursor (EC       231 AA
+      TRYP_PIG  3.4.21.4) [Sus scrofa       align
+                (Pig)]
+
+   Score =  132 bits (331), Expect = 9e-31
+   Identities = 77/217 (35%), Positives = 112/217 (51%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+   +V++AAHC+ S I V LG HNI   E  +Q I
+  Sbjct: 18  NSIPY----QVSLNSGSHFCGGSLINSQWVVSAAHCYKSRIQVRLGEHNIDVLEGNEQFI 73
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + I HP +N  T+ NDIML++LS            +LPR+      GT C ++GWG
+  Sbjct: 74  NAAKIITHPNFNGNTLDNDIMLIKLSSPATLNSRVATVSLPRSCAA--AGTECLISGWGN 131
+
+  Query: 150 VSMRRGT--DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+                   +    L+ ++  V  D  C   +        ICVG     K + +GDSGGP++C
+  Sbjct: 132 TKSSGSSYPSLLQCLKAPVLSDSSCKSSYPGQITGNMICVGFLEGGKDSCQGDSGGPVVC 191
+
+  Query: 208 NNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTM 242
+             N    GIVS  YG +    P V+T+V +++ WI+ T+
+  Sbjct: 192 NGQLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTI 228
+
+  sp  P08426    Trypsin III, cationic precursor     247 AA
+      TRY3_RAT  (EC 3.4.21.4) (Pretrypsinogen       align
+                III)
+                [TRY3] [Rattus norvegicus (Rat)]
+
+   Score =  132 bits (331), Expect = 9e-31
+   Identities = 79/218 (36%), Positives = 114/218 (52%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   AG   CGG L+   +V++AAHC+ S I V LG HNI   E  +Q I
+  Sbjct: 34  NSLPY----QVSLNAGYHFCGGSLINSQWVVSAAHCYKSRIQVRLGEHNIDVVEGGEQFI 89
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP YN  T  NDIML++L+            +LPR+      GT C V+GWG
+  Sbjct: 90  DAAKIIRHPSYNANTFDNDIMLIKLNSPATLNSRVSTVSLPRSCGS--SGTKCLVSGWGN 147
+
+  Query: 150 VSMRRGTD---TLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  GT+    L+ +   V  D  C   +         C+G     K + +GDSGGP++
+  Sbjct: 148 -TLSSGTNYPSLLQCLDAPVLSDSSCKSSYPGKITSNMFCLGFLEGGKDSCQGDSGGPVV 206
+
+  Query: 207 CNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTM 242
+             CN    G+VS  YG +    P V+T+V +++ WI+ T+
+  Sbjct: 207 CNGQLQGVVSWGYGCAQKGKPGVYTKVCNYVNWIQQTV 244
+
+  sp  Q90628      Trypsin I-P38 precursor     248 AA
+      TRY2_CHICK  (EC 3.4.21.4) [Gallus       align
+                  gallus (Chicken)]
+
+   Score =  131 bits (330), Expect = 1e-30
+   Identities = 73/211 (34%), Positives = 114/211 (54%), Gaps = 8/211 (3%)
+
+  Query: 39  QIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHP 98
+             Q+   +G   CGG L+   +VL+AAHC+ S+I V LG +N+  ++ ++Q I++ + IRH
+  Sbjct: 40  QVSLNSGYHFCGGSLISSQWVLSAAHCYKSSIQVKLGEYNLAAQDGSEQTISSSKVIRHS 99
+
+  Query: 99  QYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGT-- 156
+              YN  T+ NDIML++LS             LP +   +  GT C ++GWG  ++  G+
+  Sbjct: 100 GYNANTLNNDIMLIKLSKAATLNSYVNTVPLPTS--CVTAGTTCLISGWGN-TLSSGSLY 156
+
+  Query: 157 -DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIV 215
+              D L+ +   V    QC   +        IC+G     K + +GDSGGP++CN    G V
+  Sbjct: 157 PDVLQCLNAPVLSSSQCSSAYPGRITSNMICIGYLNGGKDSCQGDSGGPVVCNGQLQGFV 216
+
+  Query: 216 SYGKSSGVP--PEVFTRVSSFLPWIRTTMRS 244
+             S+G        P V+T+V +++ WI+TTM S
+  Sbjct: 217 SWGIGCAQKGYPGVYTKVCNYVSWIKTTMSS 247
+
+  sp  P00746      Complement factor D         253 AA
+      CFAD_HUMAN  precursor (EC 3.4.21.46)    align
+                  (C3 convertase
+                  activator) (Properdin
+                  factor D) (Adipsin) [DF]
+                  [Homo
+                  sapiens (Human)]
+
+   Score =  131 bits (329), Expect = 2e-30
+   Identities = 84/229 (36%), Positives = 119/229 (51%), Gaps = 17/229 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCW----GSNINVTLGAHNIQ 80
+             RE+  H+RPYMA +Q+    G   CGG LV E +VL+AAHC        + V LGAH++
+  Sbjct: 30  REAEAHARPYMASVQLN---GAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS 86
+
+  Query: 81  RRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGT 140
+             + E +++     RA+ HP     TI +D++LLQLS               R    + PGT
+  Sbjct: 87  QPEPSKRLYDVLRAVPHPDSQPDTIDHDLLLLQLSEKATLGPAVRPLPWQRVDRDVAPGT 146
+
+  Query: 141 LCTVAGWGRVS-MRRGTDTLREVQLRVQRDRQCLRIF---GSYDPRRQICVGDRRERKAA 196
+             LC VAGWG V+   R  D+L+ V L V     C R     G+   R      +RR+   +
+  Sbjct: 147 LCDVAGWGIVNHAGRRPDSLQHVLLPVLDRATCNRRTHHDGAITERLMCAESNRRD---S 203
+
+  Query: 197 FKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTM 242
+              KGDSGGPL+C  V  G+V+ G     +   P ++TRV+S+  WI + +
+  Sbjct: 204 CKGDSGGPLVCGGVLEGVVTSGSRVCGNRKKPGIYTRVASYAAWIDSVL 252
+
+  sp  P07146      Trypsin II, anionic precursor     246 AA
+      TRY2_MOUSE  (EC 3.4.21.4) (Pretrypsinogen     align
+                  II)
+                  [TRY2] [Mus musculus (Mouse)]
+
+   Score =  130 bits (328), Expect = 2e-30
+   Identities = 77/219 (35%), Positives = 108/219 (49%), Gaps = 10/219 (4%)
+
+  Query: 28  RPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQ 87
+             R  S PY    Q+   AG   CGG L+ + +V++AAHC+   I V LG HNI   E  +Q
+  Sbjct: 31  RESSVPY----QVSLNAGYHFCGGSLINDQWVVSAAHCYKYRIQVRLGEHNINVLEGNEQ 86
+
+  Query: 88  HITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGW 147
+              + + + IRHP YN  T+ NDIML++L+             LP        GT C ++GW
+  Sbjct: 87  FVDSAKIIRHPNYNSWTLDNDIMLIKLASPVTLNARVASVPLP--SSCAPAGTQCLISGW 144
+
+  Query: 148 GRVSMR--RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPL 205
+             G          D L+ V   V     C   +        ICVG     K + +GDSGGP+
+  Sbjct: 145 GNTLSNGVNNPDLLQCVDAPVLPQADCEASYPGDITNNMICVGFLEGGKDSCQGDSGGPV 204
+
+  Query: 206 LCNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             +CN    GIVS+G     P  P V+T+V +++ WI+ T+
+  Sbjct: 205 VCNGELQGIVSWGYGCAQPDAPGVYTKVCNYVDWIQNTI 243
+
+  sp  P12544      Granzyme A precursor (EC      262 AA
+      GRAA_HUMAN  3.4.21.78) (Cytotoxic         align
+                  T-lymphocyte
+                  proteinase 1) (Hanukkah
+                  factor) (H factor) (HF)
+                  (Granzyme 1) (CTL tryptase)
+                  (Fragmentin 1) [GZMA] [Homo
+                  sapiens (Human)]
+
+   Score =  130 bits (328), Expect = 2e-30
+   Identities = 85/232 (36%), Positives = 124/232 (53%), Gaps = 20/232 (8%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNIN----VTLGAHNIQR 81
+             E  PHSRPYM  L +     ++ C G L+ +D+VLTAAHC   N+N    V LGAH+I R
+  Sbjct: 34  EVTPHSRPYMVLLSLDR---KTICAGALIAKDWVLTAAHC---NLNKRSQVILGAHSITR 87
+
+  Query: 82  RENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+              E T+Q +  ++   +P Y+  T + D+ LLQL+             LP+  + ++PGT+
+  Sbjct: 88  EEPTKQIMLVKKEFPYPCYDPATREGDLKLLQLTEKAKINKYVTILHLPKKGDDVKPGTM 147
+
+  Query: 142 CTVAGWGRV-SMRRGTDTLREVQLRVQRDRQCL-RIFGSYDP---RRQICVGDRRERKAA 196
+             C VAGWGR  +    +DTLREV + +   + C  R   +++P      +C G  R  + +
+  Sbjct: 148 CQVAGWGRTHNSASWSDTLREVNITIIDRKVCNDRNHYNFNPVIGMNMVCAGSLRGGRDS 207
+
+  Query: 197 FKGDSGGPLLCNNVAHGIVSYG--KSSGVP--PEVFTRVS-SFLPWIRTTMR 243
+               GDSG PLLC  V  G+ S+G     G P  P V+  +S   L WI  T++
+  Sbjct: 208 CNGDSGSPLLCEGVFRGVTSFGLENKCGDPRGPGVYILLSKKHLNWIIMTIK 259
+
+  sp  P51779    Complement factor D          259 AA
+      CFAD_PIG  precursor (EC 3.4.21.46)     align
+                (C3 convertase
+                activator) (Properdin
+                factor D) (Adipsin) [DF]
+                [Sus
+                scrofa (Pig)]
+
+   Score =  130 bits (328), Expect = 2e-30
+   Identities = 85/229 (37%), Positives = 123/229 (53%), Gaps = 17/229 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGS----NINVTLGAHNIQ 80
+             +E++ H RPYMA +Q+    G+  CGGFLV E +VL+AAHC        + V LGAH++
+  Sbjct: 31  QEAKSHERPYMASVQVN---GKHVCGGFLVSEQWVLSAAHCLEDVAEGKLQVLLGAHSLS 87
+
+  Query: 81  RRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGT 140
+             + E +++     RA+ HP     TI +D++LL+LS            A  R    +  GT
+  Sbjct: 88  QPEPSKRLYDVLRAVPHPDSQPDTIDHDLLLLKLSEKAELGPAVQPLAWQREDHEVPAGT 147
+
+  Query: 141 LCTVAGWGRVS-MRRGTDTLREVQLRVQRDRQC-LRIF--GSYDPRRQICVGDRRERKAA 196
+             LC VAGWG VS   R  D L+ + L V     C LR +  G+   R      +RR+   +
+  Sbjct: 148 LCDVAGWGVVSHTGRRPDRLQHLLLPVLDRTTCNLRTYHDGTITERMMCAESNRRD---S 204
+
+  Query: 197 FKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTM 242
+              KGDSGGPL+C  VA G+V+ G     +   P ++TR++S++ WI   M
+  Sbjct: 205 CKGDSGGPLVCGGVAEGVVTSGSRVCGNRKKPGIYTRLASYVAWIDGVM 253
+
+  sp  P00763    Trypsin II, anionic precursor (EC   246 AA
+      TRY2_RAT  3.4.21.4) (Pretrypsinogen II)       align
+                [TRY2] [Rattus norvegicus (Rat)]
+
+   Score =  130 bits (327), Expect = 3e-30
+   Identities = 74/217 (34%), Positives = 114/217 (52%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ + +V++AAHC+ S I V LG HNI   E  +Q +
+  Sbjct: 33  NSVPY----QVSLNSGYHFCGGSLINDQWVVSAAHCYKSRIQVRLGEHNINVLEGNEQFV 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + I+HP ++++T+ NDIML++LS            ALP        GT C ++GWG
+  Sbjct: 89  NAAKIIKHPNFDRKTLNNDIMLIKLSSPVKLNARVATVALP--SSCAPAGTQCLISGWGN 146
+
+  Query: 150 V--SMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+                S     D L+ +   +     C   +        +CVG     K + +GDSGGP++C
+  Sbjct: 147 TLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVC 206
+
+  Query: 208 NNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             N    GIVS+G    +P  P V+T+V +++ WI+ T+
+  Sbjct: 207 NGELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTI 243
+
+  sp_vs  P35030-02  SPLICE ISOFORM C OF    247 AA
+                    P35030 [PRSS4] [Homo   align
+                    sapiens (Human)]
+
+   Score =  130 bits (326), Expect = 3e-30
+   Identities = 76/218 (34%), Positives = 115/218 (52%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++AAHC+ + I V LG HNI+  E  +Q I
+  Sbjct: 33  NSLPY----QVSLNSGSHFCGGSLISEQWVVSAAHCYKTRIQVRLGEHNIKVLEGNEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN+ T+ NDIML++LS            +LP A      GT C ++GWG
+  Sbjct: 89  NAAKIIRHPKYNRDTLDNDIMLIKLSSPAVINARVSTISLPTAPPA--AGTECLISGWGN 146
+
+  Query: 150 VSMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G    D L+ +   V    +C   +         CVG     K + + DSGGP++
+  Sbjct: 147 -TLSFGADYPDELKCLDAPVLTQAECKASYPGKITNSMFCVGFLEGGKDSCQRDSGGPVV 205
+
+  Query: 207 CNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             CN    G+VS+G        P V+T+V +++ WI+ T+
+  Sbjct: 206 CNGQLQGVVSWGHGCAWKNRPGVYTKVYNYVDWIKDTI 243
+
+  sp_vs  P35030-01  SPLICE ISOFORM B OF    260 AA
+                    P35030 [PRSS4] [Homo   align
+                    sapiens (Human)]
+
+   Score =  130 bits (326), Expect = 3e-30
+   Identities = 76/218 (34%), Positives = 115/218 (52%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++AAHC+ + I V LG HNI+  E  +Q I
+  Sbjct: 46  NSLPY----QVSLNSGSHFCGGSLISEQWVVSAAHCYKTRIQVRLGEHNIKVLEGNEQFI 101
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN+ T+ NDIML++LS            +LP A      GT C ++GWG
+  Sbjct: 102 NAAKIIRHPKYNRDTLDNDIMLIKLSSPAVINARVSTISLPTAPPA--AGTECLISGWGN 159
+
+  Query: 150 VSMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G    D L+ +   V    +C   +         CVG     K + + DSGGP++
+  Sbjct: 160 -TLSFGADYPDELKCLDAPVLTQAECKASYPGKITNSMFCVGFLEGGKDSCQRDSGGPVV 218
+
+  Query: 207 CNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             CN    G+VS+G        P V+T+V +++ WI+ T+
+  Sbjct: 219 CNGQLQGVVSWGHGCAWKNRPGVYTKVYNYVDWIKDTI 256
+
+  sp  P35030      Trypsin IV precursor (EC           304 AA
+      TRY4_HUMAN  3.4.21.4) (Brain trypsinogen)      align
+                  (Mesotrypsinogen) [PRSS4] [Homo
+                  sapiens (Human)]
+
+   Score =  130 bits (326), Expect = 3e-30
+   Identities = 76/218 (34%), Positives = 115/218 (52%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++AAHC+ + I V LG HNI+  E  +Q I
+  Sbjct: 90  NSLPY----QVSLNSGSHFCGGSLISEQWVVSAAHCYKTRIQVRLGEHNIKVLEGNEQFI 145
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN+ T+ NDIML++LS            +LP A      GT C ++GWG
+  Sbjct: 146 NAAKIIRHPKYNRDTLDNDIMLIKLSSPAVINARVSTISLPTAPPA--AGTECLISGWGN 203
+
+  Query: 150 VSMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G    D L+ +   V    +C   +         CVG     K + + DSGGP++
+  Sbjct: 204 -TLSFGADYPDELKCLDAPVLTQAECKASYPGKITNSMFCVGFLEGGKDSCQRDSGGPVV 262
+
+  Query: 207 CNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             CN    G+VS+G        P V+T+V +++ WI+ T+
+  Sbjct: 263 CNGQLQGVVSWGHGCAWKNRPGVYTKVYNYVDWIKDTI 300
+
+  sp  Q9H2R5      Kallikrein 15 precursor   256 AA
+      KLKF_HUMAN  (EC 3.4.21.-) (ACO        align
+                  protease) [KLK15] [Homo
+                  sapiens (Human)]
+
+   Score =  130 bits (326), Expect = 3e-30
+   Identities = 80/233 (34%), Positives = 113/233 (48%), Gaps = 20/233 (8%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E  PHS+P+   L  +   G+  CG  L+   +VL+AAHC    + V LG HN+++R+
+  Sbjct: 27  ECAPHSQPWQVALYER---GRFNCGASLISPHWVLSAAHCQSRFMRVRLGEHNLRKRDGP 83
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             +Q  T  R I HP+Y  R+ +NDIMLL+L              LP       PG  C V+
+  Sbjct: 84  EQLRTTSRVIPHPRYEARSHRNDIMLLRLVQPARLNPQVRPAVLPTRCP--HPGEACVVS 141
+
+  Query: 146 GWGRVSMRR-GT-----------DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRER 193
+             GWG VS    GT           DTL    + +  D  C + +        +C G
+  Sbjct: 142 GWGLVSHNEPGTAGSPRSQVSLPDTLHCANISIISDTSCDKSYPGRLTNTMVCAGAEGRG 201
+
+  Query: 194 KAAFKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTMR 243
+               + +GDSGGPL+C  +  GIVS+G     +   P V+T+V  +L WIR TM+
+  Sbjct: 202 AESCEGDSGGPLVCGGILQGIVSWGDVPCDNTTKPGVYTKVCHYLEWIRETMK 254
+
+  sp  Q9P0G3      Kallikrein 14 precursor (EC        251 AA
+      KLKE_HUMAN  3.4.21.-) (Kallikrein-like         align
+                  protein 6)
+                  (KLK-L6) [KLK14] [Homo sapiens
+                  (Human)]
+
+   Score =  129 bits (325), Expect = 4e-30
+   Identities = 78/218 (35%), Positives = 114/218 (52%), Gaps = 8/218 (3%)
+
+  Query: 31  SRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHIT 90
+             S+P+ A L +  P  +  CGG L+   +V+TAAHC    + V LG HN++R E TQQ +
+  Sbjct: 35  SQPWQAAL-LAGPRRRFLCGGALLSGQWVITAAHCGRPILQVALGKHNLRRWEATQQVLR 93
+
+  Query: 91  ARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRV 150
+               R + HP YN RT  ND+MLLQL              + +A     PGT C V+GWG +
+  Sbjct: 94  VVRQVTHPNYNSRTHDNDLMLLQLQQPARIGRAVRPIEVTQACAS--PGTSCRVSGWGTI 151
+
+  Query: 151 S--MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCN 208
+             S  + R   +L+ V + +  D  C + +        +C G  +  K + +GDSGGPL+C
+  Sbjct: 152 SSPIARYPASLQCVNINISPDEVCQKAYPRTITPGMVCAGVPQGGKDSCQGDSGGPLVCR 211
+
+  Query: 209 NVAHGIVSYG-KSSGVP--PEVFTRVSSFLPWIRTTMR 243
+                 G+VS+G +   +P  P V+T +  +  WI  TMR
+  Sbjct: 212 GQLQGLVSWGMERCALPGYPGVYTNLCKYRSWIEETMR 249
+
+  sp  P06871      Trypsin, cationic           246 AA
+      TRY1_CANFA  precursor (EC 3.4.21.4)     align
+                  [Canis familiaris (Dog)]
+
+   Score =  129 bits (324), Expect = 6e-30
+   Identities = 74/217 (34%), Positives = 111/217 (51%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+   +V++AAHC+ S I V LG +NI   E  +Q I
+  Sbjct: 33  NSVPY----QVSLNSGYHFCGGSLINSQWVVSAAHCYKSRIQVRLGEYNIAVSEGGEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN  TI NDIML++LS            ALP++      GT C ++GWG
+  Sbjct: 89  NAAKIIRHPRYNANTIDNDIMLIKLSSPATLNSRVSAIALPKSCPA--AGTQCLISGWGN 146
+
+  Query: 150 VSM--RRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+                  +   D L+ ++  +  D  C   +        +C+G     K + +GDSGGP++C
+  Sbjct: 147 TQSIGQNYPDVLQCLKAPILSDSVCRNAYPGQISSNMMCLGYMEGGKDSCQGDSGGPVVC 206
+
+  Query: 208 NNVAHGIVSYGKSSGV--PPEVFTRVSSFLPWIRTTM 242
+             N    G+VS+G        P V  +V  ++ WI+ T+
+  Sbjct: 207 NGELQGVVSWGAGCAQKGKPGVSPKVCKYVSWIQQTI 243
+
+  sp_vs  P11032-01  SPLICE ISOFORM HF2 OF  257 AA
+                    P11032 [GZMA] [Mus     align
+                    musculus (Mouse)]
+
+   Score =  129 bits (323), Expect = 7e-30
+   Identities = 84/226 (37%), Positives = 121/226 (53%), Gaps = 16/226 (7%)
+
+  Query: 29  PHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHC-WGSNINVTLGAHNIQRRENTQQ 87
+             PHSRPYMA L++ S    + C G L+ +++VLTAAHC  G      LGAH+I + E  QQ
+  Sbjct: 34  PHSRPYMALLKLSS---NTICAGALIEKNWVLTAAHCNVGKRSKFILGAHSINK-EPEQQ 89
+
+  Query: 88  HITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGW 147
+              +T ++A  +P Y++ T + D+ L++L              LP+  + ++PGT C VAGW
+  Sbjct: 90  ILTVKKAFPYPCYDEYTREGDLQLVRLKKKATVNRNVAILHLPKKGDDVKPGTRCRVAGW 149
+
+  Query: 148 GRVSMRRG-TDTLREVQLRVQRDRQCLRIFGSYD-----PRRQICVGDRRERKAAFKGDS 201
+             GR   +   ++TLREV + V  DR+       Y+         IC GD R  K +  GDS
+  Sbjct: 150 GRFGNKSAPSETLREVNITV-IDRKICNDEKHYNFHPVIGLNMICAGDLRGGKDSCNGDS 208
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVP---PEVFTRVS-SFLPWIRTTMR 243
+             G PLLC+ +  GI S+G         P V+T +S   L WI+  M+
+  Sbjct: 209 GSPLLCDGILRGITSFGGEKCGDRRWPGVYTFLSDKHLNWIKKIMK 254
+
+  sp  P19799      Trypsin precursor (EC     243 AA
+      TRY1_XENLA  3.4.21.4) [Xenopus        align
+                  laevis (African clawed
+                  frog)]
+
+   Score =  129 bits (323), Expect = 7e-30
+   Identities = 75/217 (34%), Positives = 114/217 (52%), Gaps = 12/217 (5%)
+
+  Query: 31  SRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHIT 90
+             S PY+  L     +G   CGG L+   +V++AAHC+ ++I V LG HNI   E T+Q I+
+  Sbjct: 31  SVPYIVSLN----SGYHFCGGSLITNQWVVSAAHCYKASIQVRLGEHNIALSEGTEQFIS 86
+
+  Query: 91  ARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRV 150
+             + + IRH  YN  T+ NDIML++LS             LP        GT C ++GWG
+  Sbjct: 87  SSKVIRHSGYNSYTLDNDIMLIKLSSPASLNAAVNTVPLPSGCSA--AGTSCLISGWGN- 143
+
+  Query: 151 SMRRGT---DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+             ++  G+   D L+ +   +  + QC   +        ICVG     K + +GDSGGP++C
+  Sbjct: 144 TLSNGSNYPDLLQCLNAPILTNAQCNSAYPGEITANMICVGYMEGGKDSCQGDSGGPVVC 203
+
+  Query: 208 NNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTM 242
+             N    G+VS+G    +   P V+T+V ++  WI+ T+
+  Sbjct: 204 NGQLQGVVSWGYGCAMRNYPGVYTKVCNYNAWIQNTI 240
+
+  sp  P11032      Granzyme A precursor (EC        260 AA
+      GRAA_MOUSE  3.4.21.78) (T cell-specific     align
+                  serine
+                  protease 1) (TSP-1) (CTLA-3)
+                  (Fragmentin 1) (Autocrine
+                  thymic lymphoma granzyme-like
+                  serine protease) [GZMA]
+                  [Mus musculus (Mouse)]
+
+   Score =  129 bits (323), Expect = 7e-30
+   Identities = 84/226 (37%), Positives = 121/226 (53%), Gaps = 16/226 (7%)
+
+  Query: 29  PHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHC-WGSNINVTLGAHNIQRRENTQQ 87
+             PHSRPYMA L++ S    + C G L+ +++VLTAAHC  G      LGAH+I + E  QQ
+  Sbjct: 37  PHSRPYMALLKLSS---NTICAGALIEKNWVLTAAHCNVGKRSKFILGAHSINK-EPEQQ 92
+
+  Query: 88  HITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGW 147
+              +T ++A  +P Y++ T + D+ L++L              LP+  + ++PGT C VAGW
+  Sbjct: 93  ILTVKKAFPYPCYDEYTREGDLQLVRLKKKATVNRNVAILHLPKKGDDVKPGTRCRVAGW 152
+
+  Query: 148 GRVSMRRG-TDTLREVQLRVQRDRQCLRIFGSYD-----PRRQICVGDRRERKAAFKGDS 201
+             GR   +   ++TLREV + V  DR+       Y+         IC GD R  K +  GDS
+  Sbjct: 153 GRFGNKSAPSETLREVNITV-IDRKICNDEKHYNFHPVIGLNMICAGDLRGGKDSCNGDS 211
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVP---PEVFTRVS-SFLPWIRTTMR 243
+             G PLLC+ +  GI S+G         P V+T +S   L WI+  M+
+  Sbjct: 212 GSPLLCDGILRGITSFGGEKCGDRRWPGVYTFLSDKHLNWIKKIMK 257
+
+  sp  P07478      Trypsin II precursor (EC      247 AA
+      TRY2_HUMAN  3.4.21.4) (Anionic            align
+                  trypsinogen) [PRSS2]
+                  [Homo sapiens (Human)]
+
+   Score =  128 bits (322), Expect = 1e-29
+   Identities = 78/218 (35%), Positives = 114/218 (52%), Gaps = 12/218 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   +G   CGG L+ E +V++A HC+ S I V LG HNI+  E  +Q I
+  Sbjct: 33  NSVPY----QVSLNSGYHFCGGSLISEQWVVSAGHCYKSRIQVRLGEHNIEVLEGNEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+YN RT+ NDI+L++LS            +LP A      GT   ++GWG
+  Sbjct: 89  NAAKIIRHPKYNSRTLDNDILLIKLSSPAVINSRVSAISLPTAPPA--AGTESLISGWGN 146
+
+  Query: 150 VSMRRGTDTLREVQ---LRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G D   E+Q     V    +C   +         CVG     K + +GDSGGP++
+  Sbjct: 147 -TLSSGADYPDELQCLDAPVLSQAECEASYPGKITNNMFCVGFLEGGKDSCQGDSGGPVV 205
+
+  Query: 207 CNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTM 242
+              N    GIVS  YG +    P V+T+V +++ WI+ T+
+  Sbjct: 206 SNGELQGIVSWGYGCAQKNRPGVYTKVYNYVDWIKDTI 243
+
+  sp  P49864    Granzyme K precursor (EC            258 AA
+      GRAK_RAT  3.4.21.-) (NK-tryptase-2)           align
+                (NK-TRYP-2)
+                [GZMK] [Rattus norvegicus (Rat)]
+
+   Score =  128 bits (321), Expect = 1e-29
+   Identities = 82/229 (35%), Positives = 126/229 (55%), Gaps = 17/229 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCW--GSNINVTLGAHNIQRR 82
+             RE +PHSRP+MA +Q +   G+  CGG L+   +VLTAAHC+  G +  V LGAH++ +
+  Sbjct: 30  REVQPHSRPFMASIQYR---GKHICGGVLIHPQWVLTAAHCYSRGHSPTVVLGAHSLSKN 86
+
+  Query: 83  ENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLC 142
+             E  +Q    +  I    +   T  NDIML++L              L R++  +R GT C
+  Sbjct: 87  EPMKQTFEIKEFIPFSGFKSGT--NDIMLIKLRTAAELNKHVQLLHL-RSKNYIRDGTKC 143
+
+  Query: 143 TVAGWG--RVSMRRGTDTLREVQLRVQRDRQC-LRIFGSYDP---RRQICVGDRRERKAA 196
+              V GWG  +  +   +DTL+EV + +   ++C  + + ++ P   +  IC GDRR  K +
+  Sbjct: 144 QVTGWGSTKPDVLTTSDTLQEVTVTIISRKRCNSQSYYNHKPVITKDMICAGDRRGEKDS 203
+
+  Query: 197 FKGDSGGPLLCNNVAHGIVSYGKSSGV--PPEVFTRVS-SFLPWIRTTM 242
+              KGDSGGPL+C  V H +VS G   G+   P V+T ++  +  WI++ +
+  Sbjct: 204 CKGDSGGPLICKGVFHALVSGGYKCGISNKPGVYTLLTKKYQTWIKSKL 252
+
+  sp  Q90629      Trypsin II-P29 precursor    248 AA
+      TRY3_CHICK  (EC 3.4.21.4) [Gallus       align
+                  gallus (Chicken)]
+
+   Score =  127 bits (320), Expect = 2e-29
+   Identities = 74/221 (33%), Positives = 120/221 (54%), Gaps = 12/221 (5%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             HS PY    Q+   +G   CGG L+   +VL+AAHC+ S I V LG +NI  +E+++
+  Sbjct: 35  HSVPY----QVSLNSGYHFCGGSLINSQWVLSAAHCYKSRIQVRLGEYNIDVQEDSEVVR 90
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+             ++   IRHP+Y+  T+ NDIML++L+            ALP      + GT C ++GWG
+  Sbjct: 91  SSSVIIRHPKYSSITLNNDIMLIKLASAVEYSADIQPIALP--SSCAKAGTECLISGWGN 148
+
+  Query: 150 VSMRRG---TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLL 206
+              ++  G    + L+ +   +  D++C   +        ICVG     K + +GDSGGP++
+  Sbjct: 149 -TLSNGYNYPELLQCLNAPILSDQECQEAYPGDITSNMICVGFLEGGKDSCQGDSGGPVV 207
+
+  Query: 207 CNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTMRSF 245
+             CN    GIVS+G    +   P V+T+V +++ WI+ T+ ++
+  Sbjct: 208 CNGELQGIVSWGIGCALKGYPGVYTKVCNYVDWIQETIAAY 248
+
+  sp  P49863      Granzyme K precursor (EC          264 AA
+      GRAK_HUMAN  3.4.21.-) (Granzyme 3)            align
+                  (NK-tryptase-2)
+                  (NK-TRYP-2) (Fragmentin 3)
+                  [GZMK] [Homo sapiens (Human)]
+
+   Score =  127 bits (320), Expect = 2e-29
+   Identities = 82/232 (35%), Positives = 122/232 (52%), Gaps = 18/232 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCW-----GSNINVTLGAHNI 79
+             +E  PHSRP+MA +Q     G   CGG L+   +VLTAAHC      G +  V LGAH++
+  Sbjct: 31  KEVSPHSRPFMASIQY---GGHHVCGGVLIDPQWVLTAAHCQYRFTKGQSPTVVLGAHSL 87
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+              + E ++Q +  ++ I   +       NDIML++L              + R++  LR G
+  Sbjct: 88  SKNEASKQTLEIKKFIPFSRVTSDPQSNDIMLVKLQTAAKLNKHVKMLHI-RSKTSLRSG 146
+
+  Query: 140 TLCTVAGWGRVS--MRRGTDTLREVQLRVQRDRQC-LRIFGSYDP---RRQICVGDRRER 193
+             T C V GWG       R +DTLREV + V   + C  + + + DP   +  +C GD + +
+  Sbjct: 147 TKCKVTGWGATDPDSLRPSDTLREVTVTVLSRKLCNSQSYYNGDPFITKDMVCAGDAKGQ 206
+
+  Query: 194 KAAFKGDSGGPLLCNNVAHGIVSYGKSSGV--PPEVFTRVS-SFLPWIRTTM 242
+             K + KGDSGGPL+C  V H IVS G   GV   P ++T ++  +  WI++ +
+  Sbjct: 207 KDSCKGDSGGPLICKGVFHAIVSGGHECGVATKPGIYTLLTKKYQTWIKSNL 258
+
+  sp  P00760      Trypsinogen, cationic precursor  243 AA
+      TRY1_BOVIN  (EC 3.4.21.4) (Beta-trypsin)     align
+                  (Fragment) [Bos taurus
+                  (Bovine)]
+
+   Score =  127 bits (318), Expect = 3e-29
+   Identities = 71/211 (33%), Positives = 108/211 (51%), Gaps = 8/211 (3%)
+
+  Query: 39  QIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHP 98
+             Q+   +G   CGG L+   +V++AAHC+ S I V LG  NI   E  +Q I+A ++I HP
+  Sbjct: 35  QVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQFISASKSIVHP 94
+
+  Query: 99  QYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGT-- 156
+              YN  T+ NDIML++L             +LP +      GT C ++GWG  +   GT
+  Sbjct: 95  SYNSNTLNNDIMLIKLKSAASLNSRVASISLPTSCAS--AGTQCLISGWGN-TKSSGTSY 151
+
+  Query: 157 -DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIV 215
+              D L+ ++  +  D  C   +         C G     K + +GDSGGP++C+    GIV
+  Sbjct: 152 PDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGKLQGIV 211
+
+  Query: 216 SYGKSSGV--PPEVFTRVSSFLPWIRTTMRS 244
+             S+G        P V+T+V +++ WI+ T+ S
+  Sbjct: 212 SWGSGCAQKNKPGVYTKVCNYVSWIKQTIAS 242
+
+  sp  O35205      Granzyme K precursor (EC  263 AA
+      GRAK_MOUSE  3.4.21.-) [GZMK] [Mus     align
+                  musculus (Mouse)]
+
+   Score =  126 bits (317), Expect = 4e-29
+   Identities = 78/232 (33%), Positives = 126/232 (54%), Gaps = 18/232 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCW-----GSNINVTLGAHNI 79
+             RE +PHSRP+MA +Q +S   +  CGG L+   +VLTAAHC+     G +  V LGAH++
+  Sbjct: 30  REVQPHSRPFMASIQYRS---KHICGGVLIHPQWVLTAAHCYSWFPRGHSPTVVLGAHSL 86
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+              + E  +Q    ++ I   +    +  +DIML++L              L  ++  LR G
+  Sbjct: 87  SKNEPMKQTFEIKKFIPFSRLQSGSASHDIMLIKLRTAAELNKNVQLLHLG-SKNYLRDG 145
+
+  Query: 140 TLCTVAGWG--RVSMRRGTDTLREVQLRVQRDRQC-LRIFGSYDP---RRQICVGDRRER 193
+             T C V GWG  +  +   +DTLREV + +   ++C  + + ++ P   +  IC GD R +
+  Sbjct: 146 TKCQVTGWGTTKPDLLTASDTLREVTVTIISRKRCNSQSYYNHKPVITKDMICAGDARGQ 205
+
+  Query: 194 KAAFKGDSGGPLLCNNVAHGIVSYGKSSGV--PPEVFTRVS-SFLPWIRTTM 242
+             K + KGDSGGPL+C  + H +VS G   G+   P ++T ++  +  WI++ +
+  Sbjct: 206 KDSCKGDSGGPLICKGIFHALVSQGYKCGIAKKPGIYTLLTKKYQTWIKSKL 257
+
+  sp  P32822    Trypsin V-B precursor (EC    246 AA
+      TRYB_RAT  3.4.21.4) [Rattus            align
+                norvegicus (Rat)]
+
+   Score =  126 bits (316), Expect = 5e-29
+   Identities = 75/216 (34%), Positives = 108/216 (50%), Gaps = 9/216 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             HS PY    Q+   AG   CGG L+ + +VL+AAHC+   + V LG HNI   E  +Q I
+  Sbjct: 34  HSVPY----QVSLNAGSHICGGSLITDQWVLSAAHCYHPQLQVRLGEHNIYEIEGAEQFI 89
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + I HP Y++ T+ NDIML++L              LP  Q     GT C V+GWG
+  Sbjct: 90  DAAKMILHPDYDKWTVDNDIMLIKLKSPATLNSKVSTIPLP--QYCPTAGTECLVSGWGV 147
+
+  Query: 150 VSMR-RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCN 208
+             +         L+ +   V  D  C + +         C+G     K + + DSGGP++CN
+  Sbjct: 148 LKFGFESPSVLQCLDAPVLSDSVCHKAYPRQITNNMFCLGFLEGGKDSCQYDSGGPVVCN 207
+
+  Query: 209 NVAHGIVSYGKSSGV--PPEVFTRVSSFLPWIRTTM 242
+                 GIVS+G    +   P V+T+V ++L WI+ T+
+  Sbjct: 208 GEVQGIVSWGDGCALEGKPGVYTKVCNYLNWIQQTV 243
+
+  sp  Q9Y5K2      Kallikrein 4 precursor (EC         254 AA
+      KLK4_HUMAN  3.4.21.-) (Prostase)               align
+                  (Kallikrein-like
+                  protein 1) (KLK-L1) (Enamel
+                  matrix serine proteinase 1)
+                  [KLK4] [Homo sapiens (Human)]
+
+   Score =  126 bits (316), Expect = 5e-29
+   Identities = 70/221 (31%), Positives = 120/221 (54%), Gaps = 11/221 (4%)
+
+  Query: 29  PHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQR-RENTQQ 87
+             PHS+P+ A L +++   +  C G LV   +VL+AAHC+ ++  + LG H+++  +E   Q
+  Sbjct: 39  PHSQPWQAALVMEN---ELFCSGVLVHPQWVLSAAHCFQNSYTIGLGLHSLEADQEPGSQ 95
+
+  Query: 88  HITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGW 147
+              + A  ++RHP+YN+  + ND+ML++L             ++  A +    G  C V+GW
+  Sbjct: 96  MVEASLSVRHPEYNRPLLANDLMLIKLDESVSESDTIRSISI--ASQCPTAGNSCLVSGW 153
+
+  Query: 148 GRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+             G ++  R    L+ V + V  +  C +++         C G  +++K +  GDSGGPL+C
+  Sbjct: 154 GLLANGRMPTVLQCVNVSVVSEEVCSKLYDPLYHPSMFCAGGGQDQKDSCNGDSGGPLIC 213
+
+  Query: 208 NNVAHGIVSYGKSS----GVPPEVFTRVSSFLPWIRTTMRS 244
+             N    G+VS+GK+     GV P V+T +  F  WI  T+++
+  Sbjct: 214 NGYLQGLVSFGKAPCGQVGV-PGVYTNLCKFTEWIEKTVQA 253
+
+  sp  P32821    Trypsin V-A precursor (EC    246 AA
+      TRYA_RAT  3.4.21.4) [Rattus            align
+                norvegicus (Rat)]
+
+   Score =  125 bits (315), Expect = 6e-29
+   Identities = 75/216 (34%), Positives = 107/216 (49%), Gaps = 9/216 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             HS PY    Q+   AG   CGG L+ + +VL+AAHC+   + V LG HNI   E  +Q I
+  Sbjct: 34  HSVPY----QVSLNAGSHICGGSLITDQWVLSAAHCYHPQLQVRLGEHNIYEIEGAEQFI 89
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + I HP Y++ T+ NDIML++L              LP  Q     GT C V+GWG
+  Sbjct: 90  DAAKMILHPDYDKWTVDNDIMLIKLKSPATLNSKVSTIPLP--QYCPTAGTECLVSGWGV 147
+
+  Query: 150 VSMR-RGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCN 208
+             +         L+ +   V  D  C + +         C+G     K + + DSGGP++CN
+  Sbjct: 148 LKFGFESPSVLQCLDAPVLSDSVCHKAYPRQITNNMFCLGFLEGGKDSCQYDSGGPVVCN 207
+
+  Query: 209 NVAHGIVSYGKSSGV--PPEVFTRVSSFLPWIRTTM 242
+                 GIVS+G    +   P V+T+V ++L WI  T+
+  Sbjct: 208 GEVQGIVSWGDGCALEGKPGVYTKVCNYLNWIHQTI 243
+
+  sp  Q61096      Myeloblastin precursor (EC   254 AA
+      PRN3_MOUSE  3.4.21.76) (Proteinase 3)    align
+                  (PR-3) [PRTN3]
+                  [Mus musculus (Mouse)]
+
+   Score =  124 bits (312), Expect = 1e-28
+   Identities = 79/227 (34%), Positives = 111/227 (48%), Gaps = 20/227 (8%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHC-----WGSNINVTLGAHNIQ 80
+             E+RPHSRPY+A LQ+    G   CGG L+   FVLTAAHC     W   + V LGAH++
+  Sbjct: 35  EARPHSRPYVASLQLSRFPGSHFCGGTLIHPRFVLTAAHCLQDISW-QLVTVVLGAHDLL 93
+
+  Query: 81  RRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGT 140
+               E  QQ  T  +  ++  YN     ND++LLQL+            +LP+  + L  GT
+  Sbjct: 94  SSEPEQQKFTISQVFQN-NYNPEENLNDVLLLQLNRTASLGKEVAVASLPQQDQTLSQGT 152
+
+  Query: 141 LCTVAGWGRVSMRRGTD-TLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKG 199
+              C   GWGR+  +  T   L+E+ + V                  +C    R       G
+  Sbjct: 153 QCLAMGWGRLGTQAPTPRVLQELNVTV---------VTFLCREHNVCTLVPRRAAGICFG 203
+
+  Query: 200 DSGGPLLCNNVAHGIVSY---GKSSGVPPEVFTRVSSFLPWIRTTMR 243
+             DSGGPL+CN + HG+ S+     +S   P+ F RVS ++ WI+  +R
+  Sbjct: 204 DSGGPLICNGILHGVDSFVIRECASLQFPDFFARVSMYVDWIQNVLR 250
+
+  sp  Q92876      Kallikrein 6 precursor (EC  244 AA
+      KLK6_HUMAN  3.4.21.-) (Protease M)      align
+                  (Neurosin) (Zyme)
+                  (SP59) [KLK6] [Homo
+                  sapiens (Human)]
+
+   Score =  124 bits (312), Expect = 1e-28
+   Identities = 71/217 (32%), Positives = 113/217 (52%), Gaps = 8/217 (3%)
+
+  Query: 31  SRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHIT 90
+             S PY A L     +G   CGG L+   +VLTAAHC   N+ V LG HN+++RE++Q+  +
+  Sbjct: 32  SHPYQAALYT---SGHLLCGGVLIHPLWVLTAAHCKKPNLQVFLGKHNLRQRESSQEQSS 88
+
+  Query: 91  ARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRV 150
+               RA+ HP Y+  +   DIMLL+L+             LP  ++     T C + GWG+
+  Sbjct: 89  VVRAVIHPDYDAASHDQDIMLLRLA--RPAKLSELIQPLPLERDCSANTTSCHILGWGKT 146
+
+  Query: 151 SMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNV 210
+             +     DT++   + +    +C   +     +  +C GD +  K + +GDSGGPL+C +
+  Sbjct: 147 ADGDFPDTIQCAYIHLVSREECEHAYPGQITQNMLCAGDEKYGKDSCQGDSGGPLVCGDH 206
+
+  Query: 211 AHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTMRS 244
+               G+VS+G     S   P V+T V  +  WI+ T+++
+  Sbjct: 207 LRGLVSWGNIPCGSKEKPGVYTNVCRYTNWIQKTIQA 243
+
+  sp  P12788    Trypsin IV precursor (EC            247 AA
+      TRY4_RAT  3.4.21.4) (Pretrypsinogen IV)       align
+                [TRY4]
+                [Rattus norvegicus (Rat)]
+
+   Score =  124 bits (311), Expect = 2e-28
+   Identities = 70/199 (35%), Positives = 103/199 (51%), Gaps = 6/199 (3%)
+
+  Query: 48  RCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQN 107
+             +CGG L+ + +VL+AAHC+   + V LG HNI   E  +Q I A + IRHP+YN+ T+ N
+  Sbjct: 48  QCGGSLISDQWVLSAAHCYKRKLQVRLGEHNIHVLEGGEQFIDAEKIIRHPEYNKDTLDN 107
+
+  Query: 108 DIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRG--TDTLREVQLR 165
+             DIML++L             +LPR+         C V+GWG      G     L+ ++
+  Sbjct: 108 DIMLIKLKSPAVLNSQVSTVSLPRSCAS--TDAQCLVSGWGNTVSIGGKYPALLQCLEAP 165
+
+  Query: 166 VQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGV-- 223
+             V     C + +         C+G     K +  GDSGGP++CN    GIVS+G    +
+  Sbjct: 166 VLSASSCKKSYPGQITSNMFCLGFLEGGKDSCDGDSGGPVVCNGEIQGIVSWGSVCAMRG 225
+
+  Query: 224 PPEVFTRVSSFLPWIRTTM 242
+              P V+T+V ++L WI+ TM
+  Sbjct: 226 KPGVYTKVCNYLSWIQETM 244
+
+  sp  P00764      Trypsin precursor (EC     229 AA
+      TRYP_SQUAC  3.4.21.4) [Squalus        align
+                  acanthias (Spiny
+                  dogfish)]
+
+   Score =  121 bits (304), Expect = 1e-27
+   Identities = 73/222 (32%), Positives = 109/222 (49%), Gaps = 9/222 (4%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E   H+ P+   L +    G   CGG L+   +V++AAHC+   I V LG H+I   E
+  Sbjct: 13  ECPKHAAPWTVSLNV----GYHFCGGSLIAPGWVVSAAHCYQRRIQVRLGEHDISANEGD 68
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVA 145
+             + +I +   IRHP Y+   + NDIML++LS            +LP        G +C ++
+  Sbjct: 69  ETYIDSSMVIRHPNYSGYDLDNDIMLIKLSKPAALNRNVDLISLPTG--CAYAGEMCLIS 126
+
+  Query: 146 GWGR-VSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGP 204
+             GWG  +      D L+ +   V  D +C   +        +CVG     K + +GDSGGP
+  Sbjct: 127 GWGNTMDGAVSGDQLQCLDAPVLSDAECKGAYPGMITNNMMCVGYMEGGKDSCQGDSGGP 186
+
+  Query: 205 LLCNNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTMRS 244
+             ++CN +  GIVS  YG +    P V+TRV  ++ WI  T+ S
+  Sbjct: 187 VVCNGMLQGIVSWGYGCAERDHPGVYTRVCHYVSWIHETIAS 228
+
+  sp  Q29463      Trypsin, anionic          247 AA
+      TRY2_BOVIN  precursor (EC 3.4.21.4)   align
+                  [Bos taurus (Bovine)]
+
+   Score =  121 bits (303), Expect = 2e-27
+   Identities = 75/217 (34%), Positives = 110/217 (50%), Gaps = 10/217 (4%)
+
+  Query: 30  HSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHI 89
+             +S PY    Q+   AG   CGG L+ + +V++AAHC+  +I V LG +NI   E  +Q I
+  Sbjct: 33  NSVPY----QVSLNAGYHFCGGSLINDQWVVSAAHCYQYHIQVRLGEYNIDVLEGGEQFI 88
+
+  Query: 90  TARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGR 149
+              A + IRHP+Y+  T+ NDI+L++LS             LP A      GT C ++GWG
+  Sbjct: 89  DASKIIRHPKYSSWTLDNDILLIKLSTPAVINARVSTLLLPSACAS--AGTECLISGWGN 146
+
+  Query: 150 V--SMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLC 207
+                S     D L+ +   +     C   +        IC G     K + +GDSGGP+ C
+  Sbjct: 147 TLSSGVNYPDLLQCLVAPLLSHADCEASYPGQITNNMICAGFLEGGKDSCQGDSGGPVAC 206
+
+  Query: 208 NNVAHGIVS--YGKSSGVPPEVFTRVSSFLPWIRTTM 242
+             N    GIVS  YG +    P V+T+V +++ WI+ T+
+  Sbjct: 207 NGQLQGIVSWGYGCAQKGKPGVYTKVCNYVDWIQETI 243
+
+  sp  P32038    Complement factor D precursor  263 AA
+      CFAD_RAT  (EC 3.4.21.46) (C3 convertase  align
+                activator) (Properdin factor
+                D) (Adipsin) (Endogenous
+                vascular elastase) [DF]
+                [Rattus norvegicus (Rat)]
+
+   Score =  121 bits (303), Expect = 2e-27
+   Identities = 75/230 (32%), Positives = 118/230 (51%), Gaps = 18/230 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSN-----INVTLGAHNI 79
+             +E+  H+RPYMA +Q+    G   CGG LV E +VL+AAHC         + V LGAH++
+  Sbjct: 30  QEAMAHARPYMASVQVN---GTHVCGGTLVDEQWVLSAAHCMDGVTKDEVVQVLLGAHSL 86
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+                E  +     +  + HP     ++++D+ML +LS             L R    ++PG
+  Sbjct: 87  SSPEPYKHLYDVQSVVLHPGSRPDSVEDDLMLFKLSHNASLGPHVRPLPLQREDREVKPG 146
+
+  Query: 140 TLCTVAGWGRVS-MRRGTDTLREVQLRVQRDRQC-LRIF--GSYDPRRQICVGDRRERKA 195
+             TLC VAGWG V+   R  D L+++ + +     C LR +  G+          +RR+
+  Sbjct: 147 TLCDVAGWGVVTHAGRRPDVLQQLTVSIMDRNTCNLRTYHDGAITKNMMCAESNRRD--- 203
+
+  Query: 196 AFKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTM 242
+               +GDSGGPL+C +    +V++G     +   P VFTRV++++PWI   +
+  Sbjct: 204 TCRGDSGGPLVCGDAVEAVVTWGSRVCGNRRKPGVFTRVATYVPWIENVL 253
+
+  sp  P49862      Kallikrein 7 precursor (EC    253 AA
+      KLK7_HUMAN  3.4.21.-) (Stratum corneum    align
+                  chymotryptic
+                  enzyme) (hSCCE) [KLK7] [Homo
+                  sapiens (Human)]
+
+   Score =  120 bits (301), Expect = 3e-27
+   Identities = 74/206 (35%), Positives = 104/206 (50%), Gaps = 9/206 (4%)
+
+  Query: 46  QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTI 105
+             Q  CGG LV E +VLTAAHC  +   V LG+  +  R    Q I A ++ RHP Y+ +T
+  Sbjct: 52  QLHCGGVLVNERWVLTAAHCKMNEYTVHLGSDTLGDRR--AQRIKASKSFRHPGYSTQTH 109
+
+  Query: 106 QNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRRGT--DTLREVQ 163
+              ND+ML++L+             LP   E   PGT CTV+GWG  +    T    L  V
+  Sbjct: 110 VNDLMLVKLNSQARLSSMVKKVRLPSRCEP--PGTTCTVSGWGTTTSPDVTFPSDLMCVD 167
+
+  Query: 164 LRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGK-SSG 222
+             +++   + C +++        +C G    +K A  GDSGGPL+C     G+VS+G    G
+  Sbjct: 168 VKLISPQDCTKVYKDLLENSMLCAGIPDSKKNACNGDSGGPLVCRGTLQGLVSWGTFPCG 227
+
+  Query: 223 VP--PEVFTRVSSFLPWIRTTMRSFK 246
+              P  P V+T+V  F  WI  TM+  +
+  Sbjct: 228 QPNDPGVYTQVCKFTKWINDTMKKHR 253
+
+  sp_vs  O60259-01  SPLICE ISOFORM 2 OF    305 AA
+                    O60259 [KLK8] [Homo    align
+                    sapiens (Human)]
+
+   Score =  120 bits (300), Expect = 3e-27
+   Identities = 75/227 (33%), Positives = 113/227 (49%), Gaps = 14/227 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E +PHS+P+ A L       Q  CGG LV  ++VLTAAHC      V LG H++Q ++
+  Sbjct: 83  ECQPHSQPWQAAL---FQGQQLLCGGVLVGGNWVLTAAHCKKPKYTVRLGDHSLQNKDGP 139
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQ---NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLC 142
+             +Q I   ++I HP YN   ++   +D+MLLQL             +L  A    +PG  C
+  Sbjct: 140 EQEIPVVQSIPHPCYNSSDVEDHNHDLMLLQLRDQASLGSKVKPISL--ADHCTQPGQKC 197
+
+  Query: 143 TVAGWGRVSMRRGT--DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGD 200
+             TV+GWG V+  R    DTL   ++++   ++C   +        +C G  +      +GD
+  Sbjct: 198 TVSGWGTVTSPRENFPDTLNCAEVKIFPQKKCEDAYPGQITDGMVCAGSSKGADTC-QGD 256
+
+  Query: 201 SGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTMRS 244
+             SGGPL+C+    GI S+G         P V+T +  +L WI+  + S
+  Sbjct: 257 SGGPLVCDGALQGITSWGSDPCGRSDKPGVYTNICRYLDWIKKIIGS 303
+
+  sp  O60259      Neuropsin precursor (EC 3.4.21.-)   260 AA
+      KLK8_HUMAN  (NP) (Kallikrein 8) (Ovasin)        align
+                  (Serine protease TADG-14)
+                  (Tumor-associated
+                  differentially expressed gene-14
+                  protein) [KLK8] [Homo
+                  sapiens (Human)]
+
+   Score =  120 bits (300), Expect = 3e-27
+   Identities = 75/227 (33%), Positives = 113/227 (49%), Gaps = 14/227 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E +PHS+P+ A L       Q  CGG LV  ++VLTAAHC      V LG H++Q ++
+  Sbjct: 38  ECQPHSQPWQAAL---FQGQQLLCGGVLVGGNWVLTAAHCKKPKYTVRLGDHSLQNKDGP 94
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQ---NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLC 142
+             +Q I   ++I HP YN   ++   +D+MLLQL             +L  A    +PG  C
+  Sbjct: 95  EQEIPVVQSIPHPCYNSSDVEDHNHDLMLLQLRDQASLGSKVKPISL--ADHCTQPGQKC 152
+
+  Query: 143 TVAGWGRVSMRRGT--DTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGD 200
+             TV+GWG V+  R    DTL   ++++   ++C   +        +C G  +      +GD
+  Sbjct: 153 TVSGWGTVTSPRENFPDTLNCAEVKIFPQKKCEDAYPGQITDGMVCAGSSKGADTC-QGD 211
+
+  Query: 201 SGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIRTTMRS 244
+             SGGPL+C+    GI S+G         P V+T +  +L WI+  + S
+  Sbjct: 212 SGGPLVCDGALQGITSWGSDPCGRSDKPGVYTNICRYLDWIKKIIGS 258
+
+  sp  P09582      Arginine esterase           260 AA
+      ESTA_CANFA  precursor (EC 3.4.21.35)    align
+                  [Canis familiaris (Dog)]
+
+   Score =  119 bits (299), Expect = 5e-27
+   Identities = 76/235 (32%), Positives = 116/235 (49%), Gaps = 20/235 (8%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             RE   +S+P+   +      G+  CGG LV  ++VLTAAHC  SN  V LG HN+   E+
+  Sbjct: 29  RECLKNSQPWQVAVYHN---GEFACGGVLVNPEWVLTAAHCANSNCEVWLGRHNLSESED 85
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQ----------NDIMLLQLSXXXXXXXXXXXXALPRAQE 134
+               Q +  R++  HP Y  +  +          +D+MLL L              LP+ +
+  Sbjct: 86  EGQLVQVRKSFIHPLYKTKVPRAVIRPGEDRSHDLMLLHLEEPAKITKAVRVMDLPKKEP 145
+
+  Query: 135 GLRPGTLCTVAGWGRVSMRR--GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRE 192
+              L  G+ C V+GWG           +L+ V L++  + QC +++     +  +C G
+  Sbjct: 146 PL--GSTCYVSGWGSTDPETIFHPGSLQCVDLKLLSNNQCAKVYTQKVTKFMLCAGVLEG 203
+
+  Query: 193 RKAAFKGDSGGPLLCNNVAHGIVSYGKS-SGVP--PEVFTRVSSFLPWIRTTMRS 244
+             +K   KGDSGGPL+C+    GI S+G +  G P  P ++TRV   L WI+ TM++
+  Sbjct: 204 KKDTCKGDSGGPLICDGELVGITSWGATPCGKPQMPSLYTRVMPHLMWIKDTMKA 258
+
+  sp  P36178      Chymotrypsin BII precursor   271 AA
+      CTR2_PENVA  (EC 3.4.21.1) [Penaeus       align
+                  vannamei (Penoeid
+                  shrimp) (European white
+                  shrimp)]
+
+   Score =  119 bits (299), Expect = 5e-27
+   Identities = 78/220 (35%), Positives = 109/220 (49%), Gaps = 14/220 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSN--INVTLGAHNIQRRE 83
+             E+ PHS P+ A L I        CGG L+  ++VLTAAHC      + V LGAHNI++ E
+  Sbjct: 51  EATPHSWPHQAALFIDD---MYFCGGSLISSEWVLTAAHCMDGAGFVEVVLGAHNIRQNE 107
+
+  Query: 84  NTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCT 143
+              +Q  IT+     H  +N   + NDI L++L              LP +   +  GT  T
+  Sbjct: 108 ASQVSITSTDFFTHENWNSWLLTNDIALIKLPSPVSLNSNIKTVKLPSSDVAV--GTTVT 165
+
+  Query: 144 VAGWGRVSMRRG--TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDS 201
+               GWGR     G  +D LR+V + +  +  C  ++G       +C+ D    K    GDS
+  Sbjct: 166 PTGWGRPLDSAGGISDVLRQVDVPIMTNDDCDAVYGIVG-NGVVCI-DSEGGKGTCNGDS 223
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVP---PEVFTRVSSFLPWI 238
+             GGPL  N + +GI S+G S+G     P+ FTRV  +L WI
+  Sbjct: 224 GGPLNLNGMTYGITSFGSSAGCEVGYPDAFTRVYYYLDWI 263
+
+  sp  Q00871      Chymotrypsin BI precursor    271 AA
+      CTR1_PENVA  (EC 3.4.21.1) [Penaeus       align
+                  vannamei (Penoeid
+                  shrimp) (European white
+                  shrimp)]
+
+   Score =  119 bits (297), Expect = 8e-27
+   Identities = 79/221 (35%), Positives = 110/221 (49%), Gaps = 14/221 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSN--INVTLGAHNIQRRE 83
+             E+ PHS P+ A L I        CGG L+  ++VLTAAHC      + V LGAHNI++ E
+  Sbjct: 51  EATPHSWPHQAALFIDD---MYFCGGSLISSEWVLTAAHCMDGAGFVEVVLGAHNIRQNE 107
+
+  Query: 84  NTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCT 143
+              +Q  IT+     H  +N   + NDI L++L              LP +   +  GT  T
+  Sbjct: 108 ASQVSITSTDFFTHENWNSWLLTNDIALIRLPSPVSLNSNIKTVKLPSSDVSV--GTTVT 165
+
+  Query: 144 VAGWGRVSMRRG--TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDS 201
+               GWGR S      +D LR+V + V  +  C  ++G       +C+ D    K+   GDS
+  Sbjct: 166 PTGWGRPSDSASGISDVLRQVNVPVMTNADCDSVYGIVGD-GVVCI-DGTGGKSTCNGDS 223
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVP---PEVFTRVSSFLPWIR 239
+             GGPL  N + +GI S+G S+G     P  FTRV  +L WI+
+  Sbjct: 224 GGPLNLNGMTYGITSFGSSAGCEKGYPAAFTRVYYYLDWIQ 264
+
+  sp  P08246      Leukocyte elastase           267 AA
+      ELNE_HUMAN  precursor (EC 3.4.21.37)     align
+                  (Neutrophil elastase)
+                  (PMN elastase) (Bone marrow
+                  serine protease)
+                  (Medullasin) [ELA2] [Homo
+                  sapiens (Human)]
+
+   Score =  118 bits (296), Expect = 1e-26
+   Identities = 77/223 (34%), Positives = 111/223 (49%), Gaps = 23/223 (10%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINV-----TLGAHNI 79
+             R +RPH+ P+M  LQ++   G   CG  L+  +FV++AAHC  +N+NV      LGAHN+
+  Sbjct: 34  RRARPHAWPFMVSLQLR---GGHFCGATLIAPNFVMSAAHCV-ANVNVRAVRVVLGAHNL 89
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+              RRE T+Q    +R   +  Y+   + NDI++LQL+             LP     L  G
+  Sbjct: 90  SRREPTRQVFAVQRIFENG-YDPVNLLNDIVILQLNGSATINANVQVAQLPAQGRRLGNG 148
+
+  Query: 140 TLCTVAGWGRVSMRRG-TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFK 198
+               C   GWG +   RG    L+E+ + V           S   R  +C   R  +
+  Sbjct: 149 VQCLAMGWGLLGRNRGIASVLQELNVTVVT---------SLCRRSNVCTLVRGRQAGVCF 199
+
+  Query: 199 GDSGGPLLCNNVAHGIVSY---GKSSGVPPEVFTRVSSFLPWI 238
+             GDSG PL+CN + HGI S+   G +SG+ P+ F  V+ F+ WI
+  Sbjct: 200 GDSGSPLVCNGLIHGIASFVRGGCASGLYPDAFAPVAQFVNWI 242
+
+  sp  P00771      Brachyurin (EC 3.4.21.32)         226 AA
+      COGS_UCAPU  (Collagenolytic protease) [Uca    align
+                  pugilator
+                  (Atlantic sand fiddler crab)
+                  (Celuca pugilator)]
+
+   Score =  117 bits (294), Expect = 2e-26
+   Identities = 79/222 (35%), Positives = 111/222 (50%), Gaps = 14/222 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSN--INVTLGAHNIQRRE 83
+             E+ P+S P+ A L I        CGG L+  +++LTAAHC      ++V LGAHNI+  E
+  Sbjct: 6   EAVPNSWPHQAALFIDD---MYFCGGSLISPEWILTAAHCMDGAGFVDVVLGAHNIREDE 62
+
+  Query: 84  NTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCT 143
+              TQ  I +     H  YN   I NDI +++L              LP    G+  GT+ T
+  Sbjct: 63  ATQVTIQSTDFTVHENYNSFVISNDIAVIRLPVPVTLTAAIATVGLPSTDVGV--GTVVT 120
+
+  Query: 144 VAGWG--RVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDS 201
+               GWG    S    +D LR+V + +  +  C  ++G       IC+ D    K    GDS
+  Sbjct: 121 PTGWGLPSDSALGISDVLRQVDVPIMSNADCDAVYGIVTD-GNICI-DSTGGKGTCNGDS 178
+
+  Query: 202 GGPLLCNNVAHGIVSYGKSSGVP---PEVFTRVSSFLPWIRT 240
+             GGPL  N + +GI S+G ++G     P+ FTRV+ FL WI+T
+  Sbjct: 179 GGPLNYNGLTYGITSFGAAAGCEAGYPDAFTRVTYFLDWIQT 220
+
+  sp  P00756      Glandular kallikrein K3     261 AA
+      KLK3_MOUSE  precursor (EC 3.4.21.35)    align
+                  (Tissue
+                  kallikrein) (mGK-3) (7S
+                  nerve growth factor gamma
+                  chain)
+                  (Gamma-NGF) [KLK3] [Mus
+                  musculus (Mouse)]
+
+   Score =  117 bits (293), Expect = 2e-26
+   Identities = 73/213 (34%), Positives = 108/213 (50%), Gaps = 18/213 (8%)
+
+  Query: 46  QSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTI 105
+             Q  CGG L+  ++VLTAAHC+  N  V LG +N+ + E + QH    +AI HP +N   +
+  Sbjct: 47  QYLCGGVLLDPNWVLTAAHCYDDNYKVWLGKNNLFKDEPSAQHRFVSKAIPHPGFNMSLM 106
+
+  Query: 106 Q-----------NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRR 154
+             +           ND+MLL+LS             LP  +  L  G+ C  +GWG ++  +
+  Sbjct: 107 RKHIRFLEYDYSNDLMLLRLSKPADITDTVKPITLPTEEPKL--GSTCLASGWGSITPTK 164
+
+  Query: 155 --GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAH 212
+                TD L  V L++  +  C +          +C G+    K   KGDSGGPL+C+ V
+  Sbjct: 165 FQFTDDLYCVNLKLLPNEDCAKAHIEKVTDAMLCAGEMDGGKDTCKGDSGGPLICDGVLQ 224
+
+  Query: 213 GIVSYGKS-SGVP--PEVFTRVSSFLPWIRTTM 242
+             GI S+G +  G P  P V+T+++ F  WI+ TM
+  Sbjct: 225 GITSWGHTPCGEPDMPGVYTKLNKFTSWIKDTM 257
+
+  sp  P15946      Glandular kallikrein K11    261 AA
+      KLKB_MOUSE  precursor (EC 3.4.21.35)    align
+                  (Tissue
+                  kallikrein) (MGK-11)
+                  [KLK11] [Mus musculus
+                  (Mouse)]
+
+   Score =  116 bits (291), Expect = 4e-26
+   Identities = 72/210 (34%), Positives = 106/210 (50%), Gaps = 18/210 (8%)
+
+  Query: 49  CGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTI--- 105
+             CGG L+  ++VLTAAHC  S  NV LG   + +RE + QH    ++  HP YN   +
+  Sbjct: 50  CGGVLLDRNWVLTAAHCHVSQYNVWLGKTKLFQREPSAQHRMVSKSFPHPDYNMSLLIIH 109
+
+  Query: 106 --------QNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVSMRR--G 155
+                      ND+MLL+LS            ALP  +  L  G+ C V+GWG ++  +
+  Sbjct: 110 NPEPEDDESNDLMLLRLSEPADITDAVKPIALPTEEPKL--GSTCLVSGWGSITPTKFQT 167
+
+  Query: 156 TDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIV 215
+              D L+ V +++  +  C++          +C G+    K   KGDSGGPL+C+ V HGI
+  Sbjct: 168 PDDLQCVSIKLLPNEVCVKNHNQKVTDVMLCAGEMGGGKDTCKGDSGGPLICDGVLHGIT 227
+
+  Query: 216 SYGK-SSGVP--PEVFTRVSSFLPWIRTTM 242
+             ++G    G P  P V+T++  F  WI+ TM
+  Sbjct: 228 AWGPIPCGKPNTPGVYTKLIKFTNWIKDTM 257
+
+  sp_vs  P03953-01  SPLICE ISOFORM 2 OF    258 AA
+                    P03953 [DF] [Mus       align
+                    musculus (Mouse)]
+
+   Score =  115 bits (288), Expect = 9e-26
+   Identities = 73/226 (32%), Positives = 116/226 (51%), Gaps = 18/226 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGS-----NINVTLGAHNI 79
+             +E+  H+RPYMA +Q+    G   CGG L+ E +VL+AAHC        ++ V LGAH++
+  Sbjct: 29  QEAAAHARPYMASVQVN---GTHVCGGTLLDEQWVLSAAHCMDGVTDDDSVQVLLGAHSL 85
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+                E  ++    +  + HP     ++++D++L +LS             L    + + PG
+  Sbjct: 86  SAPEPYKRWYDVQSVVPHPGSRPDSLEDDLILFKLSQNASLGPHVRPLPLQYEDKEVEPG 145
+
+  Query: 140 TLCTVAGWGRVS-MRRGTDTLREVQLRVQRDRQC-LRIF--GSYDPRRQICVGDRRERKA 195
+             TLC VAGWG V+   R  D L ++++ +     C LR +  G           +RR+
+  Sbjct: 146 TLCDVAGWGVVTHAGRRPDVLHQLRVSIMNRTTCNLRTYHDGVVTINMMCAESNRRD--- 202
+
+  Query: 196 AFKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWI 238
+               +GDSG PL+C +   G+V++G     +G  P V+TRVSS+  WI
+  Sbjct: 203 TCRGDSGSPLVCGDAVEGVVTWGSRVCGNGKKPGVYTRVSSYRMWI 248
+
+  sp  P03953      Complement factor D         259 AA
+      CFAD_MOUSE  precursor (EC 3.4.21.46)    align
+                  (C3 convertase
+                  activator) (Properdin
+                  factor D) (Adipsin) (28
+                  kDa
+                  protein, adipocyte) [DF]
+                  [Mus musculus (Mouse)]
+
+   Score =  115 bits (288), Expect = 9e-26
+   Identities = 73/226 (32%), Positives = 116/226 (51%), Gaps = 18/226 (7%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGS-----NINVTLGAHNI 79
+             +E+  H+RPYMA +Q+    G   CGG L+ E +VL+AAHC        ++ V LGAH++
+  Sbjct: 30  QEAAAHARPYMASVQVN---GTHVCGGTLLDEQWVLSAAHCMDGVTDDDSVQVLLGAHSL 86
+
+  Query: 80  QRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPG 139
+                E  ++    +  + HP     ++++D++L +LS             L    + + PG
+  Sbjct: 87  SAPEPYKRWYDVQSVVPHPGSRPDSLEDDLILFKLSQNASLGPHVRPLPLQYEDKEVEPG 146
+
+  Query: 140 TLCTVAGWGRVS-MRRGTDTLREVQLRVQRDRQC-LRIF--GSYDPRRQICVGDRRERKA 195
+             TLC VAGWG V+   R  D L ++++ +     C LR +  G           +RR+
+  Sbjct: 147 TLCDVAGWGVVTHAGRRPDVLHQLRVSIMNRTTCNLRTYHDGVVTINMMCAESNRRD--- 203
+
+  Query: 196 AFKGDSGGPLLCNNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWI 238
+               +GDSG PL+C +   G+V++G     +G  P V+TRVSS+  WI
+  Sbjct: 204 TCRGDSGSPLVCGDAVEGVVTWGSRVCGNGKKPGVYTRVSSYRMWI 249
+
+  sp  O88780    Neuropsin precursor (EC        260 AA
+      NRPN_RAT  3.4.21.-) (NP) (Kallikrein 8)  align
+                (Brain serine
+                protease 1) [KLK8] [Rattus
+                norvegicus (Rat)]
+
+   Score =  115 bits (287), Expect = 1e-25
+   Identities = 72/226 (31%), Positives = 113/226 (50%), Gaps = 14/226 (6%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             +E +PHS+P+   L       +  CGG LV + +VLTAAHC     +V LG H++Q+R+
+  Sbjct: 37  QECKPHSQPWQTAL---FQGERLVCGGVLVGDRWVLTAAHCKKDKYSVRLGDHSLQKRDE 93
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQ---NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+              +Q I   R+I+HP +N    +   +DIML++L              L  A    + G
+  Sbjct: 94  PEQEIQVARSIQHPCFNSSNPEDHSHDIMLIRLQNSANLGDKVKPIEL--ANLCPKVGQK 151
+
+  Query: 142 CTVAGWGRVS--MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKG 199
+             C ++GWG V+       +TL   ++++    +C R +        +C G         +G
+  Sbjct: 152 CIISGWGTVTSPQENFPNTLNCAEVKIYSQNKCERAYPGKITEGMVCAGSSNGADTC-QG 210
+
+  Query: 200 DSGGPLLCNNVAHGIVSYGKS-SGVP--PEVFTRVSSFLPWIRTTM 242
+             DSGGPL+CN V  GI ++G    G P  P V+T++  +  WI+ TM
+  Sbjct: 211 DSGGPLVCNGVLQGITTWGSDPCGKPEKPGVYTKICRYTNWIKKTM 256
+
+  sp  P20151      Glandular kallikrein 2       261 AA
+      KLK2_HUMAN  precursor (EC 3.4.21.35)     align
+                  (Tissue kallikrein)
+                  (Prostate) (hGK-1) [KLK2]
+                  [Homo sapiens (Human)]
+
+   Score =  115 bits (287), Expect = 1e-25
+   Identities = 75/233 (32%), Positives = 105/233 (45%), Gaps = 21/233 (9%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E   HS+P+   +      G + CGG LV   +VLTAAHC   N  V LG HN+   E+T
+  Sbjct: 30  ECEKHSQPWQVAVYSH---GWAHCGGVLVHPQWVLTAAHCLKKNSQVWLGRHNLFEPEDT 86
+
+  Query: 86  QQHITARRAIRHPQYNQRTIQ-----------NDIMLLQLSXXXXXXXXXXXXALPRAQE 134
+              Q +    +  HP YN   ++           +D+MLL+LS             LP  +
+  Sbjct: 87  GQRVPVSHSFPHPLYNMSLLKHQSLRPDEDSSHDLMLLRLSEPAKITDVVKVLGLPTQEP 146
+
+  Query: 135 GLRPGTLCTVAGWGRVSMRR--GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRE 192
+              L  GT C  +GWG +         +L+ V L +  +  C R +        +C G
+  Sbjct: 147 AL--GTTCYASGWGSIEPEEFLRPRSLQCVSLHLLSNDMCARAYSEKVTEFMLCAGLWTG 204
+
+  Query: 193 RKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPE---VFTRVSSFLPWIRTTM 242
+              K    GDSGGPL+CN V  GI S+G      PE   V+T+V  +  WI+ T+
+  Sbjct: 205 GKDTCGGDSGGPLVCNGVLQGITSWGPEPCALPEKPAVYTKVVHYRKWIKDTI 257
+
+  sp  P51124      Granzyme M precursor (EC    257 AA
+      GRAM_HUMAN  3.4.21.-) (Met-ase)         align
+                  (Natural killer cell
+                  granular protease)
+                  (HU-Met-1) (Met-1 serine
+                  protease)
+                  [GZMM] [Homo sapiens
+                  (Human)]
+
+   Score =  114 bits (285), Expect = 2e-25
+   Identities = 86/228 (37%), Positives = 117/228 (51%), Gaps = 20/228 (8%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWG---SNINVTLGAHNIQR 81
+             RE  PHSRPYMA LQ     G   CGG LV   +VLTAAHC     + + + LG H +
+  Sbjct: 30  REVIPHSRPYMASLQRN---GSHLCGGVLVHPKWVLTAAHCLAQRMAQLRLVLGLHTLDS 86
+
+  Query: 82  RENTQQHITARRAIRHPQYNQ-RTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGT 140
+                T  HI A  AI+HP+Y     ++ND+ LLQL             ALP  ++ +  GT
+  Sbjct: 87  PGLTF-HIKA--AIQHPRYKPVPALENDLALLQLDGKVKPSRTIRPLALPSKRQVVAAGT 143
+
+  Query: 141 LCTVAGWGRVSM-RRGTDTLREVQLRVQRDRQC--LRIF-GSYDPRRQICVGDRRERKAA 196
+              C++AGWG      R +  LRE+ L+V   R C   R + GS  P   +C+    + +A
+  Sbjct: 144 RCSMAGWGLTHQGGRLSRVLRELDLQVLDTRMCNNSRFWNGSLSP-SMVCLAADSKDQAP 202
+
+  Query: 197 FKGDSGGPLLC--NNVAHGIVSYGK---SSGVPPEVFTRVSSFLPWIR 239
+              KGDSGGPL+C    V  G++S+     +    P V T V+ ++ WIR
+  Sbjct: 203 CKGDSGGPLVCGKGRVLAGVLSFSSRVCTDIFKPPVATAVAPYVSWIR 250
+
+  sp_vs  Q9UBX7-01  SPLICE ISOFORM 2 OF    282 AA
+                    Q9UBX7 [KLK11] [Homo   align
+                    sapiens (Human)]
+
+   Score =  114 bits (284), Expect = 2e-25
+   Identities = 70/228 (30%), Positives = 114/228 (50%), Gaps = 14/228 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E +PHS+P+ A L  ++   +  CG  L+   ++LTAAHC      V LG HN+Q+ E
+  Sbjct: 59  ECKPHSQPWQAALFEKT---RLLCGATLIAPRWLLTAAHCLKPRYIVHLGQHNLQKEEGC 115
+
+  Query: 86  QQHITARRAIRHPQYN----QRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+             +Q  TA  +  HP +N     +  +NDIML++++             L  +   +  GT
+  Sbjct: 116 EQTRTATESFPHPGFNNSLPNKDHRNDIMLVKMASPVSITWAVRPLTL--SSRCVTAGTS 173
+
+  Query: 142 CTVAGWGRVS--MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKG 199
+             C ++GWG  S    R   TLR   + +   ++C   +        +C   +   K + +G
+  Sbjct: 174 CLISGWGSTSSPQLRLPHTLRCANITIIEHQKCENAYPGNITDTMVCASVQEGGKDSCQG 233
+
+  Query: 200 DSGGPLLCNNVAHGIVSYGKSSGV---PPEVFTRVSSFLPWIRTTMRS 244
+             DSGGPL+CN    GI+S+G+        P V+T+V  ++ WI+ TM++
+  Sbjct: 234 DSGGPLVCNQSLQGIISWGQDPCAITRKPGVYTKVCKYVDWIQETMKN 281
+
+  sp  P35034      Trypsin precursor (EC           250 AA
+      TRYP_PLEPL  3.4.21.4) [Pleuronectes         align
+                  platessa (Plaice)]
+
+   Score =  114 bits (284), Expect = 2e-25
+   Identities = 69/229 (30%), Positives = 111/229 (48%), Gaps = 16/229 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSN--INVTLGAHNIQRRE 83
+             E   HSRP+MA L      G   CGG L+   +VL+ AHCW +   + V LG H++++ E
+  Sbjct: 28  ECAAHSRPFMASLNY----GYHFCGGVLINNQWVLSVAHCWYNPYAMQVMLGEHDLRKFE 83
+
+  Query: 84  NTQQHITARRAIRHPQYNQRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCT 143
+              T+Q +     I HP Y+ +T+  D+     S             +P        GT C+
+  Sbjct: 84  GTEQLMKTDTIIWHPNYDYQTL--DLTSCSSSSTILWKVTHAVAPIPLPTSCPVAGTPCS 141
+
+  Query: 144 VAGWGRVSMRRGTDT-----LREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFK 198
+             V+GWG  + R G +      L+ + + +  + QC++ +      R +C G     + A
+  Sbjct: 142 VSGWGNTA-RDGDEVYLPTLLQCMDVPIVDEEQCMKSYPDMISPRMVCAGFMDGSRDACN 200
+
+  Query: 199 GDSGGPLLCNNVAHGIVSYGKSSGVP--PEVFTRVSSFLPWIRTTMRSF 245
+             GDSG PL+C    +G+VS+G+    P  P V+ ++  FL WI  T+ ++
+  Sbjct: 201 GDSGSPLVCRGEVYGLVSWGQGCAQPNYPGVYVKLCEFLGWIERTLEAY 249
+
+  sp  Q9UBX7      Kallikrein 11 precursor (EC     250 AA
+      KLKB_HUMAN  3.4.21.-) (Hippostasin)         align
+                  (Trypsin-like
+                  protease) [KLK11] [Homo
+                  sapiens (Human)]
+
+   Score =  114 bits (284), Expect = 2e-25
+   Identities = 70/228 (30%), Positives = 114/228 (50%), Gaps = 14/228 (6%)
+
+  Query: 26  ESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENT 85
+             E +PHS+P+ A L  ++   +  CG  L+   ++LTAAHC      V LG HN+Q+ E
+  Sbjct: 27  ECKPHSQPWQAALFEKT---RLLCGATLIAPRWLLTAAHCLKPRYIVHLGQHNLQKEEGC 83
+
+  Query: 86  QQHITARRAIRHPQYN----QRTIQNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+             +Q  TA  +  HP +N     +  +NDIML++++             L  +   +  GT
+  Sbjct: 84  EQTRTATESFPHPGFNNSLPNKDHRNDIMLVKMASPVSITWAVRPLTL--SSRCVTAGTS 141
+
+  Query: 142 CTVAGWGRVS--MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKG 199
+             C ++GWG  S    R   TLR   + +   ++C   +        +C   +   K + +G
+  Sbjct: 142 CLISGWGSTSSPQLRLPHTLRCANITIIEHQKCENAYPGNITDTMVCASVQEGGKDSCQG 201
+
+  Query: 200 DSGGPLLCNNVAHGIVSYGKSSGV---PPEVFTRVSSFLPWIRTTMRS 244
+             DSGGPL+CN    GI+S+G+        P V+T+V  ++ WI+ TM++
+  Sbjct: 202 DSGGPLVCNQSLQGIISWGQDPCAITRKPGVYTKVCKYVDWIQETMKN 249
+
+  sp  Q61955      Neuropsin precursor (EC      260 AA
+      NRPN_MOUSE  3.4.21.-) (NP) (Kallikrein   align
+                  8) [KLK8] [Mus
+                  musculus (Mouse)]
+
+   Score =  113 bits (283), Expect = 3e-25
+   Identities = 73/226 (32%), Positives = 112/226 (49%), Gaps = 14/226 (6%)
+
+  Query: 25  RESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRREN 84
+             RE  PHS+P+ A L       +  CGG LV + +VLTAAHC     +V LG H++Q R+
+  Sbjct: 37  RECIPHSQPWQAAL---FQGERLICGGVLVGDRWVLTAAHCKKQKYSVRLGDHSLQSRDQ 93
+
+  Query: 85  TQQHITARRAIRHPQYNQRTIQ---NDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTL 141
+              +Q I   ++I+HP YN    +   +DIML++L              L  A    + G
+  Sbjct: 94  PEQEIQVAQSIQHPCYNNSNPEDHSHDIMLIRLQNSANLGDKVKPVQL--ANLCPKVGQK 151
+
+  Query: 142 CTVAGWGRVS--MRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKG 199
+             C ++GWG V+       +TL   ++++    +C R +        +C G         +G
+  Sbjct: 152 CIISGWGTVTSPQENFPNTLNCAEVKIYSQNKCERAYPGKITEGMVCAGSSNGADTC-QG 210
+
+  Query: 200 DSGGPLLCNNVAHGIVSYGKS-SGVP--PEVFTRVSSFLPWIRTTM 242
+             DSGGPL+C+ +  GI S+G    G P  P V+T++  +  WI+ TM
+  Sbjct: 211 DSGGPLVCDGMLQGITSWGSDPCGKPEKPGVYTKICRYTTWIKKTM 256
+
+  sp  P15947      Glandular kallikrein K1      261 AA
+      KLK1_MOUSE  precursor (EC 3.4.21.35)     align
+                  (Tissue
+                  kallikrein) (mGK-6) (Renal
+                  kallikrein) (KAL-B) [KLK1]
+                  [Mus musculus (Mouse)]
+
+   Score =  112 bits (279), Expect = 9e-25
+   Identities = 72/211 (34%), Positives = 100/211 (47%), Gaps = 18/211 (8%)
+
+  Query: 48  RCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTI-- 105
+             +CGG L+  ++VLTAAHC      V LG +N    E + QH    +AI HP +N   +
+  Sbjct: 49  QCGGILLNANWVLTAAHCHNDKYQVWLGKNNFLEDEPSAQHRLVSKAIPHPDFNMSLLNE 108
+
+  Query: 106 ---------QNDIMLLQLSXXXXXXXXXXXXALPRAQEGLRPGTLCTVAGWGRVS--MRR 154
+                       ND+MLL+L              LP  +  L  G+ C  +GWG ++
+  Sbjct: 109 HTPQPEDDYSNDLMLLRLKKPADITDVVKPIDLPTEEPKL--GSTCLASGWGSITPVKYE 166
+
+  Query: 155 GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGI 214
+               D L+ V L++  +  C +          +C GD    K    GDSGGPL+C+ V  GI
+  Sbjct: 167 YPDELQCVNLKLLPNEDCAKAHIEKVTDDMLCAGDMDGGKDTCAGDSGGPLICDGVLQGI 226
+
+  Query: 215 VSYGKS-SGVP--PEVFTRVSSFLPWIRTTM 242
+              S+G S  G P  P ++TRV +F  WIR TM
+  Sbjct: 227 TSWGPSPCGKPNVPGIYTRVLNFNTWIRETM 257
+
+Database: XXswissprot
+    Posted date:  Feb 12, 2003  5:23 PM
+  Number of letters in database: 48,443,204
+  Number of sequences in database:  127,732
+
+Lambda     K      H
+   0.323    0.137    0.425
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 20,638,397
+Number of Sequences: 127732
+Number of extensions: 750686
+Number of successful extensions: 2813
+Number of sequences better than 10.0: 441
+Number of HSP's better than 10.0 without gapping: 386
+Number of HSP's successfully gapped in prelim test: 55
+Number of HSP's that attempted gapping in prelim test: 1403
+Number of HSP's gapped (non-prelim): 448
+length of query: 255
+length of database: 48,443,204
+effective HSP length: 106
+effective length of query: 149
+effective length of database: 34,903,612
+effective search space: 5200638188
+effective search space used: 5200638188
+T: 11
+A: 40
+X1: 16 ( 7.5 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 64 (29.3 bits)
+
+  ------------------------------------------------------------------------
+  ExPASy Home
+      page     Site Map Search ExPASy Contact us Proteomics toolsSwiss-Prot
+  ------------------------------------------------------------------------

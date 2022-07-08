@@ -1,0 +1,41 @@
+**************************************************************
+*
+*	Master File for Incorporating new methods in T-Coffee
+*	Cedric Notredame 23/02/01
+*
+**************************************************************
+
+*EXECUTABLE
+*name of the executable
+EXECUTABLE 	S 	clustalw
+
+*ALN_MODE
+*       pairwise   ->Half Everything Vs Everything excepty self   [(n2-n)/2 pw aln]
+*	m_pairwise ->     Everything Vs Everything excepty self   [n2-n     pw aln]
+*	s_pairwise ->Half Everything Vs Everything including self [n2-(n2-n)/2 pw aln
+*       multiple   ->All the sequences in one go
+ALN_MODE 	S	pairwise
+
+*OUT_MODE
+*mode of the outout: 
+*     aln -> alignmnent File
+*     list-> List file (librairie)
+*     fL -> Internal Function returning a List (Librairie)
+*     fA -> Internal Function returning an Alignmnent
+OUT_MODE 	S	 aln
+
+*IN_FLAG
+*flag indicating the name of the in-coming sequences
+*IN_FLAG S no_name ->no flag
+IN_FLAG 	S 	-INFILE=
+
+*OUT_FLAG
+*flag indicating the name of the out-coming data
+*OUT_FLAG S no_name ->no flag
+OUT_FLAG 	S 	-OUTFILE=
+
+*DEFAULT
+*list of the default parameters sent to the EXECUTABLE
+DEFAULT 	S 	-OUTORDER=INPUT -NEWTREE=core -align -gapopen=-15
+
+*<EXECUTABLE> <IN_FLAG> <OUT_FLAG> <DEFAULT>

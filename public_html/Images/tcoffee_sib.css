@@ -1,0 +1,191 @@
+form, body {
+    margin: 0;
+}
+
+#background {
+    background: #F7F8FA url(/Tcoffee/Images/sib_body_bkgd.png) repeat-x top left;
+}
+.colorTitle {
+    background: #84c2e5;
+}
+.colorAppli {
+    background: #a5daf8;
+}
+#title {
+    color: #333333;
+    font-size: 1.1em;
+    font-family: arial;
+    padding: 1px 15px 5px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+#titleBorder {
+    border: 1px solid #1E2425;
+    border-top: none;
+}
+#border {
+    border: 1px solid #1E2425;
+    border-top-style: none;
+    background: #ffffff;
+    width: 792px;
+}
+
+#menu_bkgd {
+    height: 6px;
+    background: #1E2425;
+    color: #1E2425;
+}
+.menu {
+    color: #ffffff;
+}
+#config {
+    text-decoration: none;
+}
+
+
+#logo {
+    background: #F1F5F8 url(/Tcoffee/Images/sib_header_medium_bkgd.png) repeat-x top left;
+    width: 100%;
+    height: 90px;
+}
+#sib_logo {
+    margin-left: 18px;
+}
+#sib_appli_title {
+    margin-top: 9px;
+    margin-right: 160px;
+}
+
+.mirror {
+    border: none;
+    vertical-align: middle;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 1px 0px 5px 0px;
+}
+em.mirror_sites {
+    vertical-align: middle;
+}
+.categories {
+    border: none;
+    height: 30px;
+    background-color: #91c6e4;
+}
+
+.appli_box {
+    height: 45px;
+}
+.appli_name {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Serif, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+#sponsor_title {
+    font-family: arial;
+    color: #333333;
+    font-size: 10pt;
+}
+#sponsor_text {
+    font-family: arial;
+    font-size: x-small;
+    text-align: justify;
+}
+
+#mode_level {
+    font-size: x-large;
+    font-family: arial;
+    font-weight: bold;
+    color: #3AC6C9;
+}
+#mode_warning {
+    color: #FF0000;
+    font-size: medium;
+}
+.mode_desc {
+    font-family: arial;
+    color: #333366;
+    font-size: 10pt;
+    text-align: justify;
+}
+.paragraph_desc {
+    font-family: arial;
+    color: #333366;
+    font-size: xx-small;
+    text-align: justify;
+}
+.paragraph_title {
+    font-family: arial;
+    color: #817f82;
+    font-size: 14pt;
+}
+.switch {
+    font-family: arial;
+    font-size: 8pt;
+}
+.desc {
+    font-family: arial;
+    color: #333366;
+    font-size: 10pt;
+}
+.larger_font {
+    font-size: 14pt;
+}
+
+#title_res {
+    font-size: 20pt;
+}
+#keep {
+    font-size: 10pt;
+}
+.paragraph_res {
+    font-size: 15pt;
+    background: #c0c0c0;
+}
+.empty_cell {
+    empty-cells: hide;
+    background: #c0c0c0;
+}
+.cat_res {
+    background: #E4EEFF;
+    white-space: nowrap;
+    text-align: left;
+}
+.send2 {
+    font-size: 10pt;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+#sib_footer {
+    bottom: 0;
+    height: 40px;
+    background-color: #1E2425;
+    width: 100%;
+    color: #F7F8FA;
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+#sib_footer_content {
+    padding: 9px 36px 11px 36px;
+    margin-right: 300px;
+}
+#sib_footer a {
+    text-decoration: none;
+    color: #F7F8FA;
+}
+#sib_footer a:hover {
+    color: #F7F8FA;
+    text-decoration: underline;
+}
+#sib_footer a img {
+    border: none;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+

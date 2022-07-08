@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/*------------------------------------*\
+	STYLE.CSS
+\*------------------------------------*/
+/*
+Author:             Harry Roberts
+Twitter:            @csswizardry
+Author URL:         csswizardry.com
+
+
+/* --- Fonts --*/
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Maven Pro Bold'), local('MavenProBold'), url(http://themes.googleusercontent.com/static/fonts/mavenpro/v4/uDssvmXgp7Nj3i336k_dSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Maven Pro Medium'), local('MavenProMedium'), url(http://themes.googleusercontent.com/static/fonts/mavenpro/v4/SQVfzoJBbj9t3aVcmbspRqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(http://themes.googleusercontent.com/static/fonts/mavenpro/v4/MG9KbUZFchDs94Tbv9U-pbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Maven Pro Black'), local('MavenProBlack'), url(http://themes.googleusercontent.com/static/fonts/mavenpro/v4/-91TwiFzqeL1F7Kh91APwaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+
+/*------------------------------------*\
+	CONTENTS
+\*------------------------------------*/
+/*
+SHARED
+MAIN
+ISLANDS
+HEADER
+TYPE
+*/
+
+
+
+
+
+/*------------------------------------*\
+	$SHARED
+\*------------------------------------*/
+.island.promo,
+pre,
+code{
+	background-color:#fef8c4;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$MAIN
+\*------------------------------------*/
+html{
+	background:url(../img/css/page/page-top.gif) left top repeat-x #fff;
+	padding-top:10px; /* Move the content down over the page-top background-image. */
+	font-family: "Maven Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 18px;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$ISLANDS
+\*------------------------------------*/
+.island.promo {
+	color:#6d6841;
+	border:1px solid #d8d566;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+}
+	
+.island.promo a {
+		color:inherit;
+		font-weight:bold;
+		text-decoration:underline;
+	}
+
+
+
+/*------------------------------------*\
+	$HEADER
+\*------------------------------------*/
+.header{
+	padding:1.5em 0;
+}
+.logo{
+	background:url(../img/tcoffeelogo.png);
+}
+.logo,.logo img{
+	width:230px;
+	height:80px;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$FhOOTER
+\*------------------------------------*/
+.footer{
+	font-size: .7em;
+	padding-top:1.5em;
+	border-top:1px solid #ccc;
+	color:#999;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+a{
+	color:#4a8ec2;
+}
+mark{
+	border-bottom:2px solid;
+}
+pre{
+	padding:10px;
+}
+pre code,
+pre mark{
+	background:none;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$MISC
+\*------------------------------------*/
+::selection		{ background-color:#4a8ec2; color:#fff; }
+::-moz-selection{ background-color:#4a8ec2; color:#fff; }
+
+.home ::selection 	 { background-color:#d90000; color:#fff; }
+.home ::-moz-selection { background-color:#d90000; color:#fff; }
+
+hr{
+	padding:0;
+	border:none;
+	height:1px;
+	background-color:#ccc;
+}
+
+
+
+/*------------------------------------*\
+	$CUSTOM
+\*------------------------------------*/
+
+h2, h3 {
+	margin: 1.7em auto .7em;
+}
+    
+/* Island Home */
+
+.island.home {
+	background-color: #ffde49;
+	color:#4e4b32;
+	border:1px solid #d8d566;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+}
+	
+.island.home h1,
+.island.home h2,
+.island.home h3
+{
+	color: #b40404;
+}
+
+.island.home h1 {
+	font-size: 48px;
+	font-weight: 900;
+	text-shadow: 0px 5px 1px rgba(255, 255, 255, 0.6);
+}
+
+
+.island.home a {
+		color: #b40404;
+		font-weight:bold;
+		text-decoration:none;
+	}
+
+
+/* island menu */
+
+ul.rightmenu {
+	margin-left: 1.5em;
+}
+
+.rightmenu li {
+	list-style-type: none;
+	margin-bottom: 8px;
+}
+
+
+.rightmenu li a {
+	display: inline-block;
+	min-width: 6em;
+	text-decoration: none;
+	padding: 6px 20px ;
+	text-align: center;
+	border-bottom: 1px solid #d8d566;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	background-color: #fdf6b6;
+		
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	}
+
+.rightmenu li a:hover,
+.rightmenu li a:focus {
+	background-color:#d90000; 
+	color:#fff;	
+    }
+
+
+/* --- sidemenu --- */
+
+ul.sidemenu {
+	margin-left: 1.5em;
+}
+
+.sidemenu li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
+
+
+.sidemenu li a {
+	display: inline-block;
+	min-width: 5em;
+	font-weight: bold;
+	padding: 6px 20px ;
+	border-bottom: 1px solid;
+	background-color: rgba(128,128,128,0.05);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	}
+
+.sidemenu li a:hover,
+.sidemenu li a:focus {
+	text-decoration: none;
+	background-color:#4a8ec2; 
+	color:#fff; 
+    
+    }
+    
+    
+/* --- Other-menu --- */
+
+ul.othermenu {
+	margin-left: .7em;
+}
+
+.othermenu li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
+
+
+.othermenu li a {
+	font-weight: bold;
+	padding: 6px 20px ;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	}
+
+.othermenu li a:hover,
+.othermenu li a:focus {
+	text-decoration: none;
+	background-color:#4a8ec2; 
+	color:#fff; 
+    
+    }    
+    
+    
+/* -- move up the yellow box */
+
+@media (min-width: 721px) {
+
+	div.island.home {
+		margin-top: -5.8em;
+		padding-top: .3em;
+	}
+}
+
+@media (max-width: 720px) {
+
+	.island.home h1 {
+		font-size: 28px;
+		text-shadow: 0px 3px 1px rgba(255, 255, 255, 0.6);		
+	}
+}

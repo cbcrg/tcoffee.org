@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [en] (X11; I; IRIX 6.2 IP22) [Netscape]">
+   <META NAME="Author" CONTENT="cedric notredame">
+   <META NAME="Keywords" CONTENT="RAGA RNA secondary,structure Genetic,algorithm parallel,genetic,algorithm pseudoknots ribosomal,rna">
+   <TITLE>RAGA HOME PAGE</TITLE>
+   
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16712397-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFEBCD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<HR WIDTH="100%">
+<UL>
+<UL>
+<UL>
+<UL>
+<UL><B><FONT SIZE=+2>(P)RAGA HOME PAGE</FONT></B></UL>
+</UL>
+</UL>
+</UL>
+<B><FONT COLOR="#8B4513"><FONT SIZE=+2>(Parallel) RNA Alignment by Genetic
+Algorithm</FONT></FONT></B></UL>
+
+<HR WIDTH="100%">
+<BR><B><FONT COLOR="#8B4513">RELATED PAPER</FONT></B>
+<BLOCKQUOTE><I>RAGA: RNA alignment by Genetic Algorithm</I>, C.Notredame,
+E.A. O'Brien, D.G. Higgins, <B>Nucleic Acid Research, </B>Vol. 25, 4570-4580<B>,
+1997.<BR>
+available in&nbsp; [<A target="_blank" HREF="../../Publications/Ps_pdf/raga_paper.ps">ps</A>][<A target="_blank" HREF="../../Publications/Ps_pdf/raga_paper.pdf">pdf</A>][<A target="_blank" HREF="../../Publications/Html/Raga_paper_html/raga_paper.html">html</A>].</B></BLOCKQUOTE>
+<B><FONT COLOR="#8B4513">WHAT IS RAGA?</FONT></B>
+<UL>RAGA is a pairwise alignment program. Its aim is to align two RNA sequences,
+sharing the same secondary structure but different primary sequences, knowing
+the secondary structure of one of the RNAs. We tested RAGA on a range of
+testcases made from Ribosomal RNA sequences extracted from the <A target="_blank" HREF="http://rdpwww.life.uiuc.edu/RDP/data/ssu.html">Ribosomal
+Small Subunit Database</A>. Our result clearly suggest that RAGA is able
+to take into account secondary structure information, in order to generate
+accurate alignments. We also found that RAGA was able to deal with some
+tertiary elements like pseudoknots.
+
+<P>RAGA is mostly an adaptation of <A HREF="../saga/index.html">SAGA</A>. It
+can align two sequence up to 2000 nucleotide long. The way it is now, PRAGA
+can only align a pair of sequences, but in a short term we plan to have
+one of these two sequences replaced by a profile made from some reference
+alignment.</UL>
+<B><FONT COLOR="#8B4513">WHAT IS PRAGA?</FONT></B>
+<UL>PRAGA is a parallel GA, designed to speed up RAGA. In fact it is a
+module, that can start several processes of RAGA in parallel and control
+them. While these GAs run, PRAGA monitors them, and allows them to exchange
+part of their population. In the worst case, PRAGA is as fast as a single
+RAGA process with an overall population of the same size as the total population
+of the RAGA processes in the parallell version. In the best case, the speedup
+is much higher and the accuracy significantly improved, due to the way
+the Processes are exchanging population.
+
+<P>The module itself PGA is compatible with <A HREF="../saga/index.html">SAGA</A>
+and will be supported to remain compatible with RAGA and any new GA based
+on SAGA, that we may develop in the future.</UL>
+<B><FONT COLOR="#8B4513">WHAT IS IN THE PACKAGE ?</FONT></B>
+<UL>
+<UL>
+<UL>-A list of the testcases we used to test PRAGA
+
+<P>-The code for RAGA and some documentation.
+
+<P>-The code for PRAGA and some documentation.</UL>
+</UL>
+</UL>
+<B><FONT COLOR="#8B4513">DOWNLOADING RAGA and PRAGA</FONT></B>
+<UL>RAGA and PRAGA can be obtained
+throught this page. To download the packages, click <A target="_blank" HREF="../../Packages/Archive/RAGA_DISTRIBUTE.tar.Z">HERE</A>.
+The <A target="_blank" HREF="../../Publications/Ps_pdf/raga_praga_doc.ps">Documentation</A>
+is included in the package itself. To install the programs, use the <A target="_blank" HREF="../../Publications/Ps_pdf/raga_praga_README">README</A>
+and the documentation. Install RAGA first, and then PRAGA if you need it.
+
+<P>Please be aware that installing PRAGA is more difficult than RAGA. If
+you have any problem following the procedures indicated in the Documentation,
+please refer first to your system manager.</UL>
+<B><A HREF="../index.html">BACK</A></B>
+</BODY>
+</HTML>

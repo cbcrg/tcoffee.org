@@ -1,0 +1,44 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Getting the best out of T-Coffee  </h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<UL>
+
+	<tr>
+	  <td>
+	    
+	    <LI><b>Default Expresso</b>
+	      <OL>
+	      The expresso mode will run a blast between your sequences and the EBI, identify the best templates, download the PDB files and use them. The templates are reported in the file <a href="./file/template_file.template_list">template_file.template_list</a>. The templates may vary because they depend on the version of the PDB. If you want, you can produce this file yourself, or re-use a previous one.
+	      </OL>
+	    </LI>
+	    <LI><b>Customizing Expresso</b>
+	      <OL>
+		
+		<LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -method sap_pair -template_file <a href="./file/template_file.template_list">template_file.template_list</a> </code><br> Produces an alignment with an accuracy of usualy higher than 70%</LI>
+		<LI>It is possible to combine various structural alignment methods:</LI>
+		<LI><code>t_coffee <a href="./file/dataset.fasta">dataset.fasta</a> -method TMalign_pair sap_pair mustang_pair -template_file <a href="./file/template_file.template_list">template_file.template_list</a> </code><br></LI>
+	      </OL>
+	    </LI>
+	  </td>
+	</tr>
+
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@europe.com">C.Notredame</a> </font></center>
+ </body>
+ </html>

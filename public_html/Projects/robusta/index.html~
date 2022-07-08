@@ -1,0 +1,295 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <title>Robusta Home Page</title>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16712397-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+    <BODY TEXT="#000000" BGCOLOR=white LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <FONT FACE="Arial">
+    <center>
+
+ <table width="80%"       cellpadding=15 cellspacing=0 bgcolor="#FFEBCD" border=1 bordercolor="#8B4513">
+	  <tr>
+	    <td>
+	      <table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign="TOP" border=0>
+		  <tr bgcolor="#FFEBCD" >
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="40%"><br></td>
+		    <td colspan=1 bgcolor="#FFEBCD" width="5%"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD">
+		      <center><table><tr><td align="center"><b> <FONT size="7" color="#8B4513">Robusta <br>A Meta-Multiple Genome Alignment Tool</font></b></td></tr></table></center>
+		    </td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFE4C4">
+		      <HR>
+		      <center>
+			<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+			    <tr align=center>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="../homepage.html"><font color="#8B4513">HOME</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#COMMANDS"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#OUTPUT"><font color="#8B4513">OUTPUT</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+
+			    </tr>
+
+			</table>
+		      </center>
+		      <HR>
+		    </td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td rowspan=3 bgcolor="#FFEBCD"><br></td>
+		    <td rowspan=3 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513">What is Robusta?</FONT></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <P align="justify">
+			      Robusta is a meta multiple genome alignment package. It does not produce any alignment by itself but can combine alignments of different genome alignment programs into a single final alignment. It is able to call serveral different pairwise and multiple genome alignment programs. The results of these programs are parsed and turned into a T-Coffee library. Using T-Coffee the alignments are then turned into the final alignment.
+			      Currently two pairwise genome aligner and three multiple genome alignment programs are included into this framework.
+			      A typical usage would be to cut the genomes to align into a set of collinear homologous blocks using Mercator. These blocks are than aligned and turned into libraries using Robusta. As a final step T-Coffee is called to produce an alignment for each block.
+			    </td>
+			  </tr>
+		      </table>
+
+		    </td>
+
+		    <td colspan=1 rowspan=3 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="SERVERS">SERVERS</a></font></h2></center>
+		      <table bgcolor="white">
+
+			  <tr><td>
+			      <UL>
+				<LI><A HREF="http://www.tcoffee.org">www.tcoffee.org</A></LI>
+			      </UL>
+			    </td></tr>
+		      </table>
+		    <td rowspan=3 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=1 rowspan=1 bgcolor="white">
+		      <center><h2><FONT color="#8B4513"><a name="DOWNLOAD">DOWNLOAD</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr><td>
+			      <UL>
+				<LI>Robusta is a seperate program for the Linux operating system and needs several programs to be installed: T-Coffee to combine the libraries and one or serveral genome alignment programs.</LI>
+			      <li><a href="robusta" >Click here to download Robusta binary</a></li>
+			      </UL>
+			      
+			    </td></tr>
+		      </table>
+		    </td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td bgcolor="#FFEBCD"><br></td>
+		    <td colspan=3 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="INSTALLATION">INSTALLATION</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <P align="justify"><b>1-</b>Download the executable or use Git to get the source code of the current version: "git clone https://github.com/cbcrg/robusta.git"</P>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td>
+			      <P align="justify"><b>2-</b> If you downloaded the source code change into the g_coffee directory and type "make mode=release". </P>
+			    </td>
+			  </tr>
+			  <tr>
+
+			  </tr>
+		      </table>
+		    </td>
+		    <td bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td colspan=1 rowspan=5 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 rowspan=5 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="OUTPUT">OUTPUT</a></font></h2></center>
+		      <center><table bgcolor="white">
+			    <tr>
+			      <td>
+				<P align=justify>Given a sequence file <code>foo.pep</code> Robusta produces a library which can be turned into an alignment using T-Coffee. See below for a small benchmark using different combinations of genome alignment programs. <br>
+				9 Rickettsia genomes were first seperated into blocks using Mectator and than aligned using Robusta with different alignments. All Robusta Variants are starting with G.
+				</P>
+				<img border="0" src="g_coffee_rickettsia_9_conservation.jpeg">
+			      </td>
+			    </tr>
+			</table></center>
+		    </td>
+		    <td colspan=1 rowspan=5 bgcolor="#FFEBCD"><br></td>
+		    <td colspan=1 bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="COMMANDS">DOCUMENTATION</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <p>The full documentation is on the <a href="../tcoffee/index.html#DOCUMENTATION">T-Coffee Homepage</a>. But the following shortcuts may be useful.</p>
+			      <TABLE border=0 WIDTH="100%" CELLPADDING="5" bgcolor="white">
+				  <tr>
+				    <TD bgcolor="grey"></td>
+				  </tr>
+				  <TR>
+				    <TD>To run Robusta using lastz and cgaln, type</td>
+				  </TR>
+				  <tr>
+				    <td>
+				      <code>g_coffee -i <i>foo.seq</i> -p lastz,cgaln -o <i>foo.lib</i> </code><br />
+				      And then use T-Coffee to produce the final alignment:<br />
+				      <code>t_coffee -lib <i>foo.lib</i> </code>
+				    </td>
+				  </TR>
+				  <tr>
+				    <TD bgcolor="grey"></td>
+				  </tr>
+				  <TR>
+				    <TD>For an overview of all options type: </td>
+				  </TR>
+				  <tr>
+				    <td>
+				      <code>g_coffe -h </code>
+				    </td>
+				  </TR>
+				  <tr>
+				    <TD colspan=3 bgcolor="grey"></td>
+				  </tr>
+			      </table>
+
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td colspan=1 rowspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="LINKS">LINKS</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <LI><A HREF="../../Resources/aligner_list.html">MSA Mehods</A> Available for combination within M-Coffee</LI>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=1 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+		  <tr>
+		    <td bgcolor="white" valign="top">
+		      <center><h2><FONT color="#8B4513"><a name="CONTACT">CONTACT</a></font></h2></center>
+		      <table bgcolor="white">
+			  <tr>
+			    <td>
+			      <P>Our projects relie on your feeback. Please send me an
+				E-mail if you wish to make a request, a comment, or report a bug!
+				<code>
+				  <br><br>
+				  *******************************************<br>
+				  Dr. Cedric Notredame, PhD.                 <br>
+				  Group Leader                               <br>
+				  Comparative Bioinformatics Group           <br>
+				  Bioinformatics and Genomics Programme      <br>
+				  Center for Genomic Regulation (CRG)        <br>
+				  Dr Aiguader, 88                            <br>
+				  08003 Barcelona                            <br>
+				  Spain                                      <br>
+				  Email:  <A href="MAILTO:cedric.notredame@europe.com">cedric.notredame@europe.com</A>    <br>
+				  HOME :  <A HREF="http://www.tcoffee.org/homepage.html">http://www.tcoffee.org/homepage.html</A><br>
+				  GROUP:  <a href="http://pasteur.crg.es/portal/page/portal/Internet/02_Research/01_Programmes/01_Bioinformatics_Genomics/03_Comparative_Bioinformatics">CRG</A><br>
+				  Phone:  +34 933 160 271                <br>
+				  *******************************************       <br>
+				</code>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFEBCD"><br></td>
+		  </tr>
+
+		  <tr>
+		    <td colspan=5 bgcolor="#FFE4C4">
+
+		      <center>
+			<HR>
+				<table width="100%" cellpadding=15 cellspacing=0 cellborder=0 valign=top>
+			    <tr align=center>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="../homepage.html"><font color="#8B4513">HOME</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#COMMANDS"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#OUTPUT"><font color="#8B4513">OUTPUT</font></a></b></td>
+			      <td width="15%" onMouseOver="style.backgroundColor='white';"onmouseout="style.backgroundColor='#FFE4C4'"><b><a href="#CONTACT"><font color="#8B4513">CONTACT</font></a></b></td>
+
+			    </tr>
+
+			</table>
+			<HR>
+		      </center>
+
+		    </td>
+    </center>
+  </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  </center>
+  </font>
+  </body>
+</html>

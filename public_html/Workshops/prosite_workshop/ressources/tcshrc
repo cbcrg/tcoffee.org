@@ -1,0 +1,22 @@
+# .tcshrc
+source $HOME/.tcshrc.user
+source /usr/local/ENV/.tcshrc.env
+setenv EDITOR /bin/vi
+alias ls 'ls -CtF'
+set history = 100
+set Arch=`/bin/uname -s`
+set ARCH=`/bin/uname -s`
+set HOST=`/bin/uname -n`
+
+if ("$Arch" == IRIX64 || "$Arch" == SGI64 ||"$Arch" == SGI || "$Arch" == IRIX) then
+    setenv OS Irix
+else if ("$Arch" == SUNMP  || "$Arch" == SunOS || "$Arch" == SUN)then
+    setenv OS Sun
+else if ("$Arch" == Linux)then
+    setenv OS Linux
+else
+    setenv OS Unknown
+endif
+setenv BIN ~/bin
+setenv USER_BIN $BIN/$OS
+set path=($path . $USER_BIN)

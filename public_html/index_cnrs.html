@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+  <TITLE>Tcoffee</TITLE>
+<link rel="shortcut icon" href="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/tcoffee.ico">
+  <META name="keywords" content="Multiple sequence alignment,T-COFFEE,TCoffee,t_coffee,MSA,alignment,protogene,proto-gene,3dcoffee,3d-coffee,expresso,APDB,iRMSD,IGS,Vital-IT" />
+  <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  
+</HEAD>
+
+<body background="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/pattern.gif" style="margin: 0">
+
+<table summary="menu" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="792" style="border-style:solid;border-width:1px;border-color:#000000;border-top-style:none;">
+  <tr valign="top">
+    <td width="750" align="center">
+      <table summary="logo" align="center" border="0" cellpadding="0" cellspacing="0" width="792">
+        <tr>
+          <td colspan="5" align="center" nowrap="nowrap"><a href="http://www.cnrs.fr/"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/logo_cnrs.gif" width=160 alt="Menu " border=0 /></a><a href="http://www.igs.cnrs-mrs.fr/"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/logo_igs.jpg" width=590 alt=" Menu" border=0 /></a></td>
+        </tr>
+        <tr>
+           <td align="left" bgcolor="#000000" width="1">
+             <a href="http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/evol.cgi?log_file=userlog.xml" style="text-decoration: none; color: #000000;">.</a>
+           </td>
+           <td align="right" bgcolor="#000000" height="6" valign="top" style="color: #ffffff;" colspan="2" width="791">
+             <a href="http://www.tcoffee.org" style="color: #ffffff;">HOME</a>&nbsp;|&nbsp;
+             <a href="http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html" style="color: #ffffff;">references</a>&nbsp;|&nbsp;
+             <a href="http://www.igs.cnrs-mrs.fr/Tcoffee/Doc/doc3.html" target="_blank" style="color: #ffffff;">help</a>&nbsp;|&nbsp;
+             <a href="mailto:t_coffee_webmaster@igs.cnrs-mrs.fr,cedric.notredame@europe.com">
+                <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/mail1.gif" alt="e-mail" border="0" /></a>&nbsp;&nbsp;&nbsp;
+             <a href="http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?load_cfg_file=1" style="text-decoration: none; color: #000000;">.</a>
+           </td>
+        </tr>
+      </table>
+      <table width=730 align=center border=0 cellpadding=0 cellspacing=0 summary="appli">
+        <tr>
+          <td>
+            
+            <form method="post" action="http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi" enctype="multipart/form-data">
+            <table bgcolor=#cc9966 border=1 align=center rules=all cellpadding=3 summary="form">
+              <tr>
+                <td align=center>
+                  <a href="http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/t-coffee4.png" border=0 alt="T-Coffee" /></a><br/>
+                  <B><font color='#333333' face='arial' size=4>A collection of tools for Computing, Evaluating and Manipulating Multiple Alignments of DNA, Protein Sequences and Structures</font></B>
+                </td>
+              </tr>
+            </table>
+            <input type="hidden" name="stage1" value="1"  />
+            <table align="center" bgcolor=#e7c7a8 border=2 cellspacing=0 cellpadding=0 width=70% summary="appli form" style="border-style:none;">
+
+              <tr>
+                <th align="center" colspan=5 bgcolor="#ffffff" height=30 valign="middle" style="border-style:none">
+                  <I>Mirror sites:</I> &nbsp;<A href="http://tcoffee.vital-it.ch/" title="Vital-IT, Swiss Institute of Bioinformatics (SIB)"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/logo_sib_big.jpg" align="middle" border=0 alt="Vital-IT, Swiss Institute of Bioinformatics (SIB)" width=36 height=25 /></A>&nbsp;&nbsp;<A href="http://www.igs.cnrs-mrs.fr/Tcoffee/" title="IGS lab., CNRS"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/cnrs.jpg" border=0 align="middle" alt="IGS lab., CNRS" width=36 height=25 /></A>&nbsp;&nbsp;<A href="http://www.ebi.ac.uk/t-coffee/" title="EBI, European Bioinformatics Institute"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/EBI.gif" align="middle" border=0 alt="EBI, European Bioinformatics Institute" width=36 height=25 /></A>&nbsp;
+                </th>
+              </tr>
+
+              <tr>
+                <th align="center" colspan=5 bgcolor="#d3b394" height=30 valign="middle" style="border-style:none">
+                  <B>ALIGNMENT</B>
+                </th>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Computation%20of%20a%20Multiple%20Sequence%20Alignment')" title="Computation of a Multiple Sequence Alignment">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=TCOFFEE::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=TCOFFEE::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12824354,10964570" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Computation%20of%20a%20Multiple%20Sequence%20Alignment')" title="Computation of a Multiple Sequence Alignment">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Multiple%20Sequence%20Alignment%20of%20Sequences%20and%20Structures%20(Replaces%203DCoffee)')" title="Multiple Sequence Alignment of Sequences and Structures (Replaces 3DCoffee)">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/1.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=EXPRESSO(3DCoffee)::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=EXPRESSO(3DCoffee)::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=16845081,15201059,15215345,10964570" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Multiple%20Sequence%20Alignment%20of%20Sequences%20and%20Structures%20(Replaces%203DCoffee)')" title="Multiple Sequence Alignment of Sequences and Structures (Replaces 3DCoffee)">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Combination%20of%20Multiple%20Sequence%20Alignment%20Methods')" title="Combination of Multiple Sequence Alignment Methods">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/2.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=MCOFFEE::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=MCOFFEE::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=16556910,10964570" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('%20Combination%20of%20Multiple%20Sequence%20Alignment%20Methods')" title=" Combination of Multiple Sequence Alignment Methods">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Combination%20of%20Alternative%20Multiple%20Sequence%20Alignments%20Into%20One%20single%20Multiple%20Alignment%20Using%20TCoffee')" title="Combination of Alternative Multiple Sequence Alignments Into One single Multiple Alignment Using TCoffee">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/3.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=COMBINE::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=COMBINE::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12824354,10964570" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Combination%20of%20Alternative%20Multiple%20Sequence%20Alignments%20Into%20One%20single%20Multiple%20Alignment%20Using%20TCoffee')" title="Combination of Alternative Multiple Sequence Alignments Into One single Multiple Alignment Using TCoffee">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr>
+                <th align="center" colspan=5 bgcolor="#d3b394" height=30 valign="middle" style="border-style:none">
+                  <B>EVALUATION</B>
+                </th>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Concistency%20based%20Evaluation%20of%20a%20Multiple%20Sequence%20Alignment%20Using%20the%20TCoffee%20CORE%20index')" title="Concistency based Evaluation of a Multiple Sequence Alignment Using the TCoffee CORE index">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/4.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=CORE::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=CORE::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12824354,10964570" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Concistency%20based%20Evaluation%20of%20a%20Multiple%20Sequence%20Alignment%20Using%20the%20TCoffee%20CORE%20index')" title="Concistency based Evaluation of a Multiple Sequence Alignment Using the TCoffee CORE index">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Evaluation%20of%20a%20Multiple%20Sequence%20Alignment%20Using%20Structural%20Information')" title="Evaluation of a Multiple Sequence Alignment Using Structural Information">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/5.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=iRMSD-APDB::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=iRMSD-APDB::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=16873492,17032685,12855461" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Evaluation%20of%20a%20Multiple%20Sequence%20Alignment%20Using%20Structural%20Information')" title="Evaluation of a Multiple Sequence Alignment Using Structural Information">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr>
+                <th align="center" colspan=5 bgcolor="#d3b394" height=30 valign="middle" style="border-style:none">
+                  <B>PROCESSING</B>
+                </th>
+              </tr>
+
+              <tr align=center>
+                <td width=40% height=45 align="center">
+                  <A href="javascript:alert('Bona-Fide%20Back%20Translation%20of%20Protein%20Multiple%20Sequence%20Alignments')" title="Bona-Fide Back Translation of Protein Multiple Sequence Alignments">
+                  <img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/6.lookbis.png" border=0 alt="program" /></A>
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Regular" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=PROTOGENE::Regular&quot;" />
+                </td>
+                <td align=center>
+                  <input type="button"  name="daction" value="Advanced" onclick="parent.location=&quot;http://www.igs.cnrs-mrs.fr/Tcoffee/tcoffee_cgi/index.cgi?stage1=1&amp;daction=PROTOGENE::Advanced&quot;" />
+                </td>
+                <td align="center">
+                  <A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=16845080" target="_blank">cite</A>
+                </td>
+                <TD align="center">
+                  &nbsp;<A href="javascript:alert('Bona-Fide%20Back%20Translation%20of%20Protein%20Multiple%20Sequence%20Alignments')" title="Bona-Fide Back Translation of Protein Multiple Sequence Alignments">?</A>&nbsp;
+                </TD>
+              </tr>
+
+              <tr>
+                <th align="center" colspan=5 bgcolor="#ffffff" height=30 valign="middle" style="border-style:none">
+                  <I>Mirror sites:</I> &nbsp;<A href="http://tcoffee.vital-it.ch/" title="Vital-IT, Swiss Institute of Bioinformatics (SIB)"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/logo_sib_big.jpg" align="middle" border=0 alt="Vital-IT, Swiss Institute of Bioinformatics (SIB)" width=36 height=25 /></A>&nbsp;&nbsp;<A href="http://www.igs.cnrs-mrs.fr/Tcoffee/" title="IGS lab., CNRS"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/cnrs.jpg" border=0 align="middle" alt="IGS lab., CNRS" width=36 height=25 /></A>&nbsp;&nbsp;<A href="http://www.ebi.ac.uk/t-coffee/" title="EBI, European Bioinformatics Institute"><img src="http://www.igs.cnrs-mrs.fr/Tcoffee/Images/EBI.gif" align="middle" border=0 alt="EBI, European Bioinformatics Institute" width=36 height=25 /></A>&nbsp;
+                </th>
+              </tr>
+            </table>
+            </form>
+            
+          </td>
+        </tr>
+	      </table>
+	      <table summary="foot page" align="center" width=730 border=0 cellpadding=0 cellspacing=0>
+		  <tr>
+		    <td align="right">
+		      <table cellpadding=0 cellspacing=0 border=0 bgcolor="#C0C0C0" summary="sponsor">
+			  <tr>
+			    <td>
+			      <table cellpadding=3 cellspacing=1 border=0 summary="book">
+				  <tr>
+				    <td bgcolor="#cc9966" align="center" style="font-family:arial;font-color:#333333;font-size:small">
+				      Featured in
+				    </td>
+				  </tr>
+			
+				  <tr>
+				    <td>
+				      <a href="http://www.amazon.com/gp/product/0470089857?ie=UTF8&tag=wwwtcoffeeorg-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0470089857" target="_blank"><img border="0" src="./logo_dir/0470089857.jpg"></a><img src="http://www.assoc-amazon.com/e/ir?t=wwwtcoffeeorg-20&l=as2&o=1&a=0470089857" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+				      
+				      <br>
+
+				    </td>
+				  </tr>
+			      </table>
+			    </td>
+			  </tr>
+		      </table>
+		    </td>
+		    <td width="5%">&nbsp;&nbsp;</td>
+		    <td align="left" width="40%">
+		      <table bgcolor="#ffffff" border=0 summary="homepage">
+			  <tr>
+			    <td style="font-family:arial;font-size:x-small" align="left">
+			      All these packages are opensource freeware. Download them and look for extra documentation on
+			      <A HREF=http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html>The Tcoffee Homepage</a>
+			      and on my personal <A HREF=http://www.tcoffee.org/homepage.html>Homepage</A>
+			    <BR><BR>
+		              The Book <B><a href="http://www.amazon.com/gp/product/0470089857?ie=UTF8&tag=wwwtcoffeeorg-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0470089857" target="_blank">Bioinformatics For Dummies</B></A> contains a T-Coffee tutorial and many other <a HREF="http://www.dummies.com/WileyCDA/DummiesTitle/productCd-0470089857,page-1.html" target="_blank"><b>online ressources</b></A>. 
+			    <BR><BR>
+			      The following <A href="./Books/index.html">Text-Books</A> can also help you interpret your results.
+			    </td>
+			    
+			  </tr>
+		      </table>
+		    </td>
+		    <td width="15%"></td>
+		  </tr>
+	      </table><br/>
+	    </td>
+	  </tr>
+      </table>
+      <br/>
+
+</body>
+</html>
