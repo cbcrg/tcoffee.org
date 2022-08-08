@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Identifying an enzyme active site<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    <OL>
+	      <LI><p>Identifying a conserved domain</p></LI>
+	    <UL>
+	      <LI>1-In the following BLAST <a href="./file/blast.txt">output</a> we selected cfad_human(P00746), cfad_pig (P51779), graa_human(P12544), cap7_human(P20160) , catg_human(P08311), try2_human(P07478), try2_xenla(70059), try1_salsa in order to obtain the following <a href= "./file/aln1.aln">alignment</a>. Conserved Serines are good candidates for being part of the active site. Conserved aromatics are more likely to be involved in the structure</LI>
+	      <LI>2-We now add an extra sequence:  cap7_human (P20160) that does not seem to have any catalytic activity but is unquetionably a member of the family. This helps pointing out residues whose mutation in CAP7 are good candidate for being responsible of the loss of function (You could also use the Haptoglobins). THis gives the following <a href="./file/aln2.aln">alignment</a>.</LI>
+	      <Br>
+	      <LI><B>Conclusion:</B>Distant sequences that are well caraterized make it possible to propose very detailed hypothesis regarding enzyme mechanisms.</LI>
+	      </UL>
+	    </OL>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@igs.cnrs-mrs.fr">C.Notredame</a> </font></center>
+ </body>
+ </html>

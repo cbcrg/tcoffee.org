@@ -1,0 +1,45 @@
+ BESTFIT of: rad4_schpo  check: 3112  from: 1  to: 648
+ 
+ID   RAD4_SCHPO     STANDARD;      PRT;   648 AA.
+AC   P32372;
+DT   01-OCT-1993 (REL. 27, CREATED)
+DT   01-FEB-1995 (REL. 31, LAST SEQUENCE UPDATE)
+DT   01-FEB-1995 (REL. 31, LAST ANNOTATION UPDATE)
+DE   RAD4 PROTEIN (CUT5 PROTEIN) (P74). . . . 
+ 
+ to: xrcc_human  check: 3314  from: 1  to: 633
+ 
+ID   XRCC_HUMAN     STANDARD;      PRT;   633 AA.
+AC   P18887;
+DT   01-NOV-1990 (REL. 16, CREATED)
+DT   01-NOV-1990 (REL. 16, LAST SEQUENCE UPDATE)
+DT   01-OCT-1993 (REL. 27, LAST ANNOTATION UPDATE)
+DE   DNA-REPAIR PROTEIN XRCC1. . . . 
+
+ Symbol comparison table: /sg10_3/gcg/gcg91/gcgcore/data/rundata/blosum62.cmp
+ CompCheck: 6430
+
+         Gap Weight:     18      Average Match:  2.912
+      Length Weight:      2   Average Mismatch: -2.003
+
+            Quality:    114             Length:     53
+              Ratio:  2.151               Gaps:      0
+ Percent Similarity: 50.943   Percent Identity: 45.283
+
+ Average quality based on 100 randomizations: 36.9 +/- 4.5
+
+        Match display thresholds for the alignment(s):
+                    | = IDENTITY
+                    : =   2
+                    . =   1
+
+ rad4_schpo x xrcc_human   August 26, 1998 14:50  ..
+
+                  .         .         .         .         .
+       5 KPLKGFVICCTSIDLKQRTEISTKATKLGAAYRSDFTKDVTHLIAGDFDT 54
+         | |.| |:  .      |.|:  || .||| || |.|:| ||||    .|
+     318 KILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANT 367
+            
+      55 PKY 57
+         |||
+     368 PKY 370

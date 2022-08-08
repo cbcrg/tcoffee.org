@@ -1,0 +1,395 @@
+!!NA_MULTIPLE_ALIGNMENT 1.0
+PileUp of: @6_pileup_stat10n.list
+
+ Symbol comparison table: GenRunData:pileupdna.cmp  CompCheck: 6876
+
+                   GapWeight: 5
+             GapLengthWeight: 1 
+
+ 6_pileup_stat10n.msf  MSF: 1547  Type: N  August 24, 1998 18:26  Check: 9629 ..
+
+ Name: sth1_xenla       Len:  1547  Check: 3522  Weight:  1.00
+ Name: sth2_xenla       Len:  1547  Check: 7842  Weight:  1.00
+ Name: sthm_mouse       Len:  1547  Check: 7637  Weight:  1.00
+ Name: sthm_rat         Len:  1547  Check: 4891  Weight:  1.00
+ Name: sthm_human       Len:  1547  Check:  662  Weight:  1.00
+ Name: sthm_chick       Len:  1547  Check: 4565  Weight:  1.00
+ Name: scga_xenla       Len:  1547  Check:  667  Weight:  1.00
+ Name: scgb_xenla       Len:  1547  Check: 7008  Weight:  1.00
+ Name: scg1_human       Len:  1547  Check: 2475  Weight:  1.00
+ Name: xb3_xenla        Len:  1547  Check:  360  Weight:  1.00
+
+//
+
+            1                                                   50
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~GGTCCGAGC CGCCTGGCTT 
+sthm_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~AAGC TTCTCCACGC CGGCTCGCTA CCCTCTCCAC TGCTGTAGCT 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  GAAACAGAGC GCAAGGTAAA GAAGATTATT CCGTCTTTCT CTGAACTCTC 
+
+            51                                                 100
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  AGGCGGAGGC GACGGCAGGG TAGGGAGCAG CCGGGAACGC GGCGAGCCCC 
+sthm_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~GTTG 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~AAACCAGC TCCTGAGCAT CTCTTCCCCG GGA.ACCATG 
+scgb_xenla  GGTTTCTTCA CATTCACAGC TCCTGAGCAT CTCTTCCC.. AGC.ACCATG 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~C CACTGCTCAG GTCTGCACAT CCCTACAATG 
+ xb3_xenla  TTCTTGAACT AAGCGCCATG ACTCTGGCAG CCTATAAAGA GAAGGTGAAG 
+
+            101                                                150
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  TAGCCGGGGA CACGGGACGG GCGGAGACCT CGAGCCCTGG GCTTTCCTTG 
+sthm_human  GTGCTCAGAG TGTGGTCAGG CGGCTCGGAC TGAGCAGGAC TTTCCTTATC 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  GCTAAAACAG CAATAGCCTA CAAGGAAAAG ATGAAGGAGC TGTCCATGCT 
+scgb_xenla  GCTAAAACAG CAATAGCCTA CAAGGAGAAG ATGAAGGAAC TGTCCATGCT 
+scg1_human  GCTAAAACAG CAATGGCCTA CAAGGAAAAA ATGAAGGAGC TGTCCATGCT 
+ xb3_xenla  GAGCTCCCCC TCGTGTCCAT TTTCTGTTCC TGTTTCCTCT CCGATCCTTT 
+
+            151                                                200
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~CGGCA AACGCCAACA 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~A 
+  sthm_rat  CCAGTGGATT GTGTAGAGTG TACAGCCAGT CTCTTGTCTT CTGTCCAACA 
+sthm_human  CCAGTTGATT GTGCAGAATA CACTGCCTGT CGCTTGTCTT CTATTCACCA 
+sthm_chick  ~~~~~~~~~~ CGGTCTCCTG TTGGCTTCTG CAGGCGGATT GCCTCGGTCA 
+scga_xenla  GTCTCTGATC TGTTCATGTT TTTACCCTGA GCCCCGTAAT ATCACCGCAT 
+scgb_xenla  GTCTCTGATC TGTTCTTGTT TTTACCCTGA ACCCCGCAAT ATCGCTGCAT 
+scg1_human  GTCACTGATC TGCTCTTGCT TTTACCCGGA ACCTCGCAAC ATCAACATCT 
+ xb3_xenla  AAAGAAACAG ACTTACAAGT ATGAAGCAGA CACTGTGGAC CTCACATGGT 
+
+            201                                                250
+sth1_xenla  TGTGTGACTC TGATATTAAA GTAAAACAGC TGGAAAAGCG TGCTTCTGGT 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  TGGCTTCTTC TGATATCCAG GTGAAAGAGC TGGAGAAGCG CGCTTCAGGC 
+  sthm_rat  TGGCATCTTC TGATATTCAG GTGAAAGAGC TGGAGAAGCG AGCTTCCGGC 
+sthm_human  TGGCTTCTTC TGATATCCAG GTGAAAGAAC TGGAGAAGCG TGCCTCAGGC 
+sthm_chick  TGGCTACTTC TGATATCCAA GTGAAAGAAC TGGAAAAGCG TGCCTCTGGG 
+scga_xenla  ATACGTATGA TGACATGGAA ATTAAACAGC TTAACAAGCG TGCGTCTGGC 
+scgb_xenla  ACACGTTTGA TGACATGGAA GTCAAGCAGC TTAACAAGCG TGCATCGGGC 
+scg1_human  ATACTTACGA TGATATGGAA GTGAAGCAAA TCAACAAACG TGCCTCTGGC 
+ xb3_xenla  GTGCTATTTC AGACATGGAG GTGATAGAAT TAAACAAGAG AGCCTCTGGC 
+
+            251                                                300
+sth1_xenla  CAAGCATTTG AGCTAATCTT GAGTCCTCCA TCTATGGATG CTGCACCAGA 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  CAGGCTTTTG AGCTGATTCT CAGCCCTCGG TCAAAAGAAT CTGTCCCCGA 
+  sthm_rat  CAGGCTTTTG AGCTGATTCT CAGCCCTCGA TCAAAAGAAT CTGTCCCCGA 
+sthm_human  CAGGCTTTTG AGCTGATTCT CAGCCCTCGG TCAAAAGAAT CTGTTCCAGA 
+sthm_chick  CAGGCATTTG AGCTGATCCT TGGTCCCCGC TCAAAAGAAG CAGCCCCGGA 
+scga_xenla  CAGGCTTTTG AACTGATTTT GAAGCCGCCA TCCCCGGTCT CTGAAGCGCC 
+scgb_xenla  CAGGCTTTTG AACTGATTTT GAAACCGCCA TCTCCAGTCT CTGAAGCTCC 
+scg1_human  CAGGCTTTTG AGCTGATCTT GAAGCCACCA TCTCCTATCT CAGAAGCCCC 
+ xb3_xenla  CACTCCTTCG AGGTTATCCT GAAACCCCCT TCCTTTGATG GGATTCCAGA 
+
+            301                                                350
+sth1_xenla  CCTTTCCATT ACTTCGCCCA AGAAGAAGGA ATGCTCCTTG GAAGAAATTC 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  TTTCCCCCTT TCCCCCCCAA AGAAGAAGGA CCTTTCCCTG GAGGAAATCC 
+  sthm_rat  GTTCCCCCTT TCCCCCCCAA AGAAGAAGGA TCTTTCCCTG GAGGAAATTC 
+sthm_human  ATTCCCCCTT TCCCCTCCAA AGAAGAAGGA TCTTTCCCTG GAGGAAATTC 
+sthm_chick  ATTCCCTCTT TCTCCTCCAA AAAAGAAGGA TCTGTCATTG GAAGAAATTC 
+scga_xenla  CCGAACCCTT GCCTCCCCAA AGAAGAAGGA CGTTTCTCTA GGAGAGATTC 
+scgb_xenla  CCGAACCCTT GCCTCTCCAA AGAGGAAGGA CGTTTCTCTA GAAGAGATTC 
+scg1_human  ACGAACTTTA GCTTCTCCAA AGAAGAAAGA CCTGTCCCTG GAGGAGATCC 
+ xb3_xenla  GATCACAGCC ACCCTGCCCC AGAAACGAGA CCCCTCCCTG GAGGAGATCC 
+
+            351                                                400
+sth1_xenla  AAAAGAAACT AGAAGCTGCA GAAGAAAGGC GCAAGTTGCA TGAAGCTGAA 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  AGAAGAAATT AGAAGCTGCA GAAGAAAGAC GCAAGTCTCA TGAGGCGGAA 
+  sthm_rat  AGAAGAAATT AGAAGCTGCA GAAGAAAGAC GCAAGTCTCA TGAAGCAGAA 
+sthm_human  AGAAGAAATT AGAAGCTGCA GAAGAAAGAC GCAAGTCCCA TGAAGCTGAG 
+sthm_chick  AGAAGAAACT GGAAGCAGCA GAAGAGAGAC GCAAGTCTCA TGAAGCAGAA 
+scga_xenla  AGGCCAAGCT GGAGGCAGCA GAGGACAGAC GAAAGTCTCA GGAAGCCCAA 
+scgb_xenla  AGGCCAAGCT GGAAGCAGCA GAGGAAAGAC GAAAGTCTCA GGAAGCCCAA 
+scg1_human  AGAAGAAACT GGAGGCTGCA GGGGAAAGAA GAAAGTCTCA GGAGGCCCAG 
+ xb3_xenla  AGAAAAAACT GGAGGCCGCC GAAGAAAGGC GCAAGTATCG GGAGGCAGAA 
+
+            401                                                450
+sth1_xenla  ATATTGAAGC AGCTTGCTGA AAAGAGAGAA CATGAGAAGG AGGTCCTACA 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~AAGCGAGAA CATGAGAAGG AGGTCCTACA 
+sthm_mouse  GTCTTGAAGC AGCTCGCGGA GAAGCGGGAG CATGAGAAGG AGGTGCTCCA 
+  sthm_rat  GTCTTGAAGC AGCTCGCTGA GAAGCGGGAG CATGAAAAAG AAGTGCTCCA 
+sthm_human  GTCTTGAAGC AGCTGGCTGA GAAACGAGAG CACGAGAAAG AAGTGCTTCA 
+sthm_chick  GTCTTGAAGC AGCTAGCTGA GAAGCGGGAG CATGAAAAAG AGGTGCTTCA 
+scga_xenla  ATCCTGAAGC AACTTGCAGA GAAGCGAGAG CATGAGAGAG AAGTGCTCCA 
+scgb_xenla  ATCCTGAAGC AACTTGCAGA GAAGCGAGAG CATGAGAGAG AAGTGCTCCA 
+scg1_human  GTGCTGAAAC AATTGGCAGA GAAGAGGGAA CACGAGCGAG AAGTCCTTCA 
+ xb3_xenla  CTCCGCAAGC ACCAGGCGGA AAAGAGGGAA CATGAGCGGG AAGTCATACT 
+
+            451                                                500
+sth1_xenla  AAAGGCTATT GAAGAGAACA ACAACTTCAG TAAAATGGCA GAAGAAAAGC 
+sth2_xenla  AAAGGCTATT GAAGAGAACA ACAACTTCAG TAAAATGGCA GAAGAAAAGC 
+sthm_mouse  GAAAGCCATC GAGGAGAACA ACAACTTCAG CAAGATGGCG GAGGAGAAGC 
+  sthm_rat  GAAAGCCATT GAGGAGAACA ACAACTTCAG CAAAATGGCA GAGGAGAAAC 
+sthm_human  GAAGGCAATA GAAGAGAACA ACAACTTCAG TAAAATGGCA GAAGAGAAAC 
+sthm_chick  GAAAGCAATT GAAGAGAACA ACAACTTCAG CAAAATGGCA GAGGAGAAGC 
+scga_xenla  AAAGGCCCTG GAAGAGAATA ACAACTTTAG CAGGATGGCA GAGGAGAAAC 
+scgb_xenla  AAAGGCCCTG GAAGAGAATA ACAACTTCAG CAGAATGGCA GAGGAGAAAC 
+scg1_human  GAAGGCTTTG GAGGAGAACA ACAACTTCAG CAAGATGGCG GAGGAAAAGC 
+ xb3_xenla  GAAAGCCATC GAGGAGAACA ACAACTTTAG CAAGATGGCC AAGGAGAAGC 
+
+            501                                                550
+sth1_xenla  TAACTACAAA AATGGAGACC ATAAAAGAAA ATAGAGAGGC TCAGATTGCT 
+sth2_xenla  TAACTACAAA AATGGAAGCC ATTAAGGAAA ATAGAGAGGC TCAGATGGCT 
+sthm_mouse  TGACCCACAA AATGGAGGCT AACAAAGAGA ACCGGGAGGC GCAGATGGCG 
+  sthm_rat  TGACCCACAA AATGGAGGCT AACAAAGAGA ACCGGGAGGC GCAAATGGCT 
+sthm_human  TGACCCACAA AATGGAAGCT AATAAAGAGA ACCGAGAGGC ACAAATGGCT 
+sthm_chick  TGACCCACAA AATGGAAGCT AACAAAGAGA ACCGTGAGGC ACAAATGGCT 
+scga_xenla  TCATACTCAA AATGGAACAG ATCAAAGAAA ACCGTGAATA CTATTTAGCT 
+scgb_xenla  TAGTACTCAA AATGGAACAG ATCAAAGAAA ACCGTGAATA CTACTTAGCT 
+scg1_human  TGATCCTGAA AATGGAACAA ATTAAGGAAA ACCGTGAGGC TAATCTAGCT 
+ xb3_xenla  TGGCTCAGAG AATGGAGGTC AATAAGGAGA ATAGGGAAGC CCACCTTGCG 
+
+            551                                                600
+sth1_xenla  GCAAAGCTGG AAAGGTTGCG AGAGAAGGAT AAAAAAGTGG AAGAAATCAG 
+sth2_xenla  GCAAAGTTGG AAAGGTTGCG AGAGAAGGAT AAAAAATTGG AAGAAATCAG 
+sthm_mouse  GCCAAGCTGG AGCGCTTGCG AGAGAAGGAC AAGCACGTGG AAGAGGTGCG 
+  sthm_rat  GCCAAGCTGG AGCGTTTGCG AGAGAAGGAC AAGCACGTTG AAGAGGTGCG 
+sthm_human  GCCAAACTGG AACGTTTGCG AGAGAAGGAT AAGCACATTG AAGAAGTGCG 
+sthm_chick  GCCAAACTGG AACGCTTGAG GGAGAAGGAT AAGCATATTG AAGAGGTTCG 
+scga_xenla  TCCCTCATGG AACGCCTCAA GGAGAAGGAG AGGCATGCCG CCGAAGTGCG 
+scgb_xenla  TCCCTCATGG AACGTCTCAA GGAGAAGGAA AGGCATGCCG CCGACGTGCG 
+scg1_human  GCTATTATTG AACGTCTGCA GGAAAAGGAG AGGCATGCTG CGGAGGTGCG 
+ xb3_xenla  GCCATGCTTG AACGCCTACA AGAGAAGGAT AAACATGCAG AAGAAGTGAG 
+
+            601                                                650
+sth1_xenla  AAAGGGGAAA GAATGCAAAG AACCTTCTGA GAAGTGATTC TGCTGTGAGA 
+sth2_xenla  AAAGGGGAAA GAATGCAAAG AACCTTCTGA GGACTGATTC TGCTGTGAGA 
+sthm_mouse  GAAGAACAAA GAATCCAAAG ACCCCGCGGA CGAGACTGAA GCTGACTAA~ 
+  sthm_rat  GAAGAACAAA GAATCCAAAG ACCCCGCGGA CGAGACCGAG GCTGACTAAG 
+sthm_human  GAAGAACAAA GAATCCAAAG ACCCTGCTGA CGAGACTGAA GCTGACTAAT 
+sthm_chick  AAAGAACAAA GAAGGCAAAG ACCCTGGTGA ..GGCCGAAA CCAACTGACT 
+scga_xenla  CAGAAACAAG GAACAACTAG AACTTTCCGG CTGAAAACTA TACCACCGTT 
+scgb_xenla  CAAAAACAAG GAACAACTAG AACTTTCCGG CTGAAAACCA TACCGCCATT 
+scg1_human  CAGGAACAAG GAACTCCAGG TTGAACTGTC TGGCTGAAGC AAGGGAGGGT 
+ xb3_xenla  GAAAAACAAA GAAGCCACAA GGTAGAAGGT GTTGGCTGAC AAAACTTGGA 
+
+            651                                                700
+sth1_xenla  AGACTGGCTT GAGCATTCCA GA...ACTAC AGTCAAGGGT TCCCCTTCCT 
+sth2_xenla  AGACTGGCTA GAGTATTCCA GAACTACTAC AGTGAACGGT TCCCCTTCCT 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  TTGTTCCGAG AACTGACTTT CTCCCCGACC CCTTCCTAAA TATCCAAAGA 
+sthm_human  TTGTTCTGAG AACTGACTTT CTCCCCATCC CCTTCCTAAA TATCCAAAGA 
+sthm_chick  TCATTCTGGA AACTGACATT CTCCCCCTCC ....TCTAAA TATCCAAAGA 
+scga_xenla  AGTAACTTCC TTGCCTATAT AATTACGGAT CATGCGATAT CAGTATGGAA 
+scgb_xenla  AGTAACTTCC TTGCCTATAT AATTACGGAT CATGCGATAT CAGTATGGAA 
+scg1_human  CTGGCACGCC CCACCAATAG TAAATCCCCC TGCCTATATT TATAATGGAT 
+ xb3_xenla  CTGAGGACTC CATTGGGCGT CTGAGAGACC CGGCACAATA TTAAGTGACT 
+
+            701                                                750
+sth1_xenla  CCTCCATATT TGTCTAGCAG CTGTAATAAT GTAGACTGAT GATCTTCACA 
+sth2_xenla  CCTCCATATT TGTCTAGCAG CTGTAATAAT GTAGACTGAT AATCTTCACC 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  CTGTACTGGC CAGTGTCATT TACTTTTTCC TCCCTG.ACA AATATTCTAG 
+sthm_human  CTGTACTGGC CAGTGTCATT TTATTTTTTC CCTCCT.GAC AAATATTTTA 
+sthm_chick  CTGTACTGGC CAGTGGTTTT GCTTTTTGGT TTTGTTCTTT TAAGTTTCTA 
+scga_xenla  AAATGTATGA CATCAAAAA~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  AAATGTATGA CATCAAAAAA ATTAAACATT AAAAAAGAAA CAAAAAAAAA 
+scg1_human  CATGCGATAT CATGCGATAT CAGGATGGGG AATTGATGAC AATGGTTTAA 
+ xb3_xenla  CAGATTCTCT TTTGCTTTAT CTGTCTGTGA ATGTCCAGAG AGGACCTGCT 
+
+            751                                                800
+sth1_xenla  ATAATCACTT GGATAAGAAG AAACTGTTGC CTTTTACTTA TCCAGATTTC 
+sth2_xenla  CTAATCACTT GGATAAGAAC AAACGGTTGC CTTTTGCTTA TCCAAATTTC 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  AAGCTGATGT AGGAACCGTA TAGGTAGATC CAGACCGTGA .........G 
+sthm_human  GAAGCTAATG TAGGACTGTA TAGGTAGATC CAGATCCAGA CTGTAAGATG 
+sthm_chick  GAAACTGATG TAGAACTGTA AAGTTAGATC CAAACTGTAT GCTTTCTTTG 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  AAATACAAGA ACTCATAAAA TAAAAACAAA AGAAAAAAAA AG~~~~~~~~ 
+scg1_human  AAGACTCTAT TATAA~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  AAGACACCTT TTTGTAAGGA GTTTTTAAGG TGGGGGACGC AGTTTATGGG 
+
+            801                                                850
+sth1_xenla  TTGTTCTGGT TTCTGTTGTA TTGTGCTGGA AAGTTTCTA. .......... 
+sth2_xenla  TTGTACTGGT TTCTGTTGTC TCGTGCTGGA AAGTTTTGAT GTGGAAGTTT 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ATGTTTTAGG GGCTCAAGGG GAGAAACTGA AAGTGTTTTG CTCTTTTT.T 
+sthm_human  TTGTTTTAGG GGCTAAAGGG GAGAAACTGA AAGTGTTTTA CTCTTTTTCT 
+sthm_chick  GGGACTAGAG GGGAGACCTT ACATGTTTCA CTTTTTCTAA AGTTGTCTTT 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  AGGATCTGTC CACACCATTT GCAAGTCCTA AGAAGTCGTC TCCATGAGCT 
+
+            851                                                900
+sth1_xenla  ....GTATTA TGCCAGTGTT CAGACTGTTA CATATTGCAC TTAAATCTCA 
+sth2_xenla  CTAGTATTTA CGCCAGTGTT CAGACTGTTA CATATTGCAC TTAAATCTCA 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  AAAGTGTTGG TCTTTCTAAC GTAGCTATTT TTCTCGTTGC ATCTTTTCCT 
+sthm_human  AAAGTGTTGG TCTTTCTAAT GTAGCTATTT TTCTTGTTGC ATCTTTTCTA 
+sthm_chick  CCAGTGTAGC TATCTTGTTG CATCCTTTTC TACTCCAGAG CGCTTGCTGC 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  CTTCAATGTT CTCACATTTG TCACCCCTCA AGTGTGATCC ATTCACAATC 
+
+            901                                                950
+sth1_xenla  GTTGTTACTC ATTATTACTT GTACTTTGTC TTAATAAAAA CA.TCCCGAA 
+sth2_xenla  GTGGTT.... GTTATTACTT GTACTTTGTC TTAATAAAAA TATTCCAAAA 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  CTCGGGCACA CTCGGTGTGC TGGGTTAATG GCTAGTGCTG TATTGACTGT 
+sthm_human  CTTCAGTACA CTTGGTGTAC TGGGTTAATG GCTAGTACTG TATTGGCTCT 
+sthm_chick  TGGATTGATG GCTAGTACTG TATCAGCTCT GTAAGACATT TGTGAAAGGA 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ACTAAACCAA CTTGCTGTGG TGGTGAGCGC GCCGGCCGTC TCTAGGCTCT 
+
+            951                                               1000
+sth1_xenla  ATGTCATCCT T~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ATCTCATACT TAG~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  G.....GAAG ACGTTCGTGA AGAGTATGTA GTGGCTTCTT CCAACCCATT 
+sthm_human  GTGAAAACAT ATTTGTGAAA AGAGTATGTA GTGGCTTCTT TTGAACTGTT 
+sthm_chick  ATATGTAGTA TACTGTTCCA TGCTGAATAT CTGTTACACT TCAAAAATCT 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  AATTGTAACA AAGGCGCCGA TGAACCAATG GGTATCCACG CTCGCTAGCG 
+
+            1001                                              1050
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  AGATGCTGAG TATCTGTTCA CTTTGCGATC CCAATTCTGT CCCAATCTCA 
+sthm_human  AGATGCTGAA TATCTGTTCA CTTTTCAATC CCAATTCTGT CCCAATCTTA 
+sthm_chick  GACTGTCCCA GTCTTTTAAA ATACTGCTGT AACTGAGTGA CTAAATAAAC 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  AGATTCTTGT TACATTGCAC TGATTTTTAT ATGTCTACCA TTATGTCATT 
+
+            1051                                              1100
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  CCAGATGCTA CTGTACTGGA ATGGTTAAT. AAACTGCACA GTGCTGTTGG 
+sthm_human  CCAGATGCTA CTGGACTTGA ATGGTTAATA AAACTGCACA GTGCTGTTGG 
+sthm_chick  CTGCACAGTG CTGTTATCAT GA~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  AATACAATGT TACTACCAGG TTAAAAAAAA AAANNNNNNN GGGAATTATC 
+
+            1101                                              1150
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  TC~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  TGGCAGTGAC TTCTTTTGAG TTAGGTTAAT AAATCAAGCC ATAGAGCCCC 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1151                                              1200
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  TCCTGGTTGA TACTTGTTCC AGATGGGGCC TTTGGGGCTG GTAGAAATAC 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1201                                              1250
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  CCAACGCACA AATGACCGCA CGTTCTCTGC CCCGTTTCTT GCCCCAGTGT 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1251                                              1300
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  GGTTTGCATT GTCTCCTTCC ACAATGACTG CTTTGTTTGG ATGCCTCAGC 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1301                                              1350
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  CCAGGTCAGC TGTTACTTTC TTTCAGATGT TTATTTGCAA ACAACCATTT 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1351                                              1400
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  TTTGTTCTGT GTCCCTTTTA AAAGGCAGAT TAAAAGCACA AGCGTGTTTC 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1401                                              1450
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  TAGAGAACAG TTGAGAGAGA ATCTCAAGAT TCTACTTGGT GGTTTGCTTG 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1451                                              1500
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+sthm_human  CTCTACGTTA CAGGTGGGGC ATGTCCTCAT CCTTCCTGCC ATAAAAGCTA 
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+            1501                                           1547
+sth1_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+sth2_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+sthm_mouse  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+  sthm_rat  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+sthm_human  TGACACGAGA ATCAGAATAT TAATAAAACT TTATGTACTG CTGTAGC
+sthm_chick  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+scga_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+scgb_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+scg1_human  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+ xb3_xenla  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~
+

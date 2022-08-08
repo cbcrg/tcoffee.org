@@ -1,0 +1,46 @@
+19/04/01
+Cedric Notredame
+
+1-Introduction
+This testcase was generated using a Calcium Dependant Protein Kinase
+(Q06850). 
+Q06850 contains (Nter ->Cter):
+	kinase domain (300 AA) that includes:
+		-Nuc Binding site
+		-Calalytic site
+	4 EF-Hands in tandem
+
+Q06850 was used to identify other members of the family (master.aln).
+Sequences were multiply aligned and the blocks were swapped:
+
+	Kinase-EFI-EFII-EFIII-EFIV -> EFII-EFI-EFIV-EFIII-KINASE
+
+That new multiple alignment was used with seq_generator (Cedric Notredame)
+to generate 20 random sequences having the same prosite signatures. Using
+the Prosite documentation, Calcium BS, Nuc BS and active sites were
+selectively inactivated.
+	List Of  Active sites:
+
+	 26- EF-Hand D (->K to inactivate)
+	 61- EF Hand D (->K to inactivate)
+	 96- EF Hand D (->K to inactivate)
+	132- EF Hand D (->K to inactivate)
+        188- Kinase  K (->D to inactivate) Nuc Binding
+        294- Kinase  D (->K to inactivate) Active Site
+2-names
+Generated Sequences Receive a name that indicates the state of each site:
+	zxxxxx
+
+	if x>0 the corresponding site is active
+	if x=0 the site is NOT active
+
+3-Possible use
+	-Blast vs SwissProt
+	-lalign
+	-multiple alignment of the EF repeats
+	-multiple alignment (domain/domain)	
+	-Sec Structure prediction (domain/bomain)
+	-Structure prediction (Blast Vs PDB gives enough hits)
+
+	-Phylogeny: NO
+

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Exercices: Comparaisons binaires</title>
+  </head>
+
+  <body>
+    <h1 align="center">Comparaisons binaires</h1>
+    <ol>
+      <li>
+		<p>
+		Comparez les séquences OPRM_RAT et SSR1_HUMAN avec <a
+		href="http://www.ch.embnet.org/software/LALIGN_form.html">Lalign</a>
+		(alignement). Utilisez les valeurs par défaut
+		des paramètres.
+					
+				<p>Questions:</p>
+					<ol>
+						<li>
+							<p>S'agit-il d'un alignement global ou local ?</p>
+						<li>
+							<p>Que signifie "<tt>% identity</tt>" ?</p>
+						<li>
+							<p>Que signifient les symboles "<tt>:</tt>" et "<tt>.</tt>" ?</p>
+						<li>
+							<p>Quand deux résidus sont différents,
+							il peut y avoir soit un "<tt>.</tt>" soit
+							un espace. Quelle est la différence, et
+							quel paramètre influence sur ce résultat ?</p>
+						<li>
+							<p>Quand deux résidus sont différents, on peut avoir soit un (mauvais) appariement
+							(représenté par un espace), soit une lacune ("<tt>-</tt>"). De quels paramètres
+							cela dépend-il ?</p>
+					</ol>
+				<li>
+				<p>Comparez les m&ecirc;mes séquences avec <a
+				href="http://www.isrec.isb-sib.ch/java/dotlet/Dotlet.html">Dotlet</a>
+				(comparaison matricielle).
+				
+				<p>Questions:</p>
+				<ol>
+					<li>
+						<p>Que signifie l'intensité (niveau de gris) d'un pixel ?</p> 
+					<li>
+						<p>A quoi peuvent bien servir les seuils inférieur et supérieur ?</p>
+					<li>
+						<p>Quelle est l'influence des seuils en terme de sélectivité et de sensibilité ?</p>
+					<li>
+						<p>Y a-t-il un réglage optimal des seuils ?</p>
+					<li>
+						<p>Quelle est l'influence de la taille de la fen&ecirc;tre ?</p>
+					<li>
+						<p>Que se passe-t-il lorsqu'on compare une séquence à elle-m&ecirc;me ?</p>
+				</ol>
+			<li>
+			<p>
+				Comparaison des méthodes de comparaison <sup><font
+				size=-1><a href="#note_1">1</a></font></sup>: Choisissez une ou plusieurs paires de
+				séquences dans la liste ci-dessous, et comparez-les avec la méthode matricielle et la
+				méthode de l'alignement. Evaluez la sigificativité des scores des alignements par <a
+				href="http://www.ch.embnet.org/software/PRSS_form.html"><em>shuffling</em></a>.
+			<ol type=a>
+				<li><p>CO9_HUMAN - PERF_HUMAN</p>
+				<li><p>FRA_DROME - GCN4_YEAST </p>
+				<li><p>HBB_HUMAN - LGB1_PEA</p>
+				<li><p>YOR6_ADEG1 - CD4_HUMAN</p>
+				<li><p>NCK_HUMAN - SRC_CHICK</p>
+			</ol>
+			<p>Questions (la réponse peu dépendre de la paire considéreée) :</p>
+			<ol>
+				<li>
+					<p>Les séquences contiennent-elles des régions de similarité ? Si oui, lesquelles ?</p>
+				<li>
+					<p>La similarité s'étend-elle sur toute la longueur des séquences ?</p>
+				<li>
+					<p>Quelle méthode est la plus sensible ?</p>
+				<li>
+					<p>Quelle est l'influence des pénalités de la matrice sur Lalign ?</p>
+				<li>
+					<p>Quelle est l'influence de la taille de la fen&ecirc;tre et de la matrice sur
+					Dotlet ?</p>
+				<li>
+					<p>Quels sont les avantages respectifs d'une méthode par rapport à l'autre ?</p>
+			</ol>
+		<li>
+			<p>
+				Avec les m&ecirc;mes outils que dans les exercices précédents, examinez les séquences
+				ci-dessous. A quel phénomène biologique se correspondent-elles ?</p>
+			<ol type=a>
+				<li><p>PAPA_CARPA - SERA_PLAFG </p>
+				<li><p>ANCALM - <a href="ANCALM_5.dna">ANCALM_5</a></p>
+				<li><p>HS058362 - HS058362</p>
+			</ol>
+	</ol>
+<hr>
+<p><strong>Notes</strong><br>
+<a name="note_1">1</a>: Aussi appelée <em>méta-comparaison</em>. ;-)
+<address><a href="mailto:Thomas.Junier@isrec.unil.ch">Thomas Junier</a></address>
+<!-- Created: Mon Dec  7 08:20:07 CET 1998 -->
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

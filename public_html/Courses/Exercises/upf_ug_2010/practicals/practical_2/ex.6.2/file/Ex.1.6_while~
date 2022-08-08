@@ -1,0 +1,25 @@
+#!/usr/bin/env perl
+
+my $n=$ARGV[0];
+my $e=$ARGV[1];
+my $result=1;
+
+if ($n<0 || int ($n)!=$n){print "ERROR \n"; die;}
+if ($e<0 || int ($e)!=$e){print "ERROR \n"; die;}
+
+print "$n^$e=";
+if ($n==0)
+  {
+    $result=0;
+  }
+else
+  {
+    while ($e>0)
+      {
+	$result=$result*$n;
+	$e=$e-1;
+      }
+  }
+print "$result";
+
+    

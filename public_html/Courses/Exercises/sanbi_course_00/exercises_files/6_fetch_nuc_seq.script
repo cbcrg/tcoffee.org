@@ -1,0 +1,10 @@
+fetch embl:S82024 -OUT=scg1_human.nuc
+fetch embl:X71433 -OUT=scga_xenla.nuc
+fetch embl:X71434 -OUT=scgb_xenla.nuc
+fetch embl:X71431 -OUT=sth1_xenla.nuc
+fetch embl:X71432 -OUT=sth2_xenla.nuc
+fetch embl:X67840 -OUT=sthm_chick.nuc
+fetch embl:J04991 -OUT=sthm_human.nuc
+fetch embl:X94915 -OUT=sthm_mouse.nuc
+fetch embl:J04979 -OUT=sthm_rat.nuc
+fetch embl:X71435 -OUT=xb3_xenla.nuc

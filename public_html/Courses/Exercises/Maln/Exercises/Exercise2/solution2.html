@@ -1,0 +1,53 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Probing of the Twilight Zone<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    <OL>
+	      <LI><p>Identifying a conserved domain</p></LI>
+	    <UL>
+	      <LI>The only sequence having some similarity with  XRC1_HUMAN is <a href="./file/Rad4_schpo.fasta">Rad4_schpo</a></LI>
+	      <Br>
+	      <IMG SRC="./file/dotter.jpg">
+	      <LI>The dotter indicates that there could be three homologous segments</LI>
+	      <LI>In order to convince ourselves that these three segments are truly homologous, we can extract them and align them:<a href="./file/three_segments.aln">[aln]</a></LI>
+	      <LI><B>Conclusion:</B>Among these three very diverse sequences, enough positions are completely conserved for us to conclude on the homology of these three domains.</LI>
+	  </UL><br>
+	    <LI><p>Identifying remote homologues</P></LI>
+	    <UL>
+	      <LI>To identify more remote homologues, use the NCBI psi-blast</LI>
+	      <LI>After two iterations, using  XRC1_HUMAN, Liagses appear below the threshold[<a href="./file/Blast.html">result</a>]</LI>
+	      <LI>The question is to know whether these alignments mean that XRC1_HUMAN is homologous to the ligases</LI>
+	      <LI>The best way to establish that homology is to extract sequences from the Blast output and to make a multiple alignment[<a href="./file/final.aln">final_aln</a>]</LI>	      
+	      <LI><B>Conclusion:</B>Despite the divergeance among the sequences that consitute this alignment several positions are highly conserved. This indicates a potential homology.</LI>
+	    </UL><br>
+	    <LI><p><B>Conclusion</B><BR>
+		<UL>
+		<LI>XCR1_HUMAN seems to be a good candidate for being involved in DNA repairing mechanisms.</LI>
+		<LI>Thanks to the results given by the multiple alignment, we checked the five extra-sequences in psi-blast and re-ran it: [<a href="./file/blast2.html">results</a>]</LI>
+		<LI>This time a gene associated with breast cancer appears: BRCA1. However, it is difficult to include that sequence in a meaningful multiple sequence alignment. </P></LI>	  
+		<LI>In order to go further,one would need to build a profile and repeat the scanning made with psi-blast in a more controled maneer.</LI>
+	      </UL>
+	    </OL>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@igs.cnrs-mrs.fr">C.Notredame</a> </font></center>
+ </body>
+ </html>

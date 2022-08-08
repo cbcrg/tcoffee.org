@@ -1,0 +1,44 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Alternative Multiple Sequence Alignment Methods</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+            
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>1</td>
+	  <td>
+	    <p>Use the following <a href="./file/gpd2.fasta">dataset</a> to produce a T-Coffee alignment on the T-Coffee <a href="http://www.tcoffee.org">server</a></p>
+	    <p>Use the same dataset to produce an alignment with <a href="http://www.ebi.ac.uk/Tools/muscle/">Muscle</a></p>
+	    <p>Use the same dataset to produce an alignment with <a href="http://www.ebi.ac.uk/Tools/clustalw/">ClustalW</a></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>2</td>
+	  <td>
+	    <p>Compare The alignments: are they identical?</p>
+	  </td>
+	</tr>
+      	<tr>
+	  <td>3</td>
+	  <td>
+	    <p>Use the Mcoffee mode on the T-Coffee <a href="http=www.tcoffee.org">server</a> to combine a Kalign, T-Coffee and Muscle MSA</p>
+	    <p>Examine the colored output (html) and compare it with the differences you had observed in the previous sequences</p>
+	    
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@gmail.com">C.Notredame</a> </font></center>
+ </body>
+ </html> 

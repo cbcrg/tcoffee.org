@@ -1,0 +1,65 @@
+<html>
+
+	<head>
+		<meta name="generator" content="Adobe GoLive 4">
+		<title></title>
+	</head>
+
+	<body bgcolor="white">
+		<center>
+			<h1>Companion to Day 3a of the EMBNet Course</h1>
+			<h3><font size="4">considerations - hints - solutions</font></h3>
+		</center>
+		<h3><font size="4">3-1 Protein sequence homology search</font></h3>
+		<p>Hints:</p>
+		<ul>
+			<li>The protein sequence is shown in the EMBL entry annotation. You may use the EMBL entry as starting point to edit a protein sequence file that can then be reformatted into GCG format.
+			<li>Dotplot the query sequence against itself and against a high-scoring blast match in order to reveal its internal repeat structure.
+			<li>Split query sequence into repeat regions and unique parts: recommended partitioning: repeat region 1: pos. 1 - 313; repeat region 2: 314-502; unique region: 643-1433. You may use the GCG program ASSEMBLE to transfer these sequence regions to individual files.
+			<li>Using the the bioccelerator server one should know that the substitution matrices are scaled differently. For BLOSUM45 gap opening=15, and gap extension=2 may be reasonable choices.
+			<li>The only way to perform Smith-Waterman searches locally is by first constructing a profile from a single sequence and than doing a profilesearch against the protein database. The GCG recipe follows:
+		</ul>
+		<pre>
+
+       profilemake -dat=genmoredata:blosum45.cmp -stringent query-sequence \
+       -outf=query.prf
+       tprofilesearch -nosixframe -noave -normalize -minscore=5.0 -list=100 \
+       -gap=3.0 -len=0.3 -batch query.prf SW:*</pre>
+		<p>Results:</p>
+		<ul>
+			<p>See output files in /day2b/exercise_4.</p>
+			<p>The protein has the following internal repeat structure:</p>
+		</ul>
+		<pre>
+
+            200     400     600     800    1000    1200    1400 
+              '       '       '       '       '       '       '
+       [-R1-][-R1-][R2][R2][-R1-][--------unique region---------]</pre>
+		<p>Answers to questions:</p>
+		<ol>
+			<li>Only the fibronectin type 3 repeats. The N-terminal repeats may be homologous to a substrate-binding domain in SW:NANH_MICVI (Z-score=7).
+			<li>At least three different types of domains: type 1 repeats, type 2 repeats (=FN3 domains), and a C-terminal unique region.
+			<li>The protein is probably not a chitinase homolog because the similarity to chitinase is confined to the two FN3 domains, an extracellular module found in many different types of eukaryotic and prokaryotic proteins.
+		</ol>
+		<h3><font size="4">3-2 DNA sequence comparisons</font></h3>
+		<p>Hints:</p>
+		<ul>
+			<li>Use LOOKUP to find EMBL sequences. Compare promoter regions against REPBASE:* in order to find matches to common repetive elements.
+			<li>Use dotplots to identify multiple copies of the same type of repetitive elements.
+		</ul>
+		<p>Results:</p>
+		<ul>
+			<p>See output files in <a href="EMBnet_course.files/day3a/">/day3a</a>.</p>
+			<p>The longest prometer regions are in EMBL entries HSENHREG1 (Z70243) and MMIL2R5 (M16398).</p>
+			<p>The mouse IL2Ra promoter region contains B1 and MT elements. The human IL2Ra promoter region contains Alu and Line-1 elements.</p>
+		</ul>
+		<p>Answers to questions:</p>
+		<ol>
+			<li>In the mouse promoter: -350 to transcription start, -1800 -1000.
+			<li>Perhaps 25%.
+			<li>The human Alu and mouse B1 elements are remotely related.
+			<li>Available in EMBL are shorter upstream promoter regions from rat and from bovine.
+		</ol>
+	</body>
+
+</html>

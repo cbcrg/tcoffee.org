@@ -1,0 +1,44 @@
+<html>
+ <head>
+   <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+   <meta name="generator" content="Adobe GoLive 4">
+   <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+    <center>
+       <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	      <h2>Multipe Sequence Alignments:<BR>ClustalW<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>            
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	  
+	    <OL>
+	       <LI><p>clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln">1thm2_ref5.aln</a></p></LI>
+	       <LI><p>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap0">1thm2_ref5.aln.gap0</a> -gapopen=0<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap1">1thm2_ref5.aln.gap1</a> -gapopen=1<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap2">1thm2_ref5.aln.gap2</a> -gapopen=2<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap20">1thm2_ref5.aln.gap20</a> -gapopen=20<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap200">1thm2_ref5.aln.gap200</a> -gapopen=200<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap300">1thm2_ref5.aln.gap300</a> -gapopen=300<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap400">1thm2_ref5.aln.gap400</a> -gapopen=400<br>
+clustalw -infile=1thm2_ref5.fasta -outfile=<a href="./file/1thm2_ref5.aln>1thm2_ref5.aln.gap500">1thm2_ref5.aln.gap400</a> -gapopen=500<br>
+
+</p></LI>
+	       <LI><p><b>Gap penalties</b> -gapopen=x<br>Note that the alignments only change in a specific range. When the gap penalty is too high these alignments stop changing </p></LI>
+	       <LI><p><b>Matrices</b> The blosum matrix is especially well adapted to distantly related proteins, in which the blocks signal is weak.</p></LI>
+	       <LI><p><b>Guide  Tree </b>   : edit the original file and use the -usetree option</p></LI>
+	       <LI><p><b>Phylogenic Tree</b>: Do not use the guide tree, use the interactive option of clustal</p></LI>
+	       <LI><p><b>Reference aln  </b>: Make sure the sequences are in the same order, use the option -outorder=input</a>.</p></LI>
+	       </OL>  
+	  </td>
+	</tr>
+      </table>
+ </body>
+ </html>

@@ -1,0 +1,44 @@
+!!FIGURE 1.0
+.!
+.! Figure output from "PILEUP"  August 26, 1998 11:34
+.!
+.fo 0
+.vp 0 150 0 100
+.wn 0 150 0 100
+.nc 1
+.cl
+.vp 0 150 0 100
+.m 75 100
+.to 6
+.nc 2
+.ch 2.5
+.fo 0
+.pt PILEUP of: @1_pileup_stat3.list  August 26, 1998 11:34
+.relm 0 -5
+.ch 2
+.ca 0.6
+.vp 0 150 36 90
+.wn 4 0 0 7.902
+.nc 1
+.m 1 0
+.d 1 6.5843
+.d 2 6.5843
+.d 2 0
+.m 1.5 6.5843
+.d 1.5 7.902
+.d 3 7.902
+.d 3 0
+.vp 0 150 0 34
+.wn 4 0 0 100
+.nc 4
+.to 2
+.td 270.00
+.m 1 100
+.pt SCG1_HUMAN
+.m 2 100
+.pt SCGA_XENLA
+.m 3 100
+.pt STHM_MOUSE
+.!
+.! End of Page 1
+.!

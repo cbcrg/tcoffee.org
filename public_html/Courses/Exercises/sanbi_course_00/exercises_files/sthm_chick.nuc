@@ -1,0 +1,95 @@
+!!NA_SEQUENCE 1.0
+ID   GGSTATHM   standard; RNA; VRT; 906 BP.
+XX
+AC   X67840;
+XX
+NI   g63792
+XX
+DT   01-FEB-1993 (Rel. 34, Created)
+DT   15-SEP-1993 (Rel. 37, Last updated, Version 6)
+XX
+DE   G.gallus mRNA for stathmin
+XX
+KW   stathmin.
+XX
+OS   Gallus gallus (chicken)
+OC   Eukaryota; Metazoa; Chordata; Vertebrata; Archosauria; Aves; Neognathae;
+OC   Galliformes; Phasianidae; Phasianinae; Gallus.
+XX
+RN   [1]
+RP   1-906
+RA   Godbout R.;
+RT   ;
+RL   Submitted (03-APR-1992) to the EMBL/GenBank/DDBJ databases.
+RL   R. Godbout, Cross Cancer Institute, 11560 University Avenue, Edmonton
+RL   Alberta, T6G 1Z2, CANADA
+XX
+RN   [3]
+RX   MEDLINE; 93162137.
+RA   Godbout R.;
+RT   "Identificaton and characterization of transcripts preferentially
+RT   expressed in the undifferentiated chick retina";
+RL   Exp. Eye Res. 56:95-106(1993).
+XX
+DR   SWISS-PROT; P31395; STHM_CHICK.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1. .906
+FT                   /organism="Gallus gallus"
+FT                   /dev_stage="embryonic day 3.5"
+FT                   /tissue_type="retina"
+FT                   /clone_lib="retina"
+FT                   /clone="485"
+FT   CDS             40. .486
+FT                   /db_xref="PID:g63793"
+FT                   /db_xref="SWISS-PROT:P31395"
+FT                   /product="stathmin"
+FT                   /translation="MATSDIQVKELEKRASGQAFELILGPRSKEAAPEFPLSPPKKKDL
+FT                   SLEEIQKKLEAAEERRKSHEAEVLKQLAEKREHEKEVLQKAIEENNNFSKMAEEKLTHK
+FT                   MEANKENREAQMAAKLERLREKDKHIEEVRKNKEGKDPGEAETN"
+FT   polyA_signal    878. .883
+FT   polyA_site      905
+XX
+SQ   Sequence 906 BP; 272 A; 185 C; 213 G; 236 T; 0 other;
+
+  X67840  Length: 906  August 24, 1998 18:19  Type: N  Check: 847  ..
+
+       1  CGGTCTCCTG TTGGCTTCTG CAGGCGGATT GCCTCGGTCA TGGCTACTTC 
+
+      51  TGATATCCAA GTGAAAGAAC TGGAAAAGCG TGCCTCTGGG CAGGCATTTG 
+
+     101  AGCTGATCCT TGGTCCCCGC TCAAAAGAAG CAGCCCCGGA ATTCCCTCTT 
+
+     151  TCTCCTCCAA AAAAGAAGGA TCTGTCATTG GAAGAAATTC AGAAGAAACT 
+
+     201  GGAAGCAGCA GAAGAGAGAC GCAAGTCTCA TGAAGCAGAA GTCTTGAAGC 
+
+     251  AGCTAGCTGA GAAGCGGGAG CATGAAAAAG AGGTGCTTCA GAAAGCAATT 
+
+     301  GAAGAGAACA ACAACTTCAG CAAAATGGCA GAGGAGAAGC TGACCCACAA 
+
+     351  AATGGAAGCT AACAAAGAGA ACCGTGAGGC ACAAATGGCT GCCAAACTGG 
+
+     401  AACGCTTGAG GGAGAAGGAT AAGCATATTG AAGAGGTTCG AAAGAACAAA 
+
+     451  GAAGGCAAAG ACCCTGGTGA GGCCGAAACC AACTGACTTC ATTCTGGAAA 
+
+     501  CTGACATTCT CCCCCTCCTC TAAATATCCA AAGACTGTAC TGGCCAGTGG 
+
+     551  TTTTGCTTTT TGGTTTTGTT CTTTTAAGTT TCTAGAAACT GATGTAGAAC 
+
+     601  TGTAAAGTTA GATCCAAACT GTATGCTTTC TTTGGGGACT AGAGGGGAGA 
+
+     651  CCTTACATGT TTCACTTTTT CTAAAGTTGT CTTTCCAGTG TAGCTATCTT 
+
+     701  GTTGCATCCT TTTCTACTCC AGAGCGCTTG CTGCTGGATT GATGGCTAGT 
+
+     751  ACTGTATCAG CTCTGTAAGA CATTTGTGAA AGGAATATGT AGTATACTGT 
+
+     801  TCCATGCTGA ATATCTGTTA CACTTCAAAA ATCTGACTGT CCCAGTCTTT 
+
+     851  TAAAATACTG CTGTAACTGA GTGACTAAAT AAACCTGCAC AGTGCTGTTA 
+
+     901  TCATGA
+

@@ -1,0 +1,355 @@
+<html>
+
+<head>
+<title>PAM250</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+
+<meta name="Microsoft Theme" content="sumipntg 111, default"><meta name="Microsoft Border" content="tb, default"></head>
+
+<body background="_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFCC" text="#666666" link="#660099" vlink="#666699" alink="#FF6600"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="verdana, arial, helvetica">
+
+<p align="center"><font face="Copperplate Gothic Bold" size="6" color="#000000"><strong>Uniformed
+Services University</strong></font></p>
+
+<p align="center"><strong><font face="Copperplate Gothic Bold"><br>
+</font><font face="Copperplate Gothic Bold" size="6" color="#000000"><em>Bioinformatics
+Practice &amp; Theory&#153;</em></font></strong></p>
+
+<p align="center">&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top"><!--mstheme--><font face="verdana, arial, helvetica">
+
+<!--msthemeseparator--><p align="center"><img src="_themes/sumipntg/sumhorsa.gif" width="300" height="10"></p>
+
+<h1 align="center"><!--mstheme--><font color="#006666"><font color="#008080"><b>The PAM250 scoring matrix</b> </font><!--mstheme--></font></h1>
+
+<!--msthemeseparator--><p align="center"><img src="_themes/sumipntg/sumhorsa.gif" width="300" height="10"></p>
+
+<p align="center"><!--webbot bot="Navigation" S-Type="children" S-Orientation="horizontal" S-Rendering="graphics" B-Include-Home="FALSE" B-Include-Up="TRUE" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload('_derived/up_cmp_sumipntg110_hbtn.gif'); MSFPnav1h=MSFPpreload('_derived/up_cmp_sumipntg110_hbtn_a.gif'); }
+// --></script><a href="seqcomp.htm" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/up_cmp_sumipntg110_hbtn.gif" width="140" height="60" border="0" alt="Up" align="middle" name="MSFPnav1"></a><!--webbot bot="Navigation" endspan i-checksum="53431" --></p>
+<div align="center"><center>
+
+<!--mstheme--></font><table border="1" width="400" cellpadding="2" cellspacing="2" bordercolordark="#003366" bordercolorlight="#CCCCFF">
+  <caption valign="top"><font color="#008000"><br>
+  </font></caption>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">&nbsp;<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">A<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">R<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">N<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">D<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">C<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">Q<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">E<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">G<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">H <!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">I<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">L<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">K<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">M<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">F<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">P<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">S<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">T <!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">W<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">Y<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">V <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">A<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">R<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">6 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">N<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">D<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">C<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">Q<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">E<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">G<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">5 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">H<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">6 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">I<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">5 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">L<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-6<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">6 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">K<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">5 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">M<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">6 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">F<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-6<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">9 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">P<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">6 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">S<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">3 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">T<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">3 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">W<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-6<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-7<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-8<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-7<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-7<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-6<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">17 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">Y<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">7<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-5<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-3<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">10 <!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">V<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-1<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">0<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-6<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">-2<!--mstheme--></font></td>
+    <td><!--mstheme--><font face="verdana, arial, helvetica">4 <!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="verdana, arial, helvetica">
+</center></div>
+
+<p><br>
+W. A Pearson, <i>Rapid and Sensitive Sequence Comparison with FASTP and FASTA</i>, in
+Methods in Enzymology, ed. R. Doolittle (ISBN 0-12-182084-X, Academic Press, San Diego) <b>183</b>(1990)63-98.
+</p>
+
+<p align="center">&nbsp; 
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="verdana, arial, helvetica">
+
+<!--msthemeseparator--><p align="center"><img src="_themes/sumipntg/sumhorsa.gif" width="300" height="10"></p>
+
+<p><font size="2"><em>Bioinformatics Practice and Theory&#153; </em><a href="mailto:shamblot@welchlink.welch.jhu.edu">Shamblott&amp;Associates</a> 1998 All
+Rights Reserved</font></p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

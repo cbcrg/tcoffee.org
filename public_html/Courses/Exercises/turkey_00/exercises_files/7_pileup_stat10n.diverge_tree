@@ -1,0 +1,13 @@
+#NEXUS
+
+[ Trees from file: 7_pileup_stat10n.diverge ]
+
+begin trees;
+tree Tree_1 = ((((('7_pileup_stat10n.msf{scga_xenla}':8.64,'7_pileup_stat10n.msf{scgb_xenla}'
+:8.64):48.31,'7_pileup_stat10n.msf{scg1_human}':56.94):75.91,
+((('7_pileup_stat10n.msf{sthm_mouse}':12.13,'7_pileup_stat10n.msf{sthm_rat}'
+:12.13):10.37,'7_pileup_stat10n.msf{sthm_human}':22.50):18.95,
+'7_pileup_stat10n.msf{sthm_chick}':41.45):91.40):171.51,('7_pileup_stat10n.msf{sth1_xenla}'
+:3.62,'7_pileup_stat10n.msf{sth2_xenla}':3.62):300.74):145.14,
+'7_pileup_stat10n.msf{xb3_xenla}':449.50):0.00;
+endblock;

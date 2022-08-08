@@ -1,0 +1,47 @@
+CLUSTAL W (1.74) multiple sequence alignment
+
+
+1thm            QYGPQKI-Q--AP-QA-WDIA-EGS-GAKIAIVDTGVQSNHPDLAGKVVG-----GWDFV
+hly_hal17       QYAPQQV-N--CE-AA-WDVT-YGDPGVTISVVDQGIQYDHEDLEGNMDGSVSNYGDDFV
+1mpt            PWGISRV-Q--AP-AA-HNRGLTGS-GVKVAVLDTGI-STHPDL--NIRG-----GASFV
+1af4            PYGIPLI-K--AD-KV-QAQGFKGA-NVKVAVLDTGIQASHPDL--NVVG-----GASFV
+sube_bacsu      QWNLEPI-Q--VK-QA-WKAGLTGK-NIKIAVIDSGI-SPHDDL--SIAG-----GYSAV
+sepr_thesp      TWGLDRIDQRTLPLDGRYTYTATGA-GVHAYVVDTGILLSHQEFTGRI-G----KGYDAI
+prtt_serma      QWGLEAI-S--AE-FA-YARAYTGK-GVTIGVIDDAI-LSHPEFAGKLTR--LDNGSYNF
+                 :    : .              *  .    ::* .:   * ::   :       *   .
+
+1thm            DNDS-TPQ--NGN-G-HGTHCAG-IAAAVTNNSTGIA-GTAPKASILAVRV--LDN-SG-
+hly_hal17       DNDG-DPYPVSASEN-HGTHVGG-IAAGGTNNATGHA-GIS-NCSLLSARA--LGD-GG-
+1mpt            PGEP-STQ--DGN-G-HGTHVAGTIAA--LNNSIGVL-GVAPSAELYAVKV--LGA-SG-
+1af4            AGEAYNT---DGN-G-HGTHVAGTVAA--LDNTTGVL-GVAPSVSLYAVKV--LNS-SG-
+sube_bacsu      SYTS-SYK--DDN-G-HGTHVAGIIGA--KHNGYGID-GIAPEAQIYAVKA--LDQ-NG-
+sepr_thesp      TPGG-SAQ--DCN-G-HGTHVAGTIGG----TTYGVAKGVT----LHPVRV--LDC-NG-
+prtt_serma      SYDK-QD---NMSFGTHGTHVAG-IAAA-KRDGSGMH-GVAYDADIIGTKLNDYGNRNGR
+                          . . . **** .* :..       *   * :    :  .:    .  .* 
+
+1thm            -----S---------GTWTAV---ANG-ITYA-ADQG-----AK--VIS--L---S-L--
+hly_hal17       -----G---------GSLTDI---ADA-IQWS-ADQG-----AD--VIN--M---S-L--
+1mpt            -----S---------GSVSSI---AQG-LEWA-GNNG-----MH--VAN--L---S-L--
+1af4            -----S---------GSYSGI---VSG-IEWA-TTNG-----MD--VIN--M---S-L--
+sube_bacsu      -----S---------GDLQSL---LQG-IDWSIANR------MD--IVN--M---S-L--
+sepr_thesp      -----S---------GSNSSV---IAG-LDWV-TQNH-----VKPAVIN--M---S-L--
+prtt_serma      EELIQSAARVINNSWGIRPDIRRDAKGDIIWLPNGRPDYVAWVKTDVINEVMRNKSNLEW
+                     .         *    :     . : :    .       .  : .  :   * *  
+
+1thm            GGTVGNSG-LQQAVNYAW--NK-GSVVVAAAGNA-GN-TAP------NY--PAYYSNAIA
+hly_hal17       GGG-GFSQTLSNACEYAY--NQ-GSLLVAAAGNGYGN-SV-------SY--PAAYDTVMA
+1mpt            GSP-SPSATLEQAVNSAT--SR-GVLVVAASGNS-G--AGS-----ISY--PARYANAMA
+1af4            GGA-SGSTAMKQAVDNAY--AR-GVVVVAAAGNS-GN-SGSTNT--IGY--PAKYDSVIA
+sube_bacsu      GTT-SDSKILHDAVNKAY--EQ-GVLLVAASGND-GN-GKP-----VNY--PAAYSSVVA
+sepr_thesp      GG--GASTALDTAVMNAI--NA-GVTVVVAAGND-NR-DAC------FYS-PARVTAAIT
+prtt_serma      GSEQPVPTGGHSAMATLLRAAKHGKLIVFSAGNY-NNYNIPEAQKSLPYAFPEVLNNYLI
+                *     .     *          *  :* ::**  .            *  *      : 
+
+1thm            VASTDQ
+hly_hal17       VSSLDE
+1mpt            VGATDQ
+1af4            VGAVDS
+sube_bacsu      VSATNE
+sepr_thesp      VGATTS
+prtt_serma      VTNLSN
+                *    .

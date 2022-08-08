@@ -1,0 +1,692 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+   <TITLE>The EMBNET Online Teaching Resource</TITLE>
+</HEAD>
+<BODY>
+&nbsp;
+<TABLE BORDER=0 CELLSPACING=2 CELLPADDING=2 WIDTH="95%" VALIGN="TOP" >
+<TR>
+<TD>
+<H1>
+1 Using PILEUP and ClustalW&nbsp;
+<HR></H1>
+Multiple alignment of (homologous) sequences is a very powerful tool for
+finding biologically significant features in sequences and also as an essential
+prerequisite to carrying out phylogenetic analysis.&nbsp;
+<H3>
+<A NAME="45"></A>CLUSTALW</H3>
+ClustalW is a multiple alignment program that also draws phylogenetic trees.
+This software was described in: Thompson, J.D., Higgins, D.G. and Gibson,
+T.J. (1994) Nucleic Acids Research, 22(22):4673-4680.&nbsp;
+
+<P>Input sequences must all be in one file (or two files for a profile
+alignment) and one format. The acceptable formats are : FASTA (Pearson);
+NBRF/PIR; EMBL/Swiss Prot; GDE; CLUSTAL; GCG/MSF. Note that for Clustal
+format and MSF format (output from the GCG program <I>pileup</I>), the
+sequences are already aligned. You can use this facility to read in an
+alignment in order to calculate a phylogenetic tree OR to output the same
+alignment in a different format (from the output format options menu of
+the multiple alignment menu) e.g. read in a GCG/MSF format alignment and
+output a PHYLIP format alignment. This is also useful to read in one reference
+alignment and to add one or more new sequences to it using the "profile
+alignment" facilities.&nbsp;
+
+<P>The default output format for clustal-created trees is New Hampshire
+format (in which the tree topology is indicated by a hierarchy of nested
+brackets), this format is compatible with PHYLIP and you can use PHYLIP
+programs such as <FONT COLOR="#FF0000">RETREE</FONT> or <FONT COLOR="#FF0000">DRAWTREE/DRAWGRAM</FONT>
+to view the output tree.&nbsp;
+
+<P>The phylogenetic trees in ClustalW use the Neighbour-Joining method
+of Saitou and Nei based on a matrix of "distances" between all sequences.
+Note: do NOT use the .dnd file (a guide tree used to decide which sequences
+in the dataset align first) as the definitive phylogeny.&nbsp;
+<H3>
+<A NAME="45b"></A>PILEUP</H3>
+This is a program available under GCG. <I>Pileup</I> creates a multiple
+sequence alignment from a group of related sequences using a simplification
+of the progressive alignment method of Feng and Doolittle.&nbsp;
+
+<P>The multiple alignment procedure begins with the pairwise alignment
+of the two most similar sequences, producing a cluster of two aligned sequences.
+This cluster can then be aligned to the next most related sequence or cluster
+of aligned sequences.&nbsp;
+
+<P>Before alignment, the sequences are first clustered by similarity to
+produce a dendrogram, or tree representation of clustering relationships.
+It is this dendrogram that directs the order of the subsequent pairwise
+alignments. Distance along the vertical axis is proportional to the difference
+between sequences; distance along the horizontal axis has no significance.&nbsp;
+
+<P>GCG 9 incorporates a useful xwindows based tool called <I>seqlab</I>,
+which enables you to view, edit-by-hand, and save multiple sequence alignments.
+Windows based software is best learned by being shown how to use it in
+a basic way and then experimenting.&nbsp;
+<H4>
+<U>Exercise:</U></H4>
+The aim of this exercise is to demonstrate how to operate multiple sequence
+alignment programs and also to highlight their restrictions and some differences
+between them.&nbsp;
+
+<P>For the purposes of this exercise it will be necessary to create a new
+directory. This will be used to hold only the sequences and files relevant
+to the exercise. This will enable you to use the wild-card * to select
+all sequences, as demonstrated later. To create a new directory called
+"mult_seqs" enter the command :&nbsp;
+
+<P><TT>%</TT> <B>mkdir mult_seqs</B>&nbsp;
+
+<P>You can then move into this directory (change directory)&nbsp;
+
+<P><TT>%</TT> <B>cd mult_seqs</B>&nbsp;
+
+<P>It might be better to use cas instead of mult_seqs because it's quicker
+to type and the first dataset is mammalian casein peptides. Later you will
+be analysing the corresponding DNA sequences and later still analagous
+somatotropin genes.&nbsp;
+
+<P>The next step is to <I>fetch</I> the sequences for alignment from the
+database. To do this you must be in GCG, so you may first need to enter:&nbsp;
+
+<P><TT>%</TT> <B>gcg</B>&nbsp;
+
+<P><I>Fetch</I> these individually into your working directory.&nbsp;
+
+<P><TT>%</TT> <B>fetch sw:database_name</B>&nbsp;
+
+<P>where database_name is the name as listed below or is the appropriate
+accession number.&nbsp;
+
+<P>The first alignment is of the a - S1 casein precursor of selected mammals.
+These sequences have the Swiss-Prot names :&nbsp;
+<BR>cas1_bovin (p02662)&nbsp;
+<BR>cas1_human (p47710)&nbsp;
+<BR>cas1_mouse (p19228)&nbsp;
+<BR>cas1_pig (p39035)&nbsp;
+<BR>cas1_rabit (p09115)&nbsp;
+<BR>cas1_rat (p02661)&nbsp;
+<BR>cas1_sheep (p04653)&nbsp;
+<BR>Now enter&nbsp;
+
+<P><TT>%</TT> <B>ls</B>&nbsp;
+
+<P>you will see a list of the files in your present directory ( ? mult_seqs).
+Note that these all end <B>.sw</B>, this is useful because you can use
+<B>*.sw</B> to refer to all the sequences which you want to align.&nbsp;
+
+<P>Because these files were brought to your directory using the GCG program
+<I>fetch</I>, they are all in GCG format. For ClustalW to read in these
+sequences they need to be all in one file and in one of the accepted formats.
+We can do both of these at once using the GCG command<I> tofasta</I>, which
+will write all the sequences into one file in FastA/Pearson format.&nbsp;
+
+<P>To do this enter the following:&nbsp;
+
+<P><TT>%</TT> <B>tofasta *.sw</B>&nbsp;
+<PRE>ToFastA converts GCG sequence(s) into FastA format.
+What should I call the output file (* tofasta.tfa *) ?&nbsp; cas1.tfa
+CAS1_BOVIN214 characters.
+CAS1_HUMAN185 characters.
+CAS1_MOUSE313 characters.
+CAS1_PIG206 characters.
+CAS1_RABIT215 characters.
+CAS1_RAT284 characters.
+CAS1_SHEEP206 characters.
+&nbsp;1,623 symbols written into "cas1.tfa".</PRE>
+Note that it is important to use *.sw here because if you repeat the <I>tofasta</I>
+command for each sequence they will all be in separate files.&nbsp;
+
+<P>You now have a single file (cas1.tfa) containing all the sequences for
+alignment so you can now run ClustalW :&nbsp;
+
+<P><TT>%</TT> <B>clustalw</B>&nbsp;
+<PRE>**************************************************************
+******** CLUSTAL W(1.60) Multiple Sequence Alignments ********
+**************************************************************
+
+&nbsp;&nbsp;&nbsp;&nbsp; 1. Sequence Input From Disc
+&nbsp;&nbsp;&nbsp;&nbsp; 2. Multiple Alignments
+&nbsp;&nbsp;&nbsp;&nbsp; 3. Profile / Structure Alignments
+&nbsp;&nbsp;&nbsp;&nbsp; 4. Phylogenetic trees
+&nbsp;&nbsp;&nbsp;&nbsp; S. Execute a system command
+&nbsp;&nbsp;&nbsp;&nbsp; H. HELP
+&nbsp;&nbsp;&nbsp;&nbsp; X. EXIT (leave program)
+
+Your choice:</PRE>
+<B>1</B>&nbsp;
+<PRE>Sequences should all be in 1 file.
+
+7 formats accepted:
+
+NBRF/PIR, EMBL/SwissProt, Pearson (Fasta), GDE, Clustal, GCG/MSF,RSF
+
+
+
+Enter the name of the sequence file:</PRE>
+<B>cas1.tfa</B>&nbsp;
+<PRE>Sequence format is Pearson
+Sequences assumed to be PROTEIN
+Sequence 1: CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 214 aa
+Sequence 2: CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 185 aa
+Sequence 3: CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 313 aa
+Sequence 4: CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 206 aa
+Sequence 5: CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 215 aa
+Sequence 6: CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 284 aa
+Sequence 7: CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 206 aa</PRE>
+You will now have returned to the main menu. Enter <B>2</B> after the prompt
+"Your choice: " to choose to do a multiple alignment. The Multiple Alignment
+Menu (as follows) should then appear on your screen.&nbsp;
+<PRE>****** MULTIPLE ALIGNMENT MENU ******&nbsp;
+&nbsp;&nbsp;&nbsp; 1.&nbsp; Do complete multiple alignment now (Slow/Accurate)&nbsp;
+&nbsp;&nbsp;&nbsp; 2.&nbsp; Produce guide tree file only&nbsp;
+&nbsp;&nbsp;&nbsp; 3.&nbsp; Do alignment using old guide tree file&nbsp;
+&nbsp;&nbsp;&nbsp; 4.&nbsp; Toggle Slow/Fast pairwise alignments = SLOW
+&nbsp;&nbsp;&nbsp; 5.&nbsp; Pairwise alignment parameters
+&nbsp;&nbsp;&nbsp; 6.&nbsp; Multiple alignment parameters
+&nbsp;&nbsp;&nbsp; 7.&nbsp; Reset gaps between alignments? = OFF
+&nbsp;&nbsp;&nbsp; 8.&nbsp; Toggle screen display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = ON
+&nbsp;&nbsp;&nbsp; 9.&nbsp; Output format options
+&nbsp;&nbsp;&nbsp; S.&nbsp; Execute a system command
+&nbsp;&nbsp;&nbsp; H.&nbsp; HELP
+&nbsp;&nbsp;&nbsp; or press [RETURN] to go back to main menu
+Your choice:</PRE>
+You can choose 6 at this prompt to change the algorithm parameters, i.e.
+gap creation and extension penalties etc., or just choose 1 to do the multiple
+alignment now. In this case choose <B>1</B>. Accept the default filenames
+by just hitting <B>&lt;return></B> twice.&nbsp;
+
+<P>When the multiple alignment is complete the Multiple Alignment Menu
+will again be on your screen. Hit <B>&lt;return></B> to go back to the
+main menu (as before). Here choose option x to exit from ClustalW. Look
+at the alignment&nbsp;
+
+<P><TT>%</TT> <B>more cas1.aln</B>&nbsp;
+<PRE>CLUSTAL W(1.60) multiple sequence alignment
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIKHQGLP-------QEVLNEN-LLRFFVAPFPEVFGKEKV
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MRLLILTCLVAVALARPKLPLRYPERLQNP---SESSE-------PIP----LESREEYM
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAAAFAMPRLHSRNAVSSQTQQQHSSSEE-------IFKQPKYLNLNQEFV
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLIFICLAAVALARPKPPLRHQEHLQNEPDSREELFKERKFLRFPEVPLLSQFRQEII
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVATALARHKFHLGHLKLTQEQPESSEQEILKERKLLRFVQTVPLELREEYV
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAAALALPRAHRRNAVSSQTQQENSSSEEQE-----IVKQPKYLSLNEEFV
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIKHQGLS-------PEVLNEN-LLRFVVAPFPEVFRKENI
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *.***&nbsp; ** * * *&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NELSKDIGSESTEDQAMEDIKQMEAESISSSEEIVPNSVEQKHIQKE-------------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NGMNRQRNILREK----QTDEIKDTRNESTQNCVVAEPEKMESSISSS------------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NNMNRQRALLTE-----QNDEIKVTMDAASEEQAMASAQEDSSISSSS-EESEEAIPNIT
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NELNRNHG--------MEGHEQRGS-SSSSSEEVVGNSAEQKHVQKEE------------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NELNRQRELLREK----ENEEIKGTRNEVTEEHVLADRETEASISSSS----EEIVPSST
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NNLNRQRELLTE-----QDNEIKITMDSSAEEQATASAQEDSSSSSSSSEESKDAIPSAT
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NELSKDIGSESIEDQAMEDAKQMKAGSSSSSEEIVPNSAEQKYIQKE-------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * . .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -----DVPSERYLGYLEQLLRLKKYKVPQLEIVPNSAEERLHSMKE---GIHAQQKEPMI
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ------SEEMSLSKCAEQFCRLNEYNQLQLQAAH--AQEQIRRMN-----ENSHVQVP--
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EQKNIANEDMLNQCTLEQLQRQFKYNQLLQKASL--AKQASLFQQPSLVQQASLFQQPSL
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -----DVPSQSYLGHLQGLN---KYKLRQLEAIH---DQELHRTNE---DKHTQQGEPMK
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; KQKYVPREDLAYQPYVQQQLLRMKERYQIQE------REPMRVVN---QELAQLYLQP--
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EQKNIANKEILNRCTLEQLQRQIKYSQLLQQASL--AQQASLAQQASLAQQALLAQQP--
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -----DVPSERYLGYLEQLLRLKKYNVPQLEIVPKSAEEQLHSMKE---GNPAHQKQPMI
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GVNQELAYF-----------------YPELFRQFYQLD--AYPSGAWYYVPLGTQYTDAP
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ------------------------------FQQLNQL---AAYPYAVWYYPQIMQYVPFP
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LQQASLFQQPSMAQQASLLQQLLLAQQPSLALQVSPAQQSSLVQQAFLAQQASLAQKHHP
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GVNQEQAYF-----------------YFEPLHQFYQLD--AYPYATWYYPP---QYIAHP
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -----------------------------FEQPYQLD---AYLPAPWYYTPEVMQYVLSP
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------SLAQQAALAQQASLAQQASLAQQASLAQKHHP
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AVN-------------------------QLFRQFYQLD--AYPSGAWYYLPLGTQYTDAP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SFSDIPNPIGSENSE-KTTMPLW-------------------------------------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PFSDISNPTAHENYEKNNVMLQW-------------------------------------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RLSQSYYPHMEQPYRMNAYSQVQMRHPMSVVDQALAQFSVQPFPQIFQYDAFPLWAYFPQ
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFTNIPQPTAPEKGGKTEIMPQW-------------------------------------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFYDLVTPSAFESAEKTDVIPEWLKN----------------------------------
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RLSQVYYPNMEQPYRMNAYSQVQMRHPMSVVDQ--AQFSVQSFPQLSQYGAYPLWLYFPQ
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SFSDIPNPIGSENSG-KITMPLW-------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp; .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DMQYLTPKAVLNTFKPIVSKDTEKTNVW
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DMQYLTPEAVLNTFKPIAPKDAENTNVW
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------</PRE>
+If you examine this alignment you might decide that it is not very sensible
+and consequently any tree drawn on the basis of this alignment would be
+unsatisfactory. For example, in the alignment above, I have highlighted
+small sequences that you might think should be aligned but are not. Change
+the alignment parameters to see how it affects the alignment.&nbsp;
+
+<P>To do this re-enter ClustalW&nbsp;
+
+<P><TT>%</TT> <B>clustalw</B>&nbsp;
+
+<P>and input the same sequences as before. Choose option 2 to do an alignment.
+Now choose option 6 to change the multiple alignment parameters.&nbsp;
+<PRE>********* MULTIPLE ALIGNMENT PARAMETERS *********
+&nbsp;&nbsp;&nbsp;&nbsp; 1. Gap Opening Penalty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :10.00
+&nbsp;&nbsp;&nbsp;&nbsp; 2. Gap Extension Penalty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0.05
+&nbsp;&nbsp;&nbsp;&nbsp; 3. Delay divergent sequences&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :40 %
+&nbsp;&nbsp;&nbsp;&nbsp; 4. DNA Transitions Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0.50
+&nbsp;&nbsp;&nbsp;&nbsp; 5. Protein weight matrix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :BLOSUM series
+&nbsp;&nbsp;&nbsp;&nbsp; 6. DNA weight matrix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :IUB
+&nbsp;&nbsp;&nbsp;&nbsp; 7. Use negative matrix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :OFF
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; 7. Protein Gap Parameters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; H. HELP
+Enter number (or [RETURN] to exit):</PRE>
+As you can see the gap opening penalty is quite large (the default in <I>pileup</I>
+v8.1 it was only 3.00 although it is now 12). Change these parameters to
+be the same as the <I>pileup</I> ones (gap extension penalty for <I>pileup</I>
+8.1 was 0.10 now 4). To change the gap opening or extension penalties choose
+the appropriate menu number and you will be prompted for a value. Depending
+on what changes you make this may give a quite different alignment. If
+you choose the parameters the same as pileup the alignment is as follows
+(note it is a good idea to give the new alignment a name other than the
+default otherwise you will overwrite the pre-existing alignment).&nbsp;
+<PRE>CLUSTAL W(1.60) multiple sequence alignment
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIK--HQG-LP------QE--VLNEN-LLRFFVAPFPEVFG
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MRLLILTCLVAVALARPKLPLR--YPERLQNPSESSEP--IP--------------LESR
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAAAFAMPRLHSRNAVSSQTQQQHSSSEE--IFK---------QPKYLNLN
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLIFICLAAVALARPKPPLR--HQEHLQNEPDSREE--LFKERKFLRFPEVPLLSQFR
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVATALARHKFHLG--HLKLTQEQPESSEQ-EILKER-KLLRFVQTVPLELR
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAAALALPRAHRRNAVSSQTQQENSSSEEQEIVK---------QPKYLSLN
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIK--HQG-LS------PE--VLNEN-LLRFVVAPFPEVFR
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *.***&nbsp; ** * * *&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; KEKVNELSKDIGSESTEDQAMEDIKQMEAESISSSEEIVPNSVEQKHIQKE-DVPSE---
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EEYMNGMNRQRNILR-EK----QTDEIKDTRNESTQNCVVAEPEKMESSISSSS-EE--M
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; QEFVNNMNRQRALLT-E-----QNDEIKVTMDAASEEQAMASAQE-DSSISSSS-EESEE
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; QEIINELNRNHG--------MEGHEQ-RGSSSSSSEEVVGNSAEQKHVQKEEDVPSQ---
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EEYVNELNRQRELLR-EK----ENEEIKGTRNEVTEEHVLADRET-EASISSSS-EE---
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EEFVNNLNRQRELLT-E-----QDNEIKITMDSSAEEQATASAQE-DSSSSSSSSEESKD
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; KENINELSKDIGSESIEDQAMEDAKQMKAGSSSSSEEIVPNSAEQKYIQKE-DVPSE---
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * .* . .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RYLGYLEQLLRLKKYKVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQE--------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLSKCAEQFCRLNEYNQLQLQAAH--AQEQIRR------MNENSHVQVPFQQ--------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AIPNITEQKNIANEDMLNQCTLEQ--LQRQFKY------NQLLQKASLAKQASLFQQPSL
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYLGHLQG---LNKYKLRQLEAIH---DQELHRTNEDKHTQQGEPMKGVNQE--------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IVPSSTKQKYVPREDLAYQPYVQQQLLRMKERYQ-----IQEREPMRVVNQE--------
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AIPSATEQKNIANKEILNRCTLEQ--LQRQIKY------SQLLQQASLAQQA--------
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RYLGYLEQLLRLKKYNVPQLEIVPKSAEEQLHSMKEGNPAHQKQPMIAVNQ---------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --LAYFYPE----------LFRQFYQLDAYPSGAWYYV-PLGTQYTDAPSFSDIPNPI--
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -----------------------LNQLAAYPYAVWYY--PQIMQYVPFPPFSDISNPT--
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VQQASLFQQPSLLQQASLFQQPSMAQQASLLQQLLLAQQPSLALQVSPAQQSSLVQQAFL
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --QAYFYFE----------PLHQFYQLDAYPYATWYYP-P---QYIAHPLFTNIPQPT--
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --LAQLYLQP----------FEQPYQLDAYLPAPWYYT-PEVMQYVLSPLFYDLVTPS--
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------SLAQQASLAQQALLAQQPSLAQQAALAQQASLAQQASL
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -------------------LFRQFYQLDAYPSGAWYYL-PLGTQYTDAPSFSDIPNPI--
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GSEN--SEKTT-MPLW--------------------------------------------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AHEN--YEKNNVMLQW--------------------------------------------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AQQASLAQKHHPRLSQSYYPHMEQPYRMNAYSQVQMRHPMSVVDQALAQFSVQPFPQIFQ
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APEK--GGKTEIMPQW--------------------------------------------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AFES--AEKTDVIPEWLKN-----------------------------------------
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AQQASLAQKHHPRLSQVYYPNMEQPYRMNAYSQVQMRHPMSVVDQ--AQFSVQSFPQLSQ
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GSEN--SGKIT-MPLW--------------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp; *
+
+CAS1_BOVIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------------
+CAS1_HUMAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------------
+CAS1_MOUSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YDAFPLWAYFPQDMQYLTPKAVLNTFKPIVSKDTEKTNVW
+CAS1_PIG_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------------
+CAS1_RABIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------------
+CAS1_RAT_I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YGAYPLWLYFPQDMQYLTPEAVLNTFKPIAPKDAENTNVW
+CAS1_SHEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------------</PRE>
+This alignment is better than the one above but not as good as the pileup
+alignment (see later). These casein genes are obviously homologous but
+difficult to align and may require a lot of hand editing with seqlab, a
+unix editor or a word-processing package.&nbsp;
+
+<P>Note that there are many sites where there are no asterisks *. This
+means there are only a few sites where all of the sequences are identical.
+Any site where there is not an asterisk holds information about the relationship
+of these proteins to each other. If you have a very "good" alignment with
+most sites marked with an asterisk not much information about the phylogeny
+is available i.e. there are very few "informative sites", and any derived
+tree may not be a true representation of the real phylogeny. It might be
+worth looking at the DNA sequences if the proteins are all nearly identical.&nbsp;
+
+<P>On the other hand, if the relationship between the sequences is distant,
+you may have an alignment filled with gaps. You will not have much success
+drawing reliable trees with such data either, especially if you use the
+"toss all gaps" option &lt;as you should !> in, say, clustalW&nbsp;
+<HR>
+
+<P>The GCG program <I>pileup</I> can also be used to align these casein
+sequences. To run pileup you must first be in GCG. The guide tree on which
+the order of sequence alignment is based is plotted as graphics output
+by pileup. To view this tree you will have to set your "graphics environment"
+before running pileup - see Appendix I.&nbsp;
+
+<P>To Use two alignment viewing software tools later on: <FONT COLOR="#FF0000">prettyplot</FONT>
+and <FONT COLOR="#FF0000">prettybox</FONT>, you must be usinf GCGv8 for
+this next part. Where as GCGv9 can read and understand files in GCGv8 format,
+the reverse is not true. Both <FONT COLOR="#FF0000">prettyplot</FONT> and
+<FONT COLOR="#FF0000">prettybox</FONT> are GCGv8 tools, so convert to GCGv8
+now.&nbsp;
+
+<P>To do this enter:&nbsp;
+<BR>%<TT> <B>gcg81</B></TT>&nbsp;
+
+<P>To convert back to GCGv9 enter:&nbsp;
+<BR>%<TT> <B>gcg91</B></TT>&nbsp;
+
+<P><B>NOTE:</B> Local instructions may vary.&nbsp;
+
+<P>In the example below a printable postscript file is created. To start
+the program enter:&nbsp;
+
+<P><TT>%</TT> <B>pileup</B>&nbsp;
+<PRE>PileUp creates a multiple sequence alignment from a group of related
+sequences using progressive, pairwise alignments.&nbsp; It can also plot a
+tree showing the clustering relationships used to create the alignment.</PRE>
+<TT>PileUp of what sequences ?</TT> <B>*.sw</B>&nbsp;
+<PRE>&nbsp;&nbsp; 1&nbsp;&nbsp; cas1_bovin.sw&nbsp;&nbsp; 214 aa
+&nbsp;&nbsp; 2&nbsp;&nbsp; cas1_human.sw&nbsp;&nbsp; 185 aa
+&nbsp;&nbsp; 3&nbsp;&nbsp; cas1_mouse.sw&nbsp;&nbsp; 313 aa
+&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp; cas1_pig.sw&nbsp;&nbsp; 206 aa
+&nbsp;&nbsp; 5&nbsp;&nbsp; cas1_rabit.sw&nbsp;&nbsp; 215 aa
+&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; cas1_rat.sw&nbsp;&nbsp; 284 aa
+&nbsp;&nbsp; 7&nbsp;&nbsp; cas1_sheep.sw&nbsp;&nbsp; 206 aa
+What is the gap creation penalty (* 12 *) ?
+
+What is the gap extension penalty (* 4 *) ?
+This program can display the clustering relationships graphically.
+Do you want to:
+
+&nbsp;&nbsp;&nbsp;&nbsp; A) Plot to a FIGURE file called "pileup.figure"
+&nbsp;&nbsp;&nbsp;&nbsp; B) Plot graphics on LASERWRITER attached to PlotPort
+&nbsp;&nbsp;&nbsp;&nbsp; C) Suppress the plot</PRE>
+<TT>Please choose one (* A *):</TT> <B>C</B>&nbsp;
+<PRE>The minimum density for a one-page plot is 6.0 sequences/100 platen units.
+What density do you want (* 6.0 *) ?
+What should I call the output file name (* pileup.msf *) ?
+Determining pairwise similarity scores...
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.59
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.52
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.80
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.65
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.48
+&nbsp;&nbsp; 1&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.35
+&nbsp;&nbsp; 2&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.57
+&nbsp;&nbsp; 2&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.67
+&nbsp;&nbsp; 2&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.77
+&nbsp;&nbsp; 2&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.60
+&nbsp;&nbsp; 2&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.59
+&nbsp;&nbsp; 3&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.54
+&nbsp;&nbsp; 3&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.66
+&nbsp;&nbsp; 3&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.22
+&nbsp;&nbsp; 3&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.51
+&nbsp;&nbsp; 4&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.72
+&nbsp;&nbsp; 4&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.52
+&nbsp;&nbsp; 4&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.74
+&nbsp;&nbsp; 5&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.61
+&nbsp;&nbsp; 5&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.61
+&nbsp;&nbsp; 6&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.49
+Aligning...
+&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp; ..........-..
+&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp; ..............-..
+&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp; ..........-.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..........-.
+&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp; ..........-.
+&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp; ..........-.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..........-..
+&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; ............-..
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total sequences:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alignment length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CPU time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01.23
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output file:pileup.msf</PRE>
+This tree has an implied root at the top which should be ignored. This
+tree is quite different to the ClustalW neighbour-joining and PHYLIP PROTPARS
+trees. This is not really a fair comparison because this is only a UPGMA
+guide tree, not a tree based on the alignment.&nbsp;
+
+<P>You could look at the pileup alignment simply by entering&nbsp;
+
+<P><TT>%</TT> <B>more pileup.msf</B>&nbsp;
+
+<P>But this output is in a different format to the ones previously obtained.
+To make the alignments more easily comparable change the format of this
+alignment to clustal format. Do this&nbsp;
+
+<P><TT>%</TT> <B>clustalw</B>&nbsp;
+
+<P>Choose <B>1</B> to input your alignment (pileup.msf).&nbsp;
+<BR>Choose <B>2</B> for the "Multiple Alignment Menu".&nbsp;
+<BR>Choose <B>9</B> "Output format options" and you will see that the default
+format is clustal.&nbsp;
+<BR>Choose <B>8</B> to create the alignment output files.&nbsp;
+
+<P>Look at the alignment (first exit from ClustalW)&nbsp;
+
+<P><TT>%</TT> <B>more pileup.aln</B>&nbsp;
+
+<P>The <I>pileup</I> alignment in clustal format follows&nbsp;
+<PRE>CLUSTAL W(1.60) multiple sequence alignment
+
+cas1_mouse&nbsp;&nbsp; MKLLILTCLVAAAFAMPRLHSRNAVSSQTQQQHSSSE--E-----IFKQPKYLNLNQEFV
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; MKLLILTCLVAAALALPRAHRRNAVSSQTQQENSSSEEQE-----IVKQPKYLSLNEEFV
+cas1_bovin&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIKHQ-------GLPQEVLNE-NLLRFFVAPFPEVFGKEKV
+cas1_sheep&nbsp;&nbsp; MKLLILTCLVAVALARPKHPIKHQ-------GLSPEVLNE-NLLRFVVAPFPEVFRKENI
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; MKLLIFICLAAVALARPKPPLRHQEHLQNEPDSREELFKERKFLRFPEVPLLSQFRQEII
+cas1_human&nbsp;&nbsp; MRLLILTCLVAVALARPKLPLRYPERLQNPSESSE--------------PIPLESREEYM
+cas1_rabit&nbsp;&nbsp; MKLLILTCLVATALARHKFHLGHLKLTQEQPESSEQEILKERKLLRFVQTVPLELREEYV
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *.***&nbsp; ** * * *&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * .
+
+cas1_mouse&nbsp;&nbsp; NNMNRQRALLTE-QNDEIKVTMDAASEEQAMASAQED-SSIS<B>SSSEE</B>SEEAIPNITEQKN
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; NNLNRQRELLTE-QDNEIKITMDSSAEEQATASAQEDSSSSS<B>SSSEE</B>SKDAIPSATEQKN
+cas1_bovin&nbsp;&nbsp; NELSKDIGS--------------ESTEDQAMEDIKQMEAESI<B>SSSEE</B>---IVPNSVEQKH
+cas1_sheep&nbsp;&nbsp; NELSKDIGS--------------ESIEDQAMEDAKQMKAGSS<B>SSSEE</B>---IVPNSAEQKY
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; NELNRNHGM--------------EGHEQ---------RGSSS<B>SSSEE</B>---VVGNSAEQKH
+cas1_human&nbsp;&nbsp; NGMNRQRNILREKQTDEIKDTRNESTQNCVVAEPEKMESSIS<B>SSSEE</B>---MSLSKCAEQF
+cas1_rabit&nbsp;&nbsp; NELNRQRELLREKENEEIKGTRNEVTEEHVLADRET-EASIS<B>SSSEE</B>---IVPSSTKQKY
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * . .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B>*****</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..
+
+cas1_mouse&nbsp;&nbsp; IANEDMLNQCTLEQLQRQFKYNQLLQKASLAKQASLFQQPSLVQQASLFQQPSLLQQASL
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; IANKEILNRCTLEQLQRQIKYSQLLQQASLAQQASL------------------------
+cas1_bovin&nbsp;&nbsp; IQK-E-------------------------------------------------------
+cas1_sheep&nbsp;&nbsp; IQK-E-------------------------------------------------------
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; VQKEE-------------------------------------------------------
+cas1_human&nbsp;&nbsp; CRLNE-------------------------------------------------------
+cas1_rabit&nbsp;&nbsp; VPRED-------------------------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .
+cas1_mouse&nbsp;&nbsp; FQQPSMAQQASLLQQLLLAQQPSLALQVSPAQQSSLVQQAFLAQQASLAQKHHPRLSQSY
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; ------AQQASLAQQALLAQQPSLAQQAALAQQASLAQQASLAQQASLAQKHHPRLSQVY
+cas1_bovin&nbsp;&nbsp; -------------------------------DVPSERYLGYLEQLLRLKKYKVPQLEIVP
+cas1_sheep&nbsp;&nbsp; -------------------------------DVPSERYLGYLEQLLRLKKYNVPQLEIVP
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; -------------------------------DVPSQSYLGHLQG---LNKYKLRQLEAIH
+cas1_human&nbsp;&nbsp; ----------------------------------------------------YNQLQLQA
+cas1_rabit&nbsp;&nbsp; -------------------------------------------------------LAYQ-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *
+cas1_mouse&nbsp;&nbsp; YPHMEQPYRMNAYSQVQMRHPMSVVDQALAQFSVQPFPQIFQYDAFP--LWAYFPQDMQY
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; YPNMEQPYRMNAYSQVQMRHPMSVVDQ--AQFSVQSFPQLSQYGAYP--LWLYFPQDMQY
+cas1_bovin&nbsp;&nbsp; NSAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFRQFYQLDAYPSGAWYYVPLGTQY
+cas1_sheep&nbsp;&nbsp; KSAEEQLHSMKEGNPAHQKQPMIAVNQ--------LFRQFYQLDAYPSGAWYYLPLGTQY
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; ---DQELHRTNEDKHTQQGEPMKGVNQEQAYFYFEPLHQFYQLDAYPYATWYYPP---QY
+cas1_human&nbsp;&nbsp; AHAQEQIRRMNENSHVQ-----------------VPFQQLNQLAAYPYAVWYY-PQIMQY
+cas1_rabit&nbsp;&nbsp; PYVQQQLLRMKERYQIQEREPMRVVNQELAQLYLQPFEQPYQLDAYLPAPWYYTPEVMQY
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp; *&nbsp; *.&nbsp;&nbsp;&nbsp; * * *&nbsp;&nbsp; **
+cas1_mouse&nbsp;&nbsp; LTPKAVLNTFKPIVSKDTEKTNVW------
+cas1_rat&nbsp;&nbsp;&nbsp;&nbsp; LTPEAVLNTFKPIAPKDAENTNVW------
+cas1_bovin&nbsp;&nbsp; TDAPSFSDIPNPIGSENSEKT-TMPLW---
+cas1_sheep&nbsp;&nbsp; TDAPSFSDIPNPIGSENSGKI-TMPLW---
+cas1_pig&nbsp;&nbsp;&nbsp;&nbsp; IAHPLFTNIPQPTAPEKGGKTEIMPQW---
+cas1_human&nbsp;&nbsp; VPFPPFSDISNPTAHENYEKNNVMLQW---
+cas1_rabit&nbsp;&nbsp; VLSPLFYDLVTPSAFESAEKTDVIPEWLKN
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</PRE>
+It is interesting to note that the area of the sequences that we were looking
+at earlier is perfectly aligned in this sequence.&nbsp;
+
+<P>You can feed the <I>pileup</I> alignment into ClustalW (filename : pileup.msf)
+and use clustal to draw a tree. This tree can then be viewed as before
+using DRAWTREE. This is a fairer comparison. Note that, in this case, it
+is essentially the same tree as obtained from the ClustalW alignment.&nbsp;
+<H3>
+<A NAME="55"></A>GCG's alignment viewing software</H3>
+A GCG .msf file is particularly useless for viewing the aligned sequences.
+Use GCG <I>pretty</I> to create and display a consensus sequence and generally
+make it easier to read. If you have Xwindows capability, be sure to try
+<I>seqlab</I> to view and manipulate multiple sequence alignment files.
+Otherwise you are advised to try EGCG's pretty box and prettyplot to prepare
+your sequence for publication.&nbsp;
+<H3>
+PRETTYPLOT</H3>
+<FONT COLOR="#FF0000">Prettyplot</FONT> is an EGCG alternative to the GCG
+program <I>pretty</I>. It displays multiple sequence alignments and calculates
+a consensus sequence. It does not create the alignment it simply displays
+it. Prettyplot displays the aligned sequences with boxes around identical
+sites.&nbsp;
+<H3>
+PRETTYBOX</H3>
+<FONT COLOR="#FF0000">Prettybox</FONT> displays multiple sequence alignments
+as shaded boxes in Postscript format (i.e. the output file must be printed
+and/or displayed on a Postscript-compatible device). Prettybox will optionally
+calculate a consensus sequence. The program does not create the alignment
+it simply displays it.&nbsp;
+
+<P>Like the GCG program <FONT COLOR="#FF0000">pretty</FONT>, both of these
+will take pileup output. Note carefully the format of the input. If, for
+example, your pileup output file was called pileup.msf (the default filename)
+then when asked "what sequences ?" you must enter pileup.msf{*}. <B>And
+don't forget the {*} !</B>&nbsp;
+<H4>
+<U>Exercise:</U></H4>
+Use <FONT COLOR="#FF0000">prettyplot</FONT> and <FONT COLOR="#FF0000">prettybox</FONT>
+to display the casein sequences pileup output from the "Multiple Sequence
+Alignment " section. To use that output file you will first need to be
+in that directory.&nbsp;
+
+<P><TT>%</TT> <B>cd mult_seqs</B>&nbsp;
+
+<P>Then run <FONT COLOR="#FF0000">prettyplot</FONT>&nbsp;
+
+<P><TT>%</TT> <B>prettyplot</B>&nbsp;
+<PRE>PRETTYPLOT displays multiple sequence alignments and calculates a
+consensus sequence.&nbsp; It does not create the alignment, it simply</PRE>
+displays it.&nbsp;
+
+<P>PRETTYPLOT uses any sequences<TT></TT>
+
+<P><TT>PRETTYPLOT of what sequence(s) ? </TT><B>pileup.msf{*}</B>&nbsp;
+<BR><B><FONT COLOR="#333333">If at this point, you encounter an error message
+telling you that the files can not be read, you may not have move into
+GCGv8. If this is the case you must go back prior to this exercise, change
+into GCGv8 and repeat this exercise to be able to continue.&nbsp;</FONT></B>
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (* 330 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_mouse&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_rat&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_bovin&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_sheep&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_pig&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_human&nbsp; len: 330&nbsp; wgt: 1.00
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cas1_rabit&nbsp; len: 330&nbsp; wgt: 1.00
+
+&nbsp;Find consensus to what minimum plurality (* 4.0 *) ?
+&nbsp;PostScript instructions for a LASERWRITER are now being sent to output.ps.</PRE>
+To view this output enter&nbsp;
+
+<P>%<B> lpr -Pprintername output.ps</B>&nbsp;
+
+<P>Similarly to run prettybox,&nbsp;
+
+<P>% <B>prettybox</B>&nbsp;
+<PRE>PRETTYBOX displays multiple sequence alignments as shaded boxes in</PRE>
+Postscript format (e.g., the output file must be printed and/or displayed
+on&nbsp;
+
+<P>a Postscript-compatible device). PrettyBox will optionally calculate
+a&nbsp;
+
+<P>consensus sequence. The program does not create the alignment; it simply&nbsp;
+
+<P>displays it.&nbsp;
+
+<P>PRETTYBOX uses any sequences<TT>PRETTYBOX of what sequence(s) ?</TT>&nbsp;
+<BR>pileup.msf{*}&nbsp;
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_mouse}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_rat}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_bovin}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_sheep}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_pig}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_human}, len: 330
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{cas1_rabit}, len: 330
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (* 330 *) ?
+Orient output as:
+&nbsp;&nbsp;&nbsp;&nbsp; L) Landscape
+&nbsp;&nbsp;&nbsp;&nbsp; P) Portrait
+&nbsp;Please choose one (* L *) ?</PRE>
+<TT>Display a consensus (* No *) ?</TT> <B>yes</B>&nbsp;
+<PRE>&nbsp;Find consensus to what plurality (* 3.6 *) ?
+Do numbering on:
+&nbsp;&nbsp;&nbsp;&nbsp; R) Right side
+&nbsp;&nbsp;&nbsp;&nbsp; T) Top side
+&nbsp;&nbsp;&nbsp;&nbsp; N) None
+&nbsp;Please choose one (* R *) ?</PRE>
+<FONT COLOR="#000000">Printing the output file is exactly as for prettyplot.
+Remember that the fileoutput.ps will get overwritten until you issue another
+<B>% postscript</B> command.&nbsp;</FONT>
+
+<P>For the casein dataset the alignments are likely to be "unconvincing"
+whatever parameters you chose for creating them. You might under these
+circumstances want to use GCG 9.1's seqlab program to try editing the .msf{*}
+file by hand.&nbsp;
+
+<P>Remember to down-grade to GCG 8.1 for EGCG programs prettybox and prettyplot.
+Also note that to run any of these pretty* programs the input file is of
+the form file.msf{*}. Here the {*} indicates that you wish to include all
+the sequences in the .msf file. But if you leave off the {*} then the programs
+will not work for you. Its not a bug, but a GCG feature !&nbsp;
+
+<P>You might also like to try a terminal screen based tree manipulation
+and printing program such as <FONT COLOR="#FF0000">njplot</FONT> this is
+widely available for unix and also for Macintosh. The latter is particularly
+hand because it prints the tree out in a de-constructable PICT format that
+can be rapidly got to camera-ready print quality.&nbsp;
+
+<P>You should also compare the clustalw server which, among many other
+useful, point-and-clickable features and options, enables you to see an
+alignment with colour-coded residues.&nbsp;
+<BR>&nbsp;
+
+<P>[<A HREF="exercises.html">BACK</A>]
+<BR>
+<HR></TD>
+</TR>
+
+<TR>
+<TD>
+<TABLE BORDER=2 WIDTH="100%" BORDERCOLOR="#FFFFFF" CLASS="footer" >
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD><A HREF="../structure.html" CLASS="footer">Structure</A></TD>
+
+<TD><A HREF="../information.html" CLASS="footer">Information</A></TD>
+
+<TD><A HREF="../weare.html" CLASS="footer">We Are</A></TD>
+
+<TD><A HREF="../wedo.html" CLASS="footer">We Do</A></TD>
+
+<TD><A HREF="../achievements.html" CLASS="footer">Achievements</A></TD>
+
+<TD><A HREF="../abccont.html" Class="footer">ABC Contents Page</A></TD>
+</TR>
+</TABLE>
+&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+</BODY>
+</HTML>

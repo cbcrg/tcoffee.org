@@ -1,0 +1,9 @@
+LEVEL: Middle/Advanced
+TITLE: Implementing Smith and Waterman  without affine gap penalties
+SUBJECT: ex.1.13: implement SW from scratch 
+TECHNIQUES: Programming, Perl
+DOCUMENTATION:
+TIME: 1-2 hours
+USED:
+AUTHOR: C. Notredame
+FEASABILITY: Good

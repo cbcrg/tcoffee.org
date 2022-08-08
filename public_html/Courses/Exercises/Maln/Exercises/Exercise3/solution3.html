@@ -1,0 +1,66 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Dealing With Repeats<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    <OL>
+	      <LI><p>How many domains?</p></LI>
+	      <UL>
+	         <LI>Run a blast against Swissprot.</LI>
+	         <LI>The result indicates clearly that the sequence is made of two domains<BR>
+		 <IMG SRC="./file/blast.gif" height="500" WIDTH="500"></LI>
+	         <BR>
+	            <UL>
+	               <LI>Domain  I: 1-150,   involved in Calcium binding.</LI>
+		       <LI>Domain II: 150-400, kinase activity</LI>
+	           </UL>
+	          <LI>Note that the difference in E-value between the two domains can be caused by their difference in length. 
+	              Short domains always apppear as statistically less meaningful.</B>	      
+	          </UL><br>
+	      <LI><p>Analyse of Domain 1</P></LI>
+	      <UL>
+		<LI>Compare the sequence with databases of profiles using <a href="http://hits.isb-sib.ch/cgi-bin/hits_motifscan">motifscan</a>[<a href="./file/pfsearch_motif1.html">Results</a>]</LI>
+		<LI>The results indicate that there are between 1 (prosite pattern) and 4 ef-hands.</LI>
+		<LI>Look for repeats using dotter or dottlet:<BR><IMG SRC="./file/dotter.gif"></LI>
+		<LI>The dotter is consistant with four repeats in the region indicated by pfam.</LI>
+		<LI>It is possible to extract the four repeats and make a multiple alignment[<a href="./file/domain1.maln">aln</a>]</LI>
+		<LI><b>Conclusion:</b><br>Of the 4 EF-hands probably contained by the domain, the second is very likely to be inactive, accoring to the <a href="http://www.expasy.org/cgi-bin/nicesite.pl?PS00018">pdoc</a></LI>
+	      </UL><br>
+	      
+	      <LI><p>Analyse of Domain 2</p></LI>
+	        <UL>
+	        <LI>This domain does not contain any repeat</LI>
+	        <LI>Assemble a multiple alignment that shows the regions functionnally important: [<a href="./file/seven_seq.aln">aln</a>]</LI>
+	        <LI>To assemble this multiple alignment, very distantly related sequences have been chosen</LI>
+	        <LI>As a consequence, well conserved regions are very likely to be important</LI>
+	        <LI>These regions can also be caracterized using the <a href="http://www.expasy.ch/cgi-bin/niceprot.pl?SPAK_MOUSE">documentation of one of the sequences</a></LI>
+	        <LI><b>Conclusion:</b><br>This second domain is homologous to a kinase domain, but it is unlikely to be active because of a mutation in the nucleotide binding region.
+		That mutation seems to be affecting a key nucleotide binding residue</LI> 
+	        </UL><br>
+	      
+	      <LI><p><B>CONCLUSION<B><BR>If one we had trust blindly the 'general homology results' given by blast and pfsearch, we would have reported that this protein has 4 EF-Hands and one kinase domain. Yet, 
+		      thanks to the combined use of the SwissProt annotation and multiple sequence alignments, we know that the kinase is unlikely to be functionnal and that this protein may bind only two Calcium</LI>
+	      
+	    </OL>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@igs.cnrs-mrs.fr">C.Notredame</a> </font></center>
+ </body>
+ </html>

@@ -1,0 +1,86 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Réponses</title>
+  </head>
+	
+  <body>
+      <h1><a name="2a2-prot">Comparaisons séquence -> base de données</h1>
+
+	  <em>Note: les réponses  ces exercices dépendent de l'état des
+	  bases de données. Les réponses ci-dessous sont valables pour le
+	  15 février 2001.</em>
+
+    <ol>
+      <li>
+		<ol>
+		  <li>
+			Il y a 92'703 séquences et 33'903'563 aminoacides (ces données se
+			trouvent dans l'en-tête, juste au-dessus du graphique).
+		  <li>
+			La E-value représente le nombre d'alignements de même score qu'on
+			peut s'attendre à obtenir <em>par hasard</em> dans une base de
+			données de la même taille. Plus elle est faible, plus l'alignement
+			est significatif. Cette valeur n'est pas une probabilité, parce
+			qu'elle peut être  supérieure à 1.
+		  <li>
+			Le seul homologue probable (d'après l'E-value) est
+			<tt>BUB2_YEAST</tt>. Il est important de noter qu'une comparaison ne
+			peut pas établir de manière certaine une homologie, elle constitue
+			une indication de probabilité (forte dans ce cas-ci). 
+		  <li>
+			Avec <tt>Bllosum90</tt>, on trouve moins de matches (moins sensible).
+			La sélectivité est plus forte (il y a moins de matches "faux" (si
+			l'on considère que seul <tt>BUB2_YEAST</tt> est un vrai positif).
+			Avec <tt>Blosum45</tt>, la sensibilité est plus forte (il y a plus
+			de matches), mais la fréquence des matches "faux" est plus élevée :
+			la recherche est moins sélective.
+		  <li>
+			Les régions à basse complexité peuvent fausser le score (il est
+			alors anormalement élevé), ce qui augmente le nombre de faux
+			positifs : la recherche perd en sélectivité (et gagne en
+			sensibilité).
+		</ol>
+      <li>
+		<ol>
+		  <li>
+			Très probablement : il y a une correspondance presque parfaite avec
+			une  protéine humaine (<tt>MGD1_HUMAN</tt>, 99% d'identité) qui est
+			certainement son homologue.
+		  <li>
+			Non. Il y a bel et bien une protéine de souris qui obtient un bon
+			score (<tt>NECD_MOUSE</tt>), mais pas assez bon pour qu'il s'agisse
+			du même gène. Avec un EST, on doit obtenir une correspondance
+			(presque) parfaite (compte tenu des erreurs de séquençage).
+		  <li>
+			Dans les meilleurs matches, c'est la région N-terminale qui est la
+			mieux conservée. Il n'y a pas de fonction commune claire, d'après
+			les annotations de la fiche SwissProt.
+		</ol>
+	  <li>
+		<ol>
+		  <li>
+			Les séquences les plus similaires le sont surtout dans la région
+			300 - 500. Chez <tt>CHI1_BACCI</tt>, la séquence la plus
+			similaire à l'ORF 4.7, cela correspond en gros à
+			460 - 640. La fiche Swiss-Prot indique qu'il y a à cet endroit
+			deux domaines Fibronectine type III. 
+		  <li>
+			Mis à part les deux domaines FNIII, il n'est pas évident que
+			l'ORF 4.7 contienne des régions conservées.
+		  <li>
+			Non, parce que la région partagée par l'ORF et la chitinase
+			n'est pas le domaine catalytique (qui caractérise les
+			chitinases) mais les deux domaines Fibronectine III, qui sont
+			des domaines d'interaction protéine-protéine.
+		</ol>
+    </ol>
+    <hr>
+    <address><a href="mailto:Thomas.Junier@isrec.unil.ch">Thomas Junier</a></address>
+<!-- Created: Mon Dec  7 12:51:52 CET 1998 -->
+<!-- hhmts start -->
+Last modified: Thu Dec 10 17:00:33 CET 1998
+<!-- hhmts end -->
+  </body>
+</html>

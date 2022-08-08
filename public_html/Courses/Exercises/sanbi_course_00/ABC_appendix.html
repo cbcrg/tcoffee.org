@@ -1,0 +1,721 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD html 3.2 Final//EN">
+<HTML>
+<TITLE>The EMBNET Online Teaching Resource</TITLE>
+</HEAD>
+<BODY>
+<TABLE WIDTH="95%" BORDER="0" CELLSPACING="2" CELLPADDING="2" ALIGN="CENTER" VALIGN="TOP"><TR><TD><IMG SRC="../images/embnet.gif" WIDTH=150 HEIGHT=145 ALT="" BORDER=0 HSPACE=10 VSPACE=5 ALIGN="Right">
+<H1 CLASS="title">The ABC of Bioinformatics</H1>
+<h2 Class="title">11. Significance Testing of Trees</h2>
+<HR>
+<P>Whatever data you put into Phylip, you can usually get out a tree of some kind.  Obviously you will want to have some assessment of how reliable such a tree is.  One of the standard methods of determining the reliability of the tree generated from a dataset is bootstrapping.  This involves the random resampling, with replacement, of the data/sites from which the original tree was derived.  From each resampling a new tree is drawn and this procedure is repeated 100, 1000 or 10,000 times.  After all the resampling you can see how often particular branches are supported under the bootstrapping regime.</P>
+<P>With clustalw a bootstrapping module is incorporated into the neighbour joining tree drawing part of the program.  Use option 4 from the main menu to get:</P>
+<pre>
+****** PHYLOGENETIC TREE MENU ******
+
+
+    1.  Input an alignment
+    2.  Exclude positions with gaps?        = OFF
+    3.  Correct for multiple substitutions? = OFF
+    4.  Draw tree now
+    5.  Bootstrap tree
+    6.  Output format options
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+Then take option 5 (almost certainly toggling options 2 and 3 at the same time!)
+
+Enter name for bootstrap output file   [reca6.phb]:
+
+Enter seed no. for random number generator  (1..1000) [111]: <b>559</b>
+
+Enter number of bootstrap trials  (1..10000)    [1000]:
+
+Each dot represents 10 trials
+
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+
+Bootstrap output file completed       [reca6.phb]</PRE>
+
+<P>Note that the random number generator is one of those pseudorandom algorithms.  Thus you will get <u>exactly</u> the same bootstrap values if you persist in taking the default 111 seed.</P>
+
+<P>With Phylip it is a bit more complicated and a multistep process.  Let us suppose that you wish to bootstrap a tree of somatoptropin genes drawn with PROTPARS.  The first step is to run SEQBOOT:</P>
+
+<P><b><tt>%</tt> seqboot</b></P>
+<pre>
+/phylip/bin_phylip/seqboot:  can't read infile
+Please enter a new filename&gt;  <b>soma.phy</b>
+
+Random number seed (must be odd)?
+<b>579</b>
+</pre>
+<P>The program will then present you with:</P>
+<pre>
+Bootstrapped sequences algorithm, version 3.53c
+
+Settings for this run:
+  D   Sequence, Morph, Rest., Gene Freqs?  Molecular sequences
+  J     Bootstrap, Jackknife, or Permute?  Bootstrap
+  R                  How many replicates?  100
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, VT52, ANSI)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+
+Are these settings correct? (type Y or the letter for one to change)</pre>
+<P><b>Y</b></P>
+<P class="note">In fact it might be better to enter R and reduce the number of replicates to 50 or 20 in a classroom setting and 1000 for real work</P>
+<pre>
+completed replicate number   10
+completed replicate number   20
+completed replicate number   30
+completed replicate number   40
+completed replicate number   50
+completed replicate number   60
+completed replicate number   70
+completed replicate number   80
+completed replicate number   90
+completed replicate number  100</pre>
+
+<P><tt>Output written to output file</tt> called outfile !</P>
+
+<P><tt>%</tt> <b>mv outfile soma.sqb</b></P>
+
+<P><tt>%</tt> <b>protpars</b></P>
+<pre>/phylip/bin_phylip/protpars:  can't read infile
+Please enter a new filename&gt; <b>soma.sqb</b>
+
+Protein parsimony algorithm, version 3.53c
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, VT52, ANSI)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+Are these settings correct? (type Y or the letter for one to change)</pre>
+<P><b>M</b></P>
+<P><tt>How many data sets?</tt><BR>
+<b>50</b></p>
+
+<P><b>Y</b> (to indicate that all parameters are set and the analysis can begin)</P>
+
+<P>protpars will clank through the input sequence files 50 times printing out each time thus:</P>
+
+<pre>
+Data set # 8:
+
+Adding species:
+   SOMA_BOVIN
+   SOMA_SHEEP
+   SOMA_MOUSE
+   SOMA_RAT  
+   SOMA_RABIT
+   SOMA_PIG  
+   SOMA_HUMAN
+doing global rearrangements
+  !-------------!
+   .............</pre>
+
+<P>until eventually it declares:</P>
+
+<pre>
+Output written to output file
+
+Trees also written onto file</pre>
+
+<P>
+<tt>%</tt> <b>mv treefile soma.sqbtree</b><BR>
+<tt>%</tt> <b>mv outfile soma.sqbout</b>
+</P>
+
+You will now need to use Phylip's CONSENSE with the New Hampshire format multiple tree file as input to determine how many times each branch of the most parsimonious tree is replicated in the bootstrapped dataset.
+
+<P><tt>incbi@acer&gt;</tt><b>consense</b><BR>
+<tt>phylip/bin_phylip/consense:  can't read infile<BR>
+Please enter a new filename&gt;</tt> <b>soma.sqbtree</b></P>
+<pre>
+Majority-rule and strict consensus tree program, version 3.53c
+
+Settings for this run:
+  O                        Outgroup root?  No, use as outgroup species  1
+  R        Trees to be treated as Rooted?  No
+  0   Terminal type (IBM PC, VT52, ANSI)?  ANSI
+  1         Print out the sets of species  Yes
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4       Write out trees onto tree file?  Yes
+
+Are these settings correct? (type Y or the letter for one to change)</pre>
+<P><b>Y</b></P>
+
+<P>There are two  output files from consense.  The file <i>outfile</i> has the most accessible information although hardly to camera-ready quality.  Each branch in this file has the number of times the most parsimonious tree was supported by bootstrap replicates.  Don't draw the consense <i>treefile</i> expecting to see the bootstraps printed at the branches.  It writes these into a New Hampshire format tree in such a way that they are interpreted as branch lengths.</P>
+
+<P>You should now practice the use of these programs with a real dataset of your own or use SRS at the EBI to download a family or partial family of proteins, such as:</P>
+
+<P><u>mammalian protein seqs</u>: cytochrome C , alcohol dehydrogenase, actin alpha, actin beta , enolase, catalase, cathepsin D, HSP70 (heat shock protein), hexokinase, histone H3, lactate dehydrogenase, octeonectin/S.P.A.R.C., pyruvate kinase, somatotropin, spectrin alpha, spectrin beta, Thy-1 (membrane) glycoprotein, triose phosphate isomerase, tubulin alpha, tubulin beta.</P>
+
+<P><u>within prokaryotes</u>: flagellin, recA, glnA/glutamine synthase</P>
+<HR>
+
+<h2 class="title"><A NAME="app1">Appendix I Graphics Output</A><b></b></h2>
+<P>Much of the strength of GCG lies in its graphical display capabilities.  However graphics are very much dependent on the terminal you are using.  So it is not possible to set the correct parameters for bioinformatics, but rather each user must determine which graphics display mode best suits their local situation.  </P>
+<P>To set-up the graphics output interface you must run one of the following programs.  It may be necessary to switch between graphics output modes in one session.  'postscript' can be used for hard copy and final print outs, while 'tektronix' and 'xwindows' are better for instant views on the screen. </P>
+
+<P>
+<tt>%</tt> <b>postscript</b><BR>
+<tt>%</tt> <b>tektronix</b>for PC and Mac terminals<BR>
+<tt>%</tt> <b>xwindows</b>for X-terminals, including Macs running eXodus or MacX in the first instance try the defaults (hit &lt;return&gt;) for these set-up programs: this will show you the available options.  </P>
+
+<P>
+The following command lines cover several of the more common situations.<BR><BR>  
+
+To create a colour display Xwindow called 'screen'<BR>
+
+<tt>%</tt>  <b>xwindows color screen</b><BR><BR>
+
+For running eXodus on a Mac with memory limitations try<BR>
+
+<tt>%</tt>  <b>xwindows mono picture</b><BR><BR></P>
+
+<p class="note"> Note: if you have Xwindows capability, you may want to use the Wisconsin Package (X-)Interface called seqlab.  To run this type:
+<BR><tt>%</tt>  <b>seqlab -small</b></P>
+<P>All the GCG programs are then available from a window with menus.<BR><BR>  
+
+For Macs running NCSA-Telnet:<BR>
+<tt>%</tt>  <b>tektronix tek4107 term</b><BR><BR>
+
+For Macs running versaterm:<BR>
+<tt>%</tt>  <b>tektronix versaterm term</b><BR><BR>
+
+For PC running kermit:<BR>
+<tt>%</tt>  <b>tektronix tek4014 term</b><BR><BR>
+
+several other options are available. To create a postscript file, which you can transfer to a postscript printer later:<BR>
+<tt>%</tt>  <b>postscript laserwriter output.PS</b></P>
+<HR>
+<H2 CLASS="title"><A NAME="app2">Appendix II</A></h2>
+<P>
+Ways of representing sequences for <u>findpatterns</u> and <u>motifs</u>.  </P>
+
+
+<table  cellspacing=0 cellpadding=5>
+	<tr align="left" valign="top">
+		<td width=446><p align=left><b>SYMBOL</b></td>
+		<td width=446><p align=left><b>MEANING</b></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p>Round brackets ()</td>
+		<td><p><p>Enclose one or more symbols that can be repeated some number of times</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p>Curly brackets {}</td>
+		<td><p><p>Enclose numbers that tell how many times the symbols within the preceding round brackets must be found.  One or both of the numbers within the curly brackets may be missing.</td></tr>
+
+</table>
+
+
+<h4>Expressions:</h4>
+<table  cellspacing=0 cellpadding=5 width=100%>
+	<tr align="left" valign="top">
+		<td width=26%><p align=left><b>TYPE</b></td>
+		<td width=33%><p align=left><b>EXAMPLE</b></td>
+		<td width=40%><p align=left><b>MEANING</b></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p>OR</td>
+		<td><p><p>RGF(Q,A)S</td>
+		<td><p><p>RGF followed by either Q or A followed by S.</td></tr>
+
+	<tr align="left" valign="top">		<td><p><p></td>
+		<td><p><p>GAT(TG,T,G){1,4}A</td>
+		<td><p><p>GAT followed by any combination of TG, T and G 1 to 4 times, followed by A, for example GATTGGA matches this pattern.  </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p>NOT</td>
+		<td><p>GC~CAT</td>
+		<td><p>GC followed by any symbol except C, followed by AT.  </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>GC~(A,T)CC</td>
+		<td><p>GC followed by any symbol except A or T, followed by CC.  </td></tr>
+
+</table>
+<HR>
+<h2 class="title"><A NAME="app3">Appendix III</A> Sequence Symbols</h2>
+<P>GCG uses the letter codes for amino acid codes and nucleotide ambiguity proposed by IUB (Nomenclature Committee, 1985, Eur. J. Biochem. <b>150</b>; 1-5).  These codes are compatible with the codes used by the EMBL, GenBank, and PIR databases.  </P>
+<h3>Nucleotides</h3>
+<table  cellspacing=0 cellpadding=5 width=100%>
+	<tr align="left" valign="top">
+		<td width=33%><p align=left><b>IUB/GCG</b></td>
+		<td width=33% align=left valign=top><p align=left><b>MEANING</b></td>
+		<td width=33% align=left valign=top><p align=left><b>COMPLEMENT</b></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>A</td>
+		<td><p>A</td>
+		<td><p>T</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>C</td>
+		<td><p>C</td>
+		<td><p>G</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>G</td>
+		<td><p>G</td>
+		<td><p>C</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>T/U</td>
+		<td><p>T</td>
+		<td><p>A</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>M</td>
+		<td><p>A or C</td>
+		<td><p>K</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>R</td>
+		<td><p>A or G</td>
+		<td><p>Y</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>W</td>
+		<td><p>A or T</td>
+		<td><p>W</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>S</td>
+		<td><p>C or G</td>
+		<td><p>S</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Y</td>
+		<td><p>C or T</td>
+		<td><p>R</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>K</td>
+		<td><p>G or T</td>
+		<td><p>M</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>V</td>
+		<td><p>A or C or G</td>
+		<td><p>B</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>H</td>
+		<td><p>A or C or T </td>
+		<td><p>D</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>D</td>
+		<td><p>A or G or T</td>
+		<td><p><p>H</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>B</td>
+		<td><p>C or G or T </td>
+		<td><p>V</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>X/N</td>
+		<td><p>G or A or T or C</td>
+		<td><p>X</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>. </td>
+		<td><p>not G or A or T or C</td>
+		<td><p>.</td></tr>
+
+</table>
+<HR>
+<h3>Amino Acids</h3>
+
+<table  cellspacing=0 cellpadding=5 width=100%>
+	<tr align="left" valign="top">
+		<td width=24% align=left valign=top><p align=left><b>SYMBOL</b></td>
+		<td width=24% align=left valign=top><p align=left><b>MEANING</b></td>
+		<td width=24% align=left valign=top><p align=left><b>CODONS</b></td>
+		<td width=25% align=left valign=top><p align=left><b>IUB DEPICTION</b></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>A</td>
+		<td><p>Ala</td>
+		<td><p>GCT, GCC, GCA, GCG</td>
+		<td><p>!GCX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>B</td>
+		<td><p>Asp, Asn</td>
+		<td><p>GAT, GAC, AAT, AAC</td>
+		<td><p>!RAY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>C </td>
+		<td><p>Cys</td>
+		<td><p>TGT, TGC</td>
+		<td><p>!TGY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>D</td>
+		<td><p>Asp</td>
+		<td><p>GAT, GAC</td>
+		<td><p>!GAY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>E</td>
+		<td><p>Glu</td>
+		<td><p>GAA, GAG</td>
+		<td><p>!GAR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>F</td>
+		<td><p>Phe</td>
+		<td><p>TTT, TTC</td>
+		<td><p>!TTY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>G</td>
+		<td><p>Gly</td>
+		<td><p>GGT, GGC, GGA, GGG</td>
+		<td><p>!GGX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>H</td>
+		<td><p>His</td>
+		<td><p>CAT, CAC</td>
+		<td><p>!CAY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>I</td>
+		<td><p>Ile</td>
+		<td><p>ATT, ATC, ATA</td>
+		<td><p>!ATH</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>K</td>
+		<td><p>Lys</td>
+		<td><p>AAA, AAG</td>
+		<td><p>!AAR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>L</td>
+		<td><p>Leu</td>
+		<td><p>TTG, TTA, CTT, CTC, CTA, CTG</td>
+		<td><p>!TTR, CTX, YTR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>M</td>
+		<td><p>Met</td>
+		<td><p>ATG</td>
+		<td><p>!ATG</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>N</td>
+		<td><p>Asn</td>
+		<td><p>AAT, AAC</td>
+		<td><p>!AAY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>P</td>
+		<td><p>Pro</td>
+		<td><p>CCT, CCC, CCA, CCG</td>
+		<td><p>!CCX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Q</td>
+		<td><p>Gln</td>
+		<td><p>CAA, CAG</td>
+		<td><p>!CAR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>R</td>
+		<td><p>Arg</td>
+		<td><p>CGT, CGC, CGA, CGG, AGA, AGG</td>
+		<td><p>!CGX, AGR, MGR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>S</td>
+		<td><p>Ser</td>
+		<td><p>TCT, TCC, TCA, TCG, AGT, AGC</td>
+		<td><p>!TCX, AGY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>T</td>
+		<td><p>Thr</td>
+		<td><p>ACT, ACC, ACA, ACG</td>
+		<td><p>!ACX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>V</td>
+		<td><p>Val</td>
+		<td><p>GTT, GTC, GTA, GTG</td>
+		<td><p>!GTX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>W</td>
+		<td><p>Trp</td>
+		<td><p>TGG</td>
+		<td><p>!TGG</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>X</td>
+		<td><p>Unknown</td>		<td><p></td>
+		<td><p>!XXX</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Y</td>
+		<td><p>Tyr</td>
+		<td><p>TAT, TAC</td>
+		<td><p>!TAY</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Z</td>
+		<td><p>Glu, Gln</td>
+		<td><p>GAA, GAG, CAA, CAG</td>
+		<td><p>!SAR</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>*</td>
+		<td><p>Terminator</td>
+		<td><p>TAA, TAG, TGA</td>
+		<td><p>!TAR, TRA</td></tr>
+
+</table>
+
+<HR>
+<h3>The Universal Genetic Code.</h3>
+<center>
+<table  cellspacing=0 cellpadding=5>
+	<tr align="left" valign="top">
+		<td width=45><p>Phe</td>
+		<td width=45><p>UUU</td>
+		<td width=45><p>Ser</td>
+		<td width=45><p>UCU </td>
+		<td width=45><p>Tyr</td>
+		<td width=45><p>UAU</td>
+		<td width=45><p>Cys</td>
+		<td width=45><p>UGU </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p></td>
+		<td><p>UUC</td>		<td><p></td>
+		<td><p>UCC</td>		<td><p></td>
+		<td><p>UAC</td>		<td><p></td>
+		<td><p>UGC </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Leu</td>
+		<td><p>UUA</td>		<td><p></td>
+		<td><p>UCA</td>
+		<td><p>ter </td>
+		<td><p>UAA</td>
+		<td><p>ter</td>
+		<td><p>UGA </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p></td>
+		<td><p>UUG</td>		<td><p></td>
+		<td><p>UCG</td>
+		<td><p>ter</td>
+		<td><p>UAG</td>
+		<td><p>Trp</td>
+		<td><p>UGG </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Leu</td>
+		<td><p>CUU</td>
+		<td><p>Pro</td>
+		<td><p>CCU</td>
+		<td><p>His</td>
+		<td><p>CAU</td>
+		<td><p>Arg</td>
+		<td><p>CGU </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>CUC</td>		<td><p></td>
+		<td><p>CCC</td>		<td><p></td>
+		<td><p>CAC</td>		<td><p></td>
+		<td><p>CGC </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>CUA</td>		<td><p></td>
+		<td><p>CCA</td>
+		<td><p>Gln</td>
+		<td><p>CAA</td>		<td><p></td>
+		<td><p>CGA </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>CUG</td>		<td><p></td>
+		<td><p>CCG</td>		<td><p></td>
+		<td><p>CAG</td>		<td><p></td>
+		<td><p>CGG </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Ile</td>
+		<td><p>AUU</td>
+		<td><p>Thr</td>
+		<td><p>ACU </td>
+		<td><p>Asn</td>
+		<td><p>AAU</td>
+		<td><p>Ser</td>
+		<td><p>AGU </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>AUC</td>		<td><p></td>
+		<td><p>ACC</td>		<td><p></td>
+		<td><p>AAC</td>		<td><p></td>
+		<td><p>AGC </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>AUA</td>		<td><p></td>
+		<td><p>ACA</td>
+		<td><p>Lys</td>
+		<td><p>AAA</td>
+		<td><p>Arg</td>
+		<td><p>AGA</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Met</td>
+		<td><p>AUG</td>		<td><p></td>
+		<td><p>ACG</td>		<td><p></td>
+		<td><p>AAG</td>		<td><p></td>
+		<td><p>AGG </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td>		<td><p></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>Val</td>
+		<td><p>GUU</td>
+		<td><p>Ala</td>
+		<td><p>GCU</td>
+		<td><p>Asp</td>
+		<td><p>GAU</td>
+		<td><p>Gly</td>
+		<td><p>GGU </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>GUC</td>		<td><p></td>
+		<td><p>GCC</td>		<td><p></td>
+		<td><p>GAC</td>		<td><p></td>
+		<td><p>GGC </td></tr>
+
+	<tr align="left" valign="top">		<td><p></td>
+		<td><p>GUA</td>		<td><p></td>
+		<td><p>GCA</td>
+		<td><p>Glu</td>
+		<td><p>GAA</td>		<td><p></td>
+		<td><p>GGA </td></tr>
+
+	<tr align="left" valign="top">
+		<td><p><p></td>
+		<td><p>GUG</td>		<td><p></td>
+		<td><p>GCG</td>		<td><p></td>
+		<td><p>GAG</td>		<td><p></td>
+		<td><p>GGG </td></tr>
+
+</table></center>
+
+<h2 class="title"><A NAME="app4">APPENDIX</A> IV</h2>
+<h3>Biochemically meaningful grouping of Amino Acids</h3>
+<IMG SRC="../images/app4.gif" WIDTH=450 HEIGHT=450 ALT="" BORDER="0">
+<table  cellspacing=0 cellpadding=5 width=100%>
+	<tr align="left" valign="top">
+		<td width=49%><p align=left><b>Marked with a &quot;:&quot; in clustalW</b></td>
+		<td width=50%><p align=left><b>Marked with a &quot;.&quot; in clustalW</b></td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>&quot;strong groups&quot;</td>
+		<td><p>&quot;weak groups&quot;</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>STA</td>
+		<td><p>CSA</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>NEQK</td>
+		<td><p>ATV</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>NHQK</td>
+		<td><p>SAG</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>NDEQ</td>
+		<td><p>STNK</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>QHRK</td>
+		<td><p>SGND</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>MILV</td>
+		<td><p>SNDEQK</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>MILF</td>
+		<td><p>NDEQHK</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>HY</td>
+		<td><p>NEQHRK</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p>FYW</td>
+		<td><p>FVLIM</td></tr>
+
+	<tr align="left" valign="top">
+		<td><p></td>
+		<td><p>HFY</td></tr>
+
+</table>
+<HR>
+</TD>
+</TR>
+<TR>
+<TD>
+<TABLE WIDTH="100%" BORDER="2" ALIGN="CENTER" BORDERCOLOR="#FFFFFF" CLASS="footer">
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD><A HREF="../structure.html" CLASS="footer">Structure</A></TD>
+<TD><A HREF="../information.html" CLASS="footer">Information</A></TD>
+<TD><A HREF="../weare.html" CLASS="footer">We Are</A></TD>
+<TD><A HREF="../wedo.html" CLASS="footer">We Do</A></TD>
+<TD><A HREF="../achievements.html" CLASS="footer">Achievements</A></TD>
+<TD><A HREF="../abccont.html" Class="footer">ABC Contents Page</A></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

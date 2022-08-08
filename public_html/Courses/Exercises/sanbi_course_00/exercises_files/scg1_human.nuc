@@ -1,0 +1,78 @@
+!!NA_SEQUENCE 1.0
+ID   S82024     standard; RNA; HUM; 696 BP.
+XX
+AC   S82024;
+XX
+NI   g1478502
+XX
+DT   16-AUG-1996 (Rel. 49, Created)
+DT   16-AUG-1996 (Rel. 49, Last updated, Version 1)
+XX
+DE   SCG10=neuron-specific growth-associated protein/stathmin homolog
+DE   [human, embryo, mRNA, 696 nt].
+XX
+KW   .
+XX
+OS   Homo sapiens (human)
+OC   Eukaryota; Metazoa; Chordata; Vertebrata; Mammalia; Eutheria; Primates;
+OC   Catarrhini; Hominidae; Homo.
+XX
+RN   [1]
+RP   1-696
+RA   Okazaki T., Wang H., Masliah E., Cao M., Johnson S.A., Sundsmo M.,
+RA   Saitoh T., Mori N.;
+RT   "SCG10, a neuron-specific growth-associated protein in Alzheimer's
+RT   disease";
+RL   Neurobiol. Ageing 16:883-894(1995).
+XX
+DR   SWISS-PROT; Q93045; SCG1_HUMAN.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1. .696
+FT                   /organism="Homo sapiens"
+FT   CDS             29. .568
+FT                   /codon_start=1
+FT                   /db_xref="PID:g1478503"
+FT                   /db_xref="SWISS-PROT:Q93045"
+FT                   /note="neuron-specific growth-associated protein/stathmin
+FT                   homolog; Method: conceptual translation supplied by author.
+FT                   This sequence comes from Fig. 1. "
+FT                   /product="SCG10"
+FT                   /translation="MAKTAMAYKEKMKELSMLSLICSCFYPEPRNINIYTYDDMEVKQI
+FT                   NKRASGQAFELILKPPSPISEAPRTLASPKKKDLSLEEIQKKLEAAGERRKSQEAQVLK
+FT                   QLAEKREHEREVLQKALEENNNFSKMAEEKLILKMEQIKENREANLAAIIERLQEKERH
+FT                   AAEVRRNKELQVELSG"
+XX
+SQ   Sequence 696 BP; 224 A; 153 C; 177 G; 142 T; 0 other;
+
+  S82024  Length: 696  August 24, 1998 18:19  Type: N  Check: 386  ..
+
+       1  CCACTGCTCA GGTCTGCACA TCCCTACAAT GGCTAAAACA GCAATGGCCT 
+
+      51  ACAAGGAAAA AATGAAGGAG CTGTCCATGC TGTCACTGAT CTGCTCTTGC 
+
+     101  TTTTACCCGG AACCTCGCAA CATCAACATC TATACTTACG ATGATATGGA 
+
+     151  AGTGAAGCAA ATCAACAAAC GTGCCTCTGG CCAGGCTTTT GAGCTGATCT 
+
+     201  TGAAGCCACC ATCTCCTATC TCAGAAGCCC CACGAACTTT AGCTTCTCCA 
+
+     251  AAGAAGAAAG ACCTGTCCCT GGAGGAGATC CAGAAGAAAC TGGAGGCTGC 
+
+     301  AGGGGAAAGA AGAAAGTCTC AGGAGGCCCA GGTGCTGAAA CAATTGGCAG 
+
+     351  AGAAGAGGGA ACACGAGCGA GAAGTCCTTC AGAAGGCTTT GGAGGAGAAC 
+
+     401  AACAACTTCA GCAAGATGGC GGAGGAAAAG CTGATCCTGA AAATGGAACA 
+
+     451  AATTAAGGAA AACCGTGAGG CTAATCTAGC TGCTATTATT GAACGTCTGC 
+
+     501  AGGAAAAGGA GAGGCATGCT GCGGAGGTGC GCAGGAACAA GGAACTCCAG 
+
+     551  GTTGAACTGT CTGGCTGAAG CAAGGGAGGG TCTGGCACGC CCCACCAATA 
+
+     601  GTAAATCCCC CTGCCTATAT TTATAATGGA TCATGCGATA TCATGCGATA 
+
+     651  TCAGGATGGG GAATTGATGA CAATGGTTTA AAAGACTCTA TTATAA
+

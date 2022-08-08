@@ -1,0 +1,141 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Graphics From Program figure
+%%For: cnotreda
+%%CreationDate: August 24, 1998 18:26
+%%Creator: The Genetics Computer Group
+%%DocumentFonts: Courier
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+%%EndComments
+/m { moveto } def
+/l { lineto } def
+/s { stroke } def
+/n { newpath } def
+/lc { setlinecap } def
+/offset { 0 0 moveto (A) false charpath
+flattenpath pathbbox
+pop pop pop -1 mul /xoff exch def } def
+36.00 216.00 translate
+   3 setlinewidth
+1 setlinecap
+0 setlinejoin
+2 setmiterlimit
+0.240000 0.240000 scale
+%%EndProlog
+%%Page: ? 1
+/Courier findfont [ 51   0   0  65   0   0] makefont setfont
+186 1462 m
+2 0 (PILEUP of: @6_pileup_stat10n.list  August 24, 1998 18:26) ashow
+n
+2044 540 m
+2044 822 l
+1840 822 l
+1840 540 l
+s
+n
+1636 540 m
+1636 620 l
+1431 620 l
+1431 540 l
+s
+n
+1533 620 m
+1533 797 l
+1227 797 l
+1227 540 l
+s
+n
+1380 797 m
+1380 979 l
+1022 979 l
+1022 540 l
+s
+n
+818 540 m
+818 654 l
+613 654 l
+613 540 l
+s
+n
+716 654 m
+716 1028 l
+409 1028 l
+409 540 l
+s
+n
+1201 979 m
+1201 1234 l
+562 1234 l
+562 1028 l
+s
+n
+882 1234 m
+882 1299 l
+205 1299 l
+205 540 l
+s
+n
+1942 822 m
+1942 1349 l
+543 1349 l
+543 1299 l
+s
+/Courier findfont [ 41   0   0  52   0   0] makefont setfont
+2029 510 m
+gsave
+-89 rotate
+2 0 (sth1_xenla) ashow
+grestore
+1825 510 m
+gsave
+-89 rotate
+2 0 (sth2_xenla) ashow
+grestore
+1621 510 m
+gsave
+-89 rotate
+2 0 (sthm_mouse) ashow
+grestore
+1416 510 m
+gsave
+-89 rotate
+2 0 (sthm_rat) ashow
+grestore
+1212 510 m
+gsave
+-89 rotate
+2 0 (sthm_human) ashow
+grestore
+1007 510 m
+gsave
+-89 rotate
+2 0 (sthm_chick) ashow
+grestore
+803 510 m
+gsave
+-89 rotate
+2 0 (scga_xenla) ashow
+grestore
+598 510 m
+gsave
+-89 rotate
+2 0 (scgb_xenla) ashow
+grestore
+394 510 m
+gsave
+-89 rotate
+2 0 (scg1_human) ashow
+grestore
+190 510 m
+gsave
+-89 rotate
+2 0 (xb3_xenla) ashow
+grestore
+   1 setlinewidth
+/Courier findfont [ 20   0   0  26   0   0] makefont setfont
+1618 0 m
+1 0 (6_pileup_stat10n.figure  August 24, 1998 18:26) ashow
+/#copies    1 def
+showpage
+%%Trailer
+%%Pages: 1

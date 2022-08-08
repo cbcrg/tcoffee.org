@@ -1,0 +1,69 @@
+!!NA_SEQUENCE 1.0
+ID   MMPR22     standard; RNA; ROD; 450 BP.
+XX
+AC   X94915;
+XX
+NI   g1246804
+XX
+DT   31-MAR-1996 (Rel. 47, Created)
+DT   31-MAR-1996 (Rel. 47, Last updated, Version 2)
+XX
+DE   M.musculus mRNA for Pr22 protein
+XX
+KW   Pr22 gene.
+XX
+OS   Mus musculus (house mouse)
+OC   Eukaryota; Metazoa; Chordata; Vertebrata; Mammalia; Eutheria; Rodentia;
+OC   Sciurognathi; Muridae; Murinae; Mus.
+XX
+RN   [1]
+RA   Hosoya H.;
+RT   ;
+RL   Unpublished.
+XX
+RN   [2]
+RP   1-450
+RA   Hosoya H.;
+RT   ;
+RL   Submitted (09-JAN-1996) to the EMBL/GenBank/DDBJ databases.
+RL   H. Hosoya, Fujita Health University, Div. Cell Biology, Kutsukake,
+RL   Toyoake, Aichi, 470-11, Japan
+XX
+DR   SWISS-PROT; P54227; STHM_MOUSE.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1. .450
+FT                   /organism="Mus musculus"
+FT                   /strain="C57BL6"
+FT                   /cell_type="astrocytes"
+FT   CDS             1. .450
+FT                   /db_xref="PID:e218452"
+FT                   /db_xref="SWISS-PROT:P54227"
+FT                   /gene="Pr22"
+FT                   /translation="MASSDIQVKELEKRASGQAFELILSPRSKESVPDFPLSPPKKKDL
+FT                   SLEEIQKKLEAAEERRKSHEAEVLKQLAEKREHEKEVLQKAIEENNNFSKMAEEKLTHK
+FT                   MEANKENREAQMAAKLERLREKDKHVEEVRKNKESKDPADETEAD"
+XX
+SQ   Sequence 450 BP; 143 A; 105 C; 136 G; 66 T; 0 other;
+
+  X94915  Length: 450  August 24, 1998 18:19  Type: N  Check: 3065  ..
+
+       1  ATGGCTTCTT CTGATATCCA GGTGAAAGAG CTGGAGAAGC GCGCTTCAGG 
+
+      51  CCAGGCTTTT GAGCTGATTC TCAGCCCTCG GTCAAAAGAA TCTGTCCCCG 
+
+     101  ATTTCCCCCT TTCCCCCCCA AAGAAGAAGG ACCTTTCCCT GGAGGAAATC 
+
+     151  CAGAAGAAAT TAGAAGCTGC AGAAGAAAGA CGCAAGTCTC ATGAGGCGGA 
+
+     201  AGTCTTGAAG CAGCTCGCGG AGAAGCGGGA GCATGAGAAG GAGGTGCTCC 
+
+     251  AGAAAGCCAT CGAGGAGAAC AACAACTTCA GCAAGATGGC GGAGGAGAAG 
+
+     301  CTGACCCACA AAATGGAGGC TAACAAAGAG AACCGGGAGG CGCAGATGGC 
+
+     351  GGCCAAGCTG GAGCGCTTGC GAGAGAAGGA CAAGCACGTG GAAGAGGTGC 
+
+     401  GGAAGAACAA AGAATCCAAA GACCCCGCGG ACGAGACTGA AGCTGACTAA 
+

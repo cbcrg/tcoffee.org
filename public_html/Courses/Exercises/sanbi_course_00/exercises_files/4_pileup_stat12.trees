@@ -1,0 +1,11 @@
+#NEXUS
+
+[ Trees from file: 4_pileup_stat12.distances ]
+
+begin trees;
+utree Tree_1 = (((((((('SCG1_HUMAN':0.72,'SCG1_RAT':0.98):0.13,'SCG1_MOUSE'
+:-0.13):2.69,('SCGA_XENLA':3.11,'SCGB_XENLA':2.13):6.89):31.42,
+(('STH1_XENLA':6.30,'STH2_XENLA':-0.43):7.82,'XB3_XENLA':32.14)
+:3.56):1.96,'STHM_CHICK':4.71):3.35,'STHM_HUMAN':0.23):0.45,
+'STHM_RAT':0.05):0.31,'STHM_MOUSE':0.31):0.00;
+endblock;

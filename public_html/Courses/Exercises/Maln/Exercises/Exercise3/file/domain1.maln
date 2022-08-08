@@ -1,0 +1,13 @@
+
+Multiple alignment of the repeats found in the first domain.
+
+Note that in the @ column, The second repeat has an Aspartic acid
+subsituted with a Lysine. This probably inactivates this EF-Hand.
+
+				@
+z907770_17_45    ------EVQQLVNSTDVDKNGFIDYGEFNVFAQNL-
+z907770_46_80    TIEEIKGIKNIFANLKDDNSGTITYPDLRSS-MNQY
+z907770_87_115   ------VMSNIISEVDTDRDGKLKYDEFLTTSLEQ-
+z907770_123_150  ------MLLKAFKHFDKDHNTFINLDESETGLIL--
+                        : : .   . *..  :   :         
+

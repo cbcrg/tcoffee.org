@@ -1,0 +1,14 @@
+Two sequences
+
+	hmgl_trybr_190_267  GKEYGRGGKIKKDSNAPKRAMTSFMFFSSDFRS----KHSDLSIVEMSKAAGAAWKELGPE-ERKVYEEMAEKDKER----YKREMA
+	hmgb_chite_1_75     ----------MADK--PKRPLSAYMLWLNSARESIKRENPDFKVTEVAKKGGELWRGLKDKSEWEAKAATAKQNYIRALQEYERNGG
+	                                *.  ***.::::*:: .. *.    ::.*:.:.*::* .*  *: *  : * :.    *:::  *    *:*: .
+                                                
+Three sequences
+
+	hmgl_trybr_190_267 GKEYGRGGKIKKDSNAPKRAMTSFMFFSSDFR----SKHSDLSIVEMSKAAGAAWKELGPEERKVYEEMAEKDKERYKREMA-------
+	hmgb_chite_1_75    -----MADKPKRP-------LSAYMLWLNSARESIKRENPDFKVTEVAKKGGELWRGLKD--KSEWEAKAATAKQNYIRALQEYERNGG
+        	                   * *:        :::::::  . *     ::..:. . : :  *  *       :. :.  *   * .: * :
+			                       @@@@@@@@@@@@	@@@@@@@@@@@@@@@@@@@@@@@  	
+
+@: Positions identical in the two alignments

@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+$n=$ARGV[0];
+$p=$ARGV[1];
+
+$result=1;
+for ($a=0; $a<$p; $a++)
+  {
+    $result=$result*$n;
+  }
+
+print "$n^$p=$result";
+
+    

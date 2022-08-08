@@ -1,0 +1,13 @@
+LEVEL: Middle
+TITLE: Multiple Structural Alignments with T-Coffee
+SUBJECT: ex.1.9 T-Coffee Tutorial
+SUBJECT: ex.1.9 Combination of structures with t_coffee
+REQUIRES: UNIX, t_coffee, sap, extract_from_pdb
+METHODS: t_coffee
+DOCUMENTATION: 
+TIME: 2 hours
+USED:
+	2002 Glaxo
+	2002 DEA SIB
+AUTHOR: Marco Pagni
+FEASABILITY: Good

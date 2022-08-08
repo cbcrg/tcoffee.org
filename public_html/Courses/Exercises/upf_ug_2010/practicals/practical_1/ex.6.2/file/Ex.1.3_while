@@ -1,0 +1,17 @@
+#!/usr/bin/env perl
+use strict;
+my $n=$ARGV[0];
+my $result=1;
+
+if ($n<0 || int ($n)!=$n){print "ERROR \n"; die;}
+
+print "!$n=";
+
+while ($n>0)
+  {
+    $result=$result*$n;
+    $n=$n-1;
+  }
+print "$result\n";
+
+    

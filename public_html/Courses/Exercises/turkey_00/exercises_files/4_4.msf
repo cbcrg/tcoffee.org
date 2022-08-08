@@ -1,0 +1,26 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp of: @4_4.list
+
+ Symbol comparison table: GenRunData:blosum62.cmp  CompCheck: 6430
+
+                   GapWeight: 12
+             GapLengthWeight: 4 
+
+ 4_4.msf  MSF: 89  Type: P  August 26, 1998 15:43  Check: 5337 ..
+
+ Name: RAD4_SCHPO       Len:    89  Check: 2432  Weight:  1.00
+ Name: XRCC_HUMAN       Len:    89  Check: 2982  Weight:  1.00
+ Name: RAD4_SCHPO-2     Len:    89  Check: 9923  Weight:  1.00
+
+//
+
+              1                                                   50
+  RAD4_SCHPO  ~~~~MGSSKP LKGFVICCTS IDLKQRTEIS TKATKLGAAY RSDFTKDVTH 
+  XRCC_HUMAN  RAGPEELGKI LQGVVVVLSG FQNPFRSELR DKALELGAKY RPDWTRDSTH 
+RAD4_SCHPO-2  ~~~~~~~~PT LFKCRVCLTN IGQPERSRIE NYVLKHGGTF CPDLTRDVTH 
+
+              51                                      89
+  RAD4_SCHPO  LIAGDFDTPK YKFAAKSRPD IKIMSSEWIP VLYE~~~~~
+  XRCC_HUMAN  LICAFANTPK YSQVLGLGG. .RIVRKEWVL DCH~~~~~~
+RAD4_SCHPO-2  LIAGTSSGRK YEYALKWKIN VVCVEWLWQS IQRNAVLEP
+

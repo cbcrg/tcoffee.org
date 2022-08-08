@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+   <TITLE>PAM250 Mutation Matrix</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H1>
+PAM250 Mutation Matrix</H1></CENTER>
+250 PAM evolutionary distance&nbsp;
+<HR>
+<CENTER>
+<H3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ORIGINAL AMINO ACID<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<FONT FACE="Courier New,Courier"><FONT SIZE=+0><B><FONT COLOR="#000000">Ala&nbsp;
+Arg&nbsp; Asn&nbsp; Asp&nbsp; Cys&nbsp; Gln&nbsp; Glu&nbsp; Gly&nbsp; His&nbsp;
+Ile&nbsp; Leu&nbsp; Lys&nbsp; Met&nbsp; Phe&nbsp; Pro&nbsp; Ser&nbsp; Thr&nbsp;
+Trp&nbsp; Tyr&nbsp; Val<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#33CCFF">
+</FONT><FONT COLOR="#3333FF">A&nbsp;&nbsp;&nbsp; R&nbsp;&nbsp;&nbsp; N&nbsp;&nbsp;&nbsp;
+D&nbsp;&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; Q&nbsp;&nbsp;&nbsp; E&nbsp;&nbsp;&nbsp;
+G&nbsp;&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; I&nbsp;&nbsp;&nbsp; L&nbsp;&nbsp;&nbsp;
+K&nbsp;&nbsp;&nbsp; M&nbsp;&nbsp;&nbsp; F&nbsp;&nbsp;&nbsp; P&nbsp;&nbsp;&nbsp;
+S&nbsp;&nbsp;&nbsp; T&nbsp;&nbsp;&nbsp; W&nbsp;&nbsp;&nbsp; Y&nbsp;&nbsp;&nbsp;
+V<BR>
+</FONT><FONT COLOR="#000000">Ala </FONT><FONT COLOR="#3333FF">A</FONT></B><FONT COLOR="#000000">&nbsp;</FONT>&nbsp;&nbsp;
+<FONT COLOR="#FF0000">13&nbsp;</FONT>&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;
+12&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 11&nbsp;&nbsp; 11&nbsp;&nbsp;
+11&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 9<BR>
+<B><FONT COLOR="#000000">Arg </FONT><FONT COLOR="#3333FF">R</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp; <FONT COLOR="#FF0000">17&nbsp;</FONT>&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2<BR>
+<B>Asn <FONT COLOR="#3333FF">N</FONT></B><FONT COLOR="#3333FF">&nbsp;&nbsp;</FONT>&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; <FONT COLOR="#FF0000">6</FONT>&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+3<BR>
+<B>Asp <FONT COLOR="#3333FF">D</FONT>&nbsp;</B>&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;<FONT COLOR="#FF0000"> 11&nbsp;</FONT>&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3<BR>
+<B>Cys <FONT COLOR="#3333FF">C</FONT>&nbsp;&nbsp;</B>&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; <FONT COLOR="#CC0000">52</FONT>&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2<BR>
+<B>Gln <FONT COLOR="#3333FF">Q</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;
+<FONT COLOR="#FF0000">10&nbsp;</FONT>&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3<BR>
+<B>Glu <FONT COLOR="#3333FF">E</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 11&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp; <FONT COLOR="#FF0000">12&nbsp;</FONT>&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3<BR>
+<B>Gly <FONT COLOR="#3333FF">G&nbsp;</FONT></B>&nbsp;&nbsp; 12&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp; 10&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp; <FONT COLOR="#FF0000">27</FONT>&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp; 11&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 7<BR>
+<B>His <FONT COLOR="#3333FF">H</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; <FONT COLOR="#FF0000">15</FONT>&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2<BR>
+<B>Ile <FONT COLOR="#3333FF">I&nbsp;</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp; <FONT COLOR="#FF0000">10&nbsp;</FONT>&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+9<BR>
+<B>Leu <FONT COLOR="#3333FF">L</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp; 15&nbsp;&nbsp;<FONT COLOR="#FF0000"> 34</FONT>&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp; 20&nbsp;&nbsp; 13&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 13<BR>
+<B>Lys <FONT COLOR="#3333FF">K</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp; 18&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;
+10&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; <FONT COLOR="#FF0000">24&nbsp;</FONT>&nbsp;&nbsp;
+9&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;
+8&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 5<BR>
+<B>Met <FONT COLOR="#3333FF">M</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; <FONT COLOR="#FF0000">6</FONT>&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2<BR>
+<B>Phe <FONT COLOR="#3333FF">F</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;
+<FONT COLOR="#FF0000">32</FONT>&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 20&nbsp;&nbsp;&nbsp; 3<BR>
+<B>Pro <FONT COLOR="#3333FF">P</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; <FONT COLOR="#FF0000">20&nbsp;</FONT>&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+4<BR>
+<B>Ser <FONT COLOR="#3333FF">S</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;&nbsp;
+6&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp; <FONT COLOR="#FF0000">10</FONT>&nbsp;&nbsp;&nbsp;
+9&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 6<BR>
+<B>Thr <FONT COLOR="#3333FF">T</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+8&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;
+<FONT COLOR="#CC0000">11&nbsp;</FONT>&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+6<BR>
+<B>Trp <FONT COLOR="#3333FF">W</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;
+0&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+0&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;
+<FONT COLOR="#FF0000">55</FONT>&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 0<BR>
+<B>Tyr <FONT COLOR="#3333FF">Y</FONT></B>&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;
+15&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp; <FONT COLOR="#FF0000">31&nbsp;</FONT>&nbsp;&nbsp; 2<BR>
+<B>&nbsp;Val <FONT COLOR="#3333FF">V</FONT></B><FONT COLOR="#3333FF">&nbsp;</FONT>&nbsp;&nbsp;&nbsp;
+7&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;
+5&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 15&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;
+10&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;
+72&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; <FONT COLOR="#FF0000">17</FONT>&nbsp;</FONT></FONT>
+<HR></H3></CENTER>
+[column on left represents the replacement amino acid]
+
+<P>&nbsp;Mutation probability matrix for the evolutionary distance of 250
+PAMs. To simplify the appearance, the elements are shown multiplied by
+100. In comparing two sequences of average amino acid frequency at this
+evolutionary distance, there is a 13% probability that a position containing
+Ala in the first sequence will contain Ala in the second. There is a 3%
+chance that it will contain Arg, and so forth. The relationship of two
+sequences at a distance of 250 PAMs can be demonstrated by statistical
+methods. (Adapted from Figure 83. Atlas of Protein Sequence and Structure,
+Suppl 3, 1978, M.O. Dayhoff, ed. National Biomedical Research Foundation,
+1979.)
+
+<P><A HREF="../two_seq.html">[BACK]</A>
+
+<P>&nbsp;
+</BODY>
+</HTML>

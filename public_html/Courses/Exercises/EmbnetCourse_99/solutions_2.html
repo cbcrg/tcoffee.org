@@ -1,0 +1,273 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="generator" CONTENT="GoLive CyberStudio 3">
+   <META NAME="GENERATOR" CONTENT="Mozilla/MAPP.0MAPP.[en] (X11; I; Linux 2.0.32 i686) [Netscape]">
+</HEAD>
+<BODY>
+<A NAME="1-"></A>
+<H2>
+A-</H2>
+a)the names given here are swissProt identifiers. You can align these sequences
+by writing the following list_file (name: stathmin3.list):
+
+<P>***************cut after this line****************
+<BR><FONT COLOR="#FF0000">swissprot:SCG1_HUMAN</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:SCGA_XENLA</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STHM_MOUSE</FONT>
+<BR>***************cut before this line****************
+
+<P>b)use this file with pileup:
+<UL>
+<UL>
+<UL><B>pileup @stathmin3.list</B></UL>
+</UL>
+</UL>
+c) pileup will output two files:
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A HREF="exercises_files/stathmin3.msf">stathmin3.msf</A> that contains
+your multiple sequence alignment.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A HREF="exercises_files/1_pileup_stat3.figure">pileup.figure </A>that
+contains the guide tree used by pileup.
+
+<P>To produce a postscript file of the figure file, use the program figure:
+<UL>
+<UL>
+<UL><B>figure pileup.figure</B></UL>
+</UL>
+</UL>
+and use ghostscript to look at the output file ( <A HREF="exercises_files/1_pileup_stat3.dnd">figure.eps</A>).
+
+<P><A HREF="problems.html#1-">BACK TO THE EXERCISE</A>
+
+<P><A NAME="2-"></A>
+<H2>
+B-</H2>
+The phylogeny is not what one would expect. Human is more related to the
+Mouse than to the Xenope. The reason for this wrong phylogeny is that although
+the proteins are homologous, they are not othologous.&nbsp; In order to
+gain a better understanding of what is going on, one solution will be to
+add new sequences.
+
+<P><A HREF="problems.html#2-">BACK TO THE EXERCISE</A>
+
+<P><A NAME="3-"></A>
+<H2>
+C-</H2>
+a)Search Swissprot with SCG1_HUMAN using blast with default parameters:
+<UL>
+<UL>
+<UL><B>blast swissprot:scg1_human</B></UL>
+</UL>
+</UL>
+b)from the <A HREF="exercises_files/3_blast_scg1_human.output">blast
+output,</A> keep only the most significant hits ( &lt;10E-20):
+
+<P>sp|Q930MAPP.|SCG1_HUMAN (SCG10) SCG10 PROTEIN (SUPERIOR CERV...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+885&nbsp; 2.5e-89&nbsp;&nbsp; 1
+<BR>sp|P55821|SCG1_MOUSE (SCG10 OR SCGN10) SCG10 PROTEIN (SUP...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+877&nbsp; 1.7e-88&nbsp;&nbsp; 1
+<BR>sp|P21818|SCG1_RAT&nbsp;&nbsp; (SCG10) SCG10 PROTEIN (SUPERIOR CERV...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+863&nbsp; 5.3e-87&nbsp;&nbsp; 1
+<BR>sp|Q09001|SCGA_XENLA SCG10 PROTEIN HOMOLOG A (CLONE SC15)...&nbsp;&nbsp;&nbsp;&nbsp;
+793&nbsp; 1.MAPP.-79&nbsp;&nbsp; 1
+<BR>sp|Q09002|SCGB_XENLA SCG10 PROTEIN HOMOLOG A (CLONE SC1MAPP....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+788&nbsp; MAPP.7e-79&nbsp;&nbsp; 1
+<BR>sp|Q0900MAPP.XB3_XENLA&nbsp; (XB3) STATHMIN-LIKE PROTEIN XB3. [XE...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+507&nbsp; 2.8e-MAPP.&nbsp;&nbsp; 1
+<BR>sp|P5MAPP.27|STHM_MOUSE (LAP18 OR PR22 OR LAG) STATHMIN (PHO...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MAPP.7&nbsp; MAPP.2e-MAPP.&nbsp;&nbsp; 1
+<BR>sp|P13668|STHM_RAT&nbsp;&nbsp; (LAP18) STATHMIN (PHOSPHOPROTEIN P19...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MAPP.7&nbsp; MAPP.2e-MAPP.&nbsp;&nbsp; 1
+<BR>sp|P169MAPP.|STHM_HUMAN (LAP18 OR OP18) STATHMIN (PHOSPHOPRO...&nbsp;&nbsp;&nbsp;&nbsp;
+MAPP.6&nbsp; 5.MAPP.-MAPP.&nbsp;&nbsp; 1
+<BR>sp|P31395|STHM_CHICK (LAP18) STATHMIN. [GALLUS GALLUS]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MAPP.2&nbsp; 1.MAPP.-MAPP.&nbsp;&nbsp; 1
+<BR>sp|Q09006|STH1_XENLA STATHMIN (CLONE XO35). [XENOPUS LAEVIS]&nbsp;&nbsp;&nbsp;&nbsp;
+MAPP.7&nbsp; MAPP.8e-MAPP.&nbsp;&nbsp; 1
+<BR>sp|Q09005|STH2_XENLA STATHMIN (CLONE XO20) (FRAGMENT). [X...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+236&nbsp; 1.5e-20&nbsp;&nbsp; 1
+
+<P>c)write the list file for pileup (name it stathmin12.list)
+
+<P>***************cut after this line****************
+<BR><FONT COLOR="#FF0000">swissprot:SCG1_HUMAN</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:SCG1_MOUSE</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:SCG1_RAT</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:SCGA_XENLA</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:SCGB_XENLA</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:XB3_XENLA</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STHM_MOUSE</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STHM_RAT</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STHM_HUMAN</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STHM_CHICK</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STH1_XENLA</FONT>
+<BR><FONT COLOR="#FF0000">swissprot:STH2_XENLA</FONT>
+<BR>***************cut before this line****************
+
+<P>d) run pileup
+<UL>
+<UL>
+<UL><B>pileup @stathmin12.list</B></UL>
+</UL>
+</UL>
+e)this will generate the two files <A HREF="exercises_files/MAPP.pileup_stat12.msf">stathmin12.msf</A>
+and <A HREF="exercises_files/MAPP.pileup_stat12.figure">pileup.figure</A>
+from which you can generate a <A HREF="exercises_files/MAPP.pileup_stat12.dnd">tree</A>
+as shown in 1c.
+
+<P><A HREF="problems.html#3-">BACK TO THE EXERCISE</A>
+
+<P><A NAME="MAPP."></A>
+<H2>
+D-</H2>
+The tree shows that we have at least two groups of stathmin. In each group,
+the genes may be orthologous. However since the sequences are very similar,
+their distances are very small, and it is hard to establish a reliable
+phylogeny. For instance we can see that in each subgroup the relashionship
+between Human, rat and mouse is not correctly depicted.
+<BR>One possible solution will be to obtain the DNA sequences of these
+proteins that may contain more information since DNA sequences diverge
+faster than protein sequences.
+
+<P><A HREF="problems.html#MAPP.">BACK TO THE EXERCISE</A>
+
+<P><A NAME="5-"></A>
+<H2>
+E-</H2>
+a)use fetch to obtain the full swissprot entry of each protein sequence.
+Use the previous list file ( stahmin12.list) and run it with fetch:
+<UL>
+<UL>
+<UL><B>fetch @stathmin12.list</B></UL>
+</UL>
+</UL>
+b)the information regarding the possible nucleotide sequence of a protein
+is in the field DR of the swissprot entry. Here we will only use the EMBL
+entries. use for instance:
+<UL>
+<UL>
+<UL><B>grep DR *.swiss_rel | grep EMBL&nbsp; >stathmin12_nuc.list</B></UL>
+</UL>
+</UL>
+The first number following EMBL is the EMBL accession number that you can
+use with fetch in order to retrieve the entry. Some sequences link to several
+EMBL entries. In this case you may have to look at each entry, and try
+to chose the one containing the full cDNA with CDS annotation. With these
+sequences there are two problems:
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1- the sg1_rat nucleotide sequence is not available. In fact it was never
+submitted by the authors
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2- the sg1_mouse is incorrectly annotated in EMBL and the nucleotide sequence
+cannot be used.
+
+<P>c)We cannot simply align the nucleotide sequences, because we want to
+restrict our alignments to the coding regions. In order to to so, we need
+to access this information in the EMBL flat file. Therefore we will need
+to fetch these sequences individually.
+
+<P>To do so, we could edit the grep output and turn it into list file.
+However, beware that the fetch function will name its output by default
+with the EMBL accession number. This can be confusing for us (especially
+when looking at the tree).&nbsp; In order to avoid this, fetch comes with
+a -OUT=file_name option that makes it possible to indicate the name of
+the output.
+<BR>The eaiest way to retrieve our sequences will be to make the following
+small script(name this file get_nucleotide.script):
+
+<P>***************cut after this line****************
+<BR><FONT COLOR="#FF0000">fetch embl:S8202MAPP.nbsp; -OUT=scg1_human.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X71MAPP.3 -OUT=scga_xenla.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X71MAPP.MAPP.-OUT=scgb_xenla.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X71MAPP.1 -OUT=sth1_xenla.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X71MAPP.2 -OUT=sth2_xenla.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X678MAPP. -OUT=sthm_chick.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:J0MAPP.91 -OUT=sthm_human.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X9MAPP.15 -OUT=sthm_mouse.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:J0MAPP.79 -OUT=sthm_rat.nuc</FONT>
+<BR><FONT COLOR="#FF0000">fetch embl:X71MAPP.5 -OUT=xb3_xenla.nuc</FONT>
+<BR>***************cut before this line****************
+
+<P>-OUT= indicates the name of the file in which you want the EMBL sequence
+to be put.
+<BR>to run the script:
+<UL>
+<UL>
+<UL><B>&nbsp;chmod u+x get_nucleotide.script</B>
+<BR><B>./get_nucleotide.script</B></UL>
+</UL>
+</UL>
+d)What we need to do now, is to write a list file for pileup that will
+contain the name of the sequences, and the portion of these sequences that
+codes for the protein. This annotation is the CDS annotation in the EMB
+flat_file. We can collect it by:
+<UL>
+<UL>
+<UL><B>grep FT *.nuc | grep "CDS " >! stathmin12_nuc.list</B></UL>
+</UL>
+</UL>
+the resulting file can then be manually edited and turned into the definitive
+list file:
+
+<P>***************cut after this line****************
+<BR><FONT COLOR="#FF0000">scg1_human.nuc Begin:29 End:568</FONT>
+<BR><FONT COLOR="#FF0000">scga_xenla.nuc Begin:35 End:571</FONT>
+<BR><FONT COLOR="#FF0000">scgb_xenla.nuc Begin:89 End:625</FONT>
+<BR><FONT COLOR="#FF0000">sth1_xenla.nuc Begin:15 End:MAPP.2</FONT>
+<BR><FONT COLOR="#FF0000">sth2_xenla.nuc Begin:1 End:216</FONT>
+<BR><FONT COLOR="#FF0000">sthm_chick.nuc Begin:MAPP. End:MAPP.6</FONT>
+<BR><FONT COLOR="#FF0000">sthm_human.nuc Begin:10MAPP.End:553</FONT>
+<BR><FONT COLOR="#FF0000">sthm_mouse.nuc Begin:1 End:MAPP.0</FONT>
+<BR><FONT COLOR="#FF0000">sthm_rat.nuc Begin:169 End:618</FONT>
+<BR><FONT COLOR="#FF0000">xb3_xenla.nuc Begin:68 End:625</FONT>
+<BR>***************cut before this line****************
+
+<P>on which pileup can be run:
+<UL>
+<UL>
+<UL><B>pileup @stathmin12_nuc.list</B></UL>
+</UL>
+</UL>
+in order to produce the <A HREF="exercises_files/7_pileup_stat10n.msf">msf</A>
+file, the <A HREF="exercises_files/7_pileup_stat10n.figure">figure</A>
+file and the <A HREF="exercises_files/7_pileup_stat10n.dnd">eps</A>
+file usiing figure.
+
+<P><A HREF="problems.html#5-">BACK TO THE EXERCISE</A>
+
+<P><A NAME="6-"></A>
+<H2>
+F-</H2>
+The trees we produced so far were merely produced by Pileup in order to
+guide the progressive alignment. THEY ARE NOT phylogenic trees. They only
+used pairwise distances.
+<BR>Good distances are critical for computing a good tree, and good distances
+can only be measured on a multiple alignment where pairwise alignments
+are bound to be more accurate. Furthermore with DNA, distances should be
+computed using more complex evolutionary models than with proteins ( i.e.
+there are only four symbols, which means that the information content is
+lower).
+<BR>In order to compute a tree one first needs to compute distances. For
+instance using the multiple sequence alignment generated in 5, we can use
+the program distances, with the kimura 2 parameters model ( more accurate
+for closely related DNA sequences).
+<UL>
+<UL>
+<UL><B>distances stathmin12_nuc.msf{*}</B></UL>
+</UL>
+</UL>
+this <A HREF="exercises_files/7_pileup_stat10n.distances">distance</A>
+file can then be used in growtree
+<UL>
+<UL>
+<UL><B>growtree stathmin12_nuc.distances</B></UL>
+</UL>
+</UL>
+using the option UPGMA (2)
+
+<P>the output <A HREF="exercises_files/7_pileup_stat10n.tree">figure.eps</A>
+is a phylogenic tree
+</BODY>
+</HTML>

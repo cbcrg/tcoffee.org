@@ -1,0 +1,1412 @@
+
+
+(Nucleotide) FASTA of: mmil2r5  from: 1 to: 2713  March  4, 1997 19:39
+
+ID   MMIL2R5    standard; DNA; ROD; 2713 BP.
+AC   M16398; J02715;
+NI   g198309 
+DT   02-APR-1988 (Rel. 15, Created)
+DT   08-FEB-1997 (Rel. 50, Last updated, Version 11)
+DE   Mouse interleukin 2 receptor (IL2R) gene, promoter region and . . . 
+
+
+ TO: repbase:*  Sequences:        520  Symbols:    495,123  Word Size: 6
+ Scoring matrix: GenRunData:fastadna.cmp
+ Constant pamfactor used
+ Gap creation penalty: 12.0      Gap extension penalty: 4.0
+
+
+
+Histogram Key:
+ Each histogram symbol represents 4 search set sequences
+ Each inset symbol represents 1 search set sequences
+
+Score Init1  Initn
+        (-)    (+)
+<  4      0      0:
+   8      1      1:=
+  12      0      0:
+  16      0      0:
+  20      0      0:
+  24      3      3:=
+  28     17     17:=====
+  32     63     63:================
+  36    164    164:=========================================
+  40    209    209:=====================================================
+  44    143    143:====================================
+  48    128    128:================================
+  52    111    111:============================
+  56     63     63:================
+  60     36     36:=========
+  64     21     21:======
+  68     13     13:====
+  72     18     18:=====
+  76     16     16:====
+  80     12     12:===
+  84      4      4:=
+  88      0      0:
+  92      5      4:=-
+  96      1      1:=
+ 100      1      1:=
+ 104      0      0:
+ 108      1      1:=
+ 112      1      1:=
+ 116      0      0:
+ 120      0      0:
+ 124      0      0:
+ 128      0      0:
+ 132      2      2:=
+ 136      0      0:
+ 140      1      1:=
+ 144      0      0:
+ 148      1      1:=         :=
+ 152      0      0:          :
+ 156      0      1:+         :+
+ 160      0      0:          :
+ 164      0      0:          :
+ 168      0      0:          :
+ 172      0      0:          :
+ 176      0      0:          :
+ 180      0      0:          :
+ 184      0      0:          :
+ 188      0      0:          :
+ 192      0      0:          :
+ 196      0      0:          :
+ 200      0      0:          :
+>200      5      5:==        :=====
+
+Mean score calculations exclude scores greater than 153
+ mean initn score:  45.7 (s.d. 12.63)
+ mean init1 score:  45.7 (s.d. 12.63)
+ 1040 scores better than 1 saved, joining threshold: 78
+
+The best scores are:				            init1 initn  opt..
+
+repbase:b1  Rb000418 Mouse B1 repetitive sequence - a con... 410   410   420
+repbase:mtc /rev  Rb000455 Rodent MTc MaLR-LTR - a consen... 295   394   383
+repbase:mtd /rev  Rb000456 Rodent MTd MaLR-LTR - a consen... 248   322   327
+repbase:mta /rev  Rb000453 Rodent MTa MaLR-LTR - a consen... 313   313   331
+repbase:mtb /rev  Rb000454 Rodent MTb MaLR-LTR - a consen... 287   287   362
+repbase:tc2 /rev  Rb000284 C.elegans Tc2 transposon DNA. 0/0  89   155   120
+repbase:rt1 /rev  Rb000262 Anopheles gambiae RT1 retropos... 147   147   159
+repbase:dre  Rb000184 D.discoideum retrotransposon DRE. 0/0  137   137   155
+repbase:dmrp  Rb000180 Drosophila melanogaster copia-like... 131   131   154
+repbase:cre2 /rev  Rb000148 C.fasciculata retrotransposab... 129   129   145
+repbase:cre1  Rb000147 C.fasciculata retrotransposable el... 110   110   110
+repbase:msrbmi  Rb000503 M.serrator retropseudogene-like ... 108   108   118
+repbase:occ  Rb000338 Rabbit C repetitive sequence. 0/0       97    97   117
+repbase:tcb1 /rev  Rb000286 Caenorhabditis briggsae TCb1(...  94    94   107
+repbase:ddtdd  Rb000377 Slime mold (D.discoideum strain A...  91    91   124
+repbase:ocl1a  Rb000339 Rabbit L1Oc5 repeat. 0/0              91    91   100
+repbase:tc6 /rev  Rb000285 C.elegans transposable element...  90    90   110
+repbase:tc6  Rb000285 C.elegans transposable element Tc6....  90    90   110
+repbase:sssine1  Rb000357 S.scrofa SINE sequence. 0/0         82    82   105
+repbase:atrep  Rb000366 Arabidopsis thaliana DNA sequence...  82    82    91
+repbase:cre2  Rb000148 C.fasciculata retrotransposable el...  82    82    82
+repbase:amtam2 /rev  Rb000361 Anthirrhinum majus DNA for ...  82    82   105
+repbase:mer7b /rev  Rb000062 Nonautonomous DNA transposon...  80    80    85
+repbase:chline /rev  Rb000327 C.hircus LINE element. 0/0      80    80   101
+repbase:tartb2  Rb000278 Drosophila melanogaster TART-B2....  80    80    93
+repbase:tartb1  Rb000277 Drosophila melanogaster TART-B1 ...  80    80    93
+repbase:tecth1  Rb000296 C. thummi DNA transposable eleme...  79    79   114
+repbase:tu1 /rev  Rb000301 S.purpuratus transposable elem...  79    79    99
+repbase:plmys1 /rev  Rb000464 Mouse mys-1 transposon. 0/0     79    79    87
+repbase:l1ma10  Rb000014 3'-end of L1 repeat (subfamily L...  78    78    84
+repbase:rnlpkg /rev  Rb000478 Repetitive segment of L-typ...  78    78   107
+repbase:l1mb3  Rb000015 3'-end of L1 repeat (subfamily L1...  78    78    84
+repbase:tst1  Rb000404 Potato DNA for copia-like transpos...  77    77    84
+repbase:ltr3 /rev  Rb000040 LTR from human DNA related to...  77    77    83
+repbase:tc1 /rev  Rb000283 C.elegans transposable element...  76    76   113
+repbase:bmline1  Rb000131 LINE1 repeat family; retrotrans...  76    76    78
+repbase:pfrp4 /rev  Rb000247 Plasmodium falciparum inters...  76    76    85
+repbase:tecth1 /rev  Rb000296 C. thummi DNA transposable ...  76    76    78
+repbase:mdg3at /rev  Rb000225 D. melanogaster AT-rich rep...  75    75    82
+repbase:l1pa15  Rb000008 3'-end of L1 repeat (subfamily L...  74    74    85
+
+mmil2r5
+repbase:b1
+
+ID   B1        repbase; DNA; ROD; 135 BP.
+CC   B1 DNA
+AC   RB000418
+DE   Mouse B1 repetitive sequence - a consensus.
+KW   B1 repetitive sequence; repetitive sequence.
+OS   Mus musculus (consensus) . . . 
+
+
+SCORES           Init1:   410 Initn:   410 Opt:   420
+            92.5% identity in 120 bp overlap
+
+                         10        20        30        40        50
+mmil2r           AGCTTGCATGCCTTTAATCCCAGCACTTGGGAGGCAGAAGCAGGTGGATT
+                      ||| ||||||||||||||||||||||||||||| ||||| |||||
+b1     GCCGGGCATGGTGGCGCACGCCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATT
+               10        20        30        40        50        60
+
+               60        70        80        90       100       110
+mmil2r TCTGAGTTCGAGGCCAGCCTGGTCTACAAAGTAAGTGCCAGGACAGCCAGGACTATACAG
+       ||||||||||||||||||||||||||||:||| ||| |||||||||||||| ||| ||||
+b1     TCTGAGTTCGAGGCCAGCCTGGTCTACANAGTGAGTTCCAGGACAGCCAGGGCTACACAG
+               70        80        90       100       110       120
+
+              120       130       140       150       160       170
+mmil2r AGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAACAAAACAAAAAAA
+       ||||||||||||| |                                             
+b1     AGAAACCCTGTCTCG                                             
+              130                                                  
+
+
+mmil2r5 /rev
+repbase:mtc
+
+ID   MTC       repbase; DNA; ROD; 421 BP.
+CC   MTC DNA
+AC   RB000455
+DE   Rodent MTc MaLR-LTR - a consensus
+KW   MTc repetitive sequence; MaLR-LTR; repetitive sequence.
+OS   Rodents (consensus) . . . 
+
+
+SCORES           Init1:   295 Initn:   394 Opt:   383
+            68.9% identity in 225 bp overlap
+
+        829       819       809       799       789       779      
+mmil2r CACAGGACATGTTCAAACAGGATGAAACAATGTGCTGGCTAGTTTTATGTCAATCTTACA
+                                     |||||||||||||||||||||||  | |||
+mtc                                  TGTGCTGGCTAGTTTTATGTCAACTTGACA
+                                             10        20        30
+
+        769       759       749       739       729       719      
+mmil2r CAAGCTGGAGTTATCTGAAAGAGGGGAACCTCAACTGAGAAAATGCCTCCCTAAGAT---
+       |||||| |||| ||:||| |:  |:||||||||| ||||||||||||||| ||||||   
+mtc    CAAGCTAGAGTCATYTGAGARGAGRGAACCTCAATTGAGAAAATGCCTCCATAAGATTGG
+               40        50        60        70        80        90
+
+                    709       699       689       679       669    
+mmil2r -CT--------GGCTGTAGGGCATTTTCTTAACTTGTAATTGATGGGGGAGGGCCTAGCA
+        ||        | ||:||||:||||||||||| | || ||||||||||||||||| ||| 
+mtc    CCTGTAGGCAAGCCTRTAGGRCATTTTCTTAATTAGTGATTGATGGGGGAGGGCCCAGCC
+              100       110       120       130       140       150
+
+          659       649       639       629       619        609   
+mmil2r TATTATACATAGTCTCTCTATGAAGCCTTGGTTGCCCTGAAACTTCT-TATGTAGACAAA
+        ||| |   | ||  | :      ||  |||| | ||||    |||| || | |  ||  
+mtc    CATTGTGGGTGGTGCCAYCCCTGGGC--TGGTGGTCCTG--GGTTCTATAAGAAAGCAGG
+              160       170         180         190       200      
+
+           599       589       579       569       559       549   
+mmil2r CCAAGCTGACCTTGAACTCACAGAGATCTATTCCCTCTGCCTCTCAAGTGCTGGGACTAA
+       |  |||   || |||                                             
+mtc    CTGAGCAAGCCATGAGGAGCAAGCCAGTAAGCAGCACTCCTCCATGGCCTCTGCATCAGT
+        210       220       230       240       250       260      
+
+
+mmil2r5 /rev
+repbase:mtd
+
+ID   MTD       repbase; DNA; ROD; 418 BP.
+CC   MTD DNA
+AC   RB000456
+DE   Rodent MTd MaLR-LTR - a consensus
+KW   MTd repetitive sequence; MaLR-LTR; repetitive sequence.
+OS   Rodents (consensus) . . . 
+
+
+SCORES           Init1:   248 Initn:   322 Opt:   327
+            74.5% identity in 149 bp overlap
+
+        829       819       809       799       789       779      
+mmil2r CACAGGACATGTTCAAACAGGATGAAACAATGTGCTGGCTAGTTTTATGTCAATCTTACA
+                                     |||||||||||||||||||||||  | |||
+mtd                                  TGTGCTGGCTAGTTTTATGTCAACTTGACA
+                                             10        20        30
+
+        769       759       749       739       729       719      
+mmil2r CAAGCTGGAGTTATCTGAAAGAGGGGAACCTCAACTGAGAAAATGCCTCCCTAAGATCTG
+       |||||| ||||:|||||  |   ||||||||||| ||||||||||||||| | ||||  |
+mtd    CAAGCTAGAGTYATCTGGGAAGAGGGAACCTCAATTGAGAAAATGCCTCCATCAGATTRG
+               40        50        60        70        80        90
+
+        709                   699       689       679       669    
+mmil2r GCTGT------------AGGGCATTTTCTTAACTTGTAATTGATGGGGGAGGGCCTAGCA
+        ||||            ||| |||||||||:| |  | ||||||: || |||||| ||| 
+mtd    CCTGTGGGCAAGTCTANAGGACATTTTCTTRATTGATGATTGATRTGGAAGGGCCCAGCC
+              100       110       120       130       140       150
+
+          659       649       639       629       619       609    
+mmil2r TATTATACATAGTCTCTCTATGAAGCCTTGGTTGCCCTGAAACTTCTTATGTAGACAAAC
+                                                                   
+mtd    CACTGTGGGTGGTGCCAYYCCTGGGCAGGTGRTCCTGGRTGGTATAAGAAAGCAGGCTGA
+              160       170       180       190       200       210
+
+
+mmil2r5 /rev
+repbase:mta
+
+ID   MTA       repbase; DNA; ROD; 397 BP.
+CC   MTA DNA
+AC   RB000453
+DE   Rodent MTa MaLR-LTR - a consensus
+KW   MTa repetitive sequence; MaLR-LTR; repetitive sequence.
+OS   Rodents (consensus) . . . 
+
+
+SCORES           Init1:   313 Initn:   313 Opt:   331
+            63.8% identity in 246 bp overlap
+
+        829       819       809       799       789       779      
+mmil2r CACAGGACATGTTCAAACAGGATGAAACAATGTGCTGGCTAGTTTTATGTCAATCTTACA
+                                     ||| |||||||||||| ||||||  | |||
+mta                                  TGTACTGGCTAGTTTTGTGTCAACTTGACA
+                                             10        20        30
+
+        769       759       749       739       729       719      
+mmil2r CAAGCTGGAGTTATCTGAAAGAGGGGAACCTCAACTGAGAAAATGCCTCCCTAAGATCTG
+       |||||||||||||||  | |||  ||| | |||  |||| |||||||||| | |||||  
+mta    CAAGCTGGAGTTATCACAGAGAAAGGAGCTTCAGTTGAGGAAATGCCTCCATGAGATCCA
+               40        50        60        70        80        90
+
+        709       699       689       679         669       659    
+mmil2r GCTGTAGGGCATTTTCTTAACTTGTAATTGATGGGGGAGGG--CCTAGCATATTATACAT
+        ||||| |||||||||| || | || ||  | |||| | ||  ||| |    |  |||  
+mta    ACTGTAAGGCATTTTCTCAATTAGTGATCAAGGGGGAAAGGCCCCTTGTGGGTGGTACCA
+              100       110       120       130       140       150
+
+          649       639       629           619       609       599
+mmil2r AGTCTCTCTATGAAGCCTTGGTTGCCCT--GAAA--CTTCTTATGTAGACAAACCAAGCT
+         |||      | || ||||| | |  |  ||||     || |   || ||    | || 
+mta    TCTCTGGGCTGGTAGTCTTGGGTTCTATAAGAAAGCAGGCTGAGCAAGCCAGGGGAGGCA
+              160       170       180       190       200       210
+
+              589       579       569       559       549       539
+mmil2r GACCTTGAACTCACAGAGATCTATTCCCTCTGCCTCTCAAGTGCTGGGACTAAAGGCATA
+         ||   ||   |||    || ||  ||||||| ||                        
+mta    AGCCAGTAAAGAACATCCCTCCATGGCCTCTGCATCAGCTCCTGCTTCCTGACCTGCTTG
+              220       230       240       250       260       270
+
+              529       519       509       499       489       479
+mmil2r GGCTACCATGCCAAGATTAGATTTCCATTACTTTTTTGTTAGGTCAGTTTAAAATAGTCA
+                                                                   
+mta    AGTTCCAGTCCTGACTTCCTTTGGTGATGAACAGCAGTATGGAAGTGTAAGCCGAATAAA
+              280       290       300       310       320       330
+
+
+mmil2r5 /rev
+repbase:mtb
+
+ID   MTB       repbase; DNA; ROD; 411 BP.
+CC   MTB DNA
+AC   RB000454
+DE   Rodent MTb MaLR-LTR - a consensus
+KW   MTb repetitive sequence; MaLR-LTR; repetitive sequence.
+OS   Rodents (consensus) . . . 
+
+
+SCORES           Init1:   287 Initn:   287 Opt:   362
+            65.2% identity in 253 bp overlap
+
+        829       819       809       799       789         779    
+mmil2r CACAGGACATGTTCAAACAGGATGAAACAATGTGCTGGCTAGTTT--TATGTCAATCTTA
+                                     ||| |||||||||||  | ||||||  | |
+mtb                                  TGTACTGGCTAGTTTTGTGTGTCAACTTGA
+                                             10        20        30
+
+          769       759       749       739       729       719    
+mmil2r CACAAGCTGGAGTTATCTGAAAGAGGGGAACCTCAACTGAGAAAATGCCTCCCTAAGATC
+       |||||||||||||||||  | |||  ||| ||||   |||| |||||||||| | |||||
+mtb    CACAAGCTGGAGTTATCACAGAGAAAGGAGCCTCCCTTGAGGAAATGCCTCCATGAGATC
+               40        50        60        70        80        90
+
+          709       699       689       679       669       659    
+mmil2r TGGCTGTAGGGCATTTTCTTAACTTGTAATTGATGGGGGAGGGCCTAGCATATTATACAT
+         |||||| |||||||||| || | || ||  | ||||:|||||| |||  ||| |   |
+mtb    CAGCTGTAAGGCATTTTCTCAATTAGTGATCAAGGGGGRAGGGCCCAGCCCATTGTGGGT
+              100       110       120       130       140       150
+
+             649           639       629           619       609   
+mmil2r AGT---CTCTCT----ATGAAGCCTTGGTTGCCCT--GAAA--CTTCTTATGTAGACAAA
+        ||    || ||      | || ||||| | |  |  ||||     || |   || ||| 
+mtb    GGTGCCATCCCTGGGCTGGTAGTCTTGGGTTCTATAAGAAAGCAGGCTGAGCAAGCCAAG
+              160       170       180       190       200       210
+
+           599       589       579       569       559       549   
+mmil2r CCAAGCTGACCTTGAACTCACAGAGATCTATTCCCTCTGCCTCTCAAGTGCTGGGACTAA
+         ||||   ||   || : :||    || ||  ||||||| ||                 
+mtb    GGAAGCAAGCCAGTAARYARCAYCCCTCCATGGCCTCTGCATCAGCTCCTGCCTCCAAGT
+              220       230       240       250       260       270
+
+           539       529       519       509       499       489   
+mmil2r AGGCATAGGCTACCATGCCAAGATTAGATTTCCATTACTTTTTTGTTAGGTCAGTTTAAA
+                                                                   
+mtb    TCCTGNCCTRCTTGAGTTCCAGTCCTGACTTCCTTTGGTGATGAACAGCAATGTGGAAGT
+              280       290       300       310       320       330
+
+
+mmil2r5 /rev
+repbase:tc2
+
+ID   TC2       repbase; DNA; INV; 2074 BP.
+CC   TC2 DNA
+AC   RB000284
+DE   C.elegans Tc2 transposon DNA.
+KW   Transposon Tc2.
+OS   Caenorhabditis elegans . . . 
+
+
+SCORES           Init1:    89 Initn:   155 Opt:   120
+            68.5% identity in 73 bp overlap
+
+       209       199       189       179       169       159       
+mmil2r CCGTTGCTAAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTT
+                                     || ||| ||||||||| |||| | | ||||
+tc2    GAGTCTGACAATTCTATCATTTCCGTAGATAATTTTTGTTTTTTTTCTGTTGTTTGTTTT
+           1830      1840      1850      1860      1870      1880  
+
+       149       139       129       119       109        99       
+mmil2r TGTTTTTTTGGTTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTC
+       | |||  |   ||||||||  ||| | || |   | | | |||                 
+tc2    TCTTTGAT---TTTTTTTTCATTTATGAAAAATTGTTATTTCTACTCCACCATTAATTGA
+           1890         1900      1910      1920      1930         
+
+        89        79        69        59        49        39       
+mmil2r CTGGCACTTACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCTTCTGCCT
+                                                                   
+tc2    AACTCCTGAAAACAAAAAAAACTCGTTCGAAAATTAGAGCGGCAGTCTCCAGTAGAACGG
+    1940      1950      1960      1970      1980      1990         
+
+
+mmil2r5 /rev
+repbase:rt1
+
+ID   RT1       repbase; DNA; INV; 8037 BP.
+CC   RT1 DNA
+AC   RB000262
+DE   Anopheles gambiae RT1 retroposon.
+KW   Nucleic acid binding protein; retroposon; reverse transcriptase.
+OS   Anopheles gambiae . . . 
+
+
+SCORES           Init1:   147 Initn:   147 Opt:   159
+            81.4% identity in 59 bp overlap
+
+          209       199       189       179       169       159    
+mmil2r GCTCCGTTGCTAAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTT
+                                     ||| | ||||  ||||||||| |||| |||
+rt1    CAGGGTGAAATATTTCACTTTGGAAATATTTCACATTTTGAATTTTTTTTTTTTTTTTTT
+             2070      2080      2090      2100      2110      2120
+
+          149       139       129       119       109        99    
+mmil2r TTTTGTTTTTTTGGTTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCT
+       |||| |||||||  ||||||||  |||||                               
+rt1    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTCTCTTCAAAAAAAAACCA
+             2130      2140      2150      2160      2170      2180
+
+
+mmil2r5
+repbase:dre
+
+ID   DRE       repbase; DNA; INV; 6428 BP.
+CC   DRE DNA
+AC   RB000184
+DE   D.discoideum retrotransposon DRE.
+KW   Repetitive sequence; long terminal repeats; LTR;
+KW   retrotransposon dre. . . . 
+
+
+SCORES           Init1:   137 Initn:   137 Opt:   155
+            81.0% identity in 58 bp overlap
+
+         100       110       120       130       140       150     
+mmil2r GCCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAA
+                                     |||||  ||||||||  ||||||| |||||
+dre    TCACTCAGTACTTTCTATAAATAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        5140      5150      5160      5170      5180      5190     
+
+         160       170       180       190       200       210     
+mmil2r AACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCA
+       || |||| ||||||||||  |||| | |                                
+dre    AAAAAAAAAAAAAAAAAAAAAAACCTGGGAACCCAAGTTAATCAGAAAATTTCCAGATTT
+        5200      5210      5220      5230      5240      5250     
+
+
+mmil2r5
+repbase:dmrp
+
+ID   DMRP      repbase; DNA; INV; 7439 BP.
+CC   DMRP DNA
+AC   RB000180
+DE   Drosophila melanogaster copia-like element 17.6.
+KW   Copia-like element; long terminal repeat; reverse transcriptase;
+KW   repetitive element; transposon. . . . 
+
+
+SCORES           Init1:   131 Initn:   131 Opt:   154
+            77.6% identity in 67 bp overlap
+
+             90       100       110       120       130       140  
+mmil2r AAGTGCCAGGACAGCCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACC
+                                     |||  || | || |||||  ||||||||| 
+dmrp   TAAACAATATTAAAAAAATATAAAAATATTAAAAACTATATTAAAAAAAAAAAAAAAACA
+      970       980       990      1000      1010      1020        
+
+            150       160        170       180       190       200 
+mmil2r AAAAAAACAAAAAAACAAAACAAA-AAAAAAACCAAACTTTGATTCTGGAGGTGTATCAC
+       ||||||  ||||||| |||| ||| ||| || |||||                       
+dmrp   AAAAAACAAAAAAAAAAAAATAAATAAATAATCCAAAAATCAAAAATGGCTCAAGAACCA
+     1030      1040      1050      1060      1070      1080        
+
+             210       220       230       240       250       260 
+mmil2r TTAGCAACGGAGCATGTACCCCATTGATGGGACATGTATCAGTACATGTAAGACCCTGGG
+                                                                   
+dmrp   GCAATTGTGCCACCACTATCAGACAGCAACATGACCCAGGTTGCCTACCAGATTGGCAAT
+     1090      1100      1110      1120      1130      1140        
+
+
+mmil2r5 /rev
+repbase:cre2
+
+ID   CRE2      repbase; DNA; INV; 9595 BP.
+CC   CRE2 DNA
+AC   RB000148
+DE   C.fasciculata retrotransposable element (CRE2).
+KW   Integrase; retrotransposable element; reverse transcriptase.
+OS   Crithidia fasciculata . . . 
+
+
+SCORES           Init1:   129 Initn:   129 Opt:   145
+            73.1% identity in 78 bp overlap
+
+              189       179       169       159       149       139
+mmil2r ATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTTTTTTGGTT
+                                     ||||| |||| ||||||| |||||||  ||
+cre2   TGTCCTTTTCCCCCCCTTTTCCCTTTTCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+       290       300       310       320       330       340       
+
+              129       119       109        99        89        79
+mmil2r TTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTCCTGGCACTTACTT
+       ||||||  ||||| ||||| |  ||| || |   | |  ||||| | |            
+cre2   TTTTTTTTTTTTTTAAGAC-GAATTTTTCCG---ATTTTTGGCTTTACAAAATTTTTCAA
+       350       360        370          380       390       400   
+
+               69        59        49        39        29        19
+mmil2r TGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCTTCTGCCTCCCAAGTGCTGGG
+                                                                   
+cre2   CTTGTTGTTTTGAGCGATTTGCACGAAAAAGCGCCATATAACTAAAATTTTTATTTTTGG
+           410       420       430       440       450       460   
+
+
+mmil2r5
+repbase:cre1
+
+ID   CRE1      repbase; DNA; INV; 3483 BP.
+CC   CRE1 DNA
+AC   RB000147
+DE   C.fasciculata retrotransposable element (CRE1).
+KW   Integrase; retrotransposable element; reverse transcriptase.
+OS   Crithidia fasciculata (c.fasciculata) . . . 
+
+
+SCORES           Init1:   110 Initn:   110 Opt:   110
+            84.2% identity in 38 bp overlap
+
+             110       120       130       140       150       160 
+mmil2r ACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAACAAA
+                                     ||||||||   ||||||| ||||||| |||
+cre1   ATTACTTGAATTGATATGATATGATTGATACAAAAAAATTTAAAAAAAAAAAAAAAAAAA
+        3420      3430      3440      3450      3460      3470     
+
+             170       180       190       200       210       220 
+mmil2r ACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATGTACC
+       | ||||||                                                    
+cre1   AAAAAAAA                                                    
+        3480                                                       
+
+
+mmil2r5
+repbase:msrbmi
+
+ID   MSRBMI    repbase; DNA; VRT; 2574 BP.
+CC   MSRBMI DNA
+AC   RB000503
+DE   M.serrator retropseudogene-like repetitive element I (RBMI).
+KW   Repetitive sequence.
+OS   Mergus serrator . . . 
+
+
+SCORES           Init1:   108 Initn:   108 Opt:   118
+            78.7% identity in 47 bp overlap
+
+        100       110       120       130       140       150      
+mmil2r CCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAA
+                                     ||||  ||||||||  |||| || ||||||
+msrbmi ATGCTATCTAAATAACTTAGAAACTACCAGAAAAAAAAAAAAAAAAAAAAGAAGAAAAAA
+              730       740       750       760       770       780
+
+        160       170       180       190       200       210      
+mmil2r ACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCAT
+         | || ||||||||||                                           
+msrbmi CGAGAATAAAAAAAAAAAGTAGAAAAAAAAAAAAAAAGGAAGACATGAGAAGCACCCAGA
+              790       800       810       820       830       840
+
+
+mmil2r5
+repbase:occ
+
+ID   OCC       repbase; DNA; MAM; 1965 BP.
+CC   OCC DNA
+AC   RB000338
+DE   Rabbit C repetitive sequence.
+KW   Repetitive element.
+OS   Oryctolagus cuniculus (rabbit) . . . 
+
+
+SCORES           Init1:    97 Initn:    97 Opt:   117
+            79.6% identity in 49 bp overlap
+
+              110       120       130        140       150      159
+mmil2r GACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAA-AACCAAAAAAACAAAAAAACA
+                                     |||||||| ||  ||||| | ||||||| |
+occ    CTCTCTCTCTCTCTCATGAACTCTGCCCGTCCAAAAAAGAAAAAAAAAGAAAAAAAAAAA
+             620       630       640       650       660       670 
+
+     160       170       180       190       200       210      219
+mmil2r AAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATGTA
+       ||| ||| ||| || ||||                                         
+occ    AAAGAAAGAAAGAAACAAAGAAATAACCAGGGGTGGGTGTTGGCACAGTGAGAATCGCAC
+             680       690       700       710       720       730 
+
+
+mmil2r5 /rev
+repbase:tcb1
+
+ID   TCB1      repbase; DNA; INV; 989 BP.
+CC   TCB1 DNA
+AC   RB000286
+DE   Caenorhabditis briggsae TCb1(#5) repetitive element.
+KW   Inverted repeat.
+OS   Caenorhabditis briggsae . . . 
+
+
+SCORES           Init1:    94 Initn:    94 Opt:   107
+            64.3% identity in 98 bp overlap
+
+              239       229       219       209       199       189
+mmil2r ATGTACTGATACATGTCCCATCAATGGGGTACATGCTCCGTTGCTAAGTGATACACCTCC
+                                     || |||    |||  || ||   || ||  
+tcb1   TTACTGTAGACACATTGGAAAGTTACGAAAACTTGCGTACTTGGAAATTGCATCATCT-T
+      80        90       100       110       120       130         
+
+              179       169       159       149            139     
+mmil2r AGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTT--TTTTG---GTTTTTTT
+         || |||| |||  |||||   |||||||  |||||| |||  |||||    |||||  
+tcb1   GCAAACAAAATTT--TTTTTCAATTGTTTTCATTTTTTTTTTCATTTTGCATATTTTTCA
+      140       150         160       170       180       190      
+
+         129       119       109        99        89        79     
+mmil2r TGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTCCTGGCACTTACTTTGTAG
+       || |||||                                                    
+tcb1   TGATTTTTGGTTTTTTTAAATAAAGTTGAAAGACAACTAATTGGAATTAGTTTTAGTTGA
+        200       210       220       230       240       250      
+
+
+mmil2r5
+repbase:ddtdd
+
+ID   DDTDD     repbase; DNA; PLN; 527 BP.
+CC   DDTDD DNA
+AC   RB000377
+DE   Slime mold (D.discoideum strain Ax-3L) transposons Tdd-3/Tdd-2 3'
+DE   junction.
+KW   transposon. . . . 
+
+
+SCORES           Init1:    91 Initn:    91 Opt:   124
+            70.0% identity in 70 bp overlap
+
+       80        90       100       110       120       130        
+mmil2r AAGTAAGTGCCAGGACAGCCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAA
+                                     | | |||| |  |  | |||||  ||| ||
+ddtdd  AAAATAAAAATAAAAATAAAAAATATTTTTATATAAACAC-ATAATTAAAAAAAAAATAA
+      430       440       450       460        470       480       
+
+      140       150       160       170       180       190        
+mmil2r AACCAAAAAAACAAAAAAACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTAT
+        |  || || | ||||||| |||| ||||||||||  |||                    
+ddtdd  TAAAAATAATATAAAAAAAAAAAAAAAAAAAAAAAAAAAA                    
+       490       500       510       520                           
+
+      200       210       220       230       240       250        
+mmil2r CACTTAGCAACGGAGCATGTACCCCATTGATGGGACATGTATCAGTACATGTAAGACCCT
+
+
+mmil2r5
+repbase:ocl1a
+
+ID   OCL1A     repbase; DNA; MAM; 6497 BP.
+CC   OCL1A DNA
+AC   RB000339
+DE   Rabbit L1Oc5 repeat.
+KW   L1 interspersed repeat family; L1 repetitive sequence;
+KW   L1Oc5 repeat; repetitive sequence. . . . 
+
+
+SCORES           Init1:    91 Initn:    91 Opt:   100
+            58.6% identity in 99 bp overlap
+
+           120       130       140       150       160       170   
+mmil2r AACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAACAAAACAAAAAAAAAA
+                                     | |||| ||||||| |||  ||||||||||
+ocl1a  AGCAGGCAGTCCACTTAACATGGACACAGTATAAAAAAAAAAAAAAAAGAAAAAAAAAAA
+        40        50        60        70        80        90       
+
+           180       190       200       210       220       230   
+mmil2r CCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATGTACCCCATTGATGGGA
+        |  ||  |||  |  || |  | | |||  ||   | | ||   ||   | |   ||||
+ocl1a  ACGCACAGTGACACAAGAAGAAT-TAACTATGCCGAGTAACAAACACAGAAATAGAGGGA
+       100       110       120        130       140       150      
+
+           240       250       260       270       280       290   
+mmil2r CATGTATCAGTACATGTAAGACCCTGGGCTCCAACCCCAGCCACAAACTAAACAACAACA
+            ||||                                                   
+ocl1a  GCAAGATCAACGATGACACTATGATGCCTCCAAATAAGCAAAACACCCCAAGCCAAGAGT
+        160       170       180       190       200       210      
+
+
+mmil2r5 /rev
+repbase:tc6
+
+ID   TC6       repbase; DNA; INV; 1603 BP.
+CC   TC6 DNA
+AC   RB000285
+DE   C.elegans transposable element Tc6.1.
+KW   Repetitive DNA element; Tc6.1 sequence; transposable element.
+OS   Caenorhabditis elegans (nematode) . . . 
+
+
+SCORES           Init1:    90 Initn:    90 Opt:   110
+            80.4% identity in 46 bp overlap
+
+        199       189       179       169       159       149      
+mmil2r AGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTTTTTT
+                                     ||  |||||||||| |||||| ||||||||
+tc6    AAAAAAATCCACAAAATGATACGGCCACCCTTGGTTTTTGTTTTCTTTTTTCGTTTTTTT
+          190       200       210       220       230       240    
+
+           139       129       119       109        99        89   
+mmil2r GG---TTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTCCTGGCA
+        |   ||||||||| |                                            
+tc6    TGCAATTTTTTTTGCTAAACGTTAGGTTTCATGTTCGTTTGTGTTTTTACAGCTATGGGC
+          250       260       270       280       290       300    
+
+
+mmil2r5
+repbase:tc6
+
+ID   TC6       repbase; DNA; INV; 1603 BP.
+CC   TC6 DNA
+AC   RB000285
+DE   C.elegans transposable element Tc6.1.
+KW   Repetitive DNA element; Tc6.1 sequence; transposable element.
+OS   Caenorhabditis elegans (nematode) . . . 
+
+
+SCORES           Init1:    90 Initn:    90 Opt:   110
+            80.4% identity in 46 bp overlap
+
+     100       110       120       130       140          150      
+mmil2r GGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAA---CCAAAAAAACAAAAAA
+                                     | |||||||||   | |||||||| |||||
+tc6    AAACACAAACGAACATGAAACCTAACGTTTAGCAAAAAAAATTGCAAAAAAAACGAAAAA
+          1320      1330      1340      1350      1360      1370   
+
+        160       170       180       190       200       210      
+mmil2r ACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCAT
+       | ||||||||||  ||                                            
+tc6    AGAAAACAAAAACCAAGGGTGGCCGTATCATTTTGTGGATTTTTTTATATGGTTTTTCAT
+          1380      1390      1400      1410      1420      1430   
+
+
+mmil2r5
+repbase:sssine1
+
+ID   SSSINE1   repbase; DNA; MAM; 328 BP.
+CC   SSSINE1 DNA
+AC   RB000357
+DE   S.scrofa SINE sequence.
+KW   Repetitive sequence; SINE.
+OS   Sus scrofa . . . 
+
+
+SCORES           Init1:    82 Initn:    82 Opt:   105
+            78.6% identity in 42 bp overlap
+
+              110       120       130       140       150       160
+mmil2r GACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAACAA
+                                     |||| |||   |||||| ||||||||| ||
+sssine CTGGGAACCTCTATATGCTGTAGGAGTGGCCCAAGAAATGGCAAAAAGACAAAAAAAAAA
+          250       260       270       280       290       300    
+
+              170       180       190       200       210       220
+mmil2r AACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATGTAC
+       || |||| | ||                                                
+sssine AAAAAAAGATAACACCTGGAAAGA                                    
+          310       320                                            
+
+
+mmil2r5
+repbase:atrep
+
+ID   ATREP     repbase; DNA; PLN; 3299 BP.
+CC   ATREP DNA
+AC   RB000366
+DE   Arabidopsis thaliana DNA sequence, complete transposon.
+KW   endogenous transposon.
+OS   Arabidopsis thaliana . . . 
+
+
+SCORES           Init1:    82 Initn:    82 Opt:    91
+            79.5% identity in 39 bp overlap
+
+             90       100       110       120        130       140 
+mmil2r AAGTGCCAGGACAGCCAGGACTATACAGAGAAACCCTGTCT-TGAAAAACCAAAAAAAAC
+                                     ||||||  | | |  ||||||||||||| |
+atrep  GAGCACTTCTCCGGTTTGGGTTTAGTGCTAAAACCCACTATCTATAAAACCAAAAAAACC
+          60        70        80        90       100       110     
+
+             150       160       170       180       190       200 
+mmil2r CAAAAAAACAAAAAAACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCAC
+       || ||||||                                                   
+atrep  CATAAAAACCCGCTATTAACCCACGACCCATTGAACCGGTTGAACCGACTGGGTGTGGGT
+         120       130       140       150       160       170     
+
+
+mmil2r5
+repbase:cre2
+
+ID   CRE2      repbase; DNA; INV; 9595 BP.
+CC   CRE2 DNA
+AC   RB000148
+DE   C.fasciculata retrotransposable element (CRE2).
+KW   Integrase; retrotransposable element; reverse transcriptase.
+OS   Crithidia fasciculata . . . 
+
+
+SCORES           Init1:    82 Initn:    82 Opt:    82
+            91.7% identity in 24 bp overlap
+
+     120       130       140       150       160       170      179
+mmil2r GTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAACAAAACAAAAAAAAAACCAAAC
+                                     |||||||| |||| ||||||||||      
+cre2   TTTGGTAGCCGGAGGGCCCGGGCCTTAGGGCAAAAAAAAAAAAAAAAAAAAAAAATGGCT
+     790       800       810       820       830       840         
+
+     180       190       200       210       220       230      239
+mmil2r TTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATGTACCCCATTGATGGGACATGTA
+                                                                   
+cre2   AAAATGATGAAATACCTAAAGGAAAAAATGTGTCTCTCCGGGGCGGGGAGCAACAGTCAG
+     850       860       870       880       890       900         
+
+
+mmil2r5 /rev
+repbase:amtam2
+
+ID   AMTAM2    repbase; DNA; PLN; 5187 BP.
+CC   AMTAM2 DNA
+AC   RB000361
+DE   Anthirrhinum majus DNA for transposon tam2.
+KW   Chalcone synthase; nivea locus; Tam2 element; transposon.
+OS   Antirrhinum majus . . . 
+
+
+SCORES           Init1:    82 Initn:    82 Opt:   105
+            61.2% identity in 98 bp overlap
+
+      209       199       189       179       169       159        
+mmil2r CGTTGCTAAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTT
+                                     ||| |||   ||||||| |||| |||||||
+amtam2 CGAAGAAAATTTTGGACATGAGAGGGAGGGAGTGTGGGCCTTTTTTTTTTTTTTTTTTTT
+    4960      4970      4980      4990      5000      5010         
+
+      149         139       129       119       109           99   
+mmil2r GTTTTTTTG--GTTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTG---TATAGTCCTGGC
+       ||||  | |  || |        | |||||   |   ||||| ||   |||| |   |||
+amtam2 GTTTGATAGAAGTGTGGGCCATCTCTTCAAATTAAAATTTCTGTGAAATATATTAGAGGC
+    5020      5030      5040      5050      5060      5070         
+
+            89        79        69        59        49        39   
+mmil2r TGTCCTGGCACTTACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCTTCT
+       | | || |                                                    
+amtam2 TTTTCTTGGGACAAATAATAAAAAAGCCCTGTGGTTGATATGTAACGACACTTATTAGTG
+    5080      5090      5100      5110      5120      5130         
+
+
+mmil2r5 /rev
+repbase:mer7b
+
+ID   MER7B     repbase; DNA; xxx; 1205 BP.
+CC   MER7B DNA
+AC   RB000062
+DE   Nonautonomous DNA transposon
+KW   Repetitive sequence; 35S; MER7; MER17; MER29.
+OS   Homo sapiens (consensus) . . . 
+
+
+SCORES           Init1:    80 Initn:    80 Opt:    85
+            62.0% identity in 50 bp overlap
+
+           199       189       179       169       159       149   
+mmil2r CTAAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTTT
+                                     | |||||| | | |::   |||||: ||||
+mer7b  ATTTTCTTTCTTTATATCCTTATTCTATAAGCTTTTTTCTATTTWWAAATTTTTWATTTT
+        590       600       610       620       630       640      
+
+           139       129       119       109        99        89   
+mmil2r TTTGGTTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTCCTGGCA
+       |||  |||||    : ||||                                        
+mer7b  TTTATTTTTTAAAANATTTTTGTTAAAAACTAAGACACAAACACACACATTAGCCTAGGC
+        650       660       670       680       690       700      
+
+
+mmil2r5 /rev
+repbase:chline
+
+ID   CHLINE    repbase; RNA; MAM; 1554 BP.
+CC   CHLINE RNA
+AC   RB000327
+DE   C.hircus LINE element.
+KW   LINE element.
+OS   Capra hircus (goat) . . . 
+
+
+SCORES           Init1:    80 Initn:    80 Opt:   101
+            58.9% identity in 90 bp overlap
+
+         259       249       239       229       219       209     
+mmil2r AGCCCAGGGTCTTACATGTACTGATACATGTCCCATCAATGGGGTACATGCTCCGTTGCT
+                                     | | ||| |  || | ||    | |||   
+chline ACATGTCTTTTCATCTATCATGTCAAACCATTCTATCCAAAGGCTTCAATTGCTGTTTTA
+     740       750       760       770       780       790         
+
+         199       189       179       169       159       149     
+mmil2r AAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTTTTT
+        | |   ||| |  || | | || |     ||| || ||| |||| ||||||| ||||||
+chline GAATAGGACAACCTCAAATTGAAGGCACTCTTTCTTCTTTTTTTTTTTTTTTTTTTTTTT
+     800       810       820       830       840       850         
+
+         139       129       119       109        99        89     
+mmil2r TGGTTTTTTTTGGTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCTGTCCTGGCACT
+                                                                   
+chline CTTACTGAATGACTTTTTTATTTTTATTTTTATTTTTTATTTATTTTTTTTTATTTTTTT
+     860       870       880       890       900       910         
+
+
+mmil2r5
+repbase:tartb2
+
+ID   TARTB2    repbase; DNA; INV; 4056 BP.
+CC   TARTB2 DNA
+AC   RB000278
+DE   Drosophila melanogaster TART-B2.
+KW   Reverse transcriptase.
+OS   Drosophila melanogaster . . . 
+
+
+SCORES           Init1:    80 Initn:    80 Opt:    93
+            60.4% identity in 91 bp overlap
+
+          240       250       260       270       280        290   
+mmil2r ATGTATCAGTACATGTAAGACCCTGGGCTCCAACCCCAGCCACAAAC-TAAACAACAACA
+                                     |||| |    ||| | |   | ||| ||||
+tartb2 ACCTTTCAGCTGAGCGGGATAATGAGTCGGCAACGCACCGCACTATCAGCAGCAATAACA
+      1770      1780      1790      1800      1810      1820       
+
+             300       310       320       330       340       350 
+mmil2r AAA--AGCCCAACTTCTTGAAAATGTTAAAAAAAAATCCTTAGTCTTTGATTTTCTTTTT
+       | |   ||  |    || ||| |    |||||| |    | |||||||  ||||||||||
+tartb2 ACATCGGCAGATGACCTGGAAGAAAGGAAAAAACATGTATCAGTCTTTTCTTTTCTTTTT
+      1830      1840      1850      1860      1870      1880       
+
+             360       370       380       390       400       410 
+mmil2r TAAATGAGACATTGGGCCTTCCAGAACCAGAGAAAATAAGAGGAATAGAAGACAAAACCT
+       |                                                           
+tartb2 TTTTCCCATTAGCATGCGTTTTTAAATTCCATTCCTGAAAACCGGCGTTTTCCTGTAAAA
+      1890      1900      1910      1920      1930      1940       
+
+
+mmil2r5
+repbase:tartb1
+
+ID   TARTB1    repbase; DNA; INV; 10654 BP.
+CC   TARTB1 DNA
+AC   RB000277
+DE   Drosophila melanogaster TART-B1 transposon.
+KW   Repetitive sequence; transposon.
+OS   Drosophila melanogaster . . . 
+
+
+SCORES           Init1:    80 Initn:    80 Opt:    93
+            60.4% identity in 91 bp overlap
+
+          240       250       260       270       280        290   
+mmil2r ATGTATCAGTACATGTAAGACCCTGGGCTCCAACCCCAGCCACAAAC-TAAACAACAACA
+                                     |||| |    ||| | |   | ||| ||||
+tartb1 ACCTTTCAGCTGAGCGGGATAATGAGTCGGCAACGCACCGCACTATCAGCAGCAATAACA
+    8250      8260      8270      8280      8290      8300         
+
+             300       310       320       330       340       350 
+mmil2r AAA--AGCCCAACTTCTTGAAAATGTTAAAAAAAAATCCTTAGTCTTTGATTTTCTTTTT
+       | |   ||  |    || ||| |    |||||| |    | |||||||  ||||||||||
+tartb1 ACATCGGCAGATGACCTGGAAGAAAGGAAAAAACATGTATCAGTCTTTTCTTTTCTTTTT
+    8310      8320      8330      8340      8350      8360         
+
+             360       370       380       390       400       410 
+mmil2r TAAATGAGACATTGGGCCTTCCAGAACCAGAGAAAATAAGAGGAATAGAAGACAAAACCT
+       |                                                           
+tartb1 TTTTCCCATTAGCATGCGTTTTTAAATTCCATTCCTGAAAACCGGCGTTTTCCTGTAAAA
+    8370      8380      8390      8400      8410      8420         
+
+
+mmil2r5
+repbase:tecth1
+
+ID   TECTH1    repbase; DNA; INV; 1649 BP.
+CC   TECTH1 DNA
+AC   RB000296
+DE   C. thummi DNA transposable element TECth1.
+KW   Repetitive sequence; transposable element.
+OS   Chironomus thummi (midge) . . . 
+
+
+SCORES           Init1:    79 Initn:    79 Opt:   114
+            64.0% identity in 89 bp overlap
+
+       250       260       270       280       290       300       
+mmil2r TGTAAGACCCTGGGCTCCAACCCCAGCCACAAACTAAACAACAACAAAAAGCCCAACTTC
+                                     ||| ||||  | ||  | |      |    
+tecth1 GATACCTTTAGTTTGTAAGGAAATTTGTCAAAAATAAAATAAAAGTATAGTATAGAAAAA
+          630       640       650       660       670       680    
+
+       310       320       330        340       350        360     
+mmil2r TTGAAAATGTTAAAAAAAAATCCTTAGTCTT-TGATTTTCTTTTT-TAAATGAGACATTG
+       | |||||  |||||||||||||   | | || || |||| |||||  |||||||  ||| 
+tecth1 TCGAAAAATTTAAAAAAAAATCTAAAATGTTGTGCTTTTGTTTTTAAAAATGAGTAATTT
+          690       700       710       720       730       740    
+
+         370       380       390       400       410       420     
+mmil2r GGCCTTCCAGAACCAGAGAAAATAAGAGGAATAGAAGACAAAACCTCAGTAATAGGATTT
+                                                                   
+tecth1 TAATTGAAAAAATTTTTAAAAAATTATGAAAAATTTTAATTCGAATTGACTCGAATTTGA
+          750       760       770       780       790       800    
+
+
+mmil2r5 /rev
+repbase:tu1
+
+ID   TU1       repbase; DNA; INV; 775 BP.
+CC   TU1 DNA
+AC   RB000301
+DE   S.purpuratus transposable element TU1 fragment.
+KW   Transposon; repetitive element.
+OS   Strongylocentrotus purpuratus . . . 
+
+
+SCORES           Init1:    79 Initn:    79 Opt:    99
+            61.9% identity in 126 bp overlap
+
+           259       249       239       229       219        209  
+mmil2r GGAGCCCAGGGTCTTACATGTACTGATACATGTCCCATCAATGGGGTACATGCT-CCGTT
+                                     |||||||| ||      | ||||| |   |
+tu1    TGCTCCGCGACATTTGCTCCGCCCAAAAAGTGTCCCATTAA--ATACAAATGCTACTAGT
+       430       440       450       460         470       480     
+
+            199        189       179          169       159        
+mmil2r GCTAAGTGATACACCTC-CAGAATCAAAGTTTGGTTTT---TTTTTTGTTTTGTTTTTTT
+        ||| |  | |  | || | ||  |||  |||  ||||      ||  |||||||| |||
+tu1    ACTACGACAAATGCTTCGCCGA--CAATATTTTTTTTTCACGGGTTGTTTTTGTTTCTTT
+         490       500         510       520       530       540   
+
+      149        139          129       119       109        99    
+mmil2r GTTTTTTTGGT-TTTTTTTG---GTTTTTCAAGACAGGGTTTCTCTGTATAGTCCTGGCT
+        |||||||  |  |||||||   |  ||||| ||||                        
+tu1    CTTTTTTTCTTCATTTTTTGAATGCATTTCATGACATTATGTAAATGAAATGAAATGAAT
+           550       560       570       580       590       600   
+
+           89        79        69        59        49        39    
+mmil2r GTCCTGGCACTTACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCTTCTG
+                                                                   
+tu1    GAATGTTGATAATGTGGGAGGAAAAGCAGTTTGCCTAAAAGTCATTTCGAATATACTGAA
+           610       620       630       640       650       660   
+
+
+mmil2r5 /rev
+repbase:plmys1
+
+ID   PLMYS1    repbase; DNA; ROD; 2501 BP.
+CC   PLMYS1 DNA
+AC   RB000464
+DE   Mouse mys-1 transposon.
+KW   direct repeat; mys repetitive sequence; repetitive sequence;
+KW   tandem repeat; long terminal repeat; transposon. . . . 
+
+
+SCORES           Init1:    79 Initn:    79 Opt:    87
+            57.6% identity in 151 bp overlap
+
+            2589      2579      2569      2559         2549        
+mmil2r CAGAACAAGGGCTCAGGCCTCTCAGTCTGTCATCTTGGCTTTTAGACA---ATGTCAATG
+                                     | | ||   ||||||| |   ||  || | 
+plmys1 CATCTCCATATCCTCCTATATATCATATCCCCTTTTCTTTTTTAGAAAGAGATCACATTT
+         1370      1380      1390      1400      1410      1420    
+
+     2539      2529      2519       2509      2499      2489       
+mmil2r ACAGCCAGGAGTTGTTCTATTTAAGCAT-TAGGCTGATCTGCTCAGCAGGAACTTGTGCC
+       | |  ||  |  |||| ||  |||  || | || |  ||| ||   |   | |    | |
+plmys1 ATAATCA--ACCTGTTTTAAATAAAAATATTGGTTTTTCT-CTGTCCCACACCAGAGGGC
+         1430        1440      1450      1460       1470      1480 
+
+      2479      2469          2459      2449      2439      2429   
+mmil2r TACTCTGTTCTGTGATCTC----ATATAGGAAGTGTTTTTTTTTTTTTTTATGACAATAT
+       |  |||| | || || | |    || |   ||   |||||||||||||| | | ||||||
+plmys1 TCTTCTGATTTGGGA-CACAAGAATCTCTTAACCATTTTTTTTTTTTTTAAAG-CAATAT
+            1490       1500      1510      1520      1530          
+
+          2419      2409      2399      2389      2379      2369   
+mmil2r GGTTTGCGGTAATTTTTCAAACCAGTTTTTTTTTTCAAGTTCAATTACTAGGAGGTGTGG
+       |                                                           
+plmys1 GTCTGGGTTTAGAGGGGGAGTGAGCCAATTCCACCTCTAAAGCCAGCTTGGTATATTTGG
+    1540      1550      1560      1570      1580      1590         
+
+
+mmil2r5
+repbase:l1ma10
+
+ID   L1MA10    repbase; DNA; xxx; 1067 BP.
+CC   L1MA10 DNA
+AC   RB000014
+DE   3'-end of L1 repeat (subfamily L1MA10) - a consensus sequence
+KW   Repetitive sequence; L1 (LINE) family; L1MA10 subfamily.
+OS   Homo sapiens (consensus) . . . 
+
+
+SCORES           Init1:    78 Initn:    78 Opt:    84
+            65.4% identity in 52 bp overlap
+
+         100       110       120       130       140       150     
+mmil2r GCCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAA
+                                     ||||   | ||| |||    | |||  || 
+l1ma10                      TTAATATCCAAAATATATAAAGAACTCYTACAACTCAAC
+                                    10        20        30         
+
+         160       170       180       190       200       210     
+mmil2r AACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCA
+       || |||| || ||| || ||||                                      
+l1ma10 AAAAAAAAAACAAACAACCCAATTAAAAAATGGGCAAARGACTTGAATAGACATTTCTCC
+      40        50        60        70        80        90         
+
+
+mmil2r5 /rev
+repbase:rnlpkg
+
+ID   RNLPKG    repbase; DNA; ROD; 316 BP.
+CC   RNLPKG DNA
+AC   RB000478
+DE   Repetitive segment of L-type pyruvate kinase.
+KW   Repetitive sequence; pyruvate kinase.
+OS   Rattus norvegicus . . . 
+
+
+SCORES           Init1:    78 Initn:    78 Opt:   107
+            71.4% identity in 63 bp overlap
+
+         179       169       159       149       139       129     
+mmil2r CAAAGTTTGGTTTTTTTTTTGTTTTGTTTTTTTGTTTTTTTGGTTTTTTTTGGTTTTTCA
+                                     ||||||||| |  || |||||| |||||  
+rnlpkg                      GGGGGTGGGTTTGTTTTTGTTTTTGTTTTTGTTTTTTTG
+                                    10        20        30         
+
+         119         109         99        89        79        69  
+mmil2r AGACAGGG--TTTCTCTG-TATAGTCCTGGCTGTCCTGGCACTTACTTTGTAGACCAGGC
+       |||  |||  ||| | || | |||  ||| |||                           
+rnlpkg AGATCGGGTCTTTTTATGTTGTAGCTCTGACTGATGGATAGGCAGGTCTCAAATTTAGAA
+      40        50        60        70        80        90         
+
+             59        49        39        29        19         9  
+mmil2r TGGCCTCGAACTCAGAAATCCACCTGCTTCTGCCTCCCAAGTGCTGGGATTAAAGGCATG
+                                                                   
+rnlpkg ATCTCCCTACCTTTGCCTCCTGAGAGTTGGACTGGGACCACCTTGCTCCACATGAGGCTG
+     100       110       120       130       140       150         
+
+
+mmil2r5
+repbase:l1mb3
+
+ID   L1MB3     repbase; DNA; xxx; 927 BP.
+CC   L1MB3 DNA
+AC   RB000015
+DE   3'-end of L1 repeat (subfamily L1MB3) - a consensus sequence
+KW   Repetitive sequence; MER12, L1 (LINE) family; L1MB3 subfamily.
+OS   Homo sapiens (consensus) . . . 
+
+
+SCORES           Init1:    78 Initn:    78 Opt:    84
+            65.4% identity in 52 bp overlap
+
+         100       110       120       130       140       150     
+mmil2r GCCAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAA
+                                     ||||   | ||| |||    | |||  || 
+l1mb3                       TTAATATCCAAAATATATAAAGAACTCYTACAACTCAAC
+                                    10        20        30         
+
+         160       170       180       190       200       210     
+mmil2r AACAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCA
+       || |||| || ||| || ||||                                      
+l1mb3  AAAAAAAAAACAAACAACCCAATTAAAAAATGGGCAAARGACTTGAATAGACATTTCTCC
+      40        50        60        70        80        90         
+
+
+mmil2r5
+repbase:tst1
+
+ID   TST1      repbase; DNA; PLN; 5060 BP.
+CC   TST1 DNA
+AC   RB000404
+DE   Potato DNA for copia-like transposable element.
+KW   copia-like element; retrotransposon; transposable element;
+KW   unidentified reading frame. . . . 
+
+
+SCORES           Init1:    77 Initn:    77 Opt:    84
+            63.0% identity in 81 bp overlap
+
+            340       350       360       370       380       390  
+mmil2r AGTCTTTGATTTTCTTTTTTAAATGAGACATTGGGCCTTCCAGAACCAGAGAAAATAAGA
+                                     | | |||||| |    || | | || ||  
+tst1   TAAAAACTCAGAAATTCAAACCTGAACCTGTAGCGCCTTCAAATGACAAAAATAAAAATG
+     2890      2900      2910      2920      2930      2940        
+
+            400       410         420          430       440       
+mmil2r GGAATAGAAGACAAAACCTCAGTAAT--AGG---ATTTAAAAACAAACAGATGACTAGTT
+       ||||||||  ||||||   ||| |||  |||   |||  | ||  ||| ||         
+tst1   GGAATAGAGAACAAAA-AACAGAAATGCAGGTGTATTCGAGAAGGAACCGAACTCAAGAA
+     2950      2960       2970      2980      2990      3000       
+
+       450       460       470       480       490       500       
+mmil2r CTACAAAATACCTTTGTTAAAACAGTTTACATGACTATTTTAAACTGACCTAACAAAAAA
+                                                                   
+tst1   AAAAGGACCGAAGATTCTCAACACTGCCAAAAATCAGTCCCACAAGACCTTACTGTAATT
+      3010      3020      3030      3040      3050      3060       
+
+
+mmil2r5 /rev
+repbase:ltr3
+
+ID   LTR3      repbase; DNA; PRI; 429 BP.
+CC   LTR3 DNA
+AC   RB000040
+DE   LTR from human DNA related to mouse mammary tumor virus (MMTV) 3' LTR
+KW   Long terminal repeat.
+OS   Homo sapiens . . . 
+
+
+SCORES           Init1:    77 Initn:    77 Opt:    83
+            59.8% identity in 87 bp overlap
+
+             469       459       449       439         429      420
+mmil2r GTAAACTGTTTTAACAAAGGTATTTTGTAGAACTAGTCATCTGTTT--GTTTTTAAATCC
+                                     ||  || |  |||| |   | |||||| | 
+ltr3   AGAAGCTCAGGGCCCTTGTTCCCTAGAAGAAAGGAGCCGCCTGTCTCCTTCTTTAAAACA
+             310       320       330       340       350       360 
+
+     419       409       399       389       379       369      360
+mmil2r TATTACTGAGGTTTTGTCTTCTATTCCTCTTATTTTCTCTGGTTCTGGAAGGCCCAATGT
+        ||   |  |  |||||||||  |||  | | | ||||||  ||     || |||||   
+ltr3   GATCTTTTTGTCTTTGTCTTCATTTCTGCATTTGTTCTCT--TTTGTTCAGTCCCAAACC
+             370       380       390       400         410         
+
+     359       349       339       329       319       309      300
+mmil2r CTCATTTAAAAAAGAAAATCAAAGACTAAGGATTTTTTTTTAACATTTTCAAGAAGTTGG
+                                                                   
+ltr3   GACAGCCATA                                                  
+     420                                                           
+
+
+mmil2r5 /rev
+repbase:tc1
+
+ID   TC1       repbase; DNA; INV; 1610 BP.
+CC   TC1 DNA
+AC   RB000283
+DE   C.elegans transposable element TC1.
+KW   Repetitive sequence; transposon.
+OS   Caenorhabditis elegans . . . 
+
+
+SCORES           Init1:    76 Initn:    76 Opt:   113
+            61.4% identity in 101 bp overlap
+
+       219       209       199       189       179       169       
+mmil2r GGTACATGCTCCGTTGCTAAGTGATACACCTCCAGAATCAAAGTTTGGTTTTTTTTTTGT
+                                     | | ||||   | ||   ||||||  || |
+tc1    CGGACCAAACATTACATGATTATCGATTTTTTCTGAATTTTATTTCAATTTTTTGATTTT
+          120       130       140       150       160       170    
+
+       159        149       139       129        119       109     
+mmil2r TTTGTTTTT-TTGTTTTTTTGGTTTTTTTTGGTTTTTCAA-GACAGGGTTTCTCTGTATA
+       || ||||||    ||||  |  |||||||||  || ||||  | | |   ||| | | | 
+tc1    TTCGTTTTTCCAATTTTCATTATTTTTTTTGAATTATCAATAAAACGCACTCTGTTTGTT
+          180       190       200       210       220       230    
+
+          99        89        79        69        59        49     
+mmil2r GTCCTGGCTGTCCTGGCACTTACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCAC
+       |  |||| | |                                                 
+tc1    GCACTGGATTTGTTTGGTTGATAAATTATTTTTAAGGTATGGTAAAATCTGTTGGGTGTA
+          240       250       260       270       280       290    
+
+
+mmil2r5
+repbase:bmline1
+
+ID   BMLINE1   repbase; DNA; INV; 5158 BP.
+CC   BMLINE1 DNA
+AC   RB000131
+DE   LINE1 repeat family; retrotransposon.
+KW   LINE 1 repetitive sequence; non-LTR retrotransposon.
+OS   Bombyx mori . . . 
+
+
+SCORES           Init1:    76 Initn:    76 Opt:    78
+            73.0% identity in 37 bp overlap
+
+        2390      2400      2410      2420      2430      2440     
+mmil2r ACTTGAAAAAAAAAACTGGTTTGAAAAATTACCGCAAACCATATTGTCATAAAAAAAAAA
+                                     |||   || | |    ||||||||||||||
+bmline TCCTGGTGAAACTGGAAAGGCCTCCGGGCCACCAGTAATCCTTCAATCATAAAAAAAAAA
+            5100      5110      5120      5130      5140      5150 
+
+        2450      2460      2470      2480      2490      2500     
+mmil2r AAAAACACTTCCTATATGAGATCACAGAACAGAGTAGGCACAAGTTCCTGCTGAGCAGAT
+       ||||| |                                                     
+bmline AAAAAAA                                                     
+                                                                   
+
+
+mmil2r5 /rev
+repbase:pfrp4
+
+ID   PFRP4     repbase; DNA; INV; 2446 BP.
+CC   PFRP4 DNA
+AC   RB000247
+DE   Plasmodium falciparum interspersed repetitive element.
+KW   Repetitive sequence; interspersed repeat.
+OS   Plasmodium falciparum . . . 
+
+
+SCORES           Init1:    76 Initn:    76 Opt:    85
+            67.3% identity in 55 bp overlap
+
+    2509      2499      2489      2479      2469      2459         
+mmil2r GCTGATCTGCTCAGCAGGAACTTGTGCCTACTCTGTTCTGTGATCTCATATAGGA-AGTG
+                                     |||  |  |||| | | |   | || |  |
+pfrp4  TTTTCCGACTTTTAACTATCACATTCATGTCTCCTTGATGTGCTTTTAATGATGATATGG
+       360       370       380       390       400       410       
+
+     2449      2439      2429      2419      2409      2399        
+mmil2r TTTTTTTTTTTTTTTATGACAATATGGTTTGCGGTAATTTTTCAAACCAGTTTTTTTTTT
+       ||||||||  ||||||||| ||| |                                   
+pfrp4  TTTTTTTTAATTTTTATGAAAATTTTACAAAATCGATATTTTCACCTACCTGCACCCTCA
+       420       430       440       450       460       470       
+
+
+mmil2r5 /rev
+repbase:tecth1
+
+ID   TECTH1    repbase; DNA; INV; 1649 BP.
+CC   TECTH1 DNA
+AC   RB000296
+DE   C. thummi DNA transposable element TECth1.
+KW   Repetitive sequence; transposable element.
+OS   Chironomus thummi (midge) . . . 
+
+
+SCORES           Init1:    76 Initn:    76 Opt:    78
+            68.2% identity in 44 bp overlap
+
+            379       369       359       349       339       329  
+mmil2r TTTCTCTGGTTCTGGAAGGCCCAATGTCTCATTTAAAAAAGAAAATCAAAGACTAAGGAT
+                                     |||||||||| ||  | |||   |  |  |
+tecth1 AATAAAAGTATAGTATAGAAAAATCGAAAAATTTAAAAAAAAATCTAAAATGTTGTGCTT
+             670       680       690       700       710       720 
+
+            319       309       299       289       279       269  
+mmil2r TTTTTTTTAACATTTTCAAGAAGTTGGGCTTTTTGTTGTTGTTTAGTTTGTGGCTGGGGT
+       || ||||||| | |                                              
+tecth1 TTGTTTTTAAAAATGAGTAATTTTAATTGAAAAAATTTTTAAAAAATTATGAAAAATTTT
+             730       740       750       760       770       780 
+
+
+mmil2r5 /rev
+repbase:mdg3at
+
+ID   MDG3AT    repbase; DNA; INV; 340 BP.
+CC   MDG3AT DNA
+AC   RB000225
+DE   D. melanogaster AT-rich repetitive sequence (near Mdg3 locus).
+KW   Repetitive sequence.
+OS   Drosophila melanogaster . . . 
+
+
+SCORES           Init1:    75 Initn:    75 Opt:    82
+            61.8% identity in 76 bp overlap
+
+         229       219       209       199       189       179     
+mmil2r TCCCATCAATGGGGTACATGCTCCGTTGCTAAGTGATACACCTCCAGAATCAAAGTTTGG
+                                     |||  || || ||    || |  | |||  
+mdg3at TTCAAAATATTTATCAAACTAAACAAGATAAAGAAATTCAACTTTTCAA-CTGAATTTTT
+      60        70        80        90       100        110        
+
+         169       159       149       139       129       119     
+mmil2r TTTTTTTTTTGTTTTGTTTTTTTGTTTTTTTGGTTTTTTTTGGTTTTTCAAGACAGGGTT
+       || ||| ||| |||| ||| ||  |||| ||  |||  ||  | ||              
+mdg3at TTATTTCTTTCTTTTCTTTCTT--TTTTCTTAATTTCATTAAGCTTAGTACTGAATTTTT
+      120       130       140         150       160       170      
+
+         109        99        89        79        69        59     
+mmil2r TCTCTGTATAGTCCTGGCTGTCCTGGCACTTACTTTGTAGACCAGGCTGGCCTCGAACTC
+                                                                   
+mdg3at CAACTGAATTTCTTTATTTCTTTCTTTCTTAATTTTTTTTAAGCTAATTAAACTACAAAG
+        180       190       200       210       220       230      
+
+
+mmil2r5
+repbase:l1pa15
+
+ID   L1PA15    repbase; DNA; xxx; 904 BP.
+CC   L1PA15 DNA
+AC   RB000008
+DE   3'-end of L1 repeat (subfamily L1PA15) - a consensus sequence
+KW   Repetitive sequence; MER13; L1 (LINE) family; L1PA15 subfamily.
+OS   Homo sapiens (consensus) . . . 
+
+
+SCORES           Init1:    74 Initn:    74 Opt:    85
+            70.7% identity in 41 bp overlap
+
+       100       110       120       130       140       150       
+mmil2r CAGGACTATACAGAGAAACCCTGTCTTGAAAAACCAAAAAAAACCAAAAAAACAAAAAAA
+                                     |||| ||   | |  |||||||||||:|| 
+l1pa15    CTAATATCCAGAATSTACAARGAACTTAAACAAATTTACAAGAAAAAAACAAAMAAC
+                  10        20        30        40        50       
+
+       160       170       180       190       200       210       
+mmil2r CAAAACAAAAAAAAAACCAAACTTTGATTCTGGAGGTGTATCACTTAGCAACGGAGCATG
+       |  | ||||||                                                 
+l1pa15 CCCATCAAAAAGTGGGCAAAGGACATGAACAGACACTTCTCAAAAGAAGACATWTATGTG
+        60        70        80        90       100       110       
+
+
+
+! CPU time used:
+!        Database scan:  0:00:02.0
+! Post-scan processing:  0:00:03.5
+!       Total CPU time:  0:00:05.5
+! Output File: mmil2r5.fasta

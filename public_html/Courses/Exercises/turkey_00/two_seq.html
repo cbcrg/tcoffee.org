@@ -1,0 +1,253 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+   <TITLE>The EMBNET Online Teaching Resource</TITLE>
+</HEAD>
+<BODY>
+&nbsp;
+<TABLE BORDER=0 CELLSPACING=2 CELLPADDING=2 WIDTH="95%" VALIGN="TOP" >
+<TR>
+<TD>&nbsp;
+<CENTER>
+<H1 CLASS="title">
+Analysis of Two Sequences</H1></CENTER>
+&nbsp;
+<H3 CLASS="title">
+&nbsp;<A NAME="genetic code"></A>1-MUTATIONS AND GENETIC CODE&nbsp;</H3>
+
+<DIV CLASS="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1.Given a random ORF, what probability of appearance do you expect for
+each amino&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+acid?&nbsp;
+<BR>&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2.What are the two residues that are the most likely to mutate by chance?&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.Does this prediction correlate well with the observation?&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<B>MATERIAL</B>: <A HREF="exercises_files/pam250.html">Pam250</A> and the
+<A HREF="exercises_files/genetic_code.html">Genetic Code</A>&nbsp;</DIV>
+
+<UL>
+<DIV CLASS="title"><B><A HREF="two_seq_solutions.html#mutation_solution">SOLUTION</A></B></DIV>
+</UL>
+&nbsp;
+<DIV CLASS="title">&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;[<A HREF="exercises.html">BACK</A>]&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;</DIV>
+
+<DIV CLASS="title">&nbsp;</DIV>
+
+<HR>
+
+<P>The simplest form of multiple sequence analysis occurs when you have
+only two sequences ! Analyses you may want to do of two sequences can be
+carried out by the programs <I>compare</I>, <I>gap</I> and <I>bestfit</I>.&nbsp;
+<H3>
+<A NAME="two_seq_2"></A>2-COMPARE &amp; DOTPLOT</H3>
+<I>Compare </I>compares two protein or nucleic acid sequences and creates
+a file of the points of similarity between them for plotting with <I>dotplot.
+Compare</I> finds the points using either a window/stringency or a word
+match criterion. The window/stringency comparison is the slower but more
+sensitive of the two.&nbsp;
+
+<P><I><FONT COLOR="#FF0000">Dotplot</FONT></I> makes a dot-plot with the
+output file from <I>compare</I>, <I>foldrna</I>, or <I>stemloop</I>.&nbsp;
+<H4>
+<U>Exercise:</U></H4>
+To do this exercise you will first need to <I>fetch</I> the two following
+sequences from the GCG database, these are the <U>E.coli</U> and <U>Mycobacterium
+genitalium</U> recA sequences <B>em:ecreca</B> (v00328) <B>em:mtreca</B>
+(x58485)&nbsp;
+
+<P>The default filenames are ecreca.em_ba and mtreca.em_ba.&nbsp;
+
+<P>To <I>compare</I> these enter the following:&nbsp;
+
+<P><TT>%</TT> <B>compare</B>&nbsp;
+<PRE>Compare compares two protein or nucleic acid sequences and creates a
+file of the points of similarity between them for plotting with
+DotPlot. Compare finds the points using either a
+window/stringency or a word match criterion. The word comparison
+is 1,000 times faster than the window/stringency comparison, but
+somewhat less sensitive.</PRE>
+<TT>COMPARE what horizontal sequence ?</TT> <B>em:ecreca</B>&nbsp;
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Begin (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (*&nbsp; 1391 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reverse (* No *) ?</PRE>
+<TT>to what vertical sequence (* ecreca.em_ba *) ?</TT> <B>em:mtreca</B>&nbsp;
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Begin (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (*&nbsp; 2762 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reverse (* No *) ?
+&nbsp;What comparison window size (* 21 *) ?
+&nbsp;What stringency (* 14.0 *) ?
+
+&nbsp;What should I call the output file (* ecreca.pnt *) ?
+&nbsp;Number of points: 947
+&nbsp;Writing .......</PRE>
+To view this comparison <I><FONT COLOR="#FF0000">dotplot</FONT></I> is
+used as follows:&nbsp;
+
+<P CLASS="note">NB! you must set your GCG graphics environment before using
+this or any other GCG graphics program. (see <A HREF="ABC_appendix.html#app1">Appendix
+I</A> of this document)&nbsp;
+
+<P><TT>%</TT> <B>dotplot</B>&nbsp;
+<PRE>DotPlot makes a dot-plot with the output file from Compare,
+FoldRNA, or StemLoop.</PRE>
+<TT>DOTPLOT what point file ?</TT> <B>ecreca.pnt</B>&nbsp;
+<PRE>&nbsp;ecreca.pnt contains COMPARE results of
+&nbsp;&nbsp;&nbsp; Axis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name&nbsp;&nbsp; Check&nbsp;&nbsp; Start&nbsp;&nbsp;&nbsp;&nbsp; End&nbsp;&nbsp; Dir
+&nbsp;Horizontal&nbsp;&nbsp;&nbsp;&nbsp; ecreca.em_ba&nbsp;&nbsp;&nbsp;&nbsp; 3229&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1391&nbsp;&nbsp; for
+&nbsp;Vertical&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mtreca.em_ba&nbsp;&nbsp;&nbsp;&nbsp; 8528&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2762&nbsp;&nbsp; for
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Window . . . . . . . . . 21
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stringency . . . . . . . 14.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Number of points . . . . 947
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Percent of possible&nbsp; . . 0.023
+&nbsp;The minimum density for a one-page plot is
+&nbsp;5118.3 bases/100 platen units on each axis.
+&nbsp;What point density would you like (* 2303.3 *) ?
+&nbsp;DOTPLOT will take 1 pages.&nbsp; Would you like to:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P)lot the points
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D)ifferent density
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G)et another point file to plot
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Q)uit
+&nbsp;Please select one (* P *):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P)lot the points
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D)ifferent density
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G)et another point file to plot
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Q)uit
+&nbsp;Please select one (* Q *):</PRE>
+Ask yourself why there is a big discontinuity in the sequence comparison.
+Clue: Mycobacterium has inteins.&nbsp;
+
+<P>This graph can be improved by changing the settings for the <I>compare</I>
+command. For the previous example the default settings were used and there
+is a lot of confounding information (the small dots) which can be removed
+by making the window size greater.&nbsp;
+
+<P><A HREF="exercises.html">[BACK]</A>&nbsp;
+<H3>
+<A NAME="two_seq_3"></A>3-Comparison Using Dynamic Programming: GAP and
+Bestfit</H3>
+<I>Gap</I> uses the algorithm of Needleman and Wunsch to find the alignment
+of two complete sequences that maximises the number of matches and minimises
+the number of gaps.&nbsp;
+<H4>
+<U>Exercise:</U></H4>
+First <I>fetch</I> your sequences. Use the <U>Haemophilus influenzae</U>
+rec1 sequence and the <U>Escherichia coli</U> recA gene <B>em:hearec</B>
+(L07521) <B>em:ecreca</B> (v00328).&nbsp;
+
+<P>To do the <I>gap</I> comparison enter the following:&nbsp;
+
+<P><TT>%</TT> <B>gap</B>&nbsp;
+<PRE>Gap uses the algorithm of Needleman and Wunsch to find the alignment of</PRE>
+two complete sequences that maximizes the number of matches and minimizes
+the number of gaps.<TT>GAP of what sequence 1 ?</TT> <B>em:hearec</B>&nbsp;
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Begin (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (*&nbsp; 1484 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reverse (* No *) ?</PRE>
+<TT>to what sequence 2 (* hearec.em_ba *) ?</TT> <B>em:ecreca</B>&nbsp;
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Begin (* 1 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End (*&nbsp; 1391 *) ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reverse (* No *) ?
+&nbsp;What is the gap creation penalty (* 50.00 *) ?
+&nbsp;What is the gap extension penalty (* 3.0 *) ?
+&nbsp;What should I call the paired output display file (* hearec.pair *) ?
+&nbsp;Aligning ..................................................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...................-.
+&nbsp;Aligning ..................................................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...................-.......
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gaps:&nbsp;&nbsp;&nbsp;&nbsp; 4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quality: 7888
+&nbsp;Quality Ratio: 5.671
+&nbsp; % Similarity: 58.531
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Length:&nbsp; 1486</PRE>
+To view the alignment, type:&nbsp;
+
+<P><TT>%</TT> <B>more hearec.pair</B>&nbsp;
+
+<P>It is much quicker to put all the instructions on the command line:&nbsp;
+
+<P><TT>%</TT> <B>gap em:hearec em:ecreca -def</B>&nbsp;
+
+<P>but the "-def" (default) assumes that you want to align the whole sequence,
+and not, for example just the coding sequence and that you are happy with
+the gap penalties. This is unlikely to be always true, especially as you
+move into multiple sequence alignments.&nbsp;
+
+<P><I>Map</I> is a global alignment program which attempts to align two
+complete sequences. <I>Bestfit</I> offers another way of aligning two sequences,
+it tries to find the best <U>local</U> alignment. They are both good for
+different sorts of problems.&nbsp;
+<H4>
+Exercise.</H4>
+Compare the results you get from <I>bestfit</I> and <I>gap</I> under various
+gap-penalty regimes.&nbsp;
+<BR>&nbsp;
+<BR><A HREF="exercises.html">[BACK]</A>&nbsp;
+<H3>
+<A NAME="two_seq_4"></A>4 Looking at the Structure of Genes</H3>
+Using the same tools as in the above exercises, examine the following seqences
+pairs:&nbsp;
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1.PAPA_CARPA - SERA_PLAFG&nbsp;
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2.ANCALM - <A HREF="/usr/people/cnotred/teaching/SANBI_course/web/exercises_files/ANCALM_5.dna">ANCALM_5</A>&nbsp;
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.HS058362 - HS05836&nbsp;
+
+<P>What biological phenomenon do your observations reflect?&nbsp;
+
+<P><A HREF="two_seq_solutions.html#two_seq_solutions_4">[SOLUTION]</A>&nbsp;
+<BR><A HREF="exercises.html">[BACK]</A>&nbsp;
+<H3>
+<A NAME="two_seq_5"></A>5 Identification of Multiple Repeats</H3>
+Do the same analysis as previously using&nbsp; the sequence TF3A_XENLA.
+Make a dot-plot and then use <A HREF="http://www.ch.embnet.org/software/LALIGN_form.html">Lalign.</A>
+Explain the resultsand propose a list of repeats.&nbsp;
+
+<P><A HREF="two_seq_solutions.html#two_seq_solutions_5">[SOLUTIONS]</A>&nbsp;
+<BR><A HREF="exercises.html">[BACK]</A>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P>
+<HR></TD>
+</TR>
+
+<TR>
+<TD>
+<TABLE BORDER=2 WIDTH="100%" BORDERCOLOR="#FFFFFF" CLASS="footer" >
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD><A HREF="../structure.html" CLASS="footer">Structure</A></TD>
+
+<TD><A HREF="../information.html" CLASS="footer">Information</A></TD>
+
+<TD><A HREF="../weare.html" CLASS="footer">We Are</A></TD>
+
+<TD><A HREF="../wedo.html" CLASS="footer">We Do</A></TD>
+
+<TD><A HREF="../achievements.html" CLASS="footer">Achievements</A></TD>
+
+<TD><A HREF="../abccont.html" Class="footer">ABC Contents Page</A></TD>
+</TR>
+</TABLE>
+&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+</BODY>
+</HTML>

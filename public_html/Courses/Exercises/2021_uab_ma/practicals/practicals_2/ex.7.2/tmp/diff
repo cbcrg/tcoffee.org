@@ -1,0 +1,74 @@
+10d9
+< #missing - No help, you must figure out where to plug in the matrix cost and how to pass it across!!!
+11a11
+> #missing - No help, you must figure out where to plug in the matrix cost and how to pass it across!!!
+87c87
+<     def weight(self, x, y,matrix):					
+---
+>     def weight(self, x, y):					
+89,91d88
+<         if (x==0 or y==0):
+<           return 0
+<         #this handles the special casd when one symbol is missing
+93,100c90,93
+<         return int(matrix[x][y])*-1
+<       
+<         #Notice below that the original weight function is meant to minimize the cost
+<         #for this reason we invert the substitution matrix by multiplying it by -1
+<         #if ( x==y):
+<         #  return 0
+<         #else:
+<         #  return 1
+---
+>         if ( x==y):
+>           return 0
+>         else:
+>           return 1
+148c141
+<     def diff(self, A, B, M, N, S, tb, te, g, h,matrix):
+---
+>     def diff(self, A, B, M, N, S, tb, te, g, h):
+184c177
+<             c = c + S.weight(A[1], B[j], matrix)
+---
+>             c = c + S.weight(A[1], B[j])
+233c226
+<             c = s + S.weight(A[i], B[j],matrix)
+---
+>             c = s + S.weight(A[i], B[j])
+273c266
+<             c = s + S.weight(A[i+1], B[j+1], matrix)
+---
+>             c = s + S.weight(A[i+1], B[j+1])
+309c302
+<           self.diff(A, B, midi, midj, S, tb, g, g, h,matrix)
+---
+>           self.diff(A, B, midi, midj, S, tb, g, g, h)
+311c304
+<                     M-midi, N-midj, S, g, te, g, h,matrix)
+---
+>                     M-midi, N-midj, S, g, te, g, h)
+313c306
+<           self.diff(A, B, midi-1, midj, S, tb, 0.0, g, h,matrix)
+---
+>           self.diff(A, B, midi-1, midj, S, tb, 0.0, g, h)
+316c309
+<                     M-midi-1, N-midj, S, 0.0, te, g, h,matrix)
+---
+>                     M-midi-1, N-midj, S, 0.0, te, g, h)
+349c342
+<     def align(self, A, B,matrix):
+---
+>     def align(self, A, B):
+369c362
+<         c = self.diff(A, B, M, N, S, G, G, G, H,matrix)
+---
+>         c = self.diff(A, B, M, N, S, G, G, G, H)
+460c453
+<     cost, ali, alj, s1 = A.align(b, a,matrix)
+---
+>     cost, ali, alj, s1 = A.align(b, a)
+463c456
+<     sys.stdout.write("Cost:%d\n>%s\n%s\n>%s\n%s\n"%(cost,record[0].id, ali, record[1].id, alj))
+---
+>     sys.stdout.write(">%s\n%s\n>%s\n%s\n"%(record[0].id, ali, record[1].id, alj))

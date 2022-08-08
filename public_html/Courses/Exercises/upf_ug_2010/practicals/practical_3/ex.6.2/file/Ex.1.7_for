@@ -1,0 +1,16 @@
+#!/usr/bin/env perl
+# 6 28 496 8128
+$n=$ARGV[0];
+
+for ($a=1; $a<$n; $a++)
+  {
+    if ( $n%$a==0)
+      {
+	print "\t$a\n";
+	$sum+=$a;
+      }
+  }
+if ( $sum==$n){print "$n IS perfect\n";}
+else {print "$n IS NOT perfect\n";}
+
+    

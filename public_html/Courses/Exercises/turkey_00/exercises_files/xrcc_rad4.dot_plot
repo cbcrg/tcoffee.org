@@ -1,0 +1,440 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Graphics From Program dotplot
+%%For: cnotreda
+%%CreationDate: August 26, 1998 15:31
+%%Creator: The Genetics Computer Group
+%%DocumentFonts: Courier
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+%%EndComments
+/m { moveto } def
+/l { lineto } def
+/s { stroke } def
+/n { newpath } def
+/lc { setlinecap } def
+/offset { 0 0 moveto (A) false charpath
+flattenpath pathbbox
+pop pop pop -1 mul /xoff exch def } def
+36.00 216.00 translate
+   3 setlinewidth
+1 setlinecap
+0 setlinejoin
+2 setmiterlimit
+0.240000 0.240000 scale
+%%EndProlog
+%%Page: ? 1
+n
+139 105 m
+150 105 l
+150 1424 l
+139 1424 l
+139 105 l
+s
+/Courier findfont [ 26   0   0  33   0   0] makefont setfont
+40 200 m
+gsave
+90 rotate
+1 0 (DOTPLOT of: rad4_schpo.pnt  Density: 721.59  August 26, 1998 15:31) ashow
+grestore
+100 355 m
+gsave
+90 rotate
+1 0 (COMPARE  Window: 36  Stringency: 20  Points: 175) ashow
+grestore
+/Courier findfont [ 30   0   0  38   0   0] makefont setfont
+221 464 m
+gsave
+90 rotate
+1 0 (xrcc_human ck: 3,314, 1 to 633) ashow
+grestore
+899 34 m
+1 0 (RAD4_SCHPO ck: 3,112, 1 to 648) ashow
+n
+300 105 m
+300 90 l
+s
+n
+383 105 m
+383 97 l
+s
+n
+466 105 m
+466 97 l
+s
+n
+549 105 m
+549 97 l
+s
+n
+632 105 m
+632 97 l
+s
+n
+715 105 m
+715 90 l
+s
+n
+798 105 m
+798 97 l
+s
+n
+881 105 m
+881 97 l
+s
+n
+964 105 m
+964 97 l
+s
+n
+1047 105 m
+1047 97 l
+s
+n
+1130 105 m
+1130 90 l
+s
+n
+1213 105 m
+1213 97 l
+s
+n
+1296 105 m
+1296 97 l
+s
+n
+1379 105 m
+1379 97 l
+s
+n
+1462 105 m
+1462 97 l
+s
+n
+1545 105 m
+1545 90 l
+s
+n
+1628 105 m
+1628 97 l
+s
+n
+1647 105 m
+1662 105 l
+s
+/Courier findfont [ 20   0   0  26   0   0] makefont setfont
+1677 97 m
+1 0 (0) ashow
+n
+1647 188 m
+1655 188 l
+s
+n
+1647 271 m
+1655 271 l
+s
+n
+1647 354 m
+1655 354 l
+s
+n
+1647 437 m
+1655 437 l
+s
+n
+1647 520 m
+1662 520 l
+s
+1677 512 m
+1 0 (200) ashow
+n
+1647 603 m
+1655 603 l
+s
+n
+1647 686 m
+1655 686 l
+s
+n
+1647 769 m
+1655 769 l
+s
+n
+1647 852 m
+1655 852 l
+s
+n
+1647 935 m
+1662 935 l
+s
+1677 927 m
+1 0 (400) ashow
+n
+1647 1018 m
+1655 1018 l
+s
+n
+1647 1100 m
+1655 1100 l
+s
+n
+1647 1183 m
+1655 1183 l
+s
+n
+1647 1266 m
+1655 1266 l
+s
+n
+1647 1349 m
+1662 1349 l
+s
+1677 1342 m
+1 0 (600) ashow
+n
+1628 1420 m
+1628 1427 l
+s
+n
+1545 1420 m
+1545 1435 l
+s
+1527 1450 m
+1 0 (600) ashow
+n
+1462 1420 m
+1462 1427 l
+s
+n
+1379 1420 m
+1379 1427 l
+s
+n
+1296 1420 m
+1296 1427 l
+s
+n
+1213 1420 m
+1213 1427 l
+s
+n
+1130 1420 m
+1130 1435 l
+s
+1112 1450 m
+1 0 (400) ashow
+n
+1047 1420 m
+1047 1427 l
+s
+n
+964 1420 m
+964 1427 l
+s
+n
+881 1420 m
+881 1427 l
+s
+n
+798 1420 m
+798 1427 l
+s
+n
+715 1420 m
+715 1435 l
+s
+697 1450 m
+1 0 (200) ashow
+n
+632 1420 m
+632 1427 l
+s
+n
+549 1420 m
+549 1427 l
+s
+n
+466 1420 m
+466 1427 l
+s
+n
+383 1420 m
+383 1427 l
+s
+n
+300 1420 m
+300 1435 l
+s
+296 1450 m
+1 0 (0) ashow
+n
+300 1349 m
+285 1349 l
+s
+n
+300 1266 m
+293 1266 l
+s
+n
+300 1183 m
+293 1183 l
+s
+n
+300 1100 m
+293 1100 l
+s
+n
+300 1018 m
+293 1018 l
+s
+n
+300 935 m
+285 935 l
+s
+n
+300 852 m
+293 852 l
+s
+n
+300 769 m
+293 769 l
+s
+n
+300 686 m
+293 686 l
+s
+n
+300 603 m
+293 603 l
+s
+n
+300 520 m
+285 520 l
+s
+n
+300 437 m
+293 437 l
+s
+n
+300 354 m
+293 354 l
+s
+n
+300 271 m
+293 271 l
+s
+n
+300 188 m
+293 188 l
+s
+n
+300 105 m
+285 105 l
+s
+n
+418 1337 m
+437 1356 l
+s
+n
+449 1324 m
+1 lc
+450 1324 l
+705 1169 m
+706 1169 l
+s
+2 lc
+n
+339 794 m
+423 876 l
+s
+n
+823 1150 m
+829 1156 l
+s
+n
+844 1171 m
+1 lc
+845 1171 l
+s
+2 lc
+n
+964 1268 m
+1004 1308 l
+s
+n
+910 1212 m
+914 1217 l
+s
+n
+537 794 m
+1 lc
+538 794 l
+s
+2 lc
+n
+541 798 m
+630 887 l
+s
+n
+1182 1291 m
+1 lc
+1183 1291 l
+s
+2 lc
+n
+1143 787 m
+1163 808 l
+s
+n
+1489 1011 m
+1500 1022 l
+s
+n
+1510 1032 m
+1 lc
+1511 1032 l
+1539 1061 m
+1540 1061 l
+s
+2 lc
+n
+1543 1065 m
+1545 1067 l
+s
+n
+1498 1013 m
+1510 1026 l
+s
+n
+1514 999 m
+1527 1011 l
+s
+n
+894 209 m
+1 lc
+895 209 l
+s
+2 lc
+n
+898 213 m
+904 219 l
+s
+n
+881 173 m
+1 lc
+882 173 l
+s
+2 lc
+n
+885 178 m
+896 188 l
+s
+n
+1554 669 m
+1 lc
+1555 669 l
+s
+2 lc
+/#copies    1 def
+showpage
+%%Trailer
+%%Pages: 1

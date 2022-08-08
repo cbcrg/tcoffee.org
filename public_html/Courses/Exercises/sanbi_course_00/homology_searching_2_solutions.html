@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="generator" CONTENT="Adobe GoLive 4">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<CENTER>
+<H1>
+considerations - hints - solutions</H1></CENTER>
+
+<H3>
+<FONT SIZE=+2>2-Protein sequence homology search</FONT></H3>
+<B><FONT SIZE=+2>Hints:</FONT></B>
+<UL>
+<LI>
+The protein sequence is shown in the EMBL entry annotation. You may use
+the EMBL entry as starting point to edit a protein sequence file that can
+then be reformatted into GCG format (sequence in <A HREF="exercises_files/orf_4_7.pep">gcg
+forma</A>t and <A HREF="exercises_files/orf_4_7.seq">fasta format</A>).</LI>
+
+<LI>
+Dotplot the query sequence against itself and against a high-scoring blast
+match in order to reveal its internal repeat structure.</LI>
+
+<LI>
+Split query sequence into repeat regions and unique parts: recommended
+partitioning: repeat region 1: pos. 1 - 313; repeat region 2: 314-502;
+unique region: 643-1433. You may use the GCG program ASSEMBLE to transfer
+these sequence regions to individual files.</LI>
+
+<LI>
+Using the the bioccelerator server one should know that the substitution
+matrices are scaled differently. For BLOSUM45 gap opening=15, and gap extension=2
+may be reasonable choices.</LI>
+
+<LI>
+The only way to perform Smith-Waterman searches locally is by first constructing
+a profile from a single sequence and then doing a profilesearch against
+the protein database. The GCG recipe follows:</LI>
+</UL>
+
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B>profilemake -dat=genmoredata:blosum45.cmp -stringent &lt;your querry sequence -outf=query.prf
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tprofilesearch -nosixframe -noave -normalize -minscore=5.0 -list=100 -gap=3.0 -len=0.3 -batch query.prf SW:*</B></PRE>
+<A HREF="homology_searching_2.html#homology_searching_2_2">[BACK]</A>
+<BR>&nbsp;
+<BR><B><FONT SIZE=+2>Answer:</FONT></B>
+<UL>The protein has the following internal repeat structure:</UL>
+
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200&nbsp;&nbsp;&nbsp;&nbsp; 400&nbsp;&nbsp;&nbsp;&nbsp; 600&nbsp;&nbsp;&nbsp;&nbsp; 800&nbsp;&nbsp;&nbsp; 1000&nbsp;&nbsp;&nbsp; 1200&nbsp;&nbsp;&nbsp; 1400&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [-R1-][-R1-][R2][R2][-R1-][--------unique region---------]</PRE>
+Answers to questions:
+<OL>
+<LI>
+Only the fibronectin type 3 repeats. The N-terminal repeats may be homologous
+to a substrate-binding domain in SW:NANH_MICVI (Z-score=7).</LI>
+
+<LI>
+At least three different types of domains: type 1 repeats, type 2 repeats
+(=FN3 domains), and a C-terminal unique region.</LI>
+
+<LI>
+The protein is probably not a chitinase homolog because the similarity
+to chitinase is confined to the two FN3 domains, an extracellular module
+found in many different types of eukaryotic and prokaryotic proteins.</LI>
+</OL>
+<A HREF="homology_searching_2.html#homology_searching_2_2">[BACK]</A>
+<H3>
+<FONT SIZE=+2>3 DNA sequence comparisons</FONT></H3>
+<B><FONT SIZE=+2>Hints</FONT></B>:
+<UL>
+<LI>
+Use LOOKUP to find EMBL sequences. Compare promoter regions against REPBASE:*
+in order to find matches to common repetive elements.</LI>
+
+<LI>
+Use dotplots to identify multiple copies of the same type of repetitive
+elements.</LI>
+</UL>
+<B><FONT SIZE=+2>Answer</FONT></B>:
+<UL>See <A HREF="/usr/people/cnotred/teaching/SANBI_course/web/homology_searching_2_3/">output
+files</A>
+
+<P>The longest prometer regions are in EMBL entries HSENHREG1 (Z70243)
+and MMIL2R5 (M16398).
+
+<P>The mouse IL2Ra promoter region contains B1 and MT elements. The human
+IL2Ra promoter region contains Alu and Line-1 elements.</UL>
+Answers to questions:
+<OL>
+<LI>
+In the mouse promoter: -350 to transcription start, -1800 -1000.</LI>
+
+<LI>
+Perhaps 25%.</LI>
+
+<LI>
+The human Alu and mouse B1 elements are remotely related.</LI>
+
+<LI>
+Available in EMBL are shorter upstream promoter regions from rat and from
+bovine.</LI>
+</OL>
+<A HREF="homology_searching_2.html#homology_searching_2_3">[BACK]</A>
+</BODY>
+</HTML>

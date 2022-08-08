@@ -1,0 +1,56 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Bioinformatics Exercises</title>
+ </head>
+ <BODY TEXT="#000000" BGCOLOR="#FFEEDD" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+ 
+ <center>
+      <table border=10 cellpadding="20" width="580" nosave>
+	<tr>
+	  <td align=center bgcolor="FFCCAA">
+	    <h2>Multipe Sequence Alignments:<BR>Orthology and Paralogy<BR>Solution</h2>
+	 </td>
+	</tr>
+      </table>
+      <br><br><br>
+      
+      <table BGCOLOR="#FFFFFF" Align="center" cellpadding=30  leftmargin="30" marginwidth="30" width="70%"  border="5"> 
+	<tr>
+	  <td>
+	    <OL>
+	      <LI><p>What is the problem with the initial alignment?</p></LI>
+	    <UL>
+	      <LI><p>The initial alignment is obviously correct [<a href="./file/three_seq.aln">aln</a>]</p></LI>
+	      <LI><p>It can easily be turned into a [<a href="./file/three_seq.dnd">tree</a>]</p></LI>
+	      <BR>
+	      <LI><p>To compute this tree:</p></LI>
+		<OL>
+		  <LI><p>Compute the alignment using a clustalw server.</p></LI>
+		  <LI><p>Do not forget to request Phylip,Fasta or MSF as an output format!</p></LI>
+		  <LI><p>Paste the output alignment in  <a href="http://www.fr.embnet.org/services/analyseq/cgi-bin/phylomat_in.pl">drawtree</a></p></LI>
+		</OL>
+	      <LI><p>On this tree, Human appears more related to the Mouse than to the Xenope.</P></LI>
+	      <LI><p>The reason for this wrong phylogeny is that although the proteins are homologous, they are not orthologous.</P></LI>
+	      <LI><p>In order to gain a better understanding of what is going on, one solution will be to add new sequences.</P> </LI>
+	    </UL>
+	    <BR>
+	    <LI><p>Adding in new sequences</p></LI>
+	    <UL>
+	      <LI><p>This may be done by running a blast against Swissprot.</P></LI>
+	      <LI><p>Here is a sample alignment obtained this way: [<a href="./file/aln2.aln">aln</a>]</P></LI>
+	      <LI><p>That alignment gave the following tree [<a href="./file/tree2.html">tree</a>]</P></LI>
+	      <LI><p>There is still a problem: SCG1_HUMAN, SCG1_RAT and SCG1_MOUSE are not in the right order</P></LI>
+	      <LI><p>The reason is that their sequences are too closely related at the protein level.</P></LI>
+	      <LI><p>A possible solution would be to use the nucleotide sequence rather than the protein sequence</P></LI>
+	      <LI><p>There are more neutral sites in coding nucleotide sequences. These accounts for a faster evolution that renders phylogenetic analysis easier</P></LI>
+	    </UL>
+	    <LI><p><B>CONCLUSION<B></p><p>The first part of this exercise shows that while blast is useful for making a judgement on the existance of some homology between two sequences, more complicated analysis such as orthology or paralogy require a tree as a support.</LI>
+	  </OL>
+	  </td>
+	</tr>
+      </table>
+      <p><font size="2">Questions should be sent to <a href="mailto:cedric.notredame@igs.cnrs-mrs.fr">C.Notredame</a> </font></center>
+ </body>
+ </html>

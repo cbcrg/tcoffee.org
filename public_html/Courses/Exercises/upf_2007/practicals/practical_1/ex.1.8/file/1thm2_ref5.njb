@@ -1,0 +1,77 @@
+
+
+ DIST   = percentage divergence (/100)
+ Length = number of sites used in comparison
+
+   1 vs.   2  DIST = 0.5230;  length =    174
+   1 vs.   3  DIST = 0.5294;  length =    170
+   1 vs.   4  DIST = 0.5407;  length =    172
+   1 vs.   5  DIST = 0.5906;  length =    171
+   1 vs.   6  DIST = 0.6446;  length =    166
+   1 vs.   7  DIST = 0.7457;  length =    173
+   2 vs.   3  DIST = 0.6294;  length =    170
+   2 vs.   4  DIST = 0.6221;  length =    172
+   2 vs.   5  DIST = 0.6199;  length =    171
+   2 vs.   6  DIST = 0.6826;  length =    167
+   2 vs.   7  DIST = 0.7740;  length =    177
+   3 vs.   4  DIST = 0.3721;  length =    172
+   3 vs.   5  DIST = 0.5058;  length =    172
+   3 vs.   6  DIST = 0.5723;  length =    166
+   3 vs.   7  DIST = 0.7442;  length =    172
+   4 vs.   5  DIST = 0.5607;  length =    173
+   4 vs.   6  DIST = 0.5655;  length =    168
+   4 vs.   7  DIST = 0.7670;  length =    176
+   5 vs.   6  DIST = 0.6205;  length =    166
+   5 vs.   7  DIST = 0.7052;  length =    173
+   6 vs.   7  DIST = 0.7368;  length =    171
+
+
+			Neighbor-joining Method
+
+ Saitou, N. and Nei, M. (1987) The Neighbor-joining Method:
+ A New Method for Reconstructing Phylogenetic Trees.
+ Mol. Biol. Evol., 4(4), 406-425
+
+
+ This is an UNROOTED tree
+
+ Numbers in parentheses are branch lengths
+
+
+ Cycle   1     =  SEQ:   3 (  0.17856) joins  SEQ:   4 (  0.19354)
+
+ Cycle   2     =  SEQ:   1 (  0.23820) joins  SEQ:   2 (  0.28479)
+
+ Cycle   3     =  SEQ:   6 (  0.30714) joins  SEQ:   7 (  0.42970)
+
+ Cycle   4     =  SEQ:   5 (  0.27256) joins Node:   6 (  0.02186)
+
+ Cycle   5 (Last cycle, trichotomy):
+
+		 Node:   1 (  0.05908) joins
+		 Node:   3 (  0.07378) joins
+		 Node:   5 (  0.00650) 
+
+
+			Bootstrap Confidence Limits
+
+
+ Random number generator seed =     111
+
+ Number of bootstrap trials   =    1000
+
+
+ Diagrammatic representation of the above tree: 
+
+ Each row represents 1 tree cycle; defining 2 groups.
+
+ Each column is 1 sequence; the stars in each line show 1 group; 
+ the dots show the other
+
+ Numbers show occurences in bootstrap samples.
+ 
+**..***    997 
+..*****    965 
+*****..    479 
+****...    280 
+1122333

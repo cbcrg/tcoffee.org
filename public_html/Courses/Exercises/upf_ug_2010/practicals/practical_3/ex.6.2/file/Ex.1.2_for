@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+
+for ($a=1; $a<100;$a++)
+  {
+    if ( $a%3==0){$sum=$sum+$a;}
+  }
+print "SUM=$sum";

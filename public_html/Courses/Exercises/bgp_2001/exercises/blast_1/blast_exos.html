@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Exercices: Comparaisons d'une séquence à une base de données</title>
+  </head>
+
+  <body>
+    <h1 align="center">Comparaisons d'une séquence à une base de données</h1>
+    <ol>
+      <li>BLAST: les bases
+	<p>
+	  comparer la séquence <tt>CC16_SCHPO</tt> de Swiss-Prot à la
+	  base de données non-redondante de protéines avec le
+	  programme <a
+	  href="http://www.ch.embnet.org/software/BottomBLAST.html">BLAST</a>. Utiliser
+	  les paramètres par défaut.
+	<ol>
+	  <li>
+	    Combien de séquences y a-t-il dans la base de données ?
+	    Combien d'amino-acides ?
+	  <li>
+	    Que représente le score ? La E-value ?
+	  <li>
+	    Trouve-t-on des homologues ?
+	  <li>
+	    Essayer avec blosum90 et blosum45. Quel est l'effet en
+	    termes de sensibilité et de sélectivité ?
+	  <li>
+	    Essayer sans le filtre à régions de basse complexité.
+	    Quel est l'effet en termes de sélectivité et de
+	    sensibilité ?  </ol><br>
+      <li>
+	<p>La séquence <tt>W99073</tt> d'EMBL est un EST de
+	souris. Comparer cette séquence nucléotidique à Swiss-Prot, en
+	utilisant le programme <tt>blastx</tt> (m&ecirc;me site que
+	l'exercice précédent).</p>
+
+	<p>Questions : </p>
+	
+	<ol>
+	  <li>
+	    Cet EST correspond-il à une région codante ? 
+	  <li>
+	    La séquence complète de la protéine est-elle connue chez
+	    la souris ?
+	  <li>
+	    Examiner la localisation des régions similaires. Sont-ils
+	    répartis régulièrement le long de l'EST, ou y a-t-il des
+	    régions plus conservées que d'autres ? Les régions
+	    conservées ont-elles une fonction commune ?
+	</ol><br>
+
+      <li>
+	<p>
+	  Mettre en évidence les exons et les introns du gène TNFA
+	  humain (<tt>HSTNFAB</tt>) en le comparant aux protéines avec
+	  <tt>blastx</tt>. Quel est l'effet des filtres à basse
+	  complexité ?</p>
+      <li>
+	L'entrée EMBL U22894 contient la séquence d'un élément
+	amplifiable de <i>Streptomyces lividans</em>, une bactérie. Il
+	est fait mention d'un ORF (<em>Open Reading Frame</em>, qui
+	encode une protéine hypothétique) nommé ORF 4.7. Comparer cet
+	ORF aux bases de données de protéines.
+
+	<p>Questions : </p>
+	<ol>
+	  <li>
+	    Quelles parties de la protéine hypothétique sont
+	    similaires à d'autres séquences ?
+	  <li>
+	    Combien de types différents de domaines contient-elle ?
+	  <li>
+	    L'annotation "<em>chitinase homolog</em>" dans EMBL est-elle correcte ?
+	</ol>
+    </ol>
+
+    <hr>
+    <address><a href="mailto:Thomas.Junier@isrec.unil.ch">Thomas Junier</a></address>
+    <!-- Created: Mon Dec  7 08:20:07 CET 1998 -->
+    <!-- hhmts start -->
+Last modified: Sun Dec 13 15:51:11 CET 1998
+<!-- hhmts end -->
+  </body>
+</html>

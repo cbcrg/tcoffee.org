@@ -1,0 +1,12 @@
+fetch swissprot:SCG1_HUMAN -OUT:SCG1_HUMAN.swiss_rel
+fetch swissprot:SCG1_MOUSE -OUT:SCG1_MOUSE.swiss_rel
+fetch swissprot:SCG1_RAT -OUT:SCG1_RAT.swiss_rel
+fetch swissprot:SCGA_XENLA -OUT:SCGA_XENLA.swiss_rel
+fetch swissprot:SCGB_XENLA -OUT:SCGB_XENLA.swiss_rel
+fetch swissprot:XB3_XENLA -OUT:XB3_XENLA.swiss_rel
+fetch swissprot:STHM_MOUSE -OUT:STHM_MOUSE.swiss_rel
+fetch swissprot:STHM_RAT -OUT:STHM_RAT.swiss_rel
+fetch swissprot:STHM_HUMAN -OUT:STHM_HUMAN.swiss_rel
+fetch swissprot:STHM_CHICK -OUT:STHM_CHICK.swiss_rel
+fetch swissprot:STH1_XENLA -OUT:STH1_XENLA.swiss_rel
+fetch swissprot:STH2_XENLA -OUT:STH2_XENLA.swiss_rel

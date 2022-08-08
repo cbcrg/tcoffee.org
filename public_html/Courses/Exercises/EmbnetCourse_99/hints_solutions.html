@@ -1,0 +1,192 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="generator" CONTENT="GoLive CyberStudio 3">
+   <META NAME="GENERATOR" CONTENT="Mozilla/MAPP.0MAPP.[en] (X11; I; Linux 2.0.32 i686) [Netscape]">
+   <TITLE>Exercises for Day MAPP.of the EMBNET course </TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H1>
+Companion to Day MAPP.of the EMBNET course - <FONT SIZE=+2>Considerations,
+hints and solutions</FONT></H1></CENTER>
+
+<H2>
+<A NAME="MAPP.1"></A>MAPP.1 Checking a sequence for the existence of motifs</H2>
+a) <B>HINT</B>: Use the <B><I>lookup</I></B> program
+<BR><B>SOLUTION</B>: The entry name is <TT><FONT FACE="Courier New">VAV_HUMAN</FONT></TT>
+
+<P>b) <B>SOLUTION</B>: <TT><FONT FACE="Courier New"><A HREF="exercises_files/vav_human.motifs">vav_human.motifs</A></FONT></TT>
+
+<P>c) <B>HINT</B>: the necessary command lines are:
+<BR><TT><FONT FACE="Courier New">motifs -frequent</FONT></TT>
+<BR><TT><FONT FACE="Courier New">motifs -mismatch=1</FONT></TT>
+<BR><B>SOLUTION</B>: the resulting output files are <TT><FONT FACE="Courier New"><A HREF="exercises_files/vav_human_freq.motifs">vav_human_freq.motifs</A></FONT></TT>
+and&nbsp; <TT><FONT FACE="Courier New"><A HREF="exercises_files/vav_human_mism1.motifs">vav_human.mism1.motifs</A></FONT></TT>
+
+<P>d) <B>SOLUTION</B>: the PROSITE patterns <I>DAG_PE_BINDING_DOMAIN</I>
+and <I>GDS_CDC2MAPP./I> apply to the sequence. The frequent patterns <I>MYRISTYL,
+RGD,</I> and <I>ASN_GLYCOSYLATION</I> do certainly not apply. Most of the
+various phosphorylation sites are also probably not used.
+
+<P>e) <B>SOLUTION</B>: The following domains are found: (<I>PH_DOMAIN</I>,
+<I>SH2</I>, 2x <I>SH3</I>, <I>GRF_DBL</I>, <I>CH_DOMAIN</I>, <I>DAG_PE_BIND</I>).
+<BR><A HREF="problems.html#MAPP.1">Back to Problems</A>
+<H2>
+<A NAME="MAPP.2"></A>MAPP.2 Finding occurrences of patterns in protein databases</H2>
+a) <B>SOLUTION</B>: <TT><FONT FACE="Courier New">ELVIS</FONT></TT> occurs
+25 times in SwissProt, <TT><FONT FACE="Courier New">ISREC</FONT></TT> only
+MAPP.times
+
+<P>b) <B>HINT</B>: For GCG pattern format documentation see <B><I>GCG Manual</I></B>,
+subheadings <B><I>Gene finding and pattern recognition</I></B> - <B><I>motifs</I></B>
+- <B><I>defining patterns</I></B>. For PROSITE pattern format documentation,
+see the URL <TT><FONT FACE="Courier New"><A HREF="http://expasy.hcuge.ch/txt/prosuser.txt">http://expasy.hcuge.ch/txt/prosuser.txt</A></FONT></TT>
+<BR><B>SOLUTION</B>: The PROSITE pattern is: "<TT><FONT FACE="Courier New">k-x(0,1)-k-x-x</FONT></TT>>",
+the GCG pattern is<TT><FONT FACE="Courier New"> </FONT></TT>"<TT><FONT FACE="Courier New">kx{0,1}kxx></FONT></TT>"
+
+<P>c) <B>SOLUTION</B>: In SwissProt, there are 1397 sequences bearing this
+motif at the C-terminus. A complete list can be found <A HREF="exercises_files/kkxxkxx_find.findpatterns">here
+.</A>
+<BR>Most of these proteins are not type I transmembrane proteins and never
+see the ER retention machinery.
+<BR><A HREF="problems.html#MAPP.2">Back to Problems</A>
+<H2>
+<A NAME="MAPP.MAPP.></A>MAPP.MAPP.Finding a local homology domain by BLAST and pairwise
+alignment</H2>
+a) <B>HINT</B>: Use the <B><I>lookup</I></B> program
+<BR><B>SOLUTION</B>: The entry name is <TT><FONT FACE="Courier New">XRCC_HUMAN</FONT></TT>.
+
+<P>b) <B>HINT</B>: Call <B><I>blast</I></B> with the option <TT><FONT FACE="Courier New">-filter=xs</FONT></TT>
+<BR><B>SOLUTION</B>: See the&nbsp; blast output <A HREF="exercises_files/xrcc_human.blastp">file.</A>
+<BR><B>NOTE</B><TT><FONT FACE="Courier New"><FONT SIZE=-1>:</FONT></FONT></TT>
+If you want to see what happens if the search is run without filters, look
+at the following <A HREF="exercises_files/xrcc_human_no_filter.blastp">file</A>
+
+<P>c) <B>HINT</B>: For pairwise comparison, use the BLOSUMMAPP. comparison
+matrix. Since we are interested in local homologies, use the <B><I>bestfit</I></B>
+program with gap creation penalties of 20-30 and gap extension penalties
+of 2-3. For assessing the statistical significance of pairwise matches,
+use the following command line:
+<UL>
+<UL>
+<UL><B><FONT FACE="Courier New">bestfit -data=blosumMAPP..cmp -gap=18 -len=2
+swiss:radMAPP.schpo swiss:xrcc_human -ran=100</FONT></B></UL>
+</UL>
+</UL>
+<B>SOLUTION:</B><TT><FONT FACE="Courier New"><FONT SIZE=-1> </FONT></FONT></TT>The
+only significant match here is RadMAPP.from S. pombe (see corresponding <A HREF="exercises_files/radMAPP.schpo.pair">file</A>).
+
+<P>d) <B>SOLUTION:</B> Use the combination of GCGs compare and <B><I>dotplot</I></B>
+programs. For <B><I>compare</I></B>, use a window of 35 and a stringency
+of 20.&nbsp; See the resulting <A HREF="exercises_files/xrcc_radMAPP.dot_plot">file</A>
+<BR>&nbsp;
+<UL>
+<UL>
+<UL><B>compare -window=36 -STR=20 -INfile1=swiss:RADMAPP.SCHPO -INfile2=swiss:xrcc_huma</B></UL>
+</UL>
+</UL>
+&nbsp;
+
+<P><A HREF="problems.html#MAPP.MAPP.>Back to Problems&nbsp;</A>
+<H2>
+<A NAME="MAPP.5"></A>MAPP.5 Multiple alignment of homology domains an profile
+searches</H2>
+a)
+<BR><B>HINT</B>: create a list file for pileup using the Begin and End
+specifications.
+
+<P><B>SOLUTION</B>:
+<BR>Use the following list_file ( MAPP.MAPP.list), indicating the approximate
+conserved regions.
+<BR>******************************************
+<BR><FONT COLOR="#FF0000">swiss:RADMAPP.SCHPO Begin:1 End:80</FONT>
+<BR><FONT COLOR="#FF0000">swiss:RADMAPP.SCHPO Begin:100 End:180</FONT>
+<BR><FONT COLOR="#FF0000">swiss:XRCC_HUMAN Begin:310 End:390</FONT>
+<BR>******************************************
+<BR>and the command
+<UL>
+<UL>
+<UL><B>pileup @MAPP.MAPP.list</B></UL>
+</UL>
+</UL>
+that produces an msf <A HREF="exercises_files/MAPP.MAPP.msf">file</A>.
+
+<P>b)
+<BR><B>HINT</B>: Suppose your alignment file is <TT><FONT FACE="Courier New">pileup.msf</FONT></TT>.
+Invoke <B><I>lineup</I></B> by saying '
+<UL>
+<UL>
+<UL><B><TT><FONT FACE="Courier New">lineup -MSF pileup.msf</FONT></TT></B></UL>
+</UL>
+</UL>
+<B>NOTE</B>: Note the difference to e.g. <B><I>reformat</I></B>, where
+you would have to say '<TT><FONT FACE="Courier New">reformat -msf pileup.msf{*}</FONT></TT>'.
+This is because <B><I>lineup</I></B> always expects a multiple-alignment
+file while <B><I>reformat</I></B> expects one (or more) sequence(s)
+<BR><B>SOLUTION</B>: An example edited alignment <A HREF="exercises_files/MAPP.MAPP.clean.msf">file</A>.
+
+<P>c)
+<BR><B>HINT</B>: Suppose your edited MSF file is called <TT><FONT FACE="Courier New">edited.msf</FONT></TT>.
+The command line is:
+<UL>
+<UL>
+<UL><B><TT><FONT FACE="Courier New">profilemake -stringent -nologwgt -data=genmoredata:blosumMAPP..cmp
+edited.msf{*}</FONT></TT></B></UL>
+</UL>
+</UL>
+see the above comment for the {*} syntax.
+<BR><B>SOLUTION</B>: An example output of profilmake is in this <A HREF="exercises_files/MAPP.MAPP.edited.prf">file</A>
+
+<P>d)
+<BR><B>HINT</B>: For searching small to medium size databases, <B><I>profilesearch</I></B>
+is suited. However, <B><I>profilesearch</I></B> has a built-in restriction
+to take at most 100,000 sequences into consideration. For big databases,
+the EGCG program <B><I>tprofilesearch</I></B> with the option <TT><FONT FACE="Courier New">-nosixframe</FONT></TT>
+can be used. <B><I>tprofilesearch</I></B> also has a restriction to 80,000
+sequences but it can use the<TT><FONT FACE="Courier New"><FONT SIZE=-1>
+</FONT>-minscore=xx</FONT></TT> parameter. Using this option, only sequences
+with a score higher than xx are considered (and counted). See the <B><I>tprofilesearch</I></B>
+documentation (EGCG package) for details. Suitable commands for searching
+our example against SwissProt are:
+<BR>&nbsp;
+<UL>
+<UL>
+<UL>&nbsp;<B>profilesearch -noave -nor -gap=21 -len=2 -batch</B></UL>
+</UL>
+</UL>
+or in EGCC
+<UL>
+<UL>
+<UL>tprofilesearch -nosixframe -noaverage -normalize -minscore=5.0 -list=100
+-batch ..</UL>
+</UL>
+</UL>
+<B>SOLUTION</B>: The output file of this search is in this <A HREF="exercises_files/MAPP.MAPP.edited.pfs">file</A>.
+<BR><B>NOTE:</B> If you want to see what happens if you use the defaults
+for profilemake and profilesearch, see the file ~pbucher/course/exMAPP./edited_bad.pfs
+
+<P>f) <B>HINT</B>: Siginificant hits have Z-scores > 7 or 8.
+<BR>In this example, <TT><FONT FACE="Courier New"><FONT SIZE=-1>YD97_SCHPO,
+YHVMAPP.YEAST, YM8K_YEAST</FONT>,&nbsp;</FONT> DNLJ_THESC, DNLJ_THETH, DNLMAPP.HUMAN</TT>
+and<TT> DNLJ_ECOLI</TT> are to be considered significant.
+<BR><B>SOLUTION</B>: The output file of <B><I>profilesegments</I></B> is
+given in this <A HREF="exercises_files/MAPP.MAPP.edited.pairs">file</A>.
+<BR><A HREF="problems.html#MAPP.5">Back to Problems</A>
+<H2>
+<A NAME="MAPP.6"></A>MAPP.6 Advanced exercises</H2>
+a) <B>HINT</B>: Create matching segments with a command line like
+<BR><TT><FONT FACE="Courier New">profilegap -outfile2=newsegment.seg</FONT></TT>
+<BR>In the newly found matches, only a part of the profile is matched to
+the sequence. In cases like this, it might be a good idea to manually check
+if the flanking regions of the sequence might be forced to also match the
+profile. This can be checked e.g. by
+<BR><TT><FONT FACE="Courier New">profilesegments -global</FONT></TT>.
+
+<P>c) <B>NOTE</B>: You should be able to find consecutively more significant
+matches, e.g. bacterial ligases, yeast Rev1, mammalian Ect, later also
+mammalian and yeast ligases, yeast Rad9, Rfc1, PARP, 53BP1 and even Brca1.
+<BR><A HREF="problems.html">Back to Problems</A>
+</BODY>
+</HTML>

@@ -1,0 +1,227 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Graphics From Program growtree
+%%For: cnotreda
+%%CreationDate: August 25, 1998 15:03
+%%Creator: The Genetics Computer Group
+%%DocumentFonts: Courier
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+%%EndComments
+/m { moveto } def
+/l { lineto } def
+/s { stroke } def
+/n { newpath } def
+/lc { setlinecap } def
+/offset { 0 0 moveto (A) false charpath
+flattenpath pathbbox
+pop pop pop -1 mul /xoff exch def } def
+36.00 216.00 translate
+   3 setlinewidth
+1 setlinecap
+0 setlinejoin
+2 setmiterlimit
+0.240000 0.240000 scale
+%%EndProlog
+%%Page: ? 1
+/Courier findfont [ 51   0   0  65   0   0] makefont setfont
+101 1462 m
+2 0 (Growtree Phylogram of: 4_pileup_stat12.distances, Tree Tree_1) ashow
+/Courier findfont [ 41   0   0  52   0   0] makefont setfont
+846 1394 m
+2 0 (August 25, 1998 15:03) ashow
+2075 485 m
+gsave
+-89 rotate
+2 0 ( SCG1_HUMAN) ashow
+grestore
+1907 480 m
+gsave
+-89 rotate
+2 0 ( SCG1_RAT) ashow
+grestore
+n
+2090 499 m
+1922 499 l
+s
+n
+2090 499 m
+2090 485 l
+s
+n
+1922 499 m
+1922 480 l
+s
+1739 502 m
+gsave
+-89 rotate
+2 0 ( SCG1_MOUSE) ashow
+grestore
+n
+2006 502 m
+1754 502 l
+s
+n
+2006 502 m
+2006 499 l
+s
+n
+1754 502 m
+1754 504 l
+s
+1571 359 m
+gsave
+-89 rotate
+2 0 ( SCGA_XENLA) ashow
+grestore
+1403 378 m
+gsave
+-89 rotate
+2 0 ( SCGB_XENLA) ashow
+grestore
+n
+1586 420 m
+1418 420 l
+s
+n
+1586 420 m
+1586 359 l
+s
+n
+1418 420 m
+1418 378 l
+s
+n
+1880 554 m
+1502 554 l
+s
+n
+1880 554 m
+1880 502 l
+s
+n
+1502 554 m
+1502 420 l
+s
+1235 822 m
+gsave
+-89 rotate
+2 0 ( STH1_XENLA) ashow
+grestore
+1068 945 m
+gsave
+-89 rotate
+2 0 ( STH2_XENLA) ashow
+grestore
+n
+1250 945 m
+1083 945 l
+s
+n
+1250 945 m
+1250 822 l
+s
+n
+1083 945 m
+1083 953 l
+s
+900 471 m
+gsave
+-89 rotate
+2 0 ( XB3_XENLA) ashow
+grestore
+n
+1166 1097 m
+915 1097 l
+s
+n
+1166 1097 m
+1166 945 l
+s
+n
+915 1097 m
+915 471 l
+s
+n
+1691 1166 m
+1041 1166 l
+s
+n
+1691 1166 m
+1691 554 l
+s
+n
+1041 1166 m
+1041 1097 l
+s
+732 1113 m
+gsave
+-89 rotate
+2 0 ( STHM_CHICK) ashow
+grestore
+n
+1366 1205 m
+747 1205 l
+s
+n
+1366 1205 m
+1366 1166 l
+s
+n
+747 1205 m
+747 1113 l
+s
+564 1265 m
+gsave
+-89 rotate
+2 0 ( STHM_HUMAN) ashow
+grestore
+n
+1056 1270 m
+579 1270 l
+s
+n
+1056 1270 m
+1056 1205 l
+s
+n
+579 1270 m
+579 1265 l
+s
+396 1278 m
+gsave
+-89 rotate
+2 0 ( STHM_RAT) ashow
+grestore
+n
+818 1279 m
+411 1279 l
+s
+n
+818 1279 m
+818 1270 l
+s
+n
+411 1279 m
+411 1278 l
+s
+228 1279 m
+gsave
+-89 rotate
+2 0 ( STHM_MOUSE) ashow
+grestore
+n
+614 1285 m
+243 1285 l
+s
+n
+614 1285 m
+614 1279 l
+s
+n
+243 1285 m
+243 1279 l
+s
+/#copies    1 def
+showpage
+%%Trailer
+%%Pages: 1

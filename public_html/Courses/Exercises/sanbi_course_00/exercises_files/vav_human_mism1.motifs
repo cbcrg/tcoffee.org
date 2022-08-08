@@ -1,0 +1,3410 @@
+ MOTIFS from: swissprot:vav_human
+
+ Mismatches: 1                July 29, 1999 21:04  ..
+
+
+           VAV_HUMAN  Check: 4177  Length: 846   ! P15498 VAV PROTO-ONCOGENE. 7/98
+
+______________________________________________________________________________
+
+Amidation             xG(R,K)(R,K)
+                        xG(R)(K)
+            86: TCCEK     fglk     RSELF mis=1
+
+                        xG(K)(R)
+            87: CCEKF     glkr     SELFE mis=1
+
+                        xG(K)(R)
+           105: FDVQD     fgkv     IYTLS mis=1
+
+                        xG(K)(R)
+           192: PKMTE     ydkr     CCCLR mis=1
+
+                        xG(R)(R)
+           280: ERFLV     ygry     CSQVE mis=1
+
+                        xG(R)(R)
+           317: SQRAN     ngrf     TLRDL mis=1
+
+                        xG(K)(R)
+           372: AQCVN     evkr     DNETL mis=1
+
+                        xG(R)(R)
+           400: QSLAH     ygrp     KIDGE mis=1
+
+                        xG(R)(R)
+           414: LKITS     verr     SKMDR mis=1
+
+                        xG(K)(R)
+           433: DKALL     ickr     RGDSY mis=1
+
+                        xG(R)(R)
+           434: KALLI     ckrr     GDSYD mis=1
+
+                        xG(R)(R)
+           459: VRDDS     sgdr     DNKKW mis=1
+
+                        xG(K)(K)
+           463: SSGDR     dnkk     WSHMF mis=1
+
+                        xG(K)(K)
+           490: FFKTR     elkk     KWMEQ mis=1
+
+                        xG(K)(K)
+           491: FKTRE     lkkk     WMEQF mis=1
+
+                        xG(R)(R)
+           542: RGTFY     qgyr     CHRCR mis=1
+
+                        xG(R)(R)
+           558: AHKEC     lgrv     PPCGR mis=1
+
+                        xG(R)(R)
+           564: GRVPP     cgrh     GQDFP mis=1
+
+                        xG(K)(K)
+           574: QDFPG     tmkk     DKLHR mis=1
+
+                        xG(R)(R)
+           580: MKKDK     lhrr     AQDKK mis=1
+
+                        xG(K)(K)
+           585: LHRRA     qdkk     RNELG mis=1
+
+                        xG(K)(R)
+           586: HRRAQ     dkkr     NELGL mis=1
+
+                        xG(R)(R)
+           638: EQNWW     egrn     TSTNE mis=1
+
+                        xG(K)(K)
+           731: GLYRI     tekk     AFRGL mis=1
+
+                        xG(K)(R)
+           769: FPFKE     pekr     TISRP mis=1
+
+                        xG(K)(K)
+           813: DIIKI     lnkk     GQQGW mis=1
+
+                        xG(R)(R)
+           827: WRGEI     ygrv     GWFPA mis=1
+
+******************
+* Amidation site *
+******************
+
+The precursor of  hormones  and other active  peptides  which are C-terminally
+amidated is always directly followed [1,2] by a glycine residue which provides
+the amide group, and  most often by at  least two  consecutive  basic residues
+(Arg or Lys) which generally function as an active peptide  precursor cleavage
+site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+such as Val or Phe are good substrates, while  charged residues such as Asp or
+Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+occur in unicellular organisms or in plants.
+
+-Consensus pattern: x-G-[RK]-[RK]
+                    [x is the amidation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Kreil G.
+     Meth. Enzymol. 106:218-223(1984).
+[ 2] Bradbury A.F., Smyth D.G.
+     Biosci. Rep. 7:907-916(1987).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Asn_Glycosylation     N~(P)(S,T)~(P)
+                         N~P(T)~P
+             6: MELWR      qcth      WLIQC mis=1
+
+                         N~P(T)~P
+            22: LPPSH      rvtw      DGAQV mis=1
+
+                         N~P(S)~P
+            48: LCQLL      nnll      PHAIN mis=1
+
+                         N~P(S)~P
+            56: LPHAI      nlre      VNLRP mis=1
+
+                         N~P(S)~P
+            65: VNLRP      qmsq      FLCLK mis=1
+
+                         N~P(S)~P
+            74: FLCLK      nirt      FLSTC mis=1
+
+                         N~P(T)~P
+            75: LCLKN      irtf      LSTCC mis=1
+
+                         N~P(S)~P
+            78: KNIRT      flst      CCEKF mis=1
+
+                         N~P(T)~P
+            79: NIRTF      lstc      CEKFG mis=1
+
+                         N~P(S)~P
+            89: EKFGL      krse      LFEAF mis=1
+
+                         N~P(T)~P
+           109: DFGKV      iytl      SALSW mis=1
+
+                         N~P(S)~P
+           111: GKVIY      tlsa      LSWTP mis=1
+
+                         N~P(S)~P
+           114: IYTLS      alsw      TPIAQ mis=1
+
+                         N~P(S)~P
+           123: TPIAQ      nrgi      MPFPT mis=1
+
+                         N~P(S)~P
+           133: PFPTE      eesv      GDEDI mis=1
+
+                         N~P(S)~P
+           141: VGDED      iysg      LSDQI mis=1
+
+                         N~P(S)~P
+           144: EDIYS      glsd      QIDDT mis=1
+
+                         N~P(T)~P
+           150: LSDQI      ddtv      EEDED mis=1
+
+                         N~P(S)~P
+           165: YDCVE      neea      EGDEI mis=1
+
+                         N~P(S)~P
+           178: IYEDL      mrse      PVSMP mis=1
+
+                         N~P(S)~P
+           182: LMRSE      pvsm      PPKMT mis=1
+
+                         N~P(T)~P
+           188: VSMPP      kmte      YDKRC mis=1
+
+                         N~P(T)~P
+           203: CLREI      qqte      EKYTD mis=1
+
+                         N~P(T)~P
+           208: QQTEE      kytd      TLGSI mis=1
+
+                         N~P(T)~P
+           210: TEEKY      tdtl      GSIQQ mis=1
+
+                         N~P(S)~P
+           213: KYTDT      lgsi      QQHFL mis=1
+
+                         N~P(S)~P
+           239: EIIFI      nied      LLRVH mis=1
+
+                         N~P(T)~P
+           246: EDLLR      vhth      FLKEM mis=1
+
+                         N~P(S)~P
+           265: TPGAP      nlyq      VFIKY mis=1
+
+                         N~P(S)~P
+           283: LVYGR      ycsq      VESAS mis=1
+
+                         N~P(S)~P
+           287: RYCSQ      vesa      SKHLD mis=1
+
+                         N~P(S)~P
+           289: CSQVE      sask      HLDRV mis=1
+
+                         N~P(S)~P
+           310: QMKLE      ecsq      RANNG mis=1
+
+                         N~P(S)~P
+           316: CSQRA      nngr      FTLRD mis=1
+
+                         N~P(S)~P
+           317: SQRAN      ngrf      TLRDL mis=1
+
+                         N~P(T)~P
+           319: RANNG      rftl      RDLLM mis=1
+
+                         N~P(T)~P
+           345: LQELV      khtq      EAMEQ mis=1
+
+                         N~P(S)~P
+           355: AMEQG      nlrl      ALDAM mis=1
+
+                         N~P(S)~P
+           371: LAQCV      nevk      RDNET mis=1
+
+                         N~P(T)~P
+           377: EVKRD      NETL      RQITN
+
+                         N~P(T)~P
+           382: NETLR      qitn      FQLSI mis=1
+
+                         N~P(S)~P
+           385: LRQIT      nfql      SIENL mis=1
+
+                         N~P(S)~P
+           387: QITNF      qlsi      ENLDQ mis=1
+
+                         N~P(S)~P
+           392: QLSIE      nldq      SLAHY mis=1
+
+                         N~P(S)~P
+           394: SIENL      dqsl      AHYGR mis=1
+
+                         N~P(T)~P
+           410: IDGEL      kits      VERRS mis=1
+
+                         N~P(S)~P
+           411: DGELK      itsv      ERRSK mis=1
+
+                         N~P(S)~P
+           416: ITSVE      rrsk      MDRYA mis=1
+
+                         N~P(S)~P
+           438: ICKRR      gdsy      DLKDF mis=1
+
+                         N~P(S)~P
+           448: LKDFV      nlhs      FQVRD mis=1
+
+                         N~P(S)~P
+           449: KDFVN      lhsf      QVRDD mis=1
+
+                         N~P(S)~P
+           456: SFQVR      ddss      GDRDN mis=1
+
+                         N~P(S)~P
+           457: FQVRD      dssg      DRDNK mis=1
+
+                         N~P(S)~P
+           464: SGDRD      nkkw      SHMFL mis=1
+
+                         N~P(S)~P
+           466: DRDNK      kwsh      MFLLI mis=1
+
+                         N~P(T)~P
+           486: GYELF      fktr      ELKKK mis=1
+
+                         N~P(S)~P
+           502: EQFEM      aisn      IYPEN mis=1
+
+                         N~P(T)~P
+           510: NIYPE      NATA      NGHDF
+
+                         N~P(S)~P
+           514: ENATA      nghd      FQMFS mis=1
+
+                         N~P(S)~P
+           520: GHDFQ      mfsf      EETTS mis=1
+
+                         N~P(T)~P
+           524: QMFSF      eett      SCKAC mis=1
+
+                         N~P(T)~P
+           525: MFSFE      etts      CKACQ mis=1
+
+                         N~P(S)~P
+           526: FSFEE      ttsc      KACQM mis=1
+
+                         N~P(T)~P
+           537: CQMLL      rgtf      YQGYR mis=1
+
+                         N~P(S)~P
+           550: RCHRC      rasa      HKECL mis=1
+
+                         N~P(T)~P
+           572: HGQDF      pgtm      KKDKL mis=1
+
+                         N~P(S)~P
+           590: QDKKR      nelg      LPKME mis=1
+
+                         N~P(T)~P
+           626: PGDIV      eltk      AEAEQ mis=1
+
+                         N~P(S)~P
+           635: AEAEQ      nwwe      GRNTS mis=1
+
+                         N~P(T)~P
+           640: NWWEG      rnts      TNEIG mis=1
+
+                         N~P(S)~P
+           641: WWEGR      NTST      NEIGW
+
+                         N~P(T)~P
+           642: WEGRN      tstn      EIGWF mis=1
+
+                         N~P(S)~P
+           645: RNTST      neig      WFPCN mis=1
+
+                         N~P(S)~P
+           653: GWFPC      nrvk      PYVHG mis=1
+
+                         N~P(S)~P
+           665: HGPPQ      dlsv      HLWYA mis=1
+
+                         N~P(S)~P
+           681: MERAG      aesi      LANRS mis=1
+
+                         N~P(S)~P
+           687: ESILA      NRSD      GTFLV
+
+                         N~P(T)~P
+           690: LANRS      dgtf      LVRQR mis=1
+
+                         N~P(S)~P
+           706: DAAEF      aisi      KYNVE mis=1
+
+                         N~P(S)~P
+           712: ISIKY      nvev      KHTVK mis=1
+
+                         N~P(T)~P
+           716: YNVEV      khtv      KIMTA mis=1
+
+                         N~P(T)~P
+           721: KHTVK      imta      EGLYR mis=1
+
+                         N~P(T)~P
+           729: AEGLY      rite      KKAFR mis=1
+
+                         N~P(T)~P
+           738: KKAFR      glte      LVEFY mis=1
+
+                         N~P(S)~P
+           748: VEFYQ      qnsl      KDCFK mis=1
+
+                         N~P(S)~P
+           749: EFYQQ      nslk      DCFKS mis=1
+
+                         N~P(S)~P
+           755: SLKDC      fksl      DTTLQ mis=1
+
+                         N~P(T)~P
+           758: DCFKS      ldtt      LQFPF mis=1
+
+                         N~P(T)~P
+           759: CFKSL      dttl      QFPFK mis=1
+
+                         N~P(T)~P
+           771: FKEPE      krti      SRPAV mis=1
+
+                         N~P(S)~P
+           773: EPEKR      tisr      PAVGS mis=1
+
+                         N~P(S)~P
+           779: ISRPA      vgst      KYFGT mis=1
+
+                         N~P(T)~P
+           780: SRPAV      gstk      YFGTA mis=1
+
+                         N~P(T)~P
+           785: GSTKY      fgta      KARYD mis=1
+
+                         N~P(S)~P
+           798: DFCAR      drse      LSLKE mis=1
+
+                         N~P(S)~P
+           801: ARDRS      elsl      KEGDI mis=1
+
+                         N~P(S)~P
+           814: IIKIL      nkkg      QQGWW mis=1
+
+                         N~P(S)~P
+           836: GWFPA      nyve      EDYSE mis=1
+
+                         N~P(S)~P
+           841: NYVEE      dyse      YC    mis=1
+
+************************
+* N-glycosylation site *
+************************
+
+It has been known for a long time [1] that potential N-glycosylation sites are
+specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+asparagine residue is glycosylated, due to  the fact that the  folding of  the
+protein plays an important  role in the  regulation of N-glycosylation [2]. It
+has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+inhibit N-glycosylation; this  has  been confirmed by a recent [4] statistical
+analysis of glycosylation sites, which also  shows that about 50% of the sites
+that have a proline C-terminal to Ser/Thr are not glycosylated.
+
+It must also  be noted that there  are  a few  reported cases of glycosylation
+sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+of such a non-standard site is found in the plasma protein C [5].
+
+-Consensus pattern: N-{P}-[ST]-{P}
+                    [N is the glycosylation site]
+-Last update: May 1991 / Text revised.
+
+[ 1] Marshall R.D.
+     Annu. Rev. Biochem. 41:673-702(1972).
+[ 2] Pless D.D., Lennarz W.J.
+     Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+[ 3] Bause E.
+     Biochem. J. 209:331-336(1983).
+[ 4] Gavel Y., von Heijne G.
+     Protein Eng. 3:433-442(1990).
+[ 5] Miletich J.P., Broze G.J. Jr.
+     J. Biol. Chem. 265:11397-11404(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Atp_Gtp_A             (A,G)x4GK(S,T)
+                       (G)x{4}GK(T)
+           481: DQGAQ    gyelffkt    RELKK mis=1
+
+*****************************************
+* ATP/GTP-binding site motif A (P-loop) *
+*****************************************
+
+From sequence comparisons and crystallographic data analysis it has been shown
+[1,2,3,4,5,6] that an appreciable proportion of proteins that  bind ATP or GTP
+share a number of more or less conserved sequence motifs.   The best conserved
+of these  motifs  is  a  glycine-rich region, which typically forms a flexible
+loop between a beta-strand and an alpha-helix. This loop interacts with one of
+the phosphate  groups  of  the  nucleotide.   This sequence motif is generally
+referred to as the 'A' consensus sequence [1] or the 'P-loop' [5].
+
+There are numerous ATP- or GTP-binding proteins  in which the P-loop is found.
+We list below  a number of protein  families  for  which  the relevance of the
+presence of such motif has been noted:
+
+ - ATP synthase alpha and beta subunits (see <PDOC00137>).
+ - Myosin heavy chains.
+ - Kinesin heavy chains and kinesin-like proteins (see <PDOC00343>).
+ - Dynamins and dynamin-like proteins (see <PDOC00362>).
+ - Guanylate kinase (see <PDOC00670>).
+ - Thymidine kinase (see <PDOC00524>).
+ - Thymidylate kinase.
+ - Shikimate kinase (see <PDOC00868>).
+ - Nitrogenase iron protein family (nifH/frxC) (see <PDOC00580>).
+ - ATP-binding proteins involved  in 'active transport' (ABC transporters) [7]
+   (see <PDOC00185>).
+ - DNA and RNA helicases [8,9,10].
+ - GTP-binding elongation factors (EF-Tu, EF-1alpha, EF-G, EF-2, etc.).
+ - Ras family of GTP-binding proteins (Ras, Rho, Rab, Ral, Ypt1, SEC4, etc.).
+ - Nuclear protein ran (see <PDOC00859>).
+ - ADP-ribosylation factors family (see <PDOC00781>).
+ - Bacterial dnaA protein (see <PDOC00771>).
+ - Bacterial recA protein (see <PDOC00131>).
+ - Bacterial recF protein (see <PDOC00539>).
+ - Guanine nucleotide-binding proteins alpha subunits (Gi, Gs, Gt, G0, etc.).
+ - DNA mismatch repair proteins mutS family (See <PDOC00388>).
+ - Bacterial type II secretion system protein E (see <PDOC00567>).
+
+Not all ATP- or GTP-binding proteins are picked-up by this motif.  A number of
+proteins escape detection because the structure   of their ATP-binding site is
+completely different from that of the P-loop.  Examples  of  such proteins are
+the E1-E2 ATPases or  the  glycolytic kinases.   In  other ATP- or GTP-binding
+proteins the flexible loop exists  in a  slightly different form; this is  the
+case for tubulins or protein kinases.  A special mention must  be reserved for
+adenylate  kinase,  in  which  there  is a  single  deviation  from the P-loop
+pattern: in the last position Gly is found instead of Ser or Thr.
+
+-Consensus pattern: [AG]-x(4)-G-K-[ST]
+-Sequences known to belong to this class detected by the pattern: a majority.
+-Other sequence(s) detected in SWISS-PROT: in addition to the proteins  listed
+ above,  the 'A' motif is also  found in a number  of other proteins.  Most of
+ these proteins  probably  bind  a nucleotide, but others are definitively not
+ ATP- or GTP-binding (as for example  chymotrypsin,  or  human  ferritin light
+ chain).
+
+-Expert(s) to contact by email: Koonin E.V.
+                                koonin@ncbi.nlm.nih.gov
+
+-Last update: November 1997 / Text revised.
+
+[ 1] Walker J.E., Saraste M., Runswick M.J., Gay N.J.
+     EMBO J. 1:945-951(1982).
+[ 2] Moller W., Amons R.
+     FEBS Lett. 186:1-7(1985).
+[ 3] Fry D.C., Kuby S.A., Mildvan A.S.
+     Proc. Natl. Acad. Sci. U.S.A. 83:907-911(1986).
+[ 4] Dever T.E., Glynias M.J., Merrick W.C.
+     Proc. Natl. Acad. Sci. U.S.A. 84:1814-1818(1987).
+[ 5] Saraste M., Sibbald P.R., Wittinghofer A.
+     Trends Biochem. Sci. 15:430-434(1990).
+[ 6] Koonin E.V.
+     J. Mol. Biol. 229:1165-1174(1993).
+[ 7] Higgins C.F., Hyde S.C., Mimmack M.M., Gileadi U., Gill D.R.,
+     Gallagher M.P.
+     J. Bioenerg. Biomembr. 22:571-592(1990).
+[ 8] Hodgman T.C.
+     Nature 333:22-23(1988) and Nature 333:578-578(1988) (Errata).
+[ 9] Linder P., Lasko P., Ashburner M., Leroy P., Nielsen P.J., Nishi K.,
+     Schnier J., Slonimski P.P.
+     Nature 337:121-122(1989).
+[10] Gorbalenya A.E., Koonin E.V., Donchenko A.P., Blinov V.M.
+     Nucleic Acids Res. 17:4713-4730(1989).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Camp_Phospho_Site     (R,K)2x(S,T)
+                       (R){2}x(T)
+             5:  MELW     rqct     HWLIQ mis=1
+
+                       (R){2}x(T)
+            21: VLPPS     hrvt     WDGAQ mis=1
+
+                      (R,K){2}x(S)
+            88: CEKFG     lkrs     ELFEA mis=1
+
+                      (R,K){2}x(S)
+            89: EKFGL     krse     LFEAF mis=1
+
+                      (R,K){2}x(T)
+           187: PVSMP     pkmt     EYDKR mis=1
+
+                      (R,K){2}x(S)
+           194: MTEYD     krcc     CLREI mis=1
+
+                      (R,K){2}x(T)
+           207: IQQTE     ekyt     DTLGS mis=1
+
+                       (R){2}x(T)
+           245: IEDLL     rvht     HFLKE mis=1
+
+                       (R){2}x(S)
+           282: FLVYG     rycs     QVESA mis=1
+
+                       (R){2}x(T)
+           318: QRANN     grft     LRDLL mis=1
+
+                      (R,K){2}x(T)
+           344: LLQEL     vkht     QEAME mis=1
+
+                      (R,K){2}x(S)
+           374: CVNEV     krdn     ETLRQ mis=1
+
+                       (R){2}x(T)
+           381: DNETL     rqit     NFQLS mis=1
+
+                      (R,K){2}x(T)
+           409: KIDGE     lkit     SVERR mis=1
+
+                      (R,K){2}x(S)
+           410: IDGEL     kits     VERRS mis=1
+
+                       (R){2}x(S)
+           415: KITSV     errs     KMDRY mis=1
+
+                       (R){2}x(S)
+           416: ITSVE     rrsk     MDRYA mis=1
+
+                      (R,K){2}x(S)
+           435: ALLIC     krrg     DSYDL mis=1
+
+                       (R){2}x(S)
+           436: LLICK     rrgd     SYDLK mis=1
+
+                       (R){2}x(S)
+           437: LICKR     rgds     YDLKD mis=1
+
+                       (R){2}x(S)
+           455: HSFQV     rdds     SGDRD mis=1
+
+                       (K){2}x(S)
+           465: GDRDN     KKWS     HMFLL
+
+                       (K){2}x(S)
+           492: KTREL     kkkw     MEQFE mis=1
+
+                       (K){2}x(S)
+           493: TRELK     kkwm     EQFEM mis=1
+
+                       (R){2}x(T)
+           536: ACQML     lrgt     FYQGY mis=1
+
+                       (R){2}x(S)
+           549: YRCHR     cras     AHKEC mis=1
+
+                       (K){2}x(S)
+           576: FPGTM     kkdk     LHRRA mis=1
+
+                       (R){2}x(S)
+           582: KDKLH     rraq     DKKRN mis=1
+
+                       (K){2}x(S)
+           587: RRAQD     kkrn     ELGLP mis=1
+
+                      (R,K){2}x(S)
+           588: RAQDK     krne     LGLPK mis=1
+
+                       (R){2}x(T)
+           639: QNWWE     grnt     STNEI mis=1
+
+                       (R){2}x(S)
+           640: NWWEG     rnts     TNEIG mis=1
+
+                      (R,K){2}x(T)
+           715: KYNVE     vkht     VKIMT mis=1
+
+                      (R,K){2}x(T)
+           720: VKHTV     kimt     AEGLY mis=1
+
+                       (R){2}x(T)
+           728: TAEGL     yrit     EKKAF mis=1
+
+                       (K){2}x(S)
+           733: YRITE     kkaf     RGLTE mis=1
+
+                       (R){2}x(T)
+           737: EKKAF     rglt     ELVEF mis=1
+
+                      (R,K){2}x(T)
+           770: PFKEP     ekrt     ISRPA mis=1
+
+                      (R,K){2}x(S)
+           771: FKEPE     krti     SRPAV mis=1
+
+                       (R){2}x(S)
+           772: KEPEK     rtis     RPAVG mis=1
+
+                       (R){2}x(S)
+           797: YDFCA     rdrs     ELSLK mis=1
+
+                       (K){2}x(S)
+           815: IKILN     kkgq     QGWWR mis=1
+
+****************************************************************
+* cAMP- and cGMP-dependent protein kinase phosphorylation site *
+****************************************************************
+
+There has been a  number of studies  relative to the  specificity of cAMP- and
+cGMP-dependent protein kinases [1,2,3].  Both types of kinases appear to share
+a preference  for  the  phosphorylation  of serine or threonine residues found
+close to at least  two consecutive N-terminal  basic residues. It is important
+to note that there are quite a number of exceptions to this rule.
+
+-Consensus pattern: [RK](2)-x-[ST]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Fremisco J.R., Glass D.B., Krebs E.G.
+     J. Biol. Chem. 255:4240-4245(1980).
+[ 2] Glass D.B., Smith S.B.
+     J. Biol. Chem. 258:14797-14803(1983).
+[ 3] Glass D.B., El-Maghrabi M.R., Pilkis S.J.
+     J. Biol. Chem. 261:2987-2993(1986).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Ck2_Phospho_Site      (S,T)x2(D,E)
+                       (T)x{2}(D)
+             8: LWRQC     thwl     IQCRV mis=1
+
+                       (S)x{2}(D)
+            20: RVLPP     shrv     TWDGA mis=1
+
+                       (S)x{2}(D)
+            23: PPSHR     vtwd     GAQVC mis=1
+
+                       (T)x{2}(D)
+            24: PSHRV     twdg     AQVCE mis=1
+
+                       (S)x{2}(E)
+            29: TWDGA     qvce     LAQAL mis=1
+
+                       (S)x{2}(D)
+            36: CELAQ     alrd     GVLLC mis=1
+
+                       (S)x{2}(E)
+            56: LPHAI     nlre     VNLRP mis=1
+
+                       (S)x{2}(D)
+            67: LRPQM     sqfl     CLKNI mis=1
+
+                       (T)x{2}(D)
+            77: LKNIR     tfls     TCCEK mis=1
+
+                       (S)x{2}(D)
+            80: IRTFL     stcc     EKFGL mis=1
+
+                       (T)x{2}(E)
+            81: RTFLS     TCCE     KFGLK
+
+                       (S)x{2}(E)
+            89: EKFGL     krse     LFEAF mis=1
+
+                       (S)x{2}(D)
+            91: FGLKR     self     EAFDL mis=1
+
+                       (S)x{2}(E)
+            92: GLKRS     elfe     AFDLF mis=1
+
+                       (S)x{2}(D)
+            95: RSELF     eafd     LFDVQ mis=1
+
+                       (S)x{2}(D)
+            98: LFEAF     dlfd     VQDFG mis=1
+
+                       (S)x{2}(D)
+           101: AFDLF     dvqd     FGKVI mis=1
+
+                       (T)x{2}(D)
+           111: GKVIY     tlsa     LSWTP mis=1
+
+                       (S)x{2}(D)
+           113: VIYTL     sals     WTPIA mis=1
+
+                       (S)x{2}(D)
+           116: TLSAL     swtp     IAQNR mis=1
+
+                       (T)x{2}(D)
+           118: SALSW     tpia     QNRGI mis=1
+
+                       (S)x{2}(E)
+           129: RGIMP     fpte     EESVG mis=1
+
+                       (S)x{2}(E)
+           130: GIMPF     ptee     ESVGD mis=1
+
+                       (T)x{2}(E)
+           131: IMPFP     TEEE     SVGDE
+
+                       (S)x{2}(D)
+           135: PTEEE     SVGD     EDIYS
+
+                       (S)x{2}(E)
+           136: TEEES     vgde     DIYSG mis=1
+
+                       (S)x{2}(D)
+           137: EEESV     gded     IYSGL mis=1
+
+                       (S)x{2}(D)
+           143: DEDIY     sgls     DQIDD mis=1
+
+                       (S)x{2}(D)
+           144: EDIYS     glsd     QIDDT mis=1
+
+                       (S)x{2}(D)
+           146: IYSGL     sdqi     DDTVE mis=1
+
+                       (S)x{2}(D)
+           147: YSGLS     dqid     DTVEE mis=1
+
+                       (S)x{2}(D)
+           148: SGLSD     qidd     TVEED mis=1
+
+                       (S)x{2}(E)
+           151: SDQID     dtve     EDEDL mis=1
+
+                       (T)x{2}(E)
+           152: DQIDD     TVEE     DEDLY
+
+                       (S)x{2}(D)
+           153: QIDDT     veed     EDLYD mis=1
+
+                       (S)x{2}(E)
+           154: IDDTV     eede     DLYDC mis=1
+
+                       (S)x{2}(D)
+           155: DDTVE     eded     LYDCV mis=1
+
+                       (S)x{2}(D)
+           158: VEEDE     dlyd     CVENE mis=1
+
+                       (S)x{2}(E)
+           161: DEDLY     dcve     NEEAE mis=1
+
+                       (S)x{2}(E)
+           163: DLYDC     vene     EAEGD mis=1
+
+                       (S)x{2}(E)
+           164: LYDCV     enee     AEGDE mis=1
+
+                       (S)x{2}(E)
+           166: DCVEN     eeae     GDEIY mis=1
+
+                       (S)x{2}(D)
+           168: VENEE     aegd     EIYED mis=1
+
+                       (S)x{2}(E)
+           169: ENEEA     egde     IYEDL mis=1
+
+                       (S)x{2}(E)
+           172: EAEGD     eiye     DLMRS mis=1
+
+                       (S)x{2}(D)
+           173: AEGDE     iyed     LMRSE mis=1
+
+                       (S)x{2}(E)
+           178: IYEDL     mrse     PVSMP mis=1
+
+                       (S)x{2}(D)
+           180: EDLMR     sepv     SMPPK mis=1
+
+                       (S)x{2}(D)
+           184: RSEPV     smpp     KMTEY mis=1
+
+                       (S)x{2}(E)
+           188: VSMPP     kmte     YDKRC mis=1
+
+                       (T)x{2}(D)
+           190: MPPKM     TEYD     KRCCC
+
+                       (S)x{2}(E)
+           198: DKRCC     clre     IQQTE mis=1
+
+                       (S)x{2}(E)
+           203: CLREI     qqte     EKYTD mis=1
+
+                       (S)x{2}(E)
+           204: LREIQ     qtee     KYTDT mis=1
+
+                       (T)x{2}(D)
+           205: REIQQ     teek     YTDTL mis=1
+
+                       (S)x{2}(D)
+           208: QQTEE     kytd     TLGSI mis=1
+
+                       (T)x{2}(D)
+           210: TEEKY     tdtl     GSIQQ mis=1
+
+                       (T)x{2}(D)
+           212: EKYTD     tlgs     IQQHF mis=1
+
+                       (S)x{2}(D)
+           215: TDTLG     siqq     HFLKP mis=1
+
+                       (S)x{2}(D)
+           229: LQRFL     kpqd     IEIIF mis=1
+
+                       (S)x{2}(E)
+           231: RFLKP     qdie     IIFIN mis=1
+
+                       (S)x{2}(E)
+           238: IEIIF     inie     DLLRV mis=1
+
+                       (S)x{2}(D)
+           239: EIIFI     nied     LLRVH mis=1
+
+                       (T)x{2}(D)
+           248: LLRVH     thfl     KEMKE mis=1
+
+                       (S)x{2}(E)
+           250: RVHTH     flke     MKEAL mis=1
+
+                       (S)x{2}(E)
+           253: THFLK     emke     ALGTP mis=1
+
+                       (T)x{2}(D)
+           260: KEALG     tpga     PNLYQ mis=1
+
+                       (S)x{2}(E)
+           272: YQVFI     kyke     RFLVY mis=1
+
+                       (S)x{2}(E)
+           285: YGRYC     SQVE     SASKH
+
+                       (S)x{2}(D)
+           289: CSQVE     sask     HLDRV mis=1
+
+                       (S)x{2}(D)
+           291: QVESA     skhl     DRVAA mis=1
+
+                       (S)x{2}(D)
+           292: VESAS     khld     RVAAA mis=1
+
+                       (S)x{2}(E)
+           299: LDRVA     aare     DVQMK mis=1
+
+                       (S)x{2}(D)
+           300: DRVAA     ared     VQMKL mis=1
+
+                       (S)x{2}(E)
+           306: REDVQ     mkle     ECSQR mis=1
+
+                       (S)x{2}(E)
+           307: EDVQM     klee     CSQRA mis=1
+
+                       (S)x{2}(D)
+           312: KLEEC     sqra     NNGRF mis=1
+
+                       (T)x{2}(D)
+           321: NNGRF     TLRD     LLMVP
+
+                       (S)x{2}(E)
+           339: LKYHL     llqe     LVKHT mis=1
+
+                       (S)x{2}(E)
+           346: QELVK     htqe     AMEQG mis=1
+
+                       (T)x{2}(D)
+           347: ELVKH     tqea     MEQGN mis=1
+
+                       (S)x{2}(E)
+           349: VKHTQ     eame     QGNLR mis=1
+
+                       (S)x{2}(D)
+           358: QGNLR     lald     AMRDL mis=1
+
+                       (S)x{2}(D)
+           362: RLALD     amrd     LAQCV mis=1
+
+                       (S)x{2}(E)
+           369: RDLAQ     cvne     VKRDN mis=1
+
+                       (S)x{2}(D)
+           373: QCVNE     vkrd     NETLR mis=1
+
+                       (S)x{2}(E)
+           375: VNEVK     rdne     TLRQI mis=1
+
+                       (T)x{2}(D)
+           379: KRDNE     tlrq     ITNFQ mis=1
+
+                       (T)x{2}(D)
+           384: TLRQI     tnfq     LSIEN mis=1
+
+                       (S)x{2}(E)
+           388: ITNFQ     lsie     NLDQS mis=1
+
+                       (S)x{2}(D)
+           389: TNFQL     sien     LDQSL mis=1
+
+                       (S)x{2}(D)
+           391: FQLSI     enld     QSLAH mis=1
+
+                       (S)x{2}(D)
+           396: ENLDQ     slah     YGRPK mis=1
+
+                       (S)x{2}(D)
+           403: AHYGR     pkid     GELKI mis=1
+
+                       (S)x{2}(E)
+           405: YGRPK     idge     LKITS mis=1
+
+                       (T)x{2}(E)
+           412: GELKI     TSVE     RRSKM
+
+                       (S)x{2}(D)
+           413: ELKIT     sver     RSKMD mis=1
+
+                       (S)x{2}(D)
+           418: SVERR     SKMD     RYAFL
+
+                       (S)x{2}(D)
+           425: MDRYA     flld     KALLI mis=1
+
+                       (S)x{2}(D)
+           436: LLICK     rrgd     SYDLK mis=1
+
+                       (S)x{2}(D)
+           439: CKRRG     dsyd     LKDFV mis=1
+
+                       (S)x{2}(D)
+           440: KRRGD     sydl     KDFVN mis=1
+
+                       (S)x{2}(D)
+           442: RGDSY     dlkd     FVNLH mis=1
+
+                       (S)x{2}(D)
+           451: FVNLH     sfqv     RDDSS mis=1
+
+                       (S)x{2}(D)
+           453: NLHSF     qvrd     DSSGD mis=1
+
+                       (S)x{2}(D)
+           454: LHSFQ     vrdd     SSGDR mis=1
+
+                       (S)x{2}(D)
+           458: QVRDD     SSGD     RDNKK
+
+                       (S)x{2}(D)
+           459: VRDDS     sgdr     DNKKW mis=1
+
+                       (S)x{2}(D)
+           460: RDDSS     gdrd     NKKWS mis=1
+
+                       (S)x{2}(D)
+           468: DNKKW     shmf     LLIED mis=1
+
+                       (S)x{2}(E)
+           472: WSHMF     llie     DQGAQ mis=1
+
+                       (S)x{2}(D)
+           473: SHMFL     lied     QGAQG mis=1
+
+                       (S)x{2}(E)
+           480: EDQGA     qgye     LFFKT mis=1
+
+                       (S)x{2}(E)
+           487: YELFF     ktre     LKKKW mis=1
+
+                       (T)x{2}(D)
+           488: ELFFK     trel     KKKWM mis=1
+
+                       (S)x{2}(E)
+           494: RELKK     kwme     QFEMA mis=1
+
+                       (S)x{2}(E)
+           497: KKKWM     eqfe     MAISN mis=1
+
+                       (S)x{2}(D)
+           504: FEMAI     sniy     PENAT mis=1
+
+                       (S)x{2}(E)
+           506: MAISN     iype     NATAN mis=1
+
+                       (T)x{2}(D)
+           512: YPENA     tang     HDFQM mis=1
+
+                       (S)x{2}(D)
+           514: ENATA     nghd     FQMFS mis=1
+
+                       (S)x{2}(E)
+           521: HDFQM     fsfe     ETTSC mis=1
+
+                       (S)x{2}(E)
+           522: DFQMF     SFEE     TTSCK
+
+                       (T)x{2}(D)
+           526: FSFEE     ttsc     KACQM mis=1
+
+                       (T)x{2}(D)
+           527: SFEET     tsck     ACQML mis=1
+
+                       (S)x{2}(D)
+           528: FEETT     scka     CQMLL mis=1
+
+                       (T)x{2}(D)
+           539: MLLRG     tfyq     GYRCH mis=1
+
+                       (S)x{2}(D)
+           552: HRCRA     sahk     ECLGR mis=1
+
+                       (S)x{2}(E)
+           553: RCRAS     ahke     CLGRV mis=1
+
+                       (S)x{2}(D)
+           567: PPCGR     hgqd     FPGTM mis=1
+
+                       (T)x{2}(D)
+           574: QDFPG     tmkk     DKLHR mis=1
+
+                       (S)x{2}(D)
+           575: DFPGT     mkkd     KLHRR mis=1
+
+                       (S)x{2}(D)
+           583: DKLHR     raqd     KKRNE mis=1
+
+                       (S)x{2}(E)
+           588: RAQDK     krne     LGLPK mis=1
+
+                       (S)x{2}(E)
+           595: NELGL     pkme     VFQEY mis=1
+
+                       (S)x{2}(E)
+           599: LPKME     vfqe     YYGLP mis=1
+
+                       (S)x{2}(D)
+           620: PFLRL     npgd     IVELT mis=1
+
+                       (S)x{2}(E)
+           623: RLNPG     dive     LTKAE mis=1
+
+                       (T)x{2}(E)
+           628: DIVEL     TKAE     AEQNW
+
+                       (S)x{2}(E)
+           630: VELTK     aeae     QNWWE mis=1
+
+                       (S)x{2}(E)
+           635: AEAEQ     nwwe     GRNTS mis=1
+
+                       (T)x{2}(D)
+           642: WEGRN     tstn     EIGWF mis=1
+
+                       (S)x{2}(E)
+           643: EGRNT     STNE     IGWFP
+
+                       (T)x{2}(D)
+           644: GRNTS     tnei     GWFPC mis=1
+
+                       (S)x{2}(D)
+           662: PYVHG     ppqd     LSVHL mis=1
+
+                       (S)x{2}(D)
+           667: PPQDL     svhl     WYAGP mis=1
+
+                       (S)x{2}(E)
+           674: HLWYA     gpme     RAGAE mis=1
+
+                       (S)x{2}(E)
+           679: GPMER     agae     SILAN mis=1
+
+                       (S)x{2}(D)
+           683: RAGAE     sila     NRSDG mis=1
+
+                       (S)x{2}(D)
+           687: ESILA     nrsd     GTFLV mis=1
+
+                       (S)x{2}(D)
+           689: ILANR     sdgt     FLVRQ mis=1
+
+                       (T)x{2}(D)
+           692: NRSDG     tflv     RQRVK mis=1
+
+                       (S)x{2}(D)
+           698: FLVRQ     rvkd     AAEFA mis=1
+
+                       (S)x{2}(E)
+           701: RQRVK     daae     FAISI mis=1
+
+                       (S)x{2}(D)
+           708: AEFAI     siky     NVEVK mis=1
+
+                       (S)x{2}(E)
+           711: AISIK     ynve     VKHTV mis=1
+
+                       (T)x{2}(D)
+           718: VEVKH     tvki     MTAEG mis=1
+
+                       (S)x{2}(E)
+           722: HTVKI     mtae     GLYRI mis=1
+
+                       (T)x{2}(D)
+           723: TVKIM     taeg     LYRIT mis=1
+
+                       (S)x{2}(E)
+           729: AEGLY     rite     KKAFR mis=1
+
+                       (T)x{2}(D)
+           731: GLYRI     tekk     AFRGL mis=1
+
+                       (S)x{2}(E)
+           738: KKAFR     glte     LVEFY mis=1
+
+                       (T)x{2}(D)
+           740: AFRGL     telv     EFYQQ mis=1
+
+                       (S)x{2}(E)
+           741: FRGLT     elve     FYQQN mis=1
+
+                       (S)x{2}(D)
+           750: FYQQN     SLKD     CFKSL
+
+                       (S)x{2}(D)
+           756: LKDCF     ksld     TTLQF mis=1
+
+                       (S)x{2}(D)
+           757: KDCFK     sldt     TLQFP mis=1
+
+                       (T)x{2}(D)
+           760: FKSLD     ttlq     FPFKE mis=1
+
+                       (T)x{2}(D)
+           761: KSLDT     tlqf     PFKEP mis=1
+
+                       (S)x{2}(E)
+           765: TTLQF     pfke     PEKRT mis=1
+
+                       (S)x{2}(E)
+           767: LQFPF     kepe     KRTIS mis=1
+
+                       (T)x{2}(D)
+           773: EPEKR     tisr     PAVGS mis=1
+
+                       (S)x{2}(D)
+           775: EKRTI     srpa     VGSTK mis=1
+
+                       (S)x{2}(D)
+           781: RPAVG     stky     FGTAK mis=1
+
+                       (T)x{2}(D)
+           782: PAVGS     tkyf     GTAKA mis=1
+
+                       (T)x{2}(D)
+           787: TKYFG     taka     RYDFC mis=1
+
+                       (S)x{2}(D)
+           790: FGTAK     aryd     FCARD mis=1
+
+                       (S)x{2}(D)
+           795: ARYDF     card     RSELS mis=1
+
+                       (S)x{2}(E)
+           798: DFCAR     drse     LSLKE mis=1
+
+                       (S)x{2}(D)
+           800: CARDR     sels     LKEGD mis=1
+
+                       (S)x{2}(E)
+           803: DRSEL     SLKE     GDIIK
+
+                       (S)x{2}(D)
+           805: SELSL     kegd     IIKIL mis=1
+
+                       (S)x{2}(E)
+           822: GQQGW     wrge     IYGRV mis=1
+
+                       (S)x{2}(E)
+           836: GWFPA     nyve     EDYSE mis=1
+
+                       (S)x{2}(E)
+           837: WFPAN     yvee     DYSEY mis=1
+
+                       (S)x{2}(D)
+           838: FPANY     veed     YSEYC mis=1
+
+                       (S)x{2}(E)
+           841: NYVEE     dyse     YC    mis=1
+
+                       (S)x{2}(D)
+           843: VEEDY     seyc     mis=1
+
+*****************************************
+* Casein kinase II phosphorylation site *
+*****************************************
+
+Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+summarized as follows:
+
+ (1) Under comparable conditions Ser is favored over Thr.
+ (2) An acidic residue (either Asp or Glu) must be present three residues from
+     the C-terminal of the phosphate acceptor site.
+ (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+     phosphorylation rate.  Most  physiological  substrates  have at least one
+     acidic residue in these positions.
+ (4) Asp is preferred to Glu as the provider of acidic determinants.
+ (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+     phosphorylation rate, while an acidic one will increase it.
+
+-Consensus pattern: [ST]-x(2)-[DE]
+                    [S or T is the phosphorylation site]
+
+-Note: this pattern is found in most of the known physiological substrates.
+
+-Last update: May 1991 / Text revised.
+
+[ 1] Pinna L.A.
+     Biochim. Biophys. Acta 1054:267-284(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Crystallin_Betagamma  (L,I,V,M,F,Y,W,A)x~(D,E,H,R,K,S,T,P)(F,Y)(D,E,Q,H,K,Y)x3(F,Y)xGx4(L,I,V,M,F,C,S,T)
+                        (F)x~(D,E,H,R,K,S,T,P)(F)(D)x{3}(F)xGx{4}(L)
+            97: ELFEA   fdlfdvqdfgkviytl   SALSW mis=1
+
+                        (Y)x~(D,E,H,R,K,S,T,P)(F)(E)x{3}(F)xGx{4}(V)
+           728: TAEGL   yritekkafrgltelv   EFYQQ mis=1
+
+**********************************************************
+* Crystallins beta and gamma 'Greek key' motif signature *
+**********************************************************
+
+Crystallins are  the dominant structural components of the eye lens. Among the
+different type of crystallins, the beta and gamma crystallins form a family of
+related  proteins [1,2]. Structurally, beta and gamma crystallins are composed
+of two similar domains which, in turn, are each composed of two similar motifs
+with the  two domains  connected  by  a  short connecting peptide. Each motif,
+which  is about  forty  amino  acid  residues long, is folded in a distinctive
+'Greek key' pattern.
+
+Apart from  the different types  of  beta and  gamma crystallins, this  family
+also includes the following proteins:
+
+ - Two related proteins  from  the  sporulating  bacterium Myxococcus xanthus:
+   protein S, a calcium-binding protein  that  forms a major part of the spore
+   coat, and a close homolog of protein S.
+ - Spherulin 3a from the slime mold  Physarum polycephalum.  Spherulin 3a is a
+   development specific  protein  synthesized in  response to various kinds of
+   stress leading to encystment and dormancy.  The  sequence  of  Spherulin 3a
+   consists of two 'Greek key' motifs [3].
+
+The pattern we developed for this family of proteins span positions 3 to 18 of
+the Greek-key motif and includes three conserved positions which are important
+for the  structural integrity  of the motif.  These are the conserved aromatic
+residues in positions 6 and 11 of the motif and the glycine in position 13.
+
+-Consensus pattern: [LIVMFYWA]-x-{DEHRKSTP}-[FY]-[DEQHKY]-x(3)-[FY]-x-G-x(4)-
+                    [LIVMFCST]
+-Sequences known to belong to this class detected by the pattern: ALL.    In a
+ few cases the pattern will fail to detect one of the four motifs.
+-Other sequence(s) detected in SWISS-PROT: 243, but in all these sequences the
+ pattern is found only ONCE.
+
+-Expert(s) to contact by email: Wistow G.
+                                graeme@helix.nih.gov
+
+-Last update: November 1995 / Text revised.
+
+[ 1] Lubsen N.H., Aarts H.J.M., Schoenmakers J.G.G.
+     Prog. Biophys. Mol. Biol. 51:47-76(1988).
+[ 2] Wistow G.J., Piatigorsky J.
+     Annu. Rev. Biochem. 57:479-504(1988).
+[ 3] Wistow G.
+     J. Mol. Evol. 30:140-145(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Cytochrome_C          C~(C,P,W,H,F)~(C,P,W,R)CH~(C,F,Y,W)
+                      C~(C,P,W,H,F)~(C,P,W,R)CH~(C,F,Y,W)
+           529: EETTS               ckacqm                LLRGT mis=1
+
+***************************************************
+* Cytochrome c family heme-binding site signature *
+***************************************************
+
+In proteins belonging to cytochrome c family [1], the heme group is covalently
+attached  by thioether bonds to two conserved cysteine residues. The consensus
+sequence for this site is Cys-X-X-Cys-His and the histidine  residue is one of
+the two axial  ligands of  the heme iron.   This arrangement is shared  by all
+proteins known  to  belong  to  cytochrome  c family, which presently includes
+cytochromes c, c', c1 to c6, c550 to c556,  cc3/Hmc, cytochrome f and reaction
+center cytochrome c.
+
+-Consensus pattern: C-{CPWHF}-{CPWR}-C-H-{CFYW}
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ for four cytochrome c's which lack the first thioether bond.
+-Other sequence(s) detected in SWISS-PROT: 421.
+
+-Note: some cytochrome c's have more than a single bound heme group: c4 has 2,
+ c7 has 3, c3 has 4, the reaction center has 4, and cc3/Hmc has 16 !
+
+-Last update: June 1992 / Text revised.
+
+[ 1] Mathews F.S.
+     Prog. Biophys. Mol. Biol. 45:1-56(1985).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Dag_Pe_Binding_Domain  Hx(L,I,V,M,F,Y,W)x{8,11}Cx2Cx3(L,I,V,M,F,C)x{5,10}Cx2Cx4(H,D)x2Cx{5,9}C
+                                Hx(F)x{10}Cx{2}Cx{3}(L)x{9}Cx{2}Cx{4}(H)x{2}Cx{5}C
+           516: ATANG            hdfqmfsfeettsckacqmllrgtfyqgyrchrcrasahkeclgrvpp             CGRHG mis=1
+
+                                 Hx(M)x{8}Cx{2}Cx{3}(L)x{9}Cx{2}Cx{4}(H)x{2}Cx{6}C
+           518: ANGHD             fqmfsfeettsckacqmllrgtfyqgyrchrcrasahkeclgrvppc             GRHGQ mis=1
+
+**************************************************
+* Phorbol esters / diacylglycerol binding domain *
+**************************************************
+
+Diacylglycerol (DAG) is an important second messenger. Phorbol esters (PE) are
+analogues of   DAG  and  potent  tumor  promoters  that  cause  a  variety  of
+physiological  changes when  administered  to  both  cells  and  tissues.  DAG
+activates a  family of serine/threonine protein kinases, collectively known as
+protein  kinase C (PKC) [1]. Phorbol esters can directly stimulate PKC. The N-
+terminal region of PKC, known as C1, has  been shown [2] to bind PE and DAG in
+a phospholipid and zinc-dependent fashion.  The C1 region contains one  or two
+copies (depending  on  the isozyme of PKC)  of a cysteine-rich domain about 50
+amino-acid residues  long and essential for DAG/PE-binding.  Such a domain has
+also been found in the following proteins:
+
+ - Diacylglycerol kinase  (EC 2.7.1.107)  (DGK)  [3], the enzyme that converts
+   DAG into  phosphatidate.  It  contains  two  copies  of  the DAG/PE-binding
+   domain in its N-terminal section.  At least five different forms of DGK are
+   known in mammals.
+ - N-chimaerin.  A  brain  specific  protein which shows sequence similarities
+   with the  BCR  protein at its C-terminal part and contains a single copy of
+   the DAG/PE-binding  domain  at its N-terminal part. It has been shown [4,5]
+   to be able to bind phorbol esters.
+ - The  raf/mil  family  of  serine/threonine  protein  kinases. These protein
+   kinases contain a single N-terminal copy of the DAG/PE-binding domain.
+ - The  unc-13  protein from Caenorhabditis elegans. Its function is not known
+   but it  contains a copy of the DAG/PE-binding domain in its central section
+   and has  been shown to bind specifically to a phorbol ester in the presence
+   of calcium [6].
+ - The vav oncogene.  Vav was generated by a genetic rearrangement during gene
+   transfer  assays.  Its  expression  seems  to be  restricted  to  cells  of
+   hematopoeitic origin. Vav seems [5,7] to contain a DAG/PE-binding domain in
+   the central part of the protein.
+ - The Drosophila GTPase activating protein rotund.
+
+The DAG/PE-binding domain binds two zinc ions; the ligands of these metal ions
+are probably the six  cysteines  and two histidines that are conserved in this
+domain. We have developed a signature pattern that spans completely the DAG/PE
+domain.
+
+-Consensus pattern: H-x-[LIVMFYW]-x(8,11)-C-x(2)-C-x(3)-[LIVMFC]-x(5,10)-
+                    C-x(2)-C-x(4)-[HD]-x(2)-C-x(5,9)-C
+                    [All the C and H are probably involved in binding Zinc]
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ a few DGK's.
+-Other sequence(s) detected in SWISS-PROT: NONE.
+-Last update: November 1997 / Pattern and text revised.
+
+[ 1] Azzi A., Boscoboinik D., Hensey C.
+     Eur. J. Biochem. 208:547-557(1992).
+[ 2] Ono Y., Fujii T., Igarashi K., Kuno T., Tanaka C, Kikkawa U.,
+     Nishizuka Y.
+     Proc. Natl. Acad. Sci. U.S.A. 86:4868-4871(1989).
+[ 3] Sakane F., Yamada K., Kanoh H., Yokoyama C., Tanabe T.
+     Nature 344:345-348(1990).
+[ 4] Ahmed S., Kozma R., Monfries C., Hall C., Lim H.H., Smith P., Lim L.
+     Biochem. J. 272:767-773(1990).
+[ 5] Ahmed S., Kozma R., Lee J., Monfries C., Harden N., Lim L.
+     Biochem. J. 280:233-241(1991).
+[ 6] Ahmed S., Maruyama I.N., Kozma R., Lee J., Brenner S., Lim L.
+     Biochem. J. 287:995-999(1992).
+[ 7] Boguski M.S., Bairoch A., Attwood T.K., Michaels G.S.
+     Nature 358:113-113(1992).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Gds_Cdc24             Lx2(L,I,V,M,F,Y,W)Lx2P(L,I,V,M)x2(L,I,V,M)x(K,R,S)x2Lx(L,I,V,M)x(D,E,Q)(L,I,V,M)x3(S,T)
+                        Lx{2}(L)Lx{2}P(M)x{2}(V)x(K)x{2}Lx(L)x(E)(L)x{3}(T)
+           322: NGRFT   LRDLLMVPMQRVLKYHLLLQELVKHT   QEAME
+
+**********************************************************************
+* Guanine-nucleotide dissociation stimulators CDC24 family signature *
+**********************************************************************
+
+Ras proteins are membrane-associated molecular switches that  bind GTP and GDP
+and  slowly  hydrolyze  GTP to GDP [1].  The  balance  between  the  GTP bound
+(active) and GDP bound (inactive) states  is regulated  by the opposite action
+of proteins activating the GTPase activity and that of  proteins which promote
+the loss of bound GDP and the uptake of fresh GTP [2,3].  The latter  proteins
+are known  as  guanine-nucleotide dissociation stimulators (GDSs)  (or also as
+guanine-nucleotide releasing (or exchange) factors (GRFs)).  Proteins that act
+as GDS can be classified  into at least two families, on the basis of sequence
+similarities.  One of  these families is currently known to group the proteins
+listed below   (references   are   only    provided  for  recently  determined
+sequences):
+
+ - CDC24 from yeast. CDC24 is a GDS that acts on the ras-like protein CDC42.
+ - Dbl (or mcf-2) oncogene from mammals.  Dbl is a GDS for a  ras-like protein
+   known as G25K or CDC42Hs.
+ - p140-RAS GRF (cdc25Mm) from mammals. This protein, a GDS for ras, possesses
+   both a domain belonging to the CDC24 family  and one belonging to the CDC25
+   family.
+ - Bcr oncogene from mammals. Bcr can form a chimera  with the abl protein and
+   then cause   chronic  myelogenous  leukemia  (CML).  Bcr  acts  on  p21-rac
+   proteins.
+ - Oncogene vav from mammals. The target of this protein is not yet known.
+ - Oncogene ect2 from mouse [4]. The target of this protein is not yet known.
+ - scd1 from fission yeast.
+
+The size of  these  proteins range from 736 residues (CDC42)  to 1271 residues
+(bcr). The sequence  similarity shared  by  all these proteins is limited to a
+region of  about  180  amino  acids,  generally located in their N-terminal or
+central section.  As  a signature pattern, we selected the most conserved part
+of this domain.
+
+-Consensus pattern: L-x(2)-[LIVMFYW]-L-x(2)-P-[LIVM]-x(2)-[LIVM]-x-[KRS]-x(2)-
+                    L-x-[LIVM]-x-[DEQ]-[LIVM]-x(3)-[ST]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in SWISS-PROT: NONE.
+
+-Last update: November 1995 / Pattern and text revised.
+
+[ 1] Bourne H.R., Sanders D.A., McCormick F.
+     Nature 349:117-127(1991).
+[ 2] Boguski M.S., McCormick F.
+     Nature 366:643-654(1993).
+[ 3] Downward J.
+     Curr. Biol. 2:329-331(1992).
+[ 4] Miki T., Smith C.L., Long J.E., Eva A., Fleming T.P.
+     Nature 362:462-465(1993).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Glycosaminoglycan     SGxG
+           143: DEDIY sgls DQIDD mis=1
+           459: VRDDS sgdr DNKKW mis=1
+*************************************
+* Glycosaminoglycan attachment site *
+*************************************
+
+Proteoglycans [1]  are  complex  glycoconjugates  containing a core protein to
+which a variable number of glycosaminoglycan chains  (such as heparin sulfate,
+chondroitin sulfate, etc.) are covalently attached. The glycosaminoglycans are
+attached to  the  core  proteins through  a xyloside residue which is  in turn
+linked to  a serine   residue of the protein.    A consensus sequence for  the
+attachment  site seems  to exist [2].   However,  it must be noted  that  this
+consensus is only based on the sequence of three proteoglycan core proteins.
+
+-Consensus pattern: S-G-x-G
+                    [S is the attachment site]
+ Additional rule: There must be at least  two acidic amino acids from -2 to -4
+                  relative to the serine.
+-Last update: June 1988 / First entry.
+
+[ 1] Hassel J.R., Kimura J.H., Hascall V.C.
+     Annu. Rev. Biochem. 55:539-567(1986).
+[ 2] Bourdon M.A., Krusius T., Campbell S., Schwarz N.B.
+     Proc. Natl. Acad. Sci. U.S.A. 84:3194-3198(1987).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Ig_Mhc                (F,Y)xCx(V,A)xH
+                        (Y)xCx(V)xH
+           711: AISIK     ynvevkh     TVKIM mis=1
+
+***************************************************************************
+* Immunoglobulins and major histocompatibility complex proteins signature *
+***************************************************************************
+
+The basic structure  of immunoglobulin (Ig) [1] molecules is a tetramer of two
+light chains  and two heavy chains linked  by disulfide  bonds.  There are two
+types of  light chains:  kappa and lambda,  each composed of a constant domain
+(CL) and a variable domain (VL).  There are five types of heavy chains: alpha,
+delta, epsilon,  gamma  and  mu,  all consisting of a variable domain (VH) and
+three (in alpha,  delta  and  gamma)  or  four (in  epsilon and  mu)  constant
+domains (CH1 to CH4).
+
+The major histocompatibility complex  (MHC) molecules  are made of two chains.
+In class I [2] the alpha  chain is composed of three  extracellular domains, a
+transmembrane   region   and a   cytoplasmic tail.   The  beta  chain (beta-2-
+microglobulin) is  composed of a single extracellular domain. In class II [3],
+both the  alpha and the beta chains are composed of two extracellular domains,
+a transmembrane region and a cytoplasmic tail.
+
+It is  known  [4,5]    that  the  Ig  constant  chain  domains  and   a single
+extracellular   domain   in each  type  of  MHC   chains are related.    These
+homologous domains  are  approximately    one    hundred amino  acids long and
+include a conserved intradomain disulfide bond.  We developed  a small pattern
+around the C-terminal cysteine involved  in  this  disulfide bond which can be
+used to detect these category of Ig related proteins.
+
+-Consensus pattern: [FY]-x-C-x-[VA]-x-H
+-Sequences known to belong to this class detected by the pattern:
+ Ig heavy chains type Alpha C region  : All, in CH2 and CH3.
+ Ig heavy chains type Delta C region  : All, in CH3.
+ Ig heavy chains type Epsilon C region: All, in CH1, CH3 and CH4.
+ Ig heavy chains type Gamma C region  : All, in CH3 and also CH1 in some cases
+ Ig heavy chains type Mu C region     : All, in CH2, CH3 and CH4.
+ Ig light chains type Kappa C region  : In all CL except rabbit and Xenopus.
+ Ig light chains type Lambda C region : In all CL except rabbit.
+ MHC class I alpha chains : All,  in   alpha-3  domains,   including   in  the
+ cytomegalovirus MHC-1 homologous protein [6].
+ Beta-2-microglobulin     : All.
+ MHC class II alpha chains: All, in alpha-2 domains.
+ MHC class II beta  chains: All, in beta-2 domains.
+-Other sequence(s) detected in SWISS-PROT: 68.
+-Last update: May 1991 / Text revised.
+
+[ 1] Gough N.
+     Trends Biochem. Sci. 6:203-205(1981).
+[ 2] Klein J., Figueroa F.
+     Immunol. Today 7:41-44(1986).
+[ 3] Figueroa F., Klein J.
+     Immunol. Today 7:78-81(1986).
+[ 4] Orr H.T., Lancet D., Robb R.J., Lopez de Castro J.A., Strominger J.L.
+     Nature 282:266-270(1979).
+[ 5] Cushley W., Owen M.J.
+     Immunol. Today 4:88-92(1983).
+[ 6] Beck S., Barrel B.G.
+     Nature 331:269-272(1988).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Leucine_Zipper        Lx6Lx6Lx6L
+                      Lx{6}Lx{6}Lx{6}L
+            36: CELAQ alrdgvllcqllnnllphainl REVNL mis=1
+
+                      Lx{6}Lx{6}Lx{6}L
+            43: RDGVL lcqllnnllphainlrevnlrp QMSQF mis=1
+
+                      Lx{6}Lx{6}Lx{6}L
+            72: SQFLC lknirtflstccekfglkrsel FEAFD mis=1
+
+                      Lx{6}Lx{6}Lx{6}L
+           237: DIEII finiedllrvhthflkemkeal GTPGA mis=1
+
+                      Lx{6}Lx{6}Lx{6}L
+           244: NIEDL lrvhthflkemkealgtpgapn LYQVF mis=1
+
+**************************
+* Leucine zipper pattern *
+**************************
+
+A structure,  referred to as the 'leucine zipper' [1,2], has been proposed  to
+explain  how some eukaryotic gene regulatory proteins work. The leucine zipper
+consist  of a  periodic  repetition  of  leucine  residues  at  every  seventh
+position over a distance covering eight helical turns. The segments containing
+these  periodic  arrays of leucine residues seem to exist in  an alpha-helical
+conformation. The leucine side chains extending from one alpha-helix  interact
+with those  from a similar alpha helix  of  a second polypeptide, facilitating
+dimerization; the structure formed by cooperation of these two regions forms a
+coiled coil [3]. The leucine zipper pattern is present in many gene regulatory
+proteins, such as:
+
+ - The CCATT-box and enhancer binding protein (C/EBP).
+ - The cAMP response element (CRE) binding proteins (CREB, CRE-BP1, ATFs).
+ - The Jun/AP1 family of transcription factors.
+ - The yeast general control protein GCN4.
+ - The fos oncogene, and the fos-related proteins fra-1 and fos B.
+ - The C-myc, L-myc and N-myc oncogenes.
+ - The octamer-binding transcription factor 2 (Oct-2/OTF-2).
+
+-Consensus pattern: L-x(6)-L-x(6)-L-x(6)-L
+-Sequences known to belong to this class detected by the pattern: All    those
+ mentioned in the original paper, with the exception of L-myc which  has a Met
+ instead of the second Leu.
+-Other sequence(s) detected in SWISS-PROT: some 600 other sequences from every
+ category of protein families.
+
+-Note: as this is far from being a specific  pattern you should be cautious in
+ citing the presence of such pattern in a protein  if it has not been shown to
+ be a nuclear DNA-binding protein.
+
+-Last update: December 1992 / Text revised.
+
+[ 1] Landschulz W.H., Johnson P.F., McKnight S.L.
+     Science 240:1759-1764(1988).
+[ 2] Busch S.J., Sassone-Corsi P.
+     Trends Genet. 6:36-40(1990).
+[ 3] O'Shea E.K., Rutkowski R., Kim P.S.
+     Science 243:538-542(1989).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Myb_1                 W(S,T)x2E(D,E)x2(L,I,V)
+                        W(T)x{2}E(D)x{2}(L)
+           151: SDQID        dtveededl        YDCVE mis=1
+
+********************************************
+* Myb DNA-binding domain repeat signatures *
+********************************************
+
+The retroviral oncogene v-myb , and  its  cellular  counterpart c-myb,  encode
+nuclear  DNA-binding  proteins  that  specifically   recognize  the   sequence
+YAAC(G/T)G [1]. The myb family also includes the following proteins:
+
+ - Drosophila D-myb [2].
+ - Vertebrate myb-like proteins A-myb and B-myb [3].
+ - Maize C1 protein, a trans-acting factor which  controls  the  expression of
+   genes involved in anthocyanin biosynthesis.
+ - Maize P protein [4], a trans-acting factor which regulates the biosynthetic
+   pathway of a flavonoid-derived pigment in certain floral tissues.
+ - Arabidopsis  thaliana  protein  GL1  [5],  required  for  the initiation of
+   differentiation of leaf hair cells (trichomes).
+ - A  number  of  myb/c1-related proteins in maize and barley, whose roles are
+   not yet known [4].
+ - Yeast BAS1 [7], a transcriptional activator for the HIS4 gene.
+ - Yeast REB1 [8], which recognizes sites  within  both  the  enhancer and the
+   promoter  of  rRNA  transcription,  as  well  as  upstream  of  many  genes
+   transcribed by RNA polymerase II.
+ - Fission  yeast  cdc5,  a  possible  transcription  factor whose activity is
+   required for cell cycle progression and growth during G2.
+ - Fission yeast myb1, which regulates telomere length and function.
+ - Yeast hypothetical protein YMR213w.
+
+One of the most conserved  regions in all of these proteins is a domain of 160
+amino acids.  It consists of three tandem repeats of 51 to 53 amino acids.  In
+myb, this repeat region has been shown [9] to be involved in DNA-binding.
+
+The major part  of  the first repeat  is missing in retroviral v-myb sequences
+and in plant myb-related proteins.  Yeast REB1 differs from the other proteins
+in this family in having a single myb-like domain.
+
+As shown in the following  schematic  representation,  we  have  developed two
+signature patterns   for  myb-like  domains;  the  first  is  located  in  the
+N-terminal section, the second spans the C-terminal extremity of the domain.
+
+     xxxxxxxxxWxxxEDxxxxxxxxxxxxxxWxxIxxxxxxRxxxxxxxxWxxxx
+              *********           ************************
+
+'*' : Position of the patterns.
+
+-Consensus pattern: W-[ST]-x(2)-E-[DE]-x(2)-[LIV]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in SWISS-PROT: 46.
+
+-Note: this pattern detects the three patterns in myb, d-myb, A-myb and B-myb;
+ the first of  the two complete copies in plant myb-related proteins,  and the
+ last two copies of yeast BAS1.
+
+-Consensus pattern: W-x(2)-[LI]-[SAG]-x(4,5)-R-x(8)-[YW]-x(3)-[LIVM]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in SWISS-PROT: 9.
+
+-Note: this  pattern  detects  the  three  copies of the domain in myb, d-myb,
+ A-myb and  B-myb;  the second of the two complete copies of plant myb-related
+ proteins, and the last two copies of yeast BAS1.
+
+-Last update: November 1997 / Text revised.
+
+[ 1] Biednkapp H., Borgmeyer U., Sippel A.E., Klempnauer K.-H.
+     Nature 335:835-837(1988).
+[ 2] Peters C.W.B., Sippel A.E., Vingron M., Klempnauer K.-H.
+     EMBO J. 6:3085-3090(1987).
+[ 3] Nomura N., Takahashi M., Matsui M., Ishii S., Date T., Sasamoto S.,
+     Ishizaki R.
+     Nucleic Acids Res. 16:11075-11090(1988).
+[ 4] Grotewold E., Athma P., Peterson T.
+     Proc. Natl. Acad. Sci. U.S.A. 88:4587-4591(1991).
+[ 5] Oppenheimer D.G., Herman P.L., Sivakumaran S., Esch J., Marks M.D.
+     Cell 67:483-493(1991).
+[ 6] Marocco A., Wissenbach M., Becker D., Paz-Ares J., Saedler H.,
+     Salamini F., Rohde W.
+     Mol. Gen. Genet. 216:183-187(1989).
+[ 7] Tice-Baldwin K., Fink G.R., Arndt K.T.
+     Science 246:931-935(1989).
+[ 8] Ju Q., Morrow B.E., Warner J.R.
+     Mol. Cell. Biol. 10:5226-5234(1990).
+[ 9] Klempnauer K.-H., Sippel A.E.
+     EMBO J. 6:2719-2725(1987).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Myristyl              G~(E,D,R,K,H,P,F,Y,W)x2(S,T,A,G,C,N)~(P)
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            10: RQCTH                  wliqcr                  VLPPS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+            16: LIQCR                  vlppsh                  RVTWD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+            23: PPSHR                  vtwdga                  QVCEL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            27: RVTWD                  GAQVCE                  LAQAL
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+            30: WDGAQ                  vcelaq                  ALRDG mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+            32: GAQVC                  elaqal                  RDGVL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+            36: CELAQ                  alrdgv                  LLCQL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            40: QALRD                  GVLLCQ                  LLNNL
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+            44: DGVLL                  cqllnn                  LLPHA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+            45: GVLLC                  qllnnl                  LPHAI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+            50: QLLNN                  llphai                  NLREV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            67: LRPQM                  sqflcl                  KNIRT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+            70: QMSQF                  lclkni                  RTFLS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+            73: QFLCL                  knirtf                  LSTCC mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+            76: CLKNI                  rtflst                  CCEKF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            78: KNIRT                  flstcc                  EKFGL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            79: NIRTF                  lstcce                  KFGLK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+            87: CCEKF                  GLKRSE                  LFEAF
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+            92: GLKRS                  elfeaf                  DLFDV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           102: FDLFD                  vqdfgk                  VIYTL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           107: VQDFG                  kviytl                  SALSW mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           110: FGKVI                  ytlsal                  SWTPI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           112: KVIYT                  lsalsw                  TPIAQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           117: LSALS                  wtpiaq                  NRGIM mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           119: ALSWT                  piaqnr                  GIMPF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           121: SWTPI                  aqnrgi                  MPFPT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           140: SVGDE                  diysgl                  SDQID mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           142: GDEDI                  ysglsd                  QIDDT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           144: EDIYS                  glsdqi                  DDTVE mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           148: SGLSD                  qiddtv                  EEDED mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           158: VEEDE                  dlydcv                  ENEEA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           161: DEDLY                  dcvene                  EAEGD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           164: LYDCV                  eneeae                  GDEIY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           176: DEIYE                  dlmrse                  PVSMP mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           201: CCCLR                  eiqqte                  EKYTD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           211: EEKYT                  dtlgsi                  QQHFL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           214: YTDTL                  gsiqqh                  FLKPL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           235: PQDIE                  iifini                  EDLLR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           253: THFLK                  emkeal                  GTPGA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           258: EMKEA                  lgtpga                  PNLYQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           259: MKEAL                  gtpgap                  NLYQV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           261: EALGT                  pgapnl                  YQVFI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           262: ALGTP                  gapnly                  QVFIK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           277: KYKER                  flvygr                  YCSQV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           280: ERFLV                  ygrycs                  QVESA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           281: RFLVY                  grycsq                  VESAS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           285: YGRYC                  sqvesa                  SKHLD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           286: GRYCS                  qvesas                  KHLDR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           296: SKHLD                  rvaaar                  EDVQM mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           307: EDVQM                  kleecs                  QRANN mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           311: MKLEE                  csqran                  NGRFT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           312: KLEEC                  sqrann                  GRFTL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           314: EECSQ                  ranngr                  FTLRD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           317: SQRAN                  ngrftl                  RDLLM mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           343: LLLQE                  lvkhtq                  EAMEQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           346: QELVK                  htqeam                  EQGNL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           350: KHTQE                  ameqgn                  LRLAL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           354: EAMEQ                  gnlrla                  LDAMR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           355: AMEQG                  nlrlal                  DAMRD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           358: QGNLR                  laldam                  RDLAQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           365: LDAMR                  dlaqcv                  NEVKR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           367: AMRDL                  aqcvne                  VKRDN mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           381: DNETL                  rqitnf                  QLSIE mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           388: ITNFQ                  lsienl                  DQSLA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           392: QLSIE                  nldqsl                  AHYGR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           394: SIENL                  dqslah                  YGRPK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           397: NLDQS                  lahygr                  PKIDG mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           408: PKIDG                  elkits                  VERRS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           426: DRYAF                  lldkal                  LICKR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           430: FLLDK                  allick                  RRGDS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           447: DLKDF                  vnlhsf                  QVRDD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           460: RDDSS                  gdrdnk                  KWSHM mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           477: LLIED                  qgaqgy                  ELFFK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           478: LIEDQ                  gaqgye                  LFFKT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           500: WMEQF                  emaisn                  IYPEN mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           501: MEQFE                  maisni                  YPENA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           509: SNIYP                  enatan                  GHDFQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           510: NIYPE                  natang                  HDFQM mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           511: IYPEN                  atangh                  DFQMF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           518: ANGHD                  fqmfsf                  EETTS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           525: MFSFE                  ettsck                  ACQML mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           527: SFEET                  tsckac                  QMLLR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           528: FEETT                  sckacq                  MLLRG mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           534: CKACQ                  mllrgt                  FYQGY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           535: KACQM                  llrgtf                  YQGYR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           538: QMLLR                  gtfyqg                  YRCHR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           542: RGTFY                  qgyrch                  RCRAS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           545: FYQGY                  rchrcr                  ASAHK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           548: GYRCH                  rcrasa                  HKECL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           560: KECLG                  rvppcg                  RHGQD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           564: GRVPP                  cgrhgq                  DFPGT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           568: PCGRH                  gqdfpg                  TMKKD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           573: GQDFP                  gtmkkd                  KLHRR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           589: AQDKK                  rnelgl                  PKMEV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           593: KRNEL                  glpkme                  VFQEY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           611: LPPPP                  gaigpf                  LRLNP mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           618: IGPFL                  rlnpgd                  IVELT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           624: LNPGD                  iveltk                  AEAEQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           626: PGDIV                  eltkae                  AEQNW mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           631: ELTKA                  eaeqnw                  WEGRN mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           638: EQNWW                  egrnts                  TNEIG mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           639: QNWWE                  grntst                  NEIGW mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           640: NWWEG                  rntstn                  EIGWF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           641: WWEGR                  ntstne                  IGWFP mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           644: GRNTS                  tneigw                  FPCNR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           648: STNEI                  gwfpcn                  RVKPY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           663: YVHGP                  pqdlsv                  HLWYA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           669: QDLSV                  hlwyag                  PMERA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           675: LWYAG                  pmerag                  AESIL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           679: GPMER                  agaesi                  LANRS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           680: PMERA                  gaesil                  ANRSD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           682: ERAGA                  esilan                  RSDGT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           683: RAGAE                  silanr                  SDGTF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           685: GAESI                  lanrsd                  GTFLV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           688: SILAN                  rsdgtf                  LVRQR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           691: ANRSD                  gtflvr                  QRVKD mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           698: FLVRQ                  rvkdaa                  EFAIS mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           702: QRVKD                  aaefai                  SIKYN mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(N)~P
+           708: AEFAI                  sikynv                  EVKHT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           714: IKYNV                  evkhtv                  KIMTA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           720: VKHTV                  kimtae                  GLYRI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           722: HTVKI                  mtaegl                  YRITE mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           726: IMTAE                  glyrit                  EKKAF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           734: RITEK                  kafrgl                  TELVE mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           738: KKAFR                  gltelv                  EFYQQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           746: ELVEF                  yqqnsl                  KDCFK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+           750: FYQQN                  slkdcf                  KSLDT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           753: QNSLK                  dcfksl                  DTTLQ mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           756: LKDCF                  ksldtt                  LQFPF mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           757: KDCFK                  sldttl                  QFPFK mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           774: PEKRT                  isrpav                  GSTKY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           777: RTISR                  pavgst                  KYFGT mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(T)~P
+           778: TISRP                  avgstk                  YFGTA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           780: SRPAV                  gstkyf                  GTAKA mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           786: STKYF                  GTAKAR                  YDFCA
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           799: FCARD                  rselsl                  KEGDI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           803: DRSEL                  slkegd                  IIKIL mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           813: DIIKI                  lnkkgq                  QGWWR mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           816: KILNK                  kgqqgw                  WRGEI mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+           817: ILNKK                  gqqgww                  RGEIY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           820: KKGQQ                  gwwrge                  IYGRV mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           824: QGWWR                  geiygr                  VGWFP mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(G)~P
+           827: WRGEI                  ygrvgw                  FPANY mis=1
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           831: IYGRV                  gwfpan                  YVEED mis=1
+
+*************************
+* N-myristoylation site *
+*************************
+
+An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+has been  derived from the sequence of known N-myristoylated proteins and from
+studies using synthetic peptides. It seems to be the following:
+
+ - The N-terminal residue must be glycine.
+ - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+   and large hydrophobic residues are not allowed.
+ - In positions 3 and 4, most, if not all, residues are allowed.
+ - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+   Asn and Gly). Serine is favored.
+ - In position 6, proline is not allowed.
+
+-Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+                    [G is the N-myristoylation site]
+
+-Note: we  deliberately include as  potential myristoylated  glycine residues,
+ those which  are  internal  to a sequence. It could well be that the sequence
+ under study  represents  a  viral  polyprotein  precursor and that subsequent
+ proteolytic processing  could expose an internal glycine as the N-terminal of
+ a mature protein.
+
+-Last update: October 1989 / Pattern and text revised.
+
+[ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+     Annu. Rev. Biochem. 57:69-99(1988).
+[ 2] Grand R.J.A.
+     Biochem. J. 258:625-638(1989).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Phosphopantetheine    (D,E,Q,G,S,T,A,L,M,K,R,H)(L,I,V,M,F,Y,S,T,A,C)(G,N,Q)(L,I,V,M,F,Y,A,G)(D,N,E,K,H,S)S(L,I,V,M,S,T)~(P,C,F,Y)(S,T,A,G,C,P,Q,L,I,V,M,F)(L,I,V,M,A,T,N)(D,E,N,Q,G,T,A,K,R,H,L,M)(L,I,V,M,W,S,T,A)(L,I,V,G,S,T,A,C,R)x2(L,I,V,M,F,A)
+                        (R)(A)(G)(A)(E)S(I)~(P,C,F,Y)(A)(N)(R)(S)(L)x{2}(F)
+           678: AGPME   ragaesilanrsdgtf   LVRQR mis=1
+
+**************************************
+* Phosphopantetheine attachment site *
+**************************************
+
+Phosphopantetheine (or pantetheine 4' phosphate) is  the  prosthetic  group of
+acyl carrier proteins (ACP) in some  multienzyme complexes  where it serves as
+a 'swinging  arm'  for  the  attachment of activated fatty acid and amino-acid
+groups [1].  Phosphopantetheine  is  attached  to  a  serine  residue in these
+proteins [2].  ACP  proteins  or   domains  have  been found in various enzyme
+systems which  are  listed  below  (references  are only provided for recently
+determined sequences).
+
+ - Fatty acid synthetase (FAS),  which catalyzes  the formation  of long-chain
+   fatty acids    from  acetyl-CoA, malonyl-CoA and NADPH. Bacterial and plant
+   chloroplast FAS are composed of eight separate subunits which correspond to
+   the  different  enzymatic  activities;  ACP  is  one of these polypeptides.
+   Fungal FAS consists of two multifunctional proteins, FAS1 and FAS2; the ACP
+   domain is  located  in  the  N-terminal  section  of  FAS2.  Vertebrate FAS
+   consists of a single  multifunctional  enzyme;  the ACP  domain  is located
+   between the beta-ketoacyl reductase  domain and the C-terminal thioesterase
+   domain [3].
+ - Polyketide antibiotics  synthase enzyme systems.  Polyketides are secondary
+   metabolites produced from simple fatty acids, by microorganisms and plants.
+   ACP is one of the polypeptidic  components  involved in the biosynthesis of
+   Streptomyces polyketide  antibiotics  actinorhodin,  curamycin, granatacin,
+   monensin, oxytetracycline and tetracenomycin C.
+ - Bacillus  subtilis  putative polyketide synthases pksK, pksL and pksM which
+   respectively contain three, five and one ACP domains.
+ - The multifunctional 6-methysalicylic acid synthase (MSAS) from  Penicillium
+   patulum. This is a multifunctional enzyme involved in the biosynthesis of a
+   polyketide antibiotic  and  which  contains an ACP domain in the C-terminal
+   extremity.
+ - Multifunctional  mycocerosic  acid  synthase  (gene mas) from Mycobacterium
+   bovis.
+ - Gramicidin S synthetase I (gene grsA)  from  Bacillus brevis.  This  enzyme
+   catalyzes the first step  in  the  biosynthesis  of  the  cyclic antibiotic
+   gramicidin S.
+ - Tyrocidine synthetase I (gene tycA)  from  Bacillus  brevis.   The reaction
+   carried out by tycA is identical to that catalyzed by grsA
+ - Gramicidin S synthetase II (gene grsB)  from  Bacillus brevis. This  enzyme
+   is a  multifunctional  protein  that  activates  and  polymerizes  proline,
+   valine, ornithine and leucine. GrsB contains four ACP domains.
+ - Erythronolide synthase proteins 1, 2 and 3 from Saccharopolyspora erythraea
+   which is   involved  in  the  biosynthesis  of  the  polyketide  antibiotic
+   erythromicin. Each of these proteins contain two ACP domains.
+ - Conidial green pigment synthase from Aspergillus nidulans.
+ - ACV synthetase from various fungi. This enzyme catalyzes the first  step in
+   the biosynthesis  of  penicillin  and  cephalosporin. It contains three ACP
+   domains.
+ - Enterobactin synthetase component F (gene entF) from Escherichia coli. This
+   enzyme is  involved  in  the  ATP-dependent  activation  of  serine  during
+   enterobactin (enterochelin) biosynthesis.
+ - Cyclic  peptide  antibiotic  surfactin  synthase  subunits  1, 2 and 3 from
+   Bacillus subtilis.  Subunits  1  and 2 contains three related domains while
+   subunit 3 only contains a single domain.
+ - HC-toxin  synthetase  (gene  HTS1)  from Cochliobolus carbonum. This enzyme
+   synthesizes HC-toxin,   a  cyclic  tetrapeptide.  HTS1  contains  four  ACP
+   domains.
+ - Fungal mitochondrial ACP [9], which  is  part of the respiratory chain NADH
+   dehydrogenase (complex I).
+ - Rhizobium nodulation protein nodF,  which  probably  acts  as an ACP in the
+   synthesis of the nodulation Nod factor fatty acyl chain.
+
+The sequence around the phosphopantetheine attachment site is conserved in all
+these proteins  and  can  be  used  as a signature pattern. A profile was also
+developed that spans the complete ACP-like domain.
+
+-Consensus pattern: [DEQGSTALMKRH]-[LIVMFYSTAC]-[GNQ]-[LIVMFYAG]-[DNEKHS]-S-
+                    [LIVMST]-{PCFY}-[STAGCPQLIVMF]-[LIVMATN]-[DENQGTAKRHLM]-
+                    [LIVMWSTA]-[LIVGSTACR]-x(2)-[LIVMFA]
+                    [S is the pantetheine attachment site]
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ C.paradoxa ACP.
+-Other sequence(s) detected in SWISS-PROT: 81.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in SWISS-PROT: NONE.
+
+-Note: this  documentation  entry  is linked to both a signature pattern and a
+ profile. As  the  profile is much more sensitive than the pattern, you should
+ use it if you have access to the necessary software tools to do so.
+
+-Last update: November 1997 / Pattern and text revised; profile added.
+
+[ 1] Concise Encyclopedia Biochemistry, Second Edition, Walter de Gruyter,
+     Berlin New-York (1988).
+[ 2] Pugh E.L., Wakil S.J.
+     J. Biol. Chem. 240:4727-4733(1965).
+[ 3] Witkowski A., Rangan V.S., Randhawa Z.I., Amy C.M., Smith S.
+     Eur. J. Biochem. 198:571-579(1991).
+[ 6] Scotti C., Piatti M., Cuzzoni A., Perani P., Tognoni A., Grandi G.,
+     Galizzi A., Albertini A.M.
+     Gene 130:65-71(1993).
+[ 9] Sackmann U., Zensen R., Rohlen D., Jahnke U., Weiss H.
+     Eur. J. Biochem. 200:463-469(1991).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Pkc_Phospho_Site      (S,T)x(R,K)
+                        (S)x(R)
+             3:    ME     lwr     QCTHW mis=1
+
+                        (T)x(R)
+             8: LWRQC     thw     LIQCR mis=1
+
+                        (S)x(R)
+            13: THWLI     qcr     VLPPS mis=1
+
+                        (S)x(R)
+            20: RVLPP     SHR     VTWDG
+
+                        (T)x(R)
+            24: PSHRV     twd     GAQVC mis=1
+
+                        (S)x(R)
+            36: CELAQ     alr     DGVLL mis=1
+
+                        (S)x(R)
+            56: LPHAI     nlr     EVNLR mis=1
+
+                        (S)x(R)
+            61: NLREV     nlr     PQMSQ mis=1
+
+                        (S)x(R)
+            67: LRPQM     sqf     LCLKN mis=1
+
+                        (S)x(K)
+            71: MSQFL     clk     NIRTF mis=1
+
+                        (S)x(R)
+            74: FLCLK     nir     TFLST mis=1
+
+                        (T)x(R)
+            77: LKNIR     tfl     STCCE mis=1
+
+                        (S)x(R)
+            80: IRTFL     stc     CEKFG mis=1
+
+                        (T)x(R)
+            81: RTFLS     tcc     EKFGL mis=1
+
+                        (S)x(K)
+            83: FLSTC     cek     FGLKR mis=1
+
+                        (S)x(K)
+            87: CCEKF     glk     RSELF mis=1
+
+                        (S)x(R)
+            88: CEKFG     lkr     SELFE mis=1
+
+                        (S)x(R)
+            91: FGLKR     sel     FEAFD mis=1
+
+                        (S)x(K)
+           105: FDVQD     fgk     VIYTL mis=1
+
+                        (T)x(R)
+           111: GKVIY     tls     ALSWT mis=1
+
+                        (S)x(R)
+           113: VIYTL     sal     SWTPI mis=1
+
+                        (S)x(R)
+           116: TLSAL     swt     PIAQN mis=1
+
+                        (T)x(R)
+           118: SALSW     tpi     AQNRG mis=1
+
+                        (S)x(R)
+           122: WTPIA     qnr     GIMPF mis=1
+
+                        (T)x(R)
+           131: IMPFP     tee     ESVGD mis=1
+
+                        (S)x(R)
+           135: PTEEE     svg     DEDIY mis=1
+
+                        (S)x(R)
+           143: DEDIY     sgl     SDQID mis=1
+
+                        (S)x(R)
+           146: IYSGL     sdq     IDDTV mis=1
+
+                        (T)x(R)
+           152: DQIDD     tve     EDEDL mis=1
+
+                        (S)x(R)
+           177: EIYED     lmr     SEPVS mis=1
+
+                        (S)x(R)
+           180: EDLMR     sep     VSMPP mis=1
+
+                        (S)x(R)
+           184: RSEPV     smp     PKMTE mis=1
+
+                        (S)x(K)
+           186: EPVSM     ppk     MTEYD mis=1
+
+                        (T)x(R)
+           190: MPPKM     tey     DKRCC mis=1
+
+                        (S)x(K)
+           192: PKMTE     ydk     RCCCL mis=1
+
+                        (S)x(R)
+           193: KMTEY     dkr     CCCLR mis=1
+
+                        (S)x(R)
+           198: DKRCC     clr     EIQQT mis=1
+
+                        (T)x(R)
+           205: REIQQ     tee     KYTDT mis=1
+
+                        (S)x(K)
+           206: EIQQT     eek     YTDTL mis=1
+
+                        (T)x(R)
+           210: TEEKY     tdt     LGSIQ mis=1
+
+                        (T)x(R)
+           212: EKYTD     tlg     SIQQH mis=1
+
+                        (S)x(R)
+           215: TDTLG     siq     QHFLK mis=1
+
+                        (S)x(K)
+           220: SIQQH     flk     PLQRF mis=1
+
+                        (S)x(R)
+           224: HFLKP     lqr     FLKPQ mis=1
+
+                        (S)x(K)
+           227: KPLQR     flk     PQDIE mis=1
+
+                        (S)x(R)
+           243: INIED     llr     VHTHF mis=1
+
+                        (T)x(R)
+           248: LLRVH     thf     LKEMK mis=1
+
+                        (S)x(K)
+           250: RVHTH     flk     EMKEA mis=1
+
+                        (S)x(K)
+           253: THFLK     emk     EALGT mis=1
+
+                        (T)x(R)
+           260: KEALG     tpg     APNLY mis=1
+
+                        (S)x(K)
+           270: NLYQV     fik     YKERF mis=1
+
+                        (S)x(K)
+           272: YQVFI     kyk     ERFLV mis=1
+
+                        (S)x(R)
+           274: VFIKY     ker     FLVYG mis=1
+
+                        (S)x(R)
+           280: ERFLV     ygr     YCSQV mis=1
+
+                        (S)x(R)
+           285: YGRYC     sqv     ESASK mis=1
+
+                        (S)x(R)
+           289: CSQVE     sas     KHLDR mis=1
+
+                        (S)x(K)
+           290: SQVES     ask     HLDRV mis=1
+
+                        (S)x(R)
+           291: QVESA     skh     LDRVA mis=1
+
+                        (S)x(R)
+           294: SASKH     ldr     VAAAR mis=1
+
+                        (S)x(R)
+           299: LDRVA     aar     EDVQM mis=1
+
+                        (S)x(K)
+           305: AREDV     qmk     LEECS mis=1
+
+                        (S)x(R)
+           312: KLEEC     SQR     ANNGR
+
+                        (S)x(R)
+           317: SQRAN     ngr     FTLRD mis=1
+
+                        (T)x(R)
+           321: NNGRF     TLR     DLLMV
+
+                        (S)x(R)
+           330: LLMVP     mqr     VLKYH mis=1
+
+                        (S)x(K)
+           333: VPMQR     vlk     YHLLL mis=1
+
+                        (S)x(K)
+           343: LLLQE     lvk     HTQEA mis=1
+
+                        (T)x(R)
+           347: ELVKH     tqe     AMEQG mis=1
+
+                        (S)x(R)
+           355: AMEQG     nlr     LALDA mis=1
+
+                        (S)x(R)
+           362: RLALD     amr     DLAQC mis=1
+
+                        (S)x(K)
+           372: AQCVN     evk     RDNET mis=1
+
+                        (S)x(R)
+           373: QCVNE     vkr     DNETL mis=1
+
+                        (T)x(R)
+           379: KRDNE     TLR     QITNF
+
+                        (T)x(R)
+           384: TLRQI     tnf     QLSIE mis=1
+
+                        (S)x(R)
+           389: TNFQL     sie     NLDQS mis=1
+
+                        (S)x(R)
+           396: ENLDQ     sla     HYGRP mis=1
+
+                        (S)x(R)
+           400: QSLAH     ygr     PKIDG mis=1
+
+                        (S)x(K)
+           402: LAHYG     rpk     IDGEL mis=1
+
+                        (S)x(K)
+           408: PKIDG     elk     ITSVE mis=1
+
+                        (T)x(R)
+           412: GELKI     tsv     ERRSK mis=1
+
+                        (S)x(R)
+           413: ELKIT     sve     RRSKM mis=1
+
+                        (S)x(R)
+           414: LKITS     ver     RSKMD mis=1
+
+                        (S)x(R)
+           415: KITSV     err     SKMDR mis=1
+
+                        (S)x(K)
+           417: TSVER     rsk     MDRYA mis=1
+
+                        (S)x(R)
+           418: SVERR     skm     DRYAF mis=1
+
+                        (S)x(R)
+           420: ERRSK     mdr     YAFLL mis=1
+
+                        (S)x(K)
+           427: RYAFL     ldk     ALLIC mis=1
+
+                        (S)x(K)
+           433: DKALL     ick     RRGDS mis=1
+
+                        (S)x(R)
+           434: KALLI     ckr     RGDSY mis=1
+
+                        (S)x(R)
+           435: ALLIC     krr     GDSYD mis=1
+
+                        (S)x(R)
+           440: KRRGD     syd     LKDFV mis=1
+
+                        (S)x(K)
+           442: RGDSY     dlk     DFVNL mis=1
+
+                        (S)x(R)
+           451: FVNLH     sfq     VRDDS mis=1
+
+                        (S)x(R)
+           453: NLHSF     qvr     DDSSG mis=1
+
+                        (S)x(R)
+           458: QVRDD     ssg     DRDNK mis=1
+
+                        (S)x(R)
+           459: VRDDS     sgd     RDNKK mis=1
+
+                        (S)x(R)
+           460: RDDSS     gdr     DNKKW mis=1
+
+                        (S)x(K)
+           463: SSGDR     dnk     KWSHM mis=1
+
+                        (S)x(K)
+           464: SGDRD     nkk     WSHMF mis=1
+
+                        (S)x(R)
+           468: DNKKW     shm     FLLIE mis=1
+
+                        (S)x(K)
+           485: QGYEL     ffk     TRELK mis=1
+
+                        (S)x(R)
+           487: YELFF     ktr     ELKKK mis=1
+
+                        (T)x(R)
+           488: ELFFK     tre     LKKKW mis=1
+
+                        (S)x(K)
+           490: FFKTR     elk     KKWME mis=1
+
+                        (S)x(K)
+           491: FKTRE     lkk     KWMEQ mis=1
+
+                        (S)x(K)
+           492: KTREL     kkk     WMEQF mis=1
+
+                        (S)x(R)
+           504: FEMAI     sni     YPENA mis=1
+
+                        (T)x(R)
+           512: YPENA     tan     GHDFQ mis=1
+
+                        (S)x(R)
+           522: DFQMF     sfe     ETTSC mis=1
+
+                        (T)x(R)
+           526: FSFEE     tts     CKACQ mis=1
+
+                        (T)x(R)
+           527: SFEET     tsc     KACQM mis=1
+
+                        (S)x(K)
+           528: FEETT     SCK     ACQML
+
+                        (S)x(R)
+           535: KACQM     llr     GTFYQ mis=1
+
+                        (T)x(R)
+           539: MLLRG     tfy     QGYRC mis=1
+
+                        (S)x(R)
+           543: GTFYQ     gyr     CHRCR mis=1
+
+                        (S)x(R)
+           546: YQGYR     chr     CRASA mis=1
+
+                        (S)x(R)
+           548: GYRCH     rcr     ASAHK mis=1
+
+                        (S)x(R)
+           552: HRCRA     sah     KECLG mis=1
+
+                        (S)x(K)
+           553: RCRAS     ahk     ECLGR mis=1
+
+                        (S)x(R)
+           558: AHKEC     lgr     VPPCG mis=1
+
+                        (S)x(R)
+           564: GRVPP     cgr     HGQDF mis=1
+
+                        (T)x(K)
+           574: QDFPG     TMK     KDKLH
+
+                        (S)x(K)
+           575: DFPGT     mkk     DKLHR mis=1
+
+                        (S)x(K)
+           577: PGTMK     kdk     LHRRA mis=1
+
+                        (S)x(R)
+           580: MKKDK     lhr     RAQDK mis=1
+
+                        (S)x(R)
+           581: KKDKL     hrr     AQDKK mis=1
+
+                        (S)x(K)
+           585: LHRRA     qdk     KRNEL mis=1
+
+                        (S)x(K)
+           586: HRRAQ     dkk     RNELG mis=1
+
+                        (S)x(R)
+           587: RRAQD     kkr     NELGL mis=1
+
+                        (S)x(K)
+           594: RNELG     lpk     MEVFQ mis=1
+
+                        (S)x(R)
+           616: GAIGP     flr     LNPGD mis=1
+
+                        (S)x(K)
+           627: GDIVE     ltk     AEAEQ mis=1
+
+                        (T)x(R)
+           628: DIVEL     tka     EAEQN mis=1
+
+                        (S)x(R)
+           638: EQNWW     egr     NTSTN mis=1
+
+                        (T)x(R)
+           642: WEGRN     tst     NEIGW mis=1
+
+                        (S)x(R)
+           643: EGRNT     stn     EIGWF mis=1
+
+                        (T)x(R)
+           644: GRNTS     tne     IGWFP mis=1
+
+                        (S)x(R)
+           652: IGWFP     cnr     VKPYV mis=1
+
+                        (S)x(K)
+           654: WFPCN     rvk     PYVHG mis=1
+
+                        (S)x(R)
+           667: PPQDL     svh     LWYAG mis=1
+
+                        (S)x(R)
+           676: WYAGP     mer     AGAES mis=1
+
+                        (S)x(R)
+           683: RAGAE     sil     ANRSD mis=1
+
+                        (S)x(R)
+           686: AESIL     anr     SDGTF mis=1
+
+                        (S)x(R)
+           689: ILANR     sdg     TFLVR mis=1
+
+                        (T)x(R)
+           692: NRSDG     tfl     VRQRV mis=1
+
+                        (S)x(R)
+           694: SDGTF     lvr     QRVKD mis=1
+
+                        (S)x(R)
+           696: GTFLV     rqr     VKDAA mis=1
+
+                        (S)x(K)
+           698: FLVRQ     rvk     DAAEF mis=1
+
+                        (S)x(K)
+           708: AEFAI     SIK     YNVEV
+
+                        (S)x(K)
+           714: IKYNV     evk     HTVKI mis=1
+
+                        (T)x(K)
+           718: VEVKH     TVK     IMTAE
+
+                        (T)x(R)
+           723: TVKIM     tae     GLYRI mis=1
+
+                        (S)x(R)
+           727: MTAEG     lyr     ITEKK mis=1
+
+                        (T)x(K)
+           731: GLYRI     TEK     KAFRG
+
+                        (S)x(K)
+           732: LYRIT     ekk     AFRGL mis=1
+
+                        (S)x(R)
+           735: ITEKK     afr     GLTEL mis=1
+
+                        (T)x(R)
+           740: AFRGL     tel     VEFYQ mis=1
+
+                        (S)x(K)
+           750: FYQQN     SLK     DCFKS
+
+                        (S)x(K)
+           754: NSLKD     cfk     SLDTT mis=1
+
+                        (S)x(R)
+           757: KDCFK     sld     TTLQF mis=1
+
+                        (T)x(R)
+           760: FKSLD     ttl     QFPFK mis=1
+
+                        (T)x(R)
+           761: KSLDT     tlq     FPFKE mis=1
+
+                        (S)x(K)
+           765: TTLQF     pfk     EPEKR mis=1
+
+                        (S)x(K)
+           769: FPFKE     pek     RTISR mis=1
+
+                        (S)x(R)
+           770: PFKEP     ekr     TISRP mis=1
+
+                        (T)x(R)
+           773: EPEKR     tis     RPAVG mis=1
+
+                        (S)x(R)
+           774: PEKRT     isr     PAVGS mis=1
+
+                        (S)x(R)
+           775: EKRTI     srp     AVGST mis=1
+
+                        (S)x(K)
+           781: RPAVG     STK     YFGTA
+
+                        (T)x(R)
+           782: PAVGS     tky     FGTAK mis=1
+
+                        (T)x(K)
+           787: TKYFG     TAK     ARYDF
+
+                        (S)x(R)
+           789: YFGTA     kar     YDFCA mis=1
+
+                        (S)x(R)
+           795: ARYDF     car     DRSEL mis=1
+
+                        (S)x(R)
+           797: YDFCA     rdr     SELSL mis=1
+
+                        (S)x(R)
+           800: CARDR     sel     SLKEG mis=1
+
+                        (S)x(K)
+           803: DRSEL     SLK     EGDII
+
+                        (S)x(K)
+           809: LKEGD     iik     ILNKK mis=1
+
+                        (S)x(K)
+           813: DIIKI     lnk     KGQQG mis=1
+
+                        (S)x(K)
+           814: IIKIL     nkk     GQQGW mis=1
+
+                        (S)x(R)
+           821: KGQQG     wwr     GEIYG mis=1
+
+                        (S)x(R)
+           827: WRGEI     ygr     VGWFP mis=1
+
+                        (S)x(R)
+           843: VEEDY     sey     C     mis=1
+
+*****************************************
+* Protein kinase C phosphorylation site *
+*****************************************
+
+In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+serine or  threonine residues found close to a C-terminal basic residue [1,2].
+The presence  of  additional   basic residues at the  N- or C-terminal of  the
+target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+
+-Consensus pattern: [ST]-x-[RK]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Woodget J.R., Gould K.L., Hunter T.
+     Eur. J. Biochem. 161:177-184(1986).
+[ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+     Takeyama Y., Nishizuka Y.
+     J. Biol. Chem. 260:12492-12499(1985).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Prokar_Lipoprotein    ~(D,E,R,K)6(L,I,V,M,F,W,S,T,A,G)2(L,I,V,M,F,Y,S,T,A,G,C,Q)(A,G,S)C
+                                         ~(D,E,R,K){6}(A,G){2}(I)(G)C
+           605: FQEYY                            glppppgaigp                             FLRLN mis=1
+
+**********************************************************
+* Prokaryotic membrane lipoprotein lipid attachment site *
+**********************************************************
+
+In prokaryotes, membrane lipoproteins are synthesized  with a precursor signal
+peptide, which is cleaved  by  a specific lipoprotein signal peptidase (signal
+peptidase II). The peptidase recognizes a conserved sequence and cuts upstream
+of a cysteine residue  to which a  glyceride-fatty acid lipid is attached [1].
+Some of  the  proteins known to undergo such processing currently include (for
+recent listings see [1,2,3]):
+
+ - Major outer membrane lipoprotein (murein-lipoproteins) (gene lpp).
+ - Escherichia coli lipoprotein-28 (gene nlpA).
+ - Escherichia coli lipoprotein-34 (gene nlpB).
+ - Escherichia coli lipoprotein nlpC.
+ - Escherichia coli lipoprotein nlpD.
+ - Escherichia coli osmotically inducible lipoprotein B (gene osmB).
+ - Escherichia coli osmotically inducible lipoprotein E (gene osmE).
+ - Escherichia coli peptidoglycan-associated lipoprotein (gene pal).
+ - Escherichia coli rare lipoproteins A and B (genes rplA and rplB).
+ - Escherichia coli copper homeostasis protein cutF (or nlpE).
+ - Escherichia coli plasmids traT proteins.
+ - Escherichia coli Col plasmids lysis proteins.
+ - A number of Bacillus beta-lactamases.
+ - Bacillus subtilis periplasmic oligopeptide-binding protein (gene oppA).
+ - Borrelia burgdorferi outer surface proteins A and B (genes ospA and ospB).
+ - Borrelia hermsii variable major protein 21 (gene vmp21) and 7 (gene vmp7).
+ - Chlamydia trachomatis outer membrane protein 3 (gene omp3).
+ - Fibrobacter succinogenes endoglucanase cel-3.
+ - Haemophilus influenzae proteins Pal and Pcp.
+ - Klebsiella pullulunase (gene pulA).
+ - Klebsiella pullulunase secretion protein pulS.
+ - Mycoplasma hyorhinis protein p37.
+ - Mycoplasma hyorhinis variant surface antigens A, B, and C (genes vlpABC).
+ - Neisseria outer membrane protein H.8.
+ - Pseudomonas aeruginosa lipopeptide (gene lppL).
+ - Pseudomonas solanacearum endoglucanase egl.
+ - Rhodopseudomonas viridis reaction center cytochrome subunit (gene cytC).
+ - Rickettsia 17 Kd antigen.
+ - Shigella flexneri invasion plasmid proteins mxiJ and mxiM.
+ - Streptococcus pneumoniae oligopeptide transport protein A (gene amiA).
+ - Treponema pallidium 34 Kd antigen.
+ - Treponema pallidium membrane protein A (gene tmpA).
+ - Vibrio harveyi chitobiase (gene chb).
+ - Yersinia virulence plasmid protein yscJ.
+
+ - Halocyanin from Natrobacterium pharaonis [4], a membrane associated copper-
+   binding protein.  This  is  the  first archaebacterial  protein known to be
+   modified in such a fashion).
+
+From  the  precursor sequences  of all  these proteins, we derived a consensus
+pattern and  a  set  of  rules  to  identify  this  type of post-translational
+modification.
+
+-Consensus pattern: {DERK}(6)-[LIVMFWSTAG](2)-[LIVMFYSTAGCQ]-[AGS]-C
+                    [C is the lipid attachment site]
+ Additional rules:  1) The cysteine must be between positions 15 and 35 of the
+                       sequence in consideration.
+                    2) There must be at least one Lys or one Arg in the first
+                       seven positions of the sequence.
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in SWISS-PROT: some 100 prokaryotic proteins. Some
+ of them are not membrane lipoproteins, but at least half of them could be.
+-Last update: November 1995 / Pattern and text revised.
+
+[ 1] Hayashi S., Wu H.C.
+     J. Bioenerg. Biomembr. 22:451-471(1990).
+[ 2] Klein P., Somorjai R.L., Lau P.C.K.
+     Protein Eng. 2:15-20(1988).
+[ 3] von Heijne G.
+     Protein Eng. 2:531-534(1989).
+[ 4] Mattar S., Scharf B., Kent S.B.H., Rodewald K., Oesterhelt D.,
+     Engelhard M.
+     J. Biol. Chem. 269:14939-14945(1994).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Receptor_Cytokines_1  C(L,V,F,Y,R)x{7,8}(S,T,I,V,D,N)CxW
+                                C(L)x{8}(T)CxW
+            71: MSQFL           clknirtflstcce           KFGLK mis=1
+
+***********************************************************
+* Growth factor and cytokines receptors family signatures *
+***********************************************************
+
+A number of receptors for lymphokines, hematopoeitic growth factors and growth
+hormone-related molecules  have  been found [1 to 5] to share a common binding
+domain. Receptors known to belong to this family are:
+
+ - Cytokine  receptor  common  beta  chain.  This chain is common to the IL-3,
+   IL-5 and GM-CSF receptors.
+ - Cytokine  receptor  common  gamma chain.  This chain is common to the IL-2,
+   IL-4, IL-7 and IL-13 receptors.
+
+ - Ciliary neurotrophic factor receptor (CNTFR).
+ - Erythropoietin receptor (EPOR).
+ - Granulocyte colony-stimulating factor receptor (G-CSFR).
+ - Granulocyte-macrophage colony-stimulating factor  receptor alpha chain (GM-
+   CSFR).
+ - Interleukin-2 receptor beta chain (IL2R-beta).
+ - Interleukin-3 receptor alpha chain (IL3R).
+ - Interleukin-4 receptor alpha chain (IL4R).
+ - Interleukin-5 receptor alpha chain (IL5R).
+ - Interleukin-6 receptor (IL6R).
+ - Interleukin-7 receptor alpha chain (IL7R).
+ - Interleukin-9 receptor (IL9R).
+ - Growth hormone receptor (GRHR).
+ - Prolactin receptor (PRLR).
+ - Thrombopoeitin receptor (TPOR).
+
+The conserved  region  constitutes  all  or  part of the extracellular ligand-
+binding region and is about 200 amino acid residues long. In the N-terminal of
+this domain  there  are   two  pairs of cysteines known, in the growth hormone
+receptor, to be involved in disulfide bonds.
+
+ +----------------------------------------xxxxxxx---------------------------+
+ | C C       C  C  Extracellular          XXXXXXX   Cytoplasmic             |
+ +-|-|-------|--|-------------------------xxxxxxx---------------------------+
+   | |       |  |                      Transmembrane
+   +-+       +--+
+
+We have used two patterns  to detect  this  family of receptors. The first one
+is derived  from  the  first  N-terminal  disulfide  loop,  the  second  is  a
+tryptophan-rich  pattern   located   at   the  C-terminal   extremity  of  the
+extracellular region.
+
+-Consensus pattern: C-[LVFYR]-x(7,8)-[STIVDN]-C-x-W
+                    [The two C's are linked by a disulfide bond]
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ for CNTFR, IL3R-alpha, IL5R-alpha and IL7R-alpha.
+-Other sequence(s) detected in SWISS-PROT: 20.
+
+-Consensus pattern: [STGL]-x-W-[SG]-x-W-S
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ for cytokine  receptor  common  gamma  chain,  IL3R-alpha  and growth hormone
+ receptors.
+-Other sequence(s) detected in SWISS-PROT: 50.
+
+-Last update: November 1995 / Text revised.
+
+[ 1] Bazan J.F.
+     Biochem. Biophys. Res. Commun. 164:788-795(1989).
+[ 2] Bazan J.F.
+     Proc. Natl. Acad. Sci. U.S.A. 87:6934-6938(1990).
+[ 3] Cosman D., Lyman S.D., Idzerda R.L., Beckmann M.P., Park L.S.,
+     Goodwin R.G., March C.J.
+     Trends Biochem. Sci. 15:265-270(1990).
+[ 4] d'Andrea A.D., Fasman G.D., Lodish H.F.
+     Cell 58:1023-1024(1989).
+[ 5] d'Andrea A.D., Fasman G.D., Lodish H.F.
+     Curr. Opin. Cell Biol. 2:648-651(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Rgd                   RGD
+           124: PIAQN rgi MPFPT mis=1
+           136: TEEES vgd EDIYS mis=1
+           169: ENEEA egd EIYED mis=1
+           301: RVAAA red VQMKL mis=1
+           437: LICKR RGD SYDLK
+           455: HSFQV rdd SSGDR mis=1
+           459: VRDDS sgd RDNKK mis=1
+           537: CQMLL rgt FYQGY mis=1
+           621: FLRLN pgd IVELT mis=1
+           688: SILAN rsd GTFLV mis=1
+           737: EKKAF rgl TELVE mis=1
+           791: GTAKA ryd FCARD mis=1
+           806: ELSLK egd IIKIL mis=1
+           823: QQGWW rge IYGRV mis=1
+****************************
+* Cell attachment sequence *
+****************************
+
+The sequence Arg-Gly-Asp, found in fibronectin, is crucial for its interaction
+with its cell surface receptor, an integrin [1,2].  What  has  been called the
+'RGD' tripeptide is also found in the sequences of a number of other proteins,
+where it has been shown to play a role in cell adhesion.   These proteins are:
+some forms of collagens, fibrinogen, vitronectin, von Willebrand factor (VWF),
+snake disintegrins, and slime mold discoidins.   The 'RGD'  tripeptide is also
+found in other proteins  where  it  may also,  but not always,  serve the same
+purpose.
+
+-Consensus pattern: R-G-D
+-Last update: December 1991 / Text revised.
+
+[ 1] Ruoslahti E., Pierschbacher M.D.
+     Cell 44:517-518(1986).
+[ 2] d'Souza S.E., Ginsberg M.H., Plow E.F.
+     Trends Biochem. Sci. 16:246-250(1991).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Tyr_Phospho_Site      (R,K)x{2,3}(D,E)x{2,3}Y
+                          (R)x{3}(D)x{2}Y
+            22: LPPSH        rvtwdgaq         VCELA mis=1
+
+                          (K)x{2}(E)x{2}Y
+            89: EKFGL         krselfe         AFDLF mis=1
+
+                          (R)x{3}(D)x{3}Y
+           134: FPTEE        esvgdediy        SGLSD mis=1
+
+                          (R)x{2}(D)x{3}Y
+           135: PTEEE        svgdediy         SGLSD mis=1
+
+                          (R)x{2}(E)x{2}Y
+           136: TEEES         vgdediy         SGLSD mis=1
+
+                          (R)x{3}(D)x{3}Y
+           152: DQIDD        tveededly        DCVEN mis=1
+
+                          (R)x{2}(D)x{3}Y
+           153: QIDDT        veededly         DCVEN mis=1
+
+                          (R)x{2}(E)x{2}Y
+           154: IDDTV         eededly         DCVEN mis=1
+
+                          (R)x{3}(D)x{2}Y
+           167: CVENE        eaegdeiy         EDLMR mis=1
+
+                          (R)x{2}(D)x{2}Y
+           168: VENEE         aegdeiy         EDLMR mis=1
+
+                          (K)x{2}(E)x{2}Y
+           188: VSMPP         kmteydk         RCCCL mis=1
+
+                          (R)x{3}(E)x{2}Y
+           202: CCLRE        iqqteeky         TDTLG mis=1
+
+                          (R)x{2}(E)x{2}Y
+           203: CLREI         qqteeky         TDTLG mis=1
+
+                          (K)x{2}(D)x{2}Y
+           208: QQTEE         kytdtlg         SIQQH mis=1
+
+                          (K)x{2}(D)x{2}Y
+           229: LQRFL         kpqdiei         IFINI mis=1
+
+                          (K)x{3}(E)x{2}Y
+           252: HTHFL        kemkealg         TPGAP mis=1
+
+                          (K)x{2}(E)x{2}Y
+           272: YQVFI         kykerfl         VYGRY mis=1
+
+                          (K)x{2}(D)x{2}Y
+           274: VFIKY         kerflvy         GRYCS mis=1
+
+                          (R)x{2}(D)x{3}Y
+           276: IKYKE        rflvygry         CSQVE mis=1
+
+                          (K)x{2}(D)x{2}Y
+           292: VESAS         khldrva         AARED mis=1
+
+                          (K)x{2}(E)x{2}Y
+           307: EDVQM         kleecsq         RANNG mis=1
+
+                          (K)x{3}(E)x{2}Y
+           345: LQELV        khtqeame         QGNLR mis=1
+
+                          (R)x{3}(D)x{2}Y
+           357: EQGNL        rlaldamr         DLAQC mis=1
+
+                          (K)x{3}(E)x{2}Y
+           374: CVNEV        krdnetlr         QITNF mis=1
+
+                          (R)x{2}(E)x{2}Y
+           375: VNEVK         rdnetlr         QITNF mis=1
+
+                          (R)x{3}(D)x{2}Y
+           402: LAHYG        rpkidgel         KITSV mis=1
+
+                          (K)x{3}(E)x{2}Y
+           404: HYGRP        kidgelki         TSVER mis=1
+
+                          (R)x{2}(D)x{3}Y
+           416: ITSVE        rrskmdry         AFLLD mis=1
+
+                          (R)x{2}(D)x{2}Y
+           417: TSVER         rskmdry         AFLLD mis=1
+
+                          (K)x{2}(D)x{2}Y
+           435: ALLIC         krrgdsy         DLKDF mis=1
+
+                          (R)x{2}(D)x{2}Y
+           436: LLICK         rrgdsyd         LKDFV mis=1
+
+                          (K)x{2}(E)x{2}Y
+           487: YELFF         ktrelkk         KWMEQ mis=1
+
+                          (K)x{3}(E)x{2}Y
+           493: TRELK        kkwmeqfe         MAISN mis=1
+
+                          (K)x{2}(E)x{2}Y
+           494: RELKK         kwmeqfe         MAISN mis=1
+
+                          (R)x{2}(D)x{3}Y
+           537: CQMLL        rgtfyqgy         RCHRC mis=1
+
+                          (R)x{3}(D)x{2}Y
+           566: VPPCG        rhgqdfpg         TMKKD mis=1
+
+                          (R)x{3}(D)x{2}Y
+           582: KDKLH        rraqdkkr         NELGL mis=1
+
+                          (R)x{2}(D)x{2}Y
+           583: DKLHR         raqdkkr         NELGL mis=1
+
+                          (K)x{3}(E)x{2}Y
+           587: RRAQD        kkrnelgl         PKMEV mis=1
+
+                          (K)x{2}(E)x{2}Y
+           588: RAQDK         krnelgl         PKMEV mis=1
+
+                          (K)x{2}(D)x{3}Y
+           596: ELGLP        kmevfqey         YGLPP mis=1
+
+                          (K)x{3}(E)x{2}Y
+           629: IVELT        kaeaeqnw         WEGRN mis=1
+
+                          (R)x{3}(E)x{2}Y
+           678: AGPME        ragaesil         ANRSD mis=1
+
+                          (R)x{2}(D)x{2}Y
+           698: FLVRQ         rvkdaae         FAISI mis=1
+
+                          (K)x{3}(E)x{2}Y
+           700: VRQRV        kdaaefai         SIKYN mis=1
+
+                          (K)x{3}(E)x{2}Y
+           710: FAISI        kynvevkh         TVKIM mis=1
+
+                          (K)x{3}(D)x{3}Y
+           720: VKHTV        kimtaegly        RITEK mis=1
+
+                          (R)x{3}(E)x{2}Y
+           721: KHTVK        imtaegly         RITEK mis=1
+
+                          (R)x{2}(E)x{2}Y
+           722: HTVKI         mtaegly         RITEK mis=1
+
+                          (R)x{2}(E)x{2}Y
+           729: AEGLY         ritekka         FRGLT mis=1
+
+                          (R)x{3}(E)x{2}Y
+           737: EKKAF        rgltelve         FYQQN mis=1
+
+                          (K)x{2}(D)x{2}Y
+           756: LKDCF         ksldttl         QFPFK mis=1
+
+                          (K)x{2}(E)x{2}Y
+           767: LQFPF         kepekrt         ISRPA mis=1
+
+                          (R)x{3}(D)x{3}Y
+           776: KRTIS        rpavgstky        FGTAK mis=1
+
+                          (K)x{3}(D)x{2}Y
+           789: YFGTA        karydfca         RDRSE mis=1
+
+                          (R)x{3}(E)x{2}Y
+           797: YDFCA        rdrselsl         KEGDI mis=1
+
+                          (K)x{2}(D)x{2}Y
+           805: SELSL         kegdiik         ILNKK mis=1
+
+                          (R)x{3}(D)x{3}Y
+           829: GEIYG        rvgwfpany        VEEDY mis=1
+
+                          (R)x{3}(E)x{2}Y
+           835: VGWFP        anyveedy         SEYC  mis=1
+
+                          (R)x{2}(E)x{2}Y
+           836: GWFPA         nyveedy         SEYC  mis=1
+
+                          (R)x{3}(D)x{3}Y
+           837: WFPAN        yveedysey        C     mis=1
+
+                          (R)x{2}(D)x{3}Y
+           838: FPANY        veedysey         C     mis=1
+
+****************************************
+* Tyrosine kinase phosphorylation site *
+****************************************
+
+Substrates of tyrosine protein kinases are generally characterized by a lysine
+or an arginine seven residues  to  the N-terminal side  of  the phosphorylated
+tyrosine.  An acidic residue (Asp  or Glu) is often  found at either  three or
+four residues to  the N-terminal side  of  the tyrosine  [1,2,3].  There are a
+number of exceptions to  this rule such as the  tyrosine phosphorylation sites
+of enolase and lipocortin II.
+
+-Consensus pattern: [RK]-x(2)-[DE]-x(3)-Y
+                 or [RK]-x(3)-[DE]-x(2)-Y
+                    [Y is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Patschinsky T., Hunter T., Esch F.S., Cooper J.A., Sefton B.M.
+     Proc. Natl. Acad. Sci. U.S.A. 79:973-977(1982).
+[ 2] Hunter T.
+     J. Biol. Chem. 257:4843-4848(1982).
+[ 3] Cooper J.A., Esch F.S., Taylor S.S., Hunter T.
+     J. Biol. Chem. 259:7835-7841(1984).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Wd_Repeats            (L,I,V,M,S,T,A,C)(L,I,V,M,F,Y,W,S,T,A,G,C)(L,I,M,S,T,A,G)(L,I,V,M,S,T,A,G,C)x2(D,N)x2(L,I,V,M,W,S,T,A,C)x(L,I,V,M,F,S,T,A,G)W(D,E,N)(L,I,V,M,F,S,T,A,G,C,N)
+                        (V)(A)(A)(A)x{2}(D)x{2}(M)x(L)W(E)(C)
+           297: KHLDR   vaaaredvqmkleec   SQRAN mis=1
+
+                        (M)(F)(L)(L)x{2}(D)x{2}(A)x(G)W(E)(L)
+           470: KKWSH   mflliedqgaqgyel   FFKTR mis=1
+
+*************************************
+* Trp-Asp (WD-40) repeats signature *
+*************************************
+
+Beta-transducin (G-beta) is one of the three subunits (alpha, beta, and gamma)
+of  the  guanine   nucleotide-binding  proteins  (G proteins)   which  act  as
+intermediaries  in  the  transduction  of  signals  generated by transmembrane
+receptors [1]. The alpha subunit binds to and hydrolyzes GTP; the functions of
+the beta and gamma subunits  are less clear but  they  seem to be required for
+the  replacement  of  GDP  by  GTP as  well  as  for  membrane  anchoring  and
+receptor recognition.
+
+In higher eukaryotes G-beta  exists  as  a  small multigene family  of  highly
+conserved  proteins  of  about  340  amino acid residues.  Structurally G-beta
+consists of eight  tandem  repeats  of  about  40  residues, each containing a
+central Trp-Asp  motif  (this  type  of  repeat  is  sometimes  called a WD-40
+repeat). Such  a  repetitive segment has been shown [E1,2,3,4,5] to exist in a
+number of other proteins listed below:
+
+ - Yeast STE4, a component of the pheromone response pathway. STE4 is a G-beta
+   like protein that associates with GPA1 (G-alpha) and STE18 (G-gamma).
+ - Yeast MSI1, a negative  regulator  of RAS-mediated cAMP synthesis.  MSI1 is
+   most probably also a G-beta protein.
+
+ - Human and chicken protein 12.3.  The function of this protein is not known,
+   but on the basis of its similarity to G-beta proteins, it may also function
+   in signal transduction.
+ - Chlamydomonas  reinhardtii  gblp. This protein is most probably the homolog
+   of vertebrate protein 12.3.
+ - Human LIS1, a neuronal protein involved in type-1 lissencephaly [E2].
+ - Mammalian  coatomer  beta'  subunit (beta'-COP), a component of a cytosolic
+   protein complex  that  reversibly  associates  with Golgi membranes to form
+   vesicles that mediate biosynthetic protein transport.
+
+ - Yeast CDC4, essential for  initiation of DNA replication  and separation of
+   the spindle pole bodies to form the poles of the mitotic spindle.
+ - Yeast CDC20, a protein required  for  two  microtubule-dependent processes:
+   nuclear movements prior to anaphase and chromosome separation.
+ - Yeast MAK11, essential for  cell  growth  and  for  the  replication  of M1
+   double-stranded RNA.
+ - Yeast PRP4, a component of the U4/U6  small nuclear  ribonucleoprotein with
+   a probable role in mRNA splicing.
+ - Yeast PWP1, a protein of unknown function.
+ - Yeast SKI8, a protein essential for controlling  the propagation of double-
+   stranded RNA.
+ - Yeast SOF1,  a  protein   required  for   ribosomal  RNA  processing  which
+   associates with U3 small nucleolar RNA.
+ - Yeast TUP1 (also known as AER2 or SFL2 or CYC9), a  protein  which has been
+   implicated in    dTMP uptake,  catabolite repression, mating sterility, and
+   many other phenotypes.
+ - Yeast YCR57c, an ORF of unknown function from chromosome III.
+ - Yeast YCR72c, an ORF of unknown function from chromosome III.
+
+ - Slime mold coronin, an actin-binding protein.
+ - Slime mold AAC3, a developmentally regulated protein of unknown function.
+
+ - Drosophila protein Groucho (formerly known as E(spl); 'enhancer of split'),
+   a protein  involved  in  neurogenesis  and  that seems to interact with the
+   Notch and Delta proteins.
+ - Drosophila TAF-II-80, a protein that is tightly associated with TFIID.
+
+The number of repeats in the above  proteins varies between 5 (PRP4, TUP1, and
+Groucho) and 8 (G-beta, STE4, MSI1, AAC3, CDC4, PWP1, etc.).  In G-beta and G-
+beta like  proteins, the repeats span the entire length of the sequence, while
+in other proteins,  they make up the N-terminal, the central or the C-terminal
+section.
+
+A signature pattern  can  be  developed  from  the  central core of the domain
+(positions 9 to 23).
+
+-Consensus pattern: [LIVMSTAC]-[LIVMFYWSTAGC]-[LIMSTAG]-[LIVMSTAGC]-x(2)-[DN]-
+                    x(2)-[LIVMWSTAC]-x-[LIVMFSTAG]-W-[DEN]-[LIVMFSTAGCN]
+-Sequences known to belong to this class detected by the pattern: A   majority.
+ This pattern  does not detect ALL the occurrences of the domain in any of the
+ above proteins, as some of the copies of the domain are less conserved.
+-Other sequence(s) detected in SWISS-PROT: 91 other proteins,  but  in  all of
+ them, the pattern is found only ONCE,  whereas it is generally found twice or
+ more in WD-repeat proteins.
+
+-Last update: July 1998 / Pattern and text revised.
+
+[ 1] Gilman A.G.
+     Annu. Rev. Biochem. 56:615-649(1987).
+[ 2] Duronio R.J., Gordon J.I., Boguski M.S.
+     Proteins 13:41-56(1992).
+[ 3] van der Voorn L., Ploegh H.L.
+     FEBS Lett. 307:131-134(1992).
+[ 4] Neer E.J., Schmidt C.J., Nambudripad R., Smith T.F.
+     Nature 371:297-300(1994).
+[ 5] Smith T.F., Gaiatzes C.G., Saxena K., Neer E.J.
+     Biochemistry In Press(1998).
+[E1] http://bmerc-www.bu.edu/wdrepeat/
+[E2] http://bioinformatics.weizmann.ac.il/hotmolecbase/entries/lis1.htm
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+
+$n=$ARGV[0];
+$result=1;
+
+for ($a=1; $a<=$n; $a++)
+  {
+    $result=$result*$a;
+  }
+print "!$n=$result";
+
+    

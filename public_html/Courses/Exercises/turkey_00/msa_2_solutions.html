@@ -1,0 +1,263 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<UL>
+<UL>
+<UL>
+<UL>
+<UL>
+<H1>
+Companion &amp; Solutions</H1>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+&nbsp;
+<H2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multiple Sequence Alignments
+and Profiles</H2>
+
+<HR WIDTH="100%">
+<HR WIDTH="100%">
+
+<P><B><FONT SIZE=+1>Finding a local homology domain by BLAST and pairwise
+alignment</FONT></B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; a)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT: </B>Use the lookup program
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION:</B> The entry name is XRC1_HUMAN.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; b)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT: </B>Call blast with the option -filter=xs
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: See the&nbsp; blast output
+<A HREF="exercises_files/xrcc_human.blastp">file.</A>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>NOTE</B>: If you want to see what happens
+if the search is run without filters, look at the following file
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; c)
+<BR><B>&nbsp;&nbsp;&nbsp;&nbsp; HINT</B>: For pairwise comparison, use
+the BLOSUM45 comparison matrix. Since we are interested in
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; local homologies, use the bestfit program
+with gap creation penalties of 20-30 and gap extension
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; penalties of 2-3. For assessing the statistical
+significance of pairwise matches, use the following
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; command line:
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bestfit -data=blosum62.cmp
+-gap=18 -len=2 swiss:rad4_schpo
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swiss:xrcc_human -ran=100
+
+<P><B>&nbsp;&nbsp;&nbsp;&nbsp; SOLUTION:</B> The only significant match
+here is Rad4 from S. pombe (see corresponding <A HREF="exercises_files/rad4_schpo.pair">file</A>).
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; d)
+<BR><B>&nbsp;&nbsp;&nbsp;&nbsp; SOLUTION</B>: Use the combination of GCGs
+compare and dotplot programs. For compare, use a
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; window of 35 and a stringency of 20.&nbsp;
+See the resulting <A HREF="exercises_files/xrcc_rad4.dot_plot">file</A>
+<BR>&nbsp;
+<BR>&nbsp;
+<UL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B> compare -window=36
+-STR=20 -INfile1=swiss:RAD4_SCHPO</B>
+<BR><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -INfile2=swiss:xrcc_human</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B>dotplot xrcc_human.pnt</B></UL>
+<A HREF="msa_2.html">[BACK]</A>
+<BR>
+<HR WIDTH="100%">
+<HR WIDTH="100%">
+<BR>&nbsp;
+<BR>&nbsp;<B><FONT SIZE=+1>Multiple alignment of homologous domains and
+profile searches</FONT></B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; a)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT:</B> create a list file for pileup
+using the Begin and End specifications.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>:Use the following list_file
+( MAPP.4.list), indicating the approximate conserved
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; regions.
+<BR>&nbsp;
+<UL>
+<UL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ******************************************
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#FF0000">&nbsp;
+swiss:RAD4_SCHPO Begin:1 End:80</FONT>
+<BR><FONT COLOR="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+swiss:RAD4_SCHPO Begin:100 End:180</FONT>
+<BR><FONT COLOR="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+swiss:XRCC_HUMAN Begin:310 End:390</FONT>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ******************************************</UL>
+</UL>
+&nbsp;&nbsp;&nbsp;&nbsp; and the command
+<BR>&nbsp;
+<UL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<B>pileup @MAPP.4.list</B></UL>
+&nbsp;&nbsp;&nbsp;&nbsp; that produces an msf <A HREF="exercises_files/4_4.msf">file</A>.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; b)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT</B>: Suppose your alignment file is
+pileup.msf. Invoke lineup by saying '
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<B>lineup -MSF pileup.msf</B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <B>NOTE</B>: Note the difference to e.g. reformat,
+where you would have to say 'reformat -msf
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; pileup.msf{*}'. This is because lineup always
+expects a multiple-alignment file while reformat
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; expects one (or more) sequence(s)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: An example edited alignment
+<A HREF="exercises_files/4_4_clean.msf">file</A>.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; c)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT</B>: Suppose your edited MSF file
+is called edited.msf. The command line is:
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+profilemake -stringent -nologwgt -data=blosum62.cmp edited.msf{*}
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; see the above comment for the {*} syntax.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: An example output of profilmake
+is in this <A HREF="exercises_files/4_4_edited.prf">file</A>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; d)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT</B>: For searching small to medium
+size databases,<B> profilesearch</B> is suited. However, <B>profilesearch</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; has a built-in restriction to take at most
+100,000 sequences into consideration. For big databases, the
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; EGCG program <B>tprofilesearch</B> with the
+option -nosixframe can be used. <B>tprofilesearch</B> also has a
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; restriction to 80,000 sequences but it can
+use the-minscore=xx parameter. Using this option, only
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; sequences with a score higher than xx are
+considered (and counted). See the<B> tprofilesearch</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; documentation (EGCG package) for details.
+Suitable commands for searching our example against
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; SwissProt are:
+<BR>&nbsp;
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<B>profilesearch -noave -nor -gap=21 -len=2 -batch</B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; or in EGCC
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+tprofilesearch -nosixframe -noaverage -normalize -minscore=5.0 -list=100
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-batch ..
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: The output file of this search
+is in this <A HREF="exercises_files/4_4_edited.pfs">file</A>.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; f)<B> HINT</B>:Siginificant hits have Z-scores
+> 7 or 8.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; In this example, YD97_SCHPO, YHV4_YEAST, YM8K_YEAST,&nbsp;
+DNLJ_THESC, DNLJ_THETH,
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; DNL4_HUMAN and DNLJ_ECOLI are to be considered
+significant.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: The output file of profilesegments
+is given in this <A HREF="exercises_files/4_4_edited.pairs">file</A>.
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><B><FONT SIZE=+1>Advanced exercises</FONT></B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; e) <B>HINT</B>: Create matching segments with
+a command line like
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; profilegap -outfile2=newsegment.seg
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; In the newly found matches, only a part of
+the profile is matched to the sequence. In cases like this, it
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; might be a good idea to manually check if
+the flanking regions of the sequence might be forced to also
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; match the profile. This can be checked e.g.
+by
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; profilesegments -global.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; f) <B>NOTE</B>: You should be able to find
+consecutively more significant matches, e.g. bacterial ligases,
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; yeast Rev1, mammalian Ect, later also mammalian
+and yeast ligases, yeast Rad9, Rfc1, PARP, 53BP1
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; and even Brca1.
+<BR>&nbsp;
+
+<P><A HREF="/msa_2.html">[BACK]</A>
+
+<P>
+<HR WIDTH="100%">
+<HR WIDTH="100%">
+<BR>&nbsp;
+
+<P><A NAME="PSI-BLAST"></A><B><FONT SIZE=+1>The Psi-Blast Server</FONT></B>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; a)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT</B>: Do not use the full XRCC_HUMAN.
+If you do so, another domain at the N-Terminus will obscure
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; the hits of interest. The output file you
+get using the whole sequence is shown <A HREF="exercises_file/psi_blast_bad_result.html">here</A>.
+The major problem is that
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; the long N-terminal domain makes it difficult
+to see the shorter domain we are interested in.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <B>SOLUTION</B>: The correct solution will
+be obtained in several rounds by submitting only the frst 400
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; amino acid of XRCC_HUMAN. See the <A HREF="exercises_files/psi_blast_good_result.html">file</A>
+here for the third iteration.
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; b)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; <B>HINT:</B> Pileup is not sensitive enought
+to make this alignment. Instead, use ClustalW, but use pileup to
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; produce the fragment of sequences you wish
+to&nbsp; align. Use readseq to reformat your sequences.
+
+<P>&nbsp;&nbsp;&nbsp;<B> SOLUTION:</B> You can use the following <A HREF="exercises_files/pileup4domain.list">list_file</A>
+and feed it to pileup. The output alignment is rather
+<BR>&nbsp;&nbsp;&nbsp; unconvincing (<A HREF="exercises_files/pileup4domain.msf">here</A>)
+.
+<UL>
+<UL>
+<UL>&nbsp;<B>pileup @listfile</B></UL>
+</UL>
+&nbsp;</UL>
+&nbsp;&nbsp; Reformat the alignmnent into a sequence file using readseq
+(it is important to remove the gaps before proceeding).
+<BR>&nbsp; If you use clustalx, the msf file can be loaded direcly and
+the gaps removed before doing the multiple alignment.
+<BR>&nbsp; If you are using clustalw, you may want to use readseq:
+<UL>
+<UL>
+<UL><B>readseq <I>&lt;your_alignment.msf> </I>-f=8 -degap=~ -o=your_sequences.seq
+-a [Produces a <A HREF="exercises_files/pileup4domain.seq">sequence file</A>
+in FASTA]</B></UL>
+</UL>
+</UL>
+
+<UL>
+<UL>
+<UL><B>clustaw your_sequences.seq [Produces a .<A HREF="exercises_files/pileup4domain.aln">aln</A>
+file containing the alignment in clustalw format]</B></UL>
+</UL>
+</UL>
+&nbsp;&nbsp;&nbsp;&nbsp; You can also edit this alignment using seaview.
+do not forget to save it in clustalw format for further processing (i.e.
+boxshade).
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp; c)
+<BR>&nbsp;&nbsp;&nbsp;&nbsp; You can use <A HREF="http://www.ch.embnet.org/software/BOX_faq.html">Boxshade</A>
+or prettyview to produce a more convincing alignment in post-script format
+(here is a black and white&nbsp; an
+<BR>&nbsp;&nbsp;&nbsp; <A HREF="exercises_files/pileup4domain.aln_bx.ps">example</A>),
+obtained with the command:
+<BR>&nbsp;
+<UL>
+<UL>
+<UL><B>boxshade -def -in=pileup4domain.aln -out=x.ps -cons</B>
+<BR>&nbsp;</UL>
+</UL>
+</UL>
+<B>[<A HREF="msa_2.html#PSI-BLAST">BACK</A>]</B>
+</BODY>
+</HTML>

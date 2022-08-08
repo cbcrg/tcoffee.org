@@ -1,0 +1,64 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Graphics From Program figure
+%%For: cnotreda
+%%CreationDate: August 24, 1998 15:35
+%%Creator: The Genetics Computer Group
+%%DocumentFonts: Courier
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+%%EndComments
+/m { moveto } def
+/l { lineto } def
+/s { stroke } def
+/n { newpath } def
+/lc { setlinecap } def
+/offset { 0 0 moveto (A) false charpath
+flattenpath pathbbox
+pop pop pop -1 mul /xoff exch def } def
+36.00 216.00 translate
+   3 setlinewidth
+1 setlinecap
+0 setlinejoin
+2 setmiterlimit
+0.240000 0.240000 scale
+%%EndProlog
+%%Page: ? 1
+/Courier findfont [ 51   0   0  65   0   0] makefont setfont
+219 1462 m
+2 0 (PILEUP of: @1_pileup_stat3.list  August 24, 1998 15:33) ashow
+n
+1687 540 m
+1687 1214 l
+1125 1214 l
+1125 540 l
+s
+n
+1406 1214 m
+1406 1349 l
+562 1349 l
+562 540 l
+s
+/Courier findfont [ 41   0   0  52   0   0] makefont setfont
+1672 510 m
+gsave
+-89 rotate
+2 0 (SCG1_HUMAN) ashow
+grestore
+1110 510 m
+gsave
+-89 rotate
+2 0 (SCGA_XENLA) ashow
+grestore
+547 510 m
+gsave
+-89 rotate
+2 0 (STHM_MOUSE) ashow
+grestore
+   1 setlinewidth
+/Courier findfont [ 20   0   0  26   0   0] makefont setfont
+1753 0 m
+1 0 (pileup.figure  August 24, 1998 15:35) ashow
+/#copies    1 def
+showpage
+%%Trailer
+%%Pages: 1

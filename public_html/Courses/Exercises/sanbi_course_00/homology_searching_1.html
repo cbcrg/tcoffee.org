@@ -1,0 +1,501 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22) [Netscape]">
+   <TITLE>The EMBNET Online Teaching Resource</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+&nbsp;
+<TABLE BORDER=0 CELLSPACING=2 CELLPADDING=2 WIDTH="95%" VALIGN="TOP" >
+<TR>
+<TD>
+<H2 CLASS="title">
+Homology Searching</H2>
+
+<HR>Contrary to widely held belief, "homology searching", "Blast" and "the
+NCBI basic blast server" are <U>not</U> all synonyms ! The GCG programs
+that you will use for homology searching are <I>blast netblast</I> and
+<I>fasta</I>. We will also be using some WWW blast servers.&nbsp;
+
+<P>Blast finds sequences in a database that are similar to a query sequence.
+It uses the method of Altschul <I>et al.</I>(J. Mol. Biol. 215; 403-410
+(1990)). The query sequence and the database to be searched can be either
+peptide or nucleotide in any combination
+<UL>&nbsp;
+<LI>
+<FONT COLOR="#000000">blastp; compares a protein sequence against a protein
+DB&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">blastn; compares a NA sequence against a NA DB&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">blastx; dynamically translates a NA query in all
+6 reading frames and compares it to a protein DB&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">tblastn; compares a protein query against a NA database
+translated in all six reading frames&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">tblastx; translates both input NA and NA database
+6x and compares !&nbsp;</FONT></LI>
+</UL>
+So, for example, you can search your peptide sequence against the Genbank
+or EMBL DNA database translated in all six reading frames. This might be
+particularly appropriate if you wanted to find homologues in the EST (Expressed
+Sequence Tags) database.&nbsp;
+
+<P>Blast finds regions of relative similarity between your query sequence
+and a given database. These regions of similarity are known as segment
+pairs. The segment pairs found have the property that the sum of the scoring
+matrix of their constituent symbol pairs is above what you may expect to
+occur by chance.&nbsp;
+
+<P>Homology searching is one of the most computationally intensive things
+you can do in bioinformatics. Care should be taken to ensure whether local
+computers are able to deal with your search in an effective time-scale.
+You can use such UNIX based protocols as <B>uptime</B> or <B>top</B>(if
+installed) to try to determine if running a blast search to the current
+system load is likely to slow everything down unacceptably. GCG 'netblast'
+enables you to carry out your searches on a dedicated remote blast server,
+this could be recommended if:&nbsp;
+<OL Type="a">
+<LI>
+you have good network connections to the USA,&nbsp;</LI>
+
+<LI>
+if your local server is small or underpowered,&nbsp;</LI>
+
+<LI>
+if you need access to daily updated information and&nbsp;</LI>
+
+<LI>
+if you choose not to work when America is "awake".&nbsp;</LI>
+</OL>
+Alternatively, there are a variety of WWW based servers which will do homology
+searches for you. You will compare and contrast the following web servers:&nbsp;
+<UL>
+<LI>
+<A HREF="http://www.ncbi.nlm.nih.gov/BLAST">http://www.ncbi.nlm.nih.gov/BLAST</A>
+(both Basic and Advanced pages)&nbsp;</LI>
+
+<LI>
+<A HREF="http://www2.ebi.ac.uk/blast2/">http://www2.ebi.ac.uk/blast2/</A>&nbsp;</LI>
+
+<LI>
+<A HREF="http://www2.ebi.ac.uk/fasta3/">http://www2.ebi.ac.uk/fasta3/</A>&nbsp;</LI>
+</UL>
+as well as GCG blast and GCG netblast programs.&nbsp;
+<H3>
+<A NAME="26"></A>Options and parameters</H3>
+All the homology searching programs come with several options and choices
+to tailor a search to yield the results you want. Some of these parameters
+change the quality of the search while others merely change the amount
+of information (eg number of hits) that is returned to you.&nbsp;
+
+<P>It is perfectly legitimate to run a homology search taking the default
+parameters: those defaults have been chosen to achieve the "greatest good
+for the greatest number". If your query sequence turns out to be a member
+of a well established and widely sequenced family and you merely want to
+establish this fact, then you will almost certainly get the same result
+regardless of what options you choose. For less trivial searches/questions,
+however, such as finding distant relationships, one homology search is
+almost certainly inadequate.&nbsp;
+<OL>
+<LI>
+<FONT COLOR="#000000">Running searches with different substitution matrices
+will help you find different sorts of hits: PAM30 will preferentially find
+homologues that are evolutionarily close - strong short matching segments;
+on the other hand PAM250 will tend to find long, weak, diffuse matches
+typical of more distantly related proteins. GCG option: <B>-mat=PAM30</B>&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">You will possibly find it useful to run searches
+both with/without filtering out repeated sequence or employing low-complexity
+masking: these options XXXX out regions of the protein which are particularly
+biassed - proline or histidine rich for example. The defaults on the blast
+servers at NCBI and the EBI for masking are not the same! GCG option: <B>-fil
+=xs.</B> GCG 9 incorporates two self-standing programs <B>xnu</B> and <B>seg</B>
+which allow you to carry out two sorts of filtering on protein sequences.&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">For very short sequences blast may not return any
+hits at all unless the Expectation Cutoff is set very high (E=1000 is the
+maximum). GCG option: <B>-exp=1000</B>. Alternatively you may wish to exclude
+hits other than those that a highly significant biologically. GCG option:
+<B>-exp=0.001</B>&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">Defaults are also set to determine the amount of
+output delivered:&nbsp;</FONT></LI>
+
+<OL Type="a">
+<LI>
+<FONT COLOR="#000000">the number of hits reported. GCG option:<B>-lis=500</B>&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#000000">the number of alignments (segments) based on these
+matches that are shown. GCG option:<B>-seg=100</B>&nbsp;</FONT></LI>
+</OL>
+</OL>
+You may wish to change these either to avoid a deluge of output or to get
+beyond obvious matches to those with lower scores that are potentially
+exciting.&nbsp;
+
+<P>For the WWW servers you should be able to find the equivalent switches,
+using the hypertext-linked help information for each option. For obvious
+reasons the number of available options is limited on the Basic Blast page.&nbsp;
+
+<P>For reproducibility you should note the time, date and database version
+and size against which you carried out the homology search, this information
+should appear at the head of the output&nbsp;
+<H4>
+Hints and suggestions</H4>
+
+<OL>
+<LI>
+<FONT COLOR="#333333">If your DNA sequence is coding, then translate it
+and use blast. For one thing, mutational biases at silent third positions
+could give you spuriously good matches with sequences that have a similar
+mutational bias but not particularly close evolutionary relationship.&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#333333">In general 'fasta' is better for DNA - DNA searches
+(ie for non-coding DNA sequence) than blast.&nbsp;</FONT></LI>
+
+<LI>
+<FONT COLOR="#333333">Fasta accesses the databases directly while blast
+requires them to be converted into special compressed binary encoded files
+- this is one reason why blast tends to be faster than fasta for comparable
+searches. This has the advantage of allowing you to search specific segments
+or divisions of the DNA databases. Only Fungi or only prokaryotes, for
+example&nbsp;</FONT></LI>
+</OL>
+
+<H5>
+<U><FONT COLOR="#333333">Examples:</FONT></U></H5>
+
+<H4>
+<A NAME="27"></A>GCG -Fasta</H4>
+Use the GCG version of fasta to find potential yeast homologs of the <I>E.
+coli</I> <I>recA</I> gene using the DNA sequence.&nbsp;
+<BR><TT>%</TT> <B>fasta</B>
+
+<P><TT>FastA does a Pearson and Lipman search for similarity between a
+query sequence and a group of sequences of the same type (nucleic acid
+or protein)? For nucleotide searches, FastA may be more sensitive than
+BLAST</TT>&nbsp;
+
+<P><TT>FASTA with what query sequence ?</TT><B>em:v00328</B> <TT>Begin
+(* 1 *) ?</TT>
+<BR><TT>End (* 1391 *) ?</TT>
+<BR><TT>Search for query in what sequence(s) (* GenEMBL:* *) ? </TT><B>em_fun:sc*</B>
+<BR><TT>What word size (* 6 *) ?</TT>
+<BR><TT>Don't show scores whose E() value exceeds: (* 2.0 *): </TT><B>10</B>
+<BR><TT>What should I call the output file (* v00328.fasta *)?</TT>
+
+<P><TT>&nbsp; 1 Sequences 2,167bp searched EM_FUN:SC</TT>
+<BR><TT>101 Sequences 569,762bp searched EM_FUN:SC13615</TT>
+<BR><TT>201 Sequences 821,511bp searched EM_FUN:SC20641</TT>
+<BR><TT>301 Sequences 1,175,052bp searched EM_FUN:SC30613</TT>
+<BR><TT>Etc etc</TT>&nbsp;
+
+<P>Unfortunately, this does not find the known (but distant) homologue
+of recA the RAD51 gene in yeast (sw:ra51_yeast) because there are so many
+gaps in the alignment of the two sequences.&nbsp;
+
+<P>If you were to do a blast search against, say, SwissProt to find this
+yeast homologue you'd have to ignore the first 80+ hits because recA is
+amongst the most widely sequenced of prokaryotic proteins. This can be
+a real problem when you already know of the obvious relationships with
+your protein of choice. In this particular case we are in better shape
+because the NCBI has created a blast-searchable DB specifically for Saccharomyces
+cerevisiae (yeast) presumably because it is a) a standard genetic organism
+and b) the first completely sequenced eukaryotic genome. See exercise 5
+below for another approach.&nbsp;
+<H4>
+<A NAME="28"></A>GCG - netblast</H4>
+Use the GCG internet version of blast to find homologs of the <I>Bordetella
+pertussis</I> <I>recA</I> gene using the protein sequence. Or some other
+more interesting gene of your own choice !&nbsp;
+
+<P><TT>%</TT> <B>netblast sw:reca_borpe</B>&nbsp;
+
+<P><TT>NetBLAST searches for seqs similar to a query sequence. The query
+and the database searched can be either peptide or nucleic acid in any
+combination. NetBLAST can search only databases maintained at the National
+Center for Biotechnology Information (NCBI) in Bethesda, Maryland, USA.&nbsp;</TT>
+
+<P><TT>Search for query in what sequence database:&nbsp;</TT>
+
+<P><TT>&nbsp;1) nr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+p Non-redundant GB CDS translations+PDB+SwissProt+PIR</TT>
+<BR><TT>&nbsp;2)&nbsp;&nbsp; pdb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p
+PDB protein sequences</TT>
+<BR><TT>&nbsp;3)&nbsp;&nbsp; swissprot p SwissProt sequences</TT>
+<BR><TT>&nbsp;4) yeast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p Saccharomyces
+cerevisiae protein sequences</TT>
+<BR><TT>&nbsp;5) kabat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p Kabat Sequences
+of Proteins of Immunological Interest</TT>
+<BR><TT>&nbsp;6) alu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p
+Translations of Select Alu Repeats from REPBASE</TT>
+<BR><TT>&nbsp;7) month&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p All new or
+revised GB CDS translation+PDB+SwissProt+PI</TT>
+<BR><TT>&nbsp;8) nr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+n Non-redundant GenBank+EMBL+DDBJ+PDB seqs (but no EST's</TT>
+<BR><TT>&nbsp;9)&nbsp;&nbsp; pdb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n
+PDB nucleotide sequences</TT>
+<BR><TT>10)&nbsp;&nbsp; vector&nbsp;&nbsp;&nbsp; n Vector subset of GenBank</TT>
+<BR><TT>11) yeast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Saccharomyces cerevisiae
+genomic nucleotide sequences</TT>
+<BR><TT>12) est&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Non-redundant
+Database of GenBank+EMBL+DDBJ ESTs</TT>
+<BR><TT>13) sts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Non-redundant
+Database of GenBank+EMBL+DDBJ STSs</TT>
+<BR><TT>14) htgs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n High Throughput
+Genomic Sequences</TT>
+<BR><TT>15) mito&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Database of
+mitochondrial seqs, Rel. 1.0, July 1995</TT>
+<BR><TT>16) kabat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Kabat Seqs of Nucleic
+Acid of Immunological Interest</TT>
+<BR><TT>17) epd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Eukaryotic
+Promotor Database</TT>
+<BR><TT>18) alu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n Select
+Alu Repeats from REPBASE</TT>
+<BR><TT>19) month&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n All new or revised
+GB+EMBL+DDBJ+PDB sequences released</TT>
+
+<P><TT>Please choose one (* 1 *):</TT> <B>3</B>&nbsp;
+
+<P><TT>Ignore hits expected to occur by chance more than (* 10.0 *) times?
+</TT><B>10</B>&nbsp;
+
+<P><TT>Limit the number of sequences in my output to (* 250 *) ?</TT>&nbsp;
+
+<P><TT>What should I call the output file (* reca_borpe.blastp *) ?</TT>
+<B>reca.blastp</B>&nbsp;
+
+<P><TT>Sending query...</TT>
+<BR><TT>Awaiting results...</TT>
+<BR><TT>Done. Wrote search results to reca_yeast.blastp</TT>
+
+<P><TT>%</TT> <B>more reca.blastp</B>
+
+<P><TT>BLASTP 1.4.11 [24-Nov-97] [Build 24-Nov-97] Reference: Altschul,
+Stephen F? Warren Gish, Webb Miller, Eugene W. Myers,</TT>
+<BR><TT>and David J. Lipman (1990). Basic local alignment search tool.
+J. Mol. Biol.&nbsp;</TT>
+<BR><TT>215:403-10. Query=&nbsp; reca_borpe.sw ID RECA_BORPE STANDARD;
+PRT; 352 AA.</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (352 letters)&nbsp;</TT>
+
+<P><TT>Database:&nbsp; Non-redundant SwissProt sequences</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 74,596
+sequences; 26,848,718 total letters? Searching...................................................done&nbsp;</TT>
+
+<P><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Smallest</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Sum</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+High&nbsp; Probability</TT>
+<BR><TT>Sequences producing High-scoring Segment Pairs:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Score&nbsp; P(N)&nbsp;&nbsp;&nbsp;&nbsp; N&nbsp;</TT>
+
+<P><TT>sp|P17740|RECA_BORPE RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1744&nbsp; 5.5e-229&nbsp; 1</TT>
+<BR><TT>sp|P19690|RECA_BURCE RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1193&nbsp; 8.7e-180&nbsp; 2</TT>
+<BR><TT>sp|P18076|RECA_METFL RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1115&nbsp; 3.8e-167&nbsp; 2</TT>
+<BR><TT>sp|P24542|RECA_METCL RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1094&nbsp; 7.7e-165&nbsp; 2</TT>
+<BR><TT>sp|O32377|RECA_CHRVI RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1102&nbsp; 2.6e-161&nbsp; 2</TT>
+<BR><TT>sp|Q05358|RECA_LEGPN RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1056&nbsp; 1.7e-157&nbsp; 2</TT>
+<BR><TT>sp|P27865|RECA_RHIME RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1072&nbsp; 1.1e-156&nbsp; 2</TT>
+<BR><TT>sp|P24543|RECA_RHILP RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1057&nbsp; 3.8e-156&nbsp; 2</TT>
+<BR><TT>sp|P33156|RECA_AGRTU RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1063&nbsp; 5.2e-156&nbsp; 2</TT>
+<BR><TT>sp|P24074|RECA_RHILV RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1054&nbsp; 1.3e-155&nbsp; 2</TT>
+<BR><TT>sp|P16238|RECA_THIFE RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1039&nbsp; 1.1e-153&nbsp; 2</TT>
+<BR><TT>sp|P21152|RECA_NEIGO RECA PROTEIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1033&nbsp; 3.3e-152&nbsp; 2</TT>
+
+<P>etc. etc.&nbsp;
+
+<P>The first part of the output displays in order of statistical significance
+the 'hits' each line having the following information: database|accession
+number|database_name a brief description, an absolute score, the probability
+that you would get a match as good as this by chance - in all these cases
+this probability is vanishingly small so the 'hits' are likely to be statistically
+(and biologically) significant, and finally the number of high scoring
+segment pairs. GCG netblast is using an outmoded gap-free blast algorithm,
+so most of the hits come in two chunks:&nbsp;
+
+<P><TT>>SP|P19690|RECA-BURCE RECA PROTEIN</TT>
+
+<P><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Length = 347&nbsp;</TT>
+
+<P><TT>&nbsp;Score = 232 (105.0 bits), Expect = 8.7e-180, Sum P(2) = 8.7e-180</TT>
+<BR><TT>&nbsp;Identities = 48/55 (87%), Positives = 50/55 (90%)&nbsp;</TT>
+
+<P><TT>Query:&nbsp;&nbsp; 11 AEKAKALAAALSQIEKQFGKGSIMRYGDNEVEHDIQVVSTGSLGLDIALGVGGLP
+65</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+AEK+KALAAAL+QIEKQFGKGSIMR GD E&nbsp;&nbsp; DIQVVSTGSLGLDIALGVGGLP</TT>
+<BR><TT>Sbjct:&nbsp;&nbsp;&nbsp; 3 AEKSKALAAALAQIEKQFGKGSIMRMGDGEAAEDIQVVSTGSLGLDIALGVGGLP
+57&nbsp;</TT>
+
+<P><TT>&nbsp;Score = 1193 (539.7 bits), Expect = 8.7e-180, Sum P(2) = 8.7e-180</TT>
+<BR><TT>&nbsp;Identities = 228/271 (84%), Positives = 258/271 (95%)&nbsp;</TT>
+
+<P><TT>Query:&nbsp;&nbsp; 68 VIEVYGPESSGKTTLTLQVIAEMQKLGGTCAFVDAEHALDVQYASKLGVNLTDLLISQPD
+127</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+V+E+YGPESSGKTTLTLQVIAE+QKLGGT AF+DAEHALDVQYA+KLGVN+ +LLISQPD</TT>
+<BR><TT>Sbjct:&nbsp;&nbsp; 61 VVEIYGPESSGKTTLTLQVIAELQKLGGTAAFIDAEHALDVQYAAKLGVNVPELLISQPD
+120&nbsp;</TT>
+
+<P><TT>Query:&nbsp; 128 TGEQALEITDALVRSGSVDLIVIDSVAALVPKAEIEGEMGDSLPGLQARLMSQALRKLTA
+187</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+TGEQALEITDALVRSGS+D+IVIDSVAALVPKAEIEGEMGDSLPGLQARLMSQALRKLT</TT>
+<BR><TT>Sbjct:&nbsp; 121 TGEQALEITDALVRSGSIDMIVIDSVAALVPKAEIEGEMGDSLPGLQARLMSQALRKLTG
+180</TT>
+
+<P><TT>Query:&nbsp; 188 TIKRTNCMVIFINQIRMKIAVMFGNPETTTGGNALKFYSSVRLDIRRIGAIKKGDEVVGN
+247</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+TIKRTNC+VIFINQIRMKI VMFGNPETTTGGNALKFYSSVRLDIRRIG+IKK DEV+GN</TT>
+<BR><TT>Sbjct:&nbsp; 181 TIKRTNCLVIFINQIRMKIGVMFGNPETTTGGNALKFYSSVRLDIRRIGSIKKNDEVIGN
+240</TT>
+
+<P><TT>Query:&nbsp; 248 ETRVKVVKNKVAPPFKQAEFDIMYGSGISREGEIIDLGVQANVVDKSGAWYSYSGNRIGQ
+307</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ETRVKVVKNKV+PPF++A FDI+YG GISR+GEIIDLGVQA +VDK+GAWYSY+G +IGQ</TT>
+<BR><TT>Sbjct:&nbsp; 241 ETRVKVVKNKVSPPFREAIFDILYGEGISRQGEIIDLGVQAKIVDKAGAWYSYNGEKIGQ
+300</TT>
+
+<P><TT>Query:&nbsp; 308 GKDNVREYLKEHKEMAIEIENKVRENQGIVS 338</TT>
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+GKDN RE+L+E+ E+A EIEN++RE+ G+V+</TT>
+<BR><TT>Sbjct:&nbsp; 301 GKDNAREFLRENPEIAREIENRIRESLGVVA 331&nbsp;</TT>
+
+<P>After the list of hits there is a display of the alignments on which
+the hits are based. As an aside you may notice that, for the Query sequence,
+the first chunk above ends with residue 65 and the second begins with residue
+68, while for the Sbjct sequence the first chunk ends with residue 57 and
+the second begins with residue 61. The reca_borpe.sw sequence is one residue
+shorter than most other recA sequences at this point and the old blastp
+is unable to bridge the gap.&nbsp;
+
+<P>Careful scrutiny of the output will tell you that GCG Netblast is pointing
+at an NCBI server which is still running the 'gapless' Blast 1.4. This
+server is quite unreliable and may become intermittently unavailable after
+the USA wakes up.&nbsp;
+<H4>
+<A NAME="30"></A>Output from http://www.ncbi.nlm.nih.gov/BLAST</H4>
+Here below is the first part of the output from a search for the yeast
+homologue of the prokaryotic recaA gene, using sw:reca_ecoli as query sequence.&nbsp;
+
+<P><TT>Reference:</TT>
+<BR><TT>Altschul, Stephen F. Thomas L. Madden, Alejandro A. Sch&auml;ffer,</TT>
+<BR><TT>Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997),</TT>
+<BR><TT>"Gapped BLAST and PSI-BLAST: a new generation of protein database
+search programs", Nucleic Acids Res. 25:3389-3402.&nbsp;</TT>
+
+<P><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Score&nbsp;&nbsp;&nbsp;&nbsp; E</TT>
+<BR><TT>Sequences producing significant alignments:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(bits)&nbsp; Value</TT>
+<BR><TT>gi|603333&nbsp; (U18839) Rad51p: RecA-like protein [Saccharomyces
+cer.] 52&nbsp;&nbsp;&nbsp; 1e-07</TT>
+<BR><TT>gi|603420&nbsp; (U18922) Dmc1p: DNA repair protein [Saccharomyces
+cer.] 40&nbsp;&nbsp;&nbsp; 8e-04</TT>
+<BR><TT>gi|642809&nbsp; (Z48008) Rad57p [Saccharomyces cerevisiae]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+34&nbsp;&nbsp;&nbsp; 0.061</TT>
+<BR><TT>gnl|PID|e252186&nbsp; (Z75270) ORF YOR362c [Saccharomyces cerevisiae]&nbsp;&nbsp;
+32&nbsp;&nbsp;&nbsp; 0.14</TT>
+<BR><TT>gi|500681&nbsp; (U10398) Yhr131cp [Saccharomyces cerevisiae]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+28&nbsp;&nbsp;&nbsp; 2.7</TT>&nbsp;
+
+<P>The hits are reported as gi numbers - a unique identifier for the Genbank
+seqience, followed by a Genbank/EMBL accession number, then a brief diescriptor,
+then a score in bits (which should be independent of the scoring matrix)
+and finally an E value. This lat is the same as the <B>-exp</B> parameter
+and tellsd you the number of hitys you would expect in the searched database
+by chance alone. 1e-07 is a small number so the match is likely to be statistically
+(and biologically!) significant.&nbsp;
+<H5>
+Exercises</H5>
+
+<OL>
+<LI>
+Try running GCG netblast entirely from the command line, explicitly choosing
+all appropriate parameters.</LI>
+
+
+<P><TT>%</TT> <B>netblast sw:cas1_bovin swissprot -lis=50 -seg=20 -fil=xs
+-mat=pam40 -exp=0.001 -out=bovin.blastp</B>
+
+<P>You can thus more easily run the several necessary blast searches and
+keep track of the combination of options that you have used.&nbsp;
+<LI>
+Do a blast search on the NCBI Basic Blast server and on the EBI Blast2
+server with using the default settings and swissprot as the searched database.
+Use any (fasta format) protein sequence? Do you get the same results? Can
+you account for any obvious differences? Hints: are the database versions
+the same? Are the default parameters the same?&nbsp;</LI>
+
+<LI>
+Do an explicit comparison on one server&nbsp;</LI>
+
+<OL type="a">
+<LI>
+with low complexity masking (the default at NCBI) and&nbsp;</LI>
+
+<LI>
+without.&nbsp;</LI>
+</OL>
+
+<LI>
+Use Wheat Gamma Gliadin (sw:P04726). Why do you get many more hits under
+the latter search? What feature do many of these hits have in common?&nbsp;</LI>
+</OL>
+[<A HREF="exercises.html">BACK]</A>
+<BR>
+<HR></TD>
+</TR>
+
+<TR>
+<TD>
+<TABLE BORDER=2 WIDTH="100%" BORDERCOLOR="#FFFFFF" CLASS="footer" >
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD><A HREF="../structure.html" CLASS="footer">Structure</A></TD>
+
+<TD><A HREF="../information.html" CLASS="footer">Information</A></TD>
+
+<TD><A HREF="../weare.html" CLASS="footer">We Are</A></TD>
+
+<TD><A HREF="../wedo.html" CLASS="footer">We Do</A></TD>
+
+<TD><A HREF="../achievements.html" CLASS="footer">Achievements</A></TD>
+
+<TD><A HREF="../abccont.html" Class="footer">ABC Contents Page</A></TD>
+</TR>
+</TABLE>
+&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+</BODY>
+</HTML>

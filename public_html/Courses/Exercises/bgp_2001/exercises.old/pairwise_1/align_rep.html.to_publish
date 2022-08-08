@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Réponses</title>
+  </head>
+
+  <body>
+      <h1><a name="2a2-prot">Comparaisons 2 à 2 : réponses</h1>
+    <ol>
+      <li>
+	<ol>
+	  <li>
+	    Local.
+	  <li>
+	    Il s'agit du pourcentage de résidus <em>identiques</em> dans
+	    l'alignement concerné.
+	  <li>
+	    Le symbole "<tt>:</tt>" désigne une paire de résidus
+	    identiques, "<tt>.</tt>" désigne une paire de résidus
+	    similaires.
+	  <li>
+	    Quand deux résidus différents sont biochimiquement proches
+	    (par leur charge, leur polarité, leur taille, etc.), leur
+	    substitution est fréquente et ils sont notés par
+	    "<tt>.</tt>". Les substitutions rarement observées sont
+	    laissées en blanc. C'est la matrice de substitutions qui
+	    sert de référence.
+	  <li>
+	    Lorsque deux acides aminés sont dissemblables, il arrive
+	    que le score de l'alignement soit meilleur en décalant une
+	    partie de la séquence, i.e. en introduisant une
+	    lacune. Ceci dépend des pénalités d'ouverture et
+	    d'extension, ainsi que de la matrice de substitution.
+	</ol>
+      <li>
+	<ol>
+	  <li>
+	    L'intensité du point en (i,j) représente le degré de
+	    similarité entre la séquence horizontale autour du
+	    i<sup>ème</sup> résidu et la séquence verticale autour du
+	    j<sup>ème</sup> résidu. La région prise en compte est une
+	    fen&ecirc;tre centrée sur i et j, respectivement. Ces
+	    scores dépendent de la matrice de substitution.
+	  <li>
+	    Les seuils permettent de mettre en blanc ou noir tous les
+	    points dont le score est inférieur ou supérieur à une
+	    certaine valeur, ce qui permet par exemple d'éliminer le
+	    bruit de fond.
+	  <li>
+	    Quand les deux seuils sont bas, on distingue mal le signal
+	    du bruit de fond : la sensibilité est bonne mais la
+	    sélectivité est mauvaise. Quand ils sont hauts, on est
+	    très sélectif mais peu sensible.
+	  <li>
+	    Un réglage particulièrement utile est de mettre le seuil
+	    bas juste en dessous du plus bas score significatif, et le
+	    seuil haut juste en dessus : la gradation des niveaux de
+	    gris s'étend ainsi sur toute la gamme des scores
+	    significatifs. Toutefois, ce n'est pas toujours possible.
+	  <li>
+	    On observe une diagonale continue (et suivant la protéine, d'autres
+		caractéristiques comme des répétitions)..
+	</ol>
+      <li>
+	<ol>
+	  <li>
+	    Oui, dans tous les cas les séquences ont des régions similaires
+	  <li>
+	    Seulement dans le cas c.
+	  <li>
+	    On obtient la meilleure sensibilité avec Lalign, en utilisant
+	    une matrice peu sélective (ex. Blosum30). La sélectivité s'en
+	    trouve réduite d'autant.
+	  <li>
+	    Des pénalités plus élevées donnent des alignements plus
+	    nombreux et plus courts.  Les matrices peu sélectives donnent
+	    des alignements plus longs, mais de moindre similarité.
+	  <li>
+	    Une grande taille de fen&ecirc;tre est peu sensible mais assez
+	    sélective (i.e., les régions ressortent bien mais la
+	    résolution est faible) ; une petite fen&ecirc;tre donne des
+	    détails plus fins, mais avec un bruit de fond élevé.
+	  <li>
+	    Les comparaisons graphiques montrent immédiatement toutes les
+	    régions de similitude, ainsi que leurs emplacements
+	    respectifs.
+	</ol>
+      <li>
+	<ol type=a>
+	  <li>
+	    La grosse tache carrée est une région de basse complexité,
+	    en l'occurence une région riche en sérine.
+	  <li>
+	    Il s'agit d'un ARN messager mature, contre le gène
+	    correspondant. Les interruptions de la diagonale
+	    correspondent aux introns.
+	  <li>
+	    Il s'agit d'un cDNA dans lequel la transcriptase réverse a
+	    fait un tour sur elle-meme : la fin de la séquence est le
+	    complément inverse du début, d'o&ugrave; la deuxième
+	    diagonale dans l'autre sens.
+	</ol>
+    </ol>
+    <hr>
+    <address><a href="mailto:Thomas.Junier@isrec.unil.ch">Thomas Junier</a></address>
+<!-- Created: Mon Dec  7 12:51:52 CET 1998 -->
+<!-- hhmts start -->
+Last modified: Thu Dec 10 17:00:33 CET 1998
+<!-- hhmts end -->
+  </body>
+</html>

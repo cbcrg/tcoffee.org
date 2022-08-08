@@ -1,0 +1,115 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp of: @pileup4domain.list
+
+ Symbol comparison table: GenRunData:blosum62.cmp  CompCheck: 6430
+
+                   GapWeight: 12
+             GapLengthWeight: 4 
+
+ pileup4domain.msf  MSF: 323  Type: P  October 28, 1999 20:37  Check: 6146 ..
+
+ Name: CHS5_CANAL       Len:   323  Check: 1828  Weight:  1.00
+ Name: CHS5_SCHPO       Len:   323  Check: 7022  Weight:  1.00
+ Name: DNLJ_THESC       Len:   323  Check: 2564  Weight:  1.00
+ Name: DNLJ_THETH       Len:   323  Check: 3073  Weight:  1.00
+ Name: ECT2_MOUSE       Len:   323  Check:  853  Weight:  1.00
+ Name: RAD4_SCHPO       Len:   323  Check: 6679  Weight:  1.00
+ Name: RAD4_SCHPO-2     Len:   323  Check: 8569  Weight:  1.00
+ Name: XRC1_HUMAN       Len:   323  Check: 5390  Weight:  1.00
+ Name: YD97_SCHPO       Len:   323  Check: 4841  Weight:  1.00
+ Name: REV1_YEAST       Len:   323  Check: 6742  Weight:  1.00
+ Name: BRC1_MOUSE       Len:   323  Check: 8585  Weight:  1.00
+
+//
+
+              1                                                   50
+  CHS5_CANAL  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  CHS5_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THESC  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THETH  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  ECT2_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  RAD4_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+RAD4_SCHPO-2  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  XRC1_HUMAN  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  YD97_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  REV1_YEAST  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  BRC1_MOUSE  DISMVVSGLT PKEVMTVQKF AEKYRLTLTD AITEETTHVI IKTDAEFVCE 
+
+              51                                                 100
+  CHS5_CANAL  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~LSGITVCL GDLTPNDQFN 
+  CHS5_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ IDLTGIQVCV GNMVPNEM.. 
+  DNLJ_THESC  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THETH  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  ECT2_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  RAD4_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+RAD4_SCHPO-2  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  XRC1_HUMAN  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  YD97_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  REV1_YEAST  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  BRC1_MOUSE  RTLKYFLGIA GGKWIVSYSW VVRSIQERRL L~~~~~~~~~ ~~~~~~~~~~ 
+
+              101                                                150
+  CHS5_CANAL  KEDIEEALKN MGAKYPVQQQ VKVDTTHFLC TRENKQNPEY VKANDMNIPI 
+  CHS5_SCHPO  .EALQKCIER IHAR.PIQTS VRIDTTHFIC S..STGGPEY EKAKAANIPI 
+  DNLJ_THESC  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THETH  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  ECT2_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  RAD4_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+RAD4_SCHPO-2  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  XRC1_HUMAN  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  YD97_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  REV1_YEAST  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  BRC1_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+              151                                                200
+  CHS5_CANAL  IRPEWLKACE RERR~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  CHS5_SCHPO  LGLDYLLKCE SEGRLVN~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THESC  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THETH  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  ECT2_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  RAD4_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+RAD4_SCHPO-2  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  XRC1_HUMAN  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  YD97_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  REV1_YEAST  ~~~~~~~~~~ ~~~KIFKNCV IYINGYTKPG RLQLHEMIVL HGGKFLHYLS 
+  BRC1_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+              201                                                250
+  CHS5_CANAL  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  CHS5_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THESC  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~E ALKGLTFVIT 
+  DNLJ_THETH  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~GGE ALKGLTFVIT 
+  ECT2_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~NLVLCFT 
+  RAD4_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~K PLKGFVICCT 
+RAD4_SCHPO-2  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~P TLFKCRVCLT 
+  XRC1_HUMAN  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~VVLS 
+  YD97_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~LKDQMVAVT 
+  REV1_YEAST  SKKTVTHIVA SNLPLKKRIE FANYKVVSPD WIVDSVKEAR LLP~~~~~~~ 
+  BRC1_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+              251                                                300
+  CHS5_CANAL  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  CHS5_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  DNLJ_THESC  GELSRPR.EE VKALLRRLGA KVTDSVSRKT SYLVVGENPG SKLEKARALG 
+  DNLJ_THETH  GELSRPR.EE VKALLRRLGA KVTDSVSRKT SYLVVGENPG SKLEKARALG 
+  ECT2_MOUSE  GFRKKEELVK LVTLVHHMGG VIRKECNSKV THLVANCTQG EKFRVAVSLG 
+  RAD4_SCHPO  S.IDLKQRTE ISTKATKLGA AYRSDFTKDV THLIAGDFDT PKYKFAAKSR 
+RAD4_SCHPO-2  N.IGQPERSR IENYVLKHGG TFCPDLTRDV THLIAGTSSG RKYEYALKWK 
+  XRC1_HUMAN  G.FQNPFRSE LRDKALELGA KYRPDWTRDS THLICAFANT PKYSQVLGLG 
+  YD97_SCHPO  N.YTDAARIY LEKLLLACGA TYTKDLKPTN TLLIAASSYG QKYGAAKVW. 
+  REV1_YEAST  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+  BRC1_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ 
+
+              301                   323
+  CHS5_CANAL  ~~~~~~~~~~ ~~~~~~~~~~ ~~~
+  CHS5_SCHPO  ~~~~~~~~~~ ~~~~~~~~~~ ~~~
+  DNLJ_THESC  ..VPTLTEEE LYRLIEERTG KP~
+  DNLJ_THETH  ..VPTLTEEE LYRLLEARTG K~~
+  ECT2_MOUSE  ..TPIMKPEW IYKAWERR~~ ~~~
+  RAD4_SCHPO  PDIKIMSSEW I~~~~~~~~~ ~~~
+RAD4_SCHPO-2  ..INVVCVEW LWQSIQRNAV LEP
+  XRC1_HUMAN  G..RIVRKEW VLDCHRMRRR LP~
+  YD97_SCHPO  .NIPTVHHSW LYSS~~~~~~ ~~~
+  REV1_YEAST  ~~~~~~~~~~ ~~~~~~~~~~ ~~~
+  BRC1_MOUSE  ~~~~~~~~~~ ~~~~~~~~~~ ~~~
+

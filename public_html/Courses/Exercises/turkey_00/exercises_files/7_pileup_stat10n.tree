@@ -1,0 +1,193 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Graphics From Program growtree
+%%For: cnotreda
+%%CreationDate: August 25, 1998 16:33
+%%Creator: The Genetics Computer Group
+%%DocumentFonts: Courier
+%%Pages: 1
+%%BoundingBox: 36 216 576 576
+%%EndComments
+/m { moveto } def
+/l { lineto } def
+/s { stroke } def
+/n { newpath } def
+/lc { setlinecap } def
+/offset { 0 0 moveto (A) false charpath
+flattenpath pathbbox
+pop pop pop -1 mul /xoff exch def } def
+36.00 216.00 translate
+   3 setlinewidth
+1 setlinecap
+0 setlinejoin
+2 setmiterlimit
+0.240000 0.240000 scale
+%%EndProlog
+%%Page: ? 1
+/Courier findfont [ 51   0   0  65   0   0] makefont setfont
+85 1462 m
+2 0 (Growtree Phylogram of: 7_pileup_stat10n.distances, Tree Tree_1) ashow
+/Courier findfont [ 41   0   0  52   0   0] makefont setfont
+846 1394 m
+2 0 (August 25, 1998 16:33) ashow
+2059 369 m
+gsave
+-89 rotate
+2 0 ( scga_xenla) ashow
+grestore
+1859 369 m
+gsave
+-89 rotate
+2 0 ( scgb_xenla) ashow
+grestore
+n
+2074 470 m
+1874 470 l
+s
+n
+2074 470 m
+2074 369 l
+s
+n
+1874 470 m
+1874 369 l
+s
+1659 369 m
+gsave
+-89 rotate
+2 0 ( scg1_human) ashow
+grestore
+n
+1974 764 m
+1674 764 l
+s
+n
+1974 764 m
+1974 470 l
+s
+n
+1674 764 m
+1674 369 l
+s
+1459 369 m
+gsave
+-89 rotate
+2 0 ( sth1_xenla) ashow
+grestore
+1259 369 m
+gsave
+-89 rotate
+2 0 ( sth2_xenla) ashow
+grestore
+n
+1474 446 m
+1274 446 l
+s
+n
+1474 446 m
+1474 369 l
+s
+n
+1274 446 m
+1274 369 l
+s
+1060 369 m
+gsave
+-89 rotate
+2 0 ( sthm_mouse) ashow
+grestore
+860 369 m
+gsave
+-89 rotate
+2 0 ( sthm_rat) ashow
+grestore
+n
+1075 459 m
+875 459 l
+s
+n
+1075 459 m
+1075 369 l
+s
+n
+875 459 m
+875 369 l
+s
+660 369 m
+gsave
+-89 rotate
+2 0 ( sthm_human) ashow
+grestore
+n
+975 530 m
+675 530 l
+s
+n
+975 530 m
+975 459 l
+s
+n
+675 530 m
+675 369 l
+s
+460 369 m
+gsave
+-89 rotate
+2 0 ( sthm_chick) ashow
+grestore
+n
+825 626 m
+475 626 l
+s
+n
+825 626 m
+825 530 l
+s
+n
+475 626 m
+475 369 l
+s
+n
+1374 873 m
+650 873 l
+s
+n
+1374 873 m
+1374 446 l
+s
+n
+650 873 m
+650 626 l
+s
+260 369 m
+gsave
+-89 rotate
+2 0 ( xb3_xenla) ashow
+grestore
+n
+1012 1090 m
+275 1090 l
+s
+n
+1012 1090 m
+1012 873 l
+s
+n
+275 1090 m
+275 369 l
+s
+n
+1824 1272 m
+644 1272 l
+s
+n
+1824 1272 m
+1824 764 l
+s
+n
+644 1272 m
+644 1090 l
+s
+/#copies    1 def
+showpage
+%%Trailer
+%%Pages: 1

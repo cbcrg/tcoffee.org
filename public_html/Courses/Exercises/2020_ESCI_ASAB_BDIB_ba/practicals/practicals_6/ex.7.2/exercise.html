@@ -1,0 +1,157 @@
+<html>
+<title>
+Algorithms For Biological Sequence Analysis - Python Practicals
+</title>
+<h1>
+Algorithms For Biological Sequence Analysis - Python Practicals
+</h1>
+
+<h2>Overview</h2>
+
+These practicals cover most of the Durbin string algorithms all the way from substitution matrices up to building your own multiple sequence aligner. They start with relatively simple primers on the parsing of FASTA sequences (P1). The next series deals with the computation of a log odd substitution matrix using a multiple sequence alignment. These practicals require regular expression analysis and a bit of looping to do the right statistics. Having a substitution matrix makes it possible to align sequences and this is just what P3 and P4 are all about taking you from the simplest implementation of Needlemen and Wunsch or Smith and Waterman up to Myers and Millers Hirshberg implementation. Gearing up towards multiple aligners, the next practical (P5) deals with the parsing of phylogenetic trees in newick format and the manipulation of these trees. All these results are then combined to implement a multiple sequence aligner (P6) and finally to adapt Nussinov into your own version of the Alifold algorithm(P7). 
+
+
+<h3>General Note on the following exercises.</h3> 
+
+<p>All these exercises work on the same principle. A problem file is provided as x.y.fooo<_pb>.py. The purpose of the exercise is then to modify this initial file following the instruction of the exercise. There may be many ways to implement this solution. In order to help you, I have implemented my own solution and I am providing the output of this solution on the reference datasets. This sample output comes as a file named foo_<solN>.output and the way it was generated is explicited on the lines ##.</p>
+
+<p>In order to make sure you have everything under control, you can regenerate different output files with the solution script.</p> 
+
+<p>The purpose of the exercises is therefore to figure out a way to modify the pb files so as to have them producing the output files. You can measure your progress by doing a diff between your own output and the reference</p>
+
+
+<a name="P1"></a>
+<pre>
+
+</pre>
+<h2>P1 - Parsing a FASTA file</h2>
+<p>1.1-Parse a fasta file using regular expressions. Start with the file <A HREF="./pb/1.1.fastafile2seq.pb.py">1.1.fastafile2seq.pb.py</A> and use Python regular expressions (<A href="https://www.tutorialspoint.com/python/python_reg_expressions.htm">python_reg_expressions</a>)</p>
+<p><code>## python <A HREF="./pb/1.1.fastafile2seq.sol.pyc">1.1.fastafile2seq.sol.pyc</A> <A HREF="./pb/msa1.fasta">msa1.fasta</A> > <A HREF="./pb/1.1.fastafile2seq.sol.output">1.1.fastafile2seq.sol.output</A></code></p>
+
+1.2-Parse a FASTA file using biopython using the online biopython documentation on input/output (http://biopython.org/wiki/SeqIO):<A HREF="./pb/1.2.fastafile2seqBP.pb.py">1.2.fastafile2seqBP.pb.py</A>
+<p><code>## python ./<A HREF="./pb/1.2.fastafile2seqBP.sol.pyc">1.2.fastafile2seqBP.sol.pyc</A> <A HREF="./pb/msa1.fasta">msa1.fasta</A> > <A HREF="./pb/1.2.fastafile2seqBP.sol.output">1.2.fastafile2seqBP.sol.output</A></code></p>
+
+1.3-adapt your own script to remove the gaps from the FASTA sequences: <A HREF="./pb/1.3.fastafile2ungappedseq.pb.py">1.3.fastafile2ungappedseq.pb.py</A>
+
+<p><code>## python  <A HREF="./pb/1.3.fastafile2ungappedseq.sol.pyc">1.3.fastafile2ungappedseq.sol.pyc</A> <A HREF="./pb/msa1.fasta">msa1.fasta</A> > <A HREF="./pb/1.3.fastafile2ungappedseq.sol.output">1.3.fastafile2ungappedseq.sol.output</A></code></p>
+
+1.4-translate an RNA sequence into a DNA sequence:<A HREF="./pb/1.4.rna2dna.pb.py">1.4.rna2dna.pb.py</A>
+<p><code>## python ./<A HREF="./pb/1.4.rna2dna.sol.pyc">1.4.rna2dna.sol.pyc</A> <A HREF="./pb/rna.fasta">rna.fasta</A> > <A HREF="./pb/1.4.rna2dna.sol.output">1.4.rna2dna.sol.output</A></code></p>
+
+<a name="P2"></a>
+<h2>P2 - Computing a log odd substitution matrix</h2>
+
+<p>2.1-In an MSA in FASTA remove the columns containing more than X% gaps: <A HREF="./pb/2.1.msa2ungappedmsa.pb.py">2.1.msa2ungappedmsa.pb.py</A>
+
+<p><code>## python  <A HREF="./pb/2.1.msa2ungappedmsa.sol.pyc">2.1.msa2ungappedmsa.sol.pyc</A> <A HREF="./pb/msa1.fasta">msa1.fasta</A> 50 ><A HREF="./pb/2.1.msa2ungappedmsa.sol.output">2.1.msa2ungappedmsa.sol.output</A></code></p>
+
+<p>2.2-Turn an MSA into a substitution matrix: <A HREF="./pb/2.2.fastafile2lom.pb.py">2.2.fastafile2lom.pb.py</A> </p>
+
+<p><code>## python  <A HREF="./pb/2.2.fastafile2lom.sol.pyc">2.2.fastafile2lom.sol.pyc</A> <A HREF="./pb/msa1.fasta">msa1.fasta</A> > <A HREF="./pb/2.2.fastafile2lom.sol.output">2.2.fastafile2lom.sol.output</A></code></p>
+
+<p>2.3-Turn an MSA into a substitution matrix using bioperl: <A HREF="./pb/2.3.fastafile2lomBP.pb.py">2.3.fastafile2lomBP.pb.py</A></p>
+<p><code>## python  <A HREF="./pb/2.3.fastafile2lomBP.sol.pyc">2.3.fastafile2lomBP.sol.pyc</A> <A HREF="./pb/msa1.clustal">msa1.clustal</A> > <A HREF="./pb/2.3.fastafile2lomBP.sol.output">2.3.fastafile2lomBP.sol.output</A></code></p>
+
+<p>2.4- Make a script able to parse a substitution matrix and make sure your script is correct by comparing its input and its output using diff: <A HREF="./pb/2.4.readmatrix.pb.py">2.4.readmatrix.pb.py</A></p>
+
+<p><code>## python  <A HREF="./pb/2.4.readmatrix.sol.pyc">2.4.readmatrix.sol.pyc</A> <A HREF="./pb/matrix.lom"> matrix.lom</A> ><A HREF="./pb/2.4.readmatrix.sol.output">2.4.readmatrix.sol.output</A></code></p>
+
+<p>2.5-compare two substitution matrices starting with the script: <A HREF="./pb/2.5.compare_matrix.pb.py">2.5.compare_matrix.pb.py</A> and sort the output</p>
+
+<p><code>## python  <A HREF="./pb/2.5.compare_matrix.sol.pyc">2.5.compare_matrix.sol.pyc</A> <A HREF="./pb/matrix.lom"> matrix.lom</A> <A HREF="./pb/matrix2.lom"> matrix2.lom</A> > <A HREF="./pb/2.5.compare_matrix.sol.output">2.5.compare_matrix.sol.output</A></code></p>
+
+<p>2.6-remove gaps from an msa1 estimate the substitution matrix and compare it with the substitution matrix you had estimated on the full MSA. What are the residues that change most?</p>
+<p><code>## source 2.6.sol > <A HREF="./pb/2.6.sol.output">2.6.sol.output</A></code></p>
+
+
+<a name="P3"></a>
+<h2>P3 - dynamic programming Session 1</h2>
+<p>3.1-Modify the nw code so as to print the global alignment value: <A HREF="./pb/3.1.nw.pb.py">3.1.nw.pb.py</A></p>
+<p><code>## python  <A HREF="./pb/3.1.nw.sol.pyc">3.1.nw.sol.pyc</A> <A HREF="./pb/twoseq.fasta">twoseq.fasta</A> ><A HREF="./pb/3.1.nw.sol.output">3.1.nw.sol.output</A></code></p>
+
+<p>3.2-what is the function of the table tb?</p>
+
+<p>3.3-what is the meaning of the values assigned in tb</p>
+<p>3.4-Complete the traceback of <A HREF="./pb/3.4.nw.pb.py">3.4.nw.pb.py</A>
+<p><code>## python  <A HREF="./pb/3.4.nw.sol.pyc">3.4.nw.sol.pyc</A> <A HREF="./pb/twoseq.fasta">twoseq.fasta</A> ><A HREF="./pb/3.4.nw.sol.output">3.4.nw.sol.output</A></code></p>
+
+<p>3.5-Set the mismatch score to the minimal value it can accept so as to get the following alignment:<A HREF="./pb/3.5.nw.pb.py">3.5.nw.pb.py</A></p>
+<pre>
+            THEBIGCAT
+            THER---AT
+</pre>
+
+<p><code>## python  <A HREF="./pb/3.5.nw.sol.pyc">3.5.nw.sol.pyc</A> <A HREF="./pb/catseq.fasta">catseq.fasta</A> ><A HREF="./pb/3.5.nw.sol.output">3.5.nw.sol.output</A></code></p>
+
+
+<a name="P4"></a>
+<h2>P4 - dynamic programming Session 2 </h2>
+<p>4.1-Set the mistmatch value to -8, the match value to 1, the gep to -4 and modify the rest of the code so as to generate the following alignment when aligning <A HREF="./pb/catseq.fasta">catseq.fasta</A>:  <A HREF="./pb/4.1.nw.pb.py">4.2.nw.pb.py</A> </p>
+<pre>
+            THEBIGCAT
+            THE---RAT
+</pre>
+<p><code>## python  <A HREF="./pb/4.1.nw.sol.pyc">4.1.nw.sol.pyc</A> <A HREF="./pb/catseq.fasta">catseq.fasta</A>  ><A HREF="./pb/4.1.nw.sol.output">4.1.nw.sol.output</A></code></p>
+
+<p>4.2-Modify the code of <A HREF="./pb/4.2.nw.pb.py">4.2.nw.pb.py</A> so as to use your own substitution matrix</p>
+<p><code>## python  <A HREF="./pb/4.2.nw.sol.pyc">4.2.nw.sol.pyc</A> <A HREF="./pb/seq3.fasta">seq3.fasta</A> <A HREF="./pb/matrix.lom"> matrix.lom</A> ><A HREF="./pb/4.2.nw.sol.output">4.2.nw.sol.output</A></code></p>
+
+<p>4.3-Modify <A HREF="./pb/4.3.nw.pb.py">4.3.nw.pb.py</A> so as to turn it into a sw algorithm</p>
+<p><code>## python  <A HREF="./pb/4.3.nw.sol.pyc">4.3.nw.sol.pyc</A> <A HREF="./pb/seq3.fasta">seq3.fasta</A> <A HREF="./pb/matrix.lom"> matrix.lom</A> > <A HREF="./pb/4.3.nw.sol.output">4.3.nw.sol.output</A></code></p>
+
+<p>4.4-Modify <A HREF="./pb/4.4.mm.pb.py">4.4.mm.pb.py</A> so that it uses a substitution matrix</p>
+<p><code>## python  <A HREF="./pb/4.4.mm.sol.pyc">4.4.mm.sol.pyc</A> <A HREF="./pb/seq3.fasta">seq3.fasta</A> <A HREF="./pb/matrix.lom"> matrix.lom</A> > <A HREF="./pb/4.4.mm.sol.output">4.4.mm.sol.output</A></code></p>
+
+
+
+
+<a name="P5"></a>
+<h2>P5 - Parsing and manipulating binary trees</h2>
+
+<p>5.1-follow the code and figure out a way to print the list of leafs. To help yourself with this task, you can trace the program while parsing <A HREF="./pb/tree1.dnd">tree1.dnd</A>:<A HREF="./pb/5.1.readtree.pb.py">5.1.readtree.pb.py</A>  </p>
+<p><code>## python  <A HREF="./pb/5.1.readtree.sol.pyc">5.1.readtree.sol.pyc</A> <A HREF="./pb/tree1.dnd">tree1.dnd</A> > <A HREF="./pb/5.1.readtree.sol.output">5.1.readtree.sol.output</A></code></p>
+
+
+<p>5.2-Parse the tree <A HREF="./pb/tree2.dnd">tree2.dnd</A> and print all the sister species - that is all the pairs of taxa that are only separated by one edge from the same parent node:<A HREF="./pb/5.2.readtree.pb.py">5.2.readtree.pb.py</A> </p> 
+<p><code>## python  <A HREF="./pb/5.2.readtree.sol.pyc">5.2.readtree.sol.pyc</A> <A HREF="./pb/tree2.dnd">tree2.dnd</A> > <A HREF="./pb/5.2.readtree.sol.output">5.2.readtree.sol.output</A></code></p>
+
+
+<p>5.3-Starting with <A HREF="./pb/5.3.readtree.pb.py">5.3.readtree.pb.py</a> print the list of all the leafs associated with all the nodes. Given a node as a starting point you will need to use a recursive formulation. </p>
+<p><code>## python  <A HREF="./pb/5.3.readtree.sol.pyc">5.3.readtree.sol.pyc</A> <A HREF="./pb/tree1.dnd">tree1.dnd</A> > 5.3.readtree.stdout</code></p>
+
+<p>5.4-for every node in the tree, display the list of the left children and the list of the right children. Print the splits in a hierarchical way, starting with those close to the leaf and making your way up along the tree. These splits define the order in which sequences will be aligned when doing a progressive alignment:  <A HREF="./pb/5.4.readtree.pb.py">5.4.readtree.pb.py</a> </p>
+<p><code>## python  <A HREF="./pb/5.4.readtree.sol.pyc">5.4.readtree.sol.pyc</A> <A HREF="./pb/tree2.dnd">tree2.dnd</A> > <A HREF="./pb/5.4.readtree.sol.output">5.4.readtree.sol.output</A></code></p>
+
+
+<p>5.5-print in newik the tree that has just been read in nodes. The printing can be recursive (this is the easiest solution). To do so, you should open a parenthesis the first time you visit a node, separate the left and the right subtrees with a comma and close the parenthesis when you are done displaying the left group. In recursive terms, it means you open a parenthesis when entering the node, the function then calls itself to explore the left side, and emits a list  when coming back from this exploration. Use diff to make sure you did it right: <A HREF="./pb/5.5.readtree.pb.py">5.5.readtree.pb.py</a> </p>
+
+<p><code>## python  <A HREF="./pb/5.5.readtree.sol.pyc">5.5.readtree.sol.pyc</A> <A HREF="./pb/tree2.dnd">tree2.dnd</A> > <A HREF="./pb/5.5.readtree.output">5.5.readtree.output</A></code></p>
+
+<a name="P6"></a>
+<h2>P6 - Implementing your own multiple sequence aligner. </h2>
+
+<p>During this session we will implement a complete tree based progressive multiple sequence aligner. This will be achieved by combining many of the pieces of code generated across the rest of the practicals</p>
+
+<p>6.1 - modify <A HREF="./pb/6.1.readseq4prf.pb.py">6.1.readseq4prf.pb.py</A> so that it returns a dictionary (hash list) with the sequence name being the key and the sequence itself being the content. Also make sure readseq does not remove the gaps - you want to read profiles later own. This function will be useful to align subset of sequences when doing the multiple sequence alignment and to subgroup sequences while aligning them </p>
+<p><code>## python  <A HREF="./pb/6.1.readseq4prf.sol.pyc">6.1.readseq4prf.sol.pyc</A> <A HREF="./pb/prf1.msa">prf1.msa</A> > <A HREF="./pb/6.1.readseq4prf.output">6.1.readseq4prf.output</A></code></p>
+
+<p>6.2 - modify the following script so that it takes as input two profiles and returns the score of the optimal alignment of these two profiles. The score for matching two columns will be set to the average of the matching score while ignoring gaps. Starting from <A HREF="./pb/6.2.msa.pb.py">6.2.msa.pb.py</A></p>
+
+<p><code>## python  <A HREF="./pb/6.2.msa.sol.pyc">6.2.msa.sol.pyc</A> <A HREF="./pb/prf1.msa">prf1.msa</A> <A HREF="./pb/prf2.msa">prf2.msa</A> matrix.lom > <A HREF="./pb/6.2.msa.sol.output">6.2.msa.sol.output</A></code></p>
+
+<p>6.3 - integrate <A HREF="./pb/6.2.msa.pb.py">6.2.msa.pb.py</A> into <A HREF="./pb/6.3.msa.pb.py">6.3.msa.pb.py</A> (a tree parser) so has to obtain your full multiple sequence aligner</p>
+<p><code>## python  <A HREF="./pb/6.3.msa.sol.pyc">6.3.msa.sol.pyc</A> <A HREF="./pb/tree4.dnd">tree4.dnd</A> <A HREF="./pb/seq4.fasta">seq4.fasta</A> matrix.lom > <A HREF="./pb/6.3.msa.sol.output">6.3.msa.sol.output</A></code></p>
+
+<a name="P7"></a>
+<h2>P7 - Nussinov</h2>
+<p>7.1 An implementation of the nussinov algorithm was downloaded from the internet (<A HREF="./pb/7.1.nussinov.pb.py">7.1.nussinov.pb.py</A>) but it contains some errors that lead to inaccurate predictions. Using the Durbin (p270) fix the faulty part of this implementation</p>
+<p><code>## python  <A HREF="./pb/7.1.nussinov.sol.pyc">7.1.nussinov.sol.pyc</A> > <A HREF="./pb/7.1.nussinov.sol.output">7.1.nussinov.sol.output</A></code></p>
+
+<p>7.2 Modify the following nussinov implementation (<A HREF="./pb/7.2.nussinov.pb.py">7.2.nussinov.pb.py</A>) so that it can take into account the co-variation observed on a multiple sequence alignment</p>
+<p><code>## python  <A HREF="./pb/7.2.nussinov.sol.pyc">7.2.nussinov.sol.pyc</A> <A HREF="./pb/rna2.fasta">rna2.fasta</A> > <A HREF="./pb/7.2.nussinov.sol.output">7.2.nussinov.sol.output</A></code></p>
+
+<a name="P8"></a>
+<h2>P8 - Blast Tutorial</h2>
+<p>Follow this <A href="http://www.tcoffee.org/Courses/Exercises/2017_upf_ug/practicals/practicals_1/index.html">Tutorial </A></p>
+
+<pre>

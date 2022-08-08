@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">
+   <META NAME="generator" CONTENT="Adobe GoLive 4">
+   <META NAME="Author" CONTENT="Victor Jongeneel">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.08 [en] (X11; I; Linux 2.0.32 i686) [Netscape]">
+   <TITLE>Day 2 morning - answers</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<H1>
+Databases on the Internet - hints &amp; answers</H1>
+
+<H4>
+1</H4>
+1-1a Go to SWISS-PROT, use full text search with carbonic anhydrase and
+pick human anhydrase 2 (<A HREF="http://www.expasy.ch/cgi-bin/niceprot.pl?P00918">CAH2_HUMAN</A>).
+<BR>1-1b-d follow the links
+<BR>1-1e no
+<P>1-2a Go to SWISS-PROT, use full text search with RPL36B and pick this
+entry (<A HREF="http://www.expasy.ch/cgi-bin/niceprot.pl?O14455">R36B_YEAST</A>)
+<BR>1-2b-c the gene is GAL4
+<BR>1-2d-f follow the links, localisation is nuclear, <A HREF="http://www.expasy.ch/cgi-bin/sprot-search-ac?P04386">GAL4_YEAST</A>
+<BR>1-2g follow the links
+<P>1-3a <A HREF="http://www.genet.sickkids.on.ca/cftr/">CFTR mutation</A>
+database
+<P>1-4a-b <A HREF="http://flybase.bio.indiana.edu/">FlyBase</A>, <A HREF="http://www.expasy.ch/cgi-bin/sprot-search-ac?P22265">TSH_DROME</A>
+<P>1-5a <A HREF="http://www.genome.ad.jp/">Genome Net</A>
+<BR>1-5b <A HREF="http://www.genome.ad.jp/kegg/kegg2.html">KEGG</A>
+<BR>1-5c <A HREF="http://www.genome.ad.jp/dbget-bin/www_bget?ligand+1.2.3.4">EC
+1.2.3.4</A>
+<BR>1-5d follow the links <A HREF="http://www.expasy.ch/cgi-bin/sprot-search-ac?P45850">OXO1_HORVU</A>,
+<A HREF="http://www.expasy.ch/cgi-bin/nicedoc.pl?PDOC00597">GERMIN</A>
+<BR>1-5e <A HREF="http://srs.ebi.ac.uk/srs5bin/cgi-bin/wgetz?-e+[BRENDA-ECNumber:'1.2.3.4']">BRENDA</A>
+<H4>
+2</H4>
+This exercise illustrates some of the difficulties with searching databases.
+There is no accepted, standard nomenclature for genes and their products.
+Therefore, all imaginable alternate spellings should be tried, and combined
+with logical operators. The following syntax finds many IL-2 receptor sequences:
+<B>(IL2 | IL-2 | 'interleukin 2' | interleukin-2) &amp; recept*</B>&nbsp;
+However, some receptor entries do not contain the word 'receptor'... So
+it is safer to use <B>IL2 | IL-2 | 'interleukin 2' | interleukin-2 </B>and
+go through the output by hand.
+<P>You will also notice that many EMBL entries do not contain links to
+Swiss-Prot. Therefore, the only way to retrieve the corresponding protein
+entry is to search Swiss-Prot using the EMBL accession number.
+<P>The rest of the exercise can be completed entirely by following links
+from one Web page to another. There is no single "right" way to do this.
+In fact, you are encouraged to try alternative routes to the same information.
+<P>3
+<BR>&nbsp;
+<P>a.&nbsp;&nbsp; <B><TT>orf->~-CodV->~-CodW->~-CodX->~-CodY->~</TT></B>
+five genes are in the entry sequence, the first one is truncated.
+<BR>b.&nbsp;&nbsp; <B><TT>~-exon4->~-exon5->~&nbsp;</TT></B> the first
+three exons of this gene are in an other EMBL entry.
+<BR>c.&nbsp; <B><TT>-2 bp-~intron~-5bp-</TT></B>&nbsp;&nbsp;&nbsp; this
+entry contains an intron of a tRNA flanked by really short fragments of
+the adjascent exons.
+</BODY>
+</HTML>

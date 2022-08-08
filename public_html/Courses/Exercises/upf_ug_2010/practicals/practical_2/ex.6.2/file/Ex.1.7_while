@@ -1,0 +1,19 @@
+#!/usr/bin/env perl
+# 6 28 496 8128
+my $n=$ARGV[0];
+my $v=$n-1;
+my $sum=0;
+while ($v>0)
+  {
+    if ( $n%$v==0)
+      {
+	print "\t$v\n";
+	$sum+=$v;
+      }
+    $v--;
+  }
+ 
+if ( $n!=0 && $sum==$n){print "$n IS perfect\n";}
+else {print "$n IS NOT perfect\n";}
+
+    

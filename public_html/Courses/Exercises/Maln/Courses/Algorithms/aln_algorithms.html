@@ -1,0 +1,193 @@
+<HTML>
+<HEAD>
+<TITLE>Bioinformatics Algorithms In Perl, Front end, Cedric Notredame
+2001</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF leftmargin="0" topmargin="0" marginwidth="0"
+marginheight="0">
+
+<H1 Align=center>An Introduction To Sequence Alignment Algorithms</H1>
+<H2 Align=center>Cedric Notredame, 2001</H2>
+<table align=center width="75%" border="5">
+<tr><td colspan=2><H2>Sample Sequences in FASTA format</H2></td></tr>
+<tr><td><A Href=prot.seq>File 1</A><td>Protein sequences in FASTA
+format</tr>
+<tr><td><A href=prot.seq_aln>File 2</A><td>Aligned Protein sequences in
+FASTA format</tr>
+<tr><td><A href=2prot.seq>File 3<td>Two short Proteins sequences in FASTA
+format</tr>
+<tr><td><A href=sw1_prot.seq>File 4<td>A short Proteins sequences in FASTA
+format for SW</tr>
+<tr><td><A href=sw2_prot.seq>File 5<td>A short Proteins sequences in FASTA
+format for SW</tr>
+
+</table>
+<BR>
+<BR>
+<table width="75%" align=center border="5">
+	<tr>
+		<td colspan=3>
+		<P><H2>Perl Implementation of some basic sequence
+comparison algorithms.</H2>
+	<tr>
+	</tr>	
+		<td colspan=3 align=center>
+		<P><B>PLEASE NOTE: These algorithms are only meant to be
+used as pedagogic support. They are simplified versions of the real stuff
+and are not meant to be used for research purposes.
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+		<div align="center"><b>Program</b></div>
+		</td>
+		<td>
+            	<div align="center"><b>Description</b></div>
+          	</td>
+		<td>
+            	<div align="center"><b>Usage</b></div>
+          	</td>
+        </tr>	
+	
+	<tr> 
+	<td> 
+      
+	    <A Href=hello_world.pl><b>hello_World.pl</b></div></A>
+	</td>
+	<td>Hello World...
+        <td>hello_world
+	</td>
+        </tr>
+		
+	<tr> 
+		<td> 
+	    	<A Href=bubble_sort.pl><b>bubble_sort.pl</b></div></A>
+		</td>
+		<td>sorts number in increasing order
+        	<td>bubble_sort <list of numbers>
+		</td>
+        </tr>
+	
+	<tr> 
+		<td> 
+	    	<A Href=dna2rna.pl><b>dna2rna.pl</b></div></A>
+		</td>
+		<td>translate DNA sequences into RNA sequences
+        	<td>bubble_sort file<BR>
+		file  : Sequence(s) in FASTA format.<BR>
+		output: Sequence(s) in FASTA format.<BR>
+		</td>
+        </tr>
+	
+	<tr> 
+		<td> 
+	    	<A Href=dotter.pl><b>dotter.pl</b></div></A>
+		</td>
+		<td>makes an ascii dotter of two sequences
+        	<td>dotter.pl file(s)<BR>
+		file(s): Sequence(s) in FASTA format.<BR>
+		output: dot-matrix.<BR>
+		</td>
+        </tr>
+	
+	<tr> 
+		<td> 
+	    	<A Href=score_aln.pl><b>score_aln.pl</b></div></A>
+		</td>
+		<td>scores a pair-wise aln
+        	<td>score_aln.pl file(s)<BR>
+		file(s): Aligned Sequence(s) in FASTA format.<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=nw.pl><b>nw.pl</b></div></A>
+		</td>
+		<td>Global aln of two sequences 
+        	<td>nw.pl file1 file2<BR>
+		files: Aligned Sequence(s) in FASTA format.One sequence
+per file<BR>
+		output:Aligned sequences in FASTA
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=sw.pl><b>sw.pl</b></div></A>
+		</td>
+		<td>Local aln of two sequences 
+        	<td>sw.pl file1 file2<BR>
+		files: Aligned Sequence(s) in FASTA format.One sequence
+per file<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=kdotter.pl><b>kdotter.pl</b></div></A>
+		</td>
+		<td>Computation of the common Ktup (k=1) between two
+sequences 
+        	<td>kdotter.pl file<BR>
+		files: Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=score_maln.pl><b>score_maln.pl</b></div></A>
+		</td>
+		<td>Star and Sp evaluation of a maln 
+        	<td>score_maln.pl file<BR>
+		files: Aln Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=pnw.pl><b>pnw.pl</b></div></A>
+		</td>
+		<td>Global Alignment of two profiles
+        	<td>kpnw.pl file1 file2<BR>
+		files: Aln Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=kpnw.pl><b>kpnw.pl</b></div></A>
+		</td>
+		<td>Global Alignment of two profiles in time linear with
+the number of sequences
+        	<td>kpnw.pl file1 file2<BR>
+		files: Aln Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=score_maln.pl><b>score_maln.pl</b></div></A>
+		</td>
+		<td>Star and Sp evaluation of a maln 
+        	<td>score_maln.pl file1<BR>
+		files: Aln Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	<tr> 
+		<td> 
+	    	<A Href=maln.pl><b>maln.pl</b></div></A>
+		</td>
+		<td>Align N sequences in the provided order. Uses pnw.pl 
+        	<td>maln.pl file1<BR>
+		files:Sequence(s) in FASTA<BR>
+		</td>
+        </tr>
+	
+      </table>
+
+
+
+      <p align="left">&nbsp; </p>
+
+
+</BODY>
+
+
+
+</HTML>
