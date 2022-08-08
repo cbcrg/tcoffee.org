@@ -1,0 +1,76 @@
+19/11/2002
+Aurélien GROSDIDIER
+
+1- Introduction
+This testcase was generated using two independant domain linked by a random loop of 30 aa.
+
+
+	bZip-bZip-bZip-bZip - Linker(30aa) - SerineProtease
+
+	a) bZip:
+	bZip, based on PFAM PF00170.
+	The 22 seed alignment was used as input for seqgen.pl
+	-> 5 bzips : bZip0, bZip1, bZip2, bZip3, bZip4
+
+	b) Serine protease:
+	sp, based on PROSITE PS50240: [LIVM]-[ST]-A-[STAG]-H-C
+	The "true positive in swissprot" alignment was used as input for seqgen.pl
+	-> 5 sps : sp0, sp1, sp2, sp3, sp4
+
+
+2) inactivation
+
+	1) bZip:
+
+			DNA-binding	LeucineZipper
+			(PDOC00036)	(PDOC00029)
+		bZip0	+		+
+		bZip1	+		-
+		bZip2	-		+
+		bZip3	-		-
+		bZip4	+		-
+
+
+		PDOC00036+ = [KR].{1,3}[RKSAQ]N.{2,2}[SAQ]{2,2}.[RKTAENQ]. R .[RK]
+		PDOC00036- = [KR].{1,3}[RKSAQ]N.{2,2}[SAQ]{2,2}.[RKTAENQ]. K .[RK]
+									|
+
+		LeucineZipper+ = L-x(6)-L-x(6)-L-x(6)-L
+		LeucineZipper- = other
+
+	2) SP: [LIVM]-[ST]-A-[STAG]-H-C
+
+			3,A	5,H	6,C
+		sp0	+	+	+
+		sp1	+	+	T
+		sp2	+	K	+
+		sp3	G	+	+
+		sp4	G	K	T
+
+
+2- names
+
+		bZip0	bZip1	bZip2	bZip3	bZip4
+	sp0	11111	10111	01111	00111	10111
+	sp1	11110	10110	01110	00110	10110
+	sp2	11101	10101	01101	00101	10101
+	sp3	11011	10011	01011	00011	10011
+	sp4	11000	10000	01000	00000	10000
+
+
+	a.BC.DEF.fasta
+	B: DNA-binding+
+	C: LeucineZipper+
+	D: 3,A+
+	E: 5,H+
+	F: 6,L+
+
+
+3- possible use
+
+        -Blast vs SwissProt
+        -lalign
+        -multiple alignment of the EF repeats
+        -multiple alignment (domain/domain)
+        -Sec Structure prediction (domain/bomain)
+        -Structure prediction (Blast Vs PDB gives enough hits)
