@@ -1,0 +1,57 @@
+<title>
+Clustering Methods and Algorithms in Genomics - Python Practicals
+</title>
+<h1>
+Clustering Methods and Algorithms in Genomics - Python Practicals
+</h1>
+
+<h2>Overview</h2>
+<p>These practicals cover a part of the Durbin section on HMM modelling. Through these practical we will show you how to generate your own reference data, measure its properties, estimate a model with known labels, decode data with a provided HMM and train your own HMM using Viterbi The code is written in python with no special complication</p>
+
+
+<h3>General Note on the following exercises.</h3> 
+
+<p>All these exercises work on the same principle. A problem file is provided as x.y.fooo<_pb>.py. The purpose of the exercise is then to modify this initial file following the instruction of the exercise. There may be many ways to implement this solution. In order to help you, I have implemented my own solution and I am providing the output of this solution on the reference datasets. This sample output comes as a file named foo_<solN>.output and the way it was generated is explicited on the lines ##.</p>
+
+<p>In order to make sure you have everything under control, you can regenerate different output files with the solution script.</p> 
+
+<a name="P1"></a>
+<h2>P1 - Modelling Data</h2>
+<p>1.1 - Estimate the parameters of this occasionally dishonest casino (ODC) series: <A href="./pb/1.1.odc2stat.pb.py">1.1.odc2stat.pb.py</A></p>
+<p><code>## python  <A href="./pb/1.1.odc2stat.sol.pyc">1.1.odc2stat.sol.pyc</A> <A href="./pb/odc.run">odc.run</A> > <A href="./pb/1.1.odc2stat.sol.output">1.1.odc2stat.sol.output</A></code></p>
+
+<p>1.2 - Adapt <A href="./pb/1.2.odc.pb.py">1.2.odc.pb.py</A> Create a generator that allows you to regenerate a series having the same properties (i.e. similar statistics) as those measured on <A href="./pb/odc.run">odc.run</A>. Your generator will take as input 5 numbers:
+<pre>
+    pFL transition
+    pLF transition,
+    p6 the probability of emitting a 6 by the loaded dice 
+    N the run size 
+</pre>
+<p>Use <A href="./pb/1.1.odc2stat.pb.py">1.1.odc2stat.pb.py</A>  to make sure your generator is correct</p>
+
+<p><code>## python  <A href="./pb/1.2.odc.sol.pyc">1.2.odc.sol.pyc</A> 0.1 0.2 0.5 1000 > <A href="./pb/1.2.odc.sol.output">1.2.odc.sol.output</A></code></p>
+
+<a name="P2"></a>
+<h2>P2 - Viterbi Decoding of Existing Data with Known Model</h2>
+<p>2.1 - Implement a viterbi decoding allowing you to decode the ODC series you generated in the last practical. Use The Durbin formulation, p56: <A href="./pb/2.1.viterbi.pb.py">2.1.viterbi.pb.py</A></p>
+
+<p><code>## python  <A href="./pb/2.1.viterbi.sol.pyc">2.1.viterbi.sol.pyc</A> <A href="./pb/data.txt">data.txt</A> <A href="./pb/model.txt">model.txt</A> > <A href="./pb/2.1.viterbi.sol.output">2.1.viterbi.sol.output</A></code></p>
+
+<p>2.2 - Measure the accuracy of the decoding using the sensitivity, the specificity and the Sen2 as defined in burset1996.pdf. The main difficulty will be to define the false and true positives and the negatives (fp, fn, tp, tn): <A href="./pb/2.2.viterbi.pb.py">2.2.viterbi.pb.py</A></p> 
+
+<p><code>## python  <A href="./pb/2.2.viterbi.sol.pyc">2.2.viterbi.sol.pyc</A> <A href="./pb/data.txt">data.txt</A> <A href="./pb/model.txt">model.txt</A> > <A href="./pb/2.2.viterbi.sol.output">2.2.viterbi.sol.output</A></code></p>
+
+
+<p>2.3 - Generate series in which you will change the bias towards 6 from 1.01 up to 5, measure the accuracy of the decoding on these various series. What is the individual effect of each parameter on the accuracy with which you are predicting the loaded state. Can this effect be mitigated (i.e. increased or decreased by increasing the length of the run?). What do you conclude on the suitablility of HMM decoding whhen dealing with biological signal?</pb>
+
+<a name="P3"></a>
+<h2>P3 - Using Viterbi to Train a Model on available data </h2>
+
+<p>3.1 adapt the Viterbi algorithm into a training algorithm. Follow the Durbin formulation (Durbin p65): <A href="./pb/3.1.viterbi.pb.py">3.1.viterbi.pb.py</A></p>
+
+<p><code>## python  <A href="./pb/3.1.viterbi.sol.pyc">3.1.viterbi.sol.pyc</A> <A href="./pb/data.txt">data.txt</A> <A href="./pb/model.txt">model.txt</A> > <A href="./pb/3.1.viterbi.sol.output">3.1.viterbi.sol.output</A> </code></p>
+
+<a name="P4"></a>
+<h2>P4 - Using Nextflow to quantify expression data </h2>
+<p>Follow the <A href="https://github.com/nextflow-io/hack17-tutorial#nextflow-tutorial">Tutorial </a></p>
+

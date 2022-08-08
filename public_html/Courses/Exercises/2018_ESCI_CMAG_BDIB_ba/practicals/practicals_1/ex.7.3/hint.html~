@@ -1,0 +1,16 @@
+<title>
+Clustering Methods and Algorithms in Genomics - Python Practicals
+</title>
+<h1>
+Clustering Methods and Algorithms in Genomics - Python Practicals
+</h1>
+
+<h2>Overview</h2>
+<p>These practicals cover a part of the Durbin section on HMM modelling. Through these practical we will show you how to generate your own reference data, measure its properties, estimate a model with known labels, decode data with a provided HMM and train your own HMM using Viterbi The code is written in python with no special complication</p>
+
+<h3>General Note on the exercises.</h3> 
+
+<p>All these exercises work on the same principle. A task is given, for instance <i>parse a FASTA file</i> and a template file is then provided along with data. The template file is named <b>x.y.foo.pb.py</b>. This file contains missing bits that are indicated as <b>missing #x</b>. It also comes along with another file named <b>x.y.foo.pb.output</b>. The purpose of the exercise is therefore to modify the <b>pb</b> file so as to generate the <b>output</b> file. In order to help you, we also provide a binary solution file named <b><b>x.y.foo.sol.pyc</b>. This file is an executable that solves the problem and that you can use to generate new sample output. 
+ 
+
+ 
