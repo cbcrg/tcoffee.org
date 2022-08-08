@@ -1,0 +1,89 @@
+!!NA_SEQUENCE 1.0
+ID   XLSCG10B   standard; RNA; VRT; 783 BP.
+XX
+AC   X71434;
+XX
+NI   g397165
+XX
+DT   23-AUG-1993 (Rel. 36, Created)
+DT   07-OCT-1993 (Rel. 37, Last updated, Version 6)
+XX
+DE   X.laevis SCG10 mRNA
+XX
+KW   stathmin gene family.
+XX
+OS   Xenopus laevis (African clawed frog)
+OC   Eukaryota; Metazoa; Chordata; Vertebrata; Amphibia; Batrachia; Anura;
+OC   Mesobatrachia; Pipoidea; Pipidae; Xenopodinae; Xenopus.
+XX
+RN   [1]
+RP   1-783
+RA   Maucuer A.;
+RT   ;
+RL   Submitted (15-APR-1993) to the EMBL/GenBank/DDBJ databases.
+RL   A. Maucuer, INSERM U153, 17 rue du Fer a Moulin, 75005 Paris, FRANCE
+XX
+RN   [2]
+RP   1-783
+RX   MEDLINE; 93346387.
+RA   Maucuer A., Moreau J., Mechali M., Sobel A.;
+RT   "Stathmin gene family: phylogenetic conservation and developmental
+RT   regulation in Xenopus";
+RL   J. Biol. Chem. 268:16420-16429(1993).
+XX
+DR   SWISS-PROT; Q09002; SCGB_XENLA.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1. .783
+FT                   /organism="Xenopus laevis"
+FT                   /dev_stage="adult"
+FT                   /tissue_type="brain"
+FT                   /clone_lib="lambda gt11"
+FT                   /clone="SC14"
+FT   CDS             89. .625
+FT                   /db_xref="PID:g397166"
+FT                   /db_xref="SWISS-PROT:Q09002"
+FT                   /note="stathmin gene family"
+FT                   /gene="SCG10"
+FT                   /translation="MAKTAIAYKEKMKELSMLSLICSCFYPEPRNIAAYTFDDMEVKQL
+FT                   NKRASGQAFELILKPPSPVSEAPRTLASPKRKDVSLEEIQAKLEAAEERRKSQEAQILK
+FT                   QLAEKREHEREVLQKALEENNNFSRMAEEKLVLKMEQIKENREYYLASLMERLKEKERH
+FT                   AADVRKNKEQLELSG"
+XX
+SQ   Sequence 783 BP; 281 A; 185 C; 160 G; 157 T; 0 other;
+
+  X71434  Length: 783  August 24, 1998 18:19  Type: N  Check: 2185  ..
+
+       1  AAGCTTCTCC ACGCCGGCTC GCTACCCTCT CCACTGCTGT AGCTGGTTTC 
+
+      51  TTCACATTCA CAGCTCCTGA GCATCTCTTC CCAGCACCAT GGCTAAAACA 
+
+     101  GCAATAGCCT ACAAGGAGAA GATGAAGGAA CTGTCCATGC TGTCTCTGAT 
+
+     151  CTGTTCTTGT TTTTACCCTG AACCCCGCAA TATCGCTGCA TACACGTTTG 
+
+     201  ATGACATGGA AGTCAAGCAG CTTAACAAGC GTGCATCGGG CCAGGCTTTT 
+
+     251  GAACTGATTT TGAAACCGCC ATCTCCAGTC TCTGAAGCTC CCCGAACCCT 
+
+     301  TGCCTCTCCA AAGAGGAAGG ACGTTTCTCT AGAAGAGATT CAGGCCAAGC 
+
+     351  TGGAAGCAGC AGAGGAAAGA CGAAAGTCTC AGGAAGCCCA AATCCTGAAG 
+
+     401  CAACTTGCAG AGAAGCGAGA GCATGAGAGA GAAGTGCTCC AAAAGGCCCT 
+
+     451  GGAAGAGAAT AACAACTTCA GCAGAATGGC AGAGGAGAAA CTAGTACTCA 
+
+     501  AAATGGAACA GATCAAAGAA AACCGTGAAT ACTACTTAGC TTCCCTCATG 
+
+     551  GAACGTCTCA AGGAGAAGGA AAGGCATGCC GCCGACGTGC GCAAAAACAA 
+
+     601  GGAACAACTA GAACTTTCCG GCTGAAAACC ATACCGCCAT TAGTAACTTC 
+
+     651  CTTGCCTATA TAATTACGGA TCATGCGATA TCAGTATGGA AAAATGTATG 
+
+     701  ACATCAAAAA AATTAAACAT TAAAAAAGAA ACAAAAAAAA AAAATACAAG 
+
+     751  AACTCATAAA ATAAAAACAA AAGAAAAAAA AAG
+

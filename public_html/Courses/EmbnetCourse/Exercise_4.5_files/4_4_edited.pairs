@@ -1,0 +1,1523 @@
+ (Local) PROFILESEGMENTS of: RAD4_SCHPO  check: 3112  from: 1  to: 648
+ 
+ID   RAD4_SCHPO     STANDARD;      PRT;   648 AA.
+AC   P32372;
+DT   01-OCT-1993 (REL. 27, CREATED)
+DT   01-FEB-1995 (REL. 31, LAST SEQUENCE UPDATE)
+DT   01-FEB-1995 (REL. 31, LAST ANNOTATION UPDATE)
+DE   RAD4 PROTEIN (CUT5 PROTEIN) (P74). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 632.90             Length:     76
+              Ratio:   8.33               Gaps:      0
+
+
+ rad4_schpo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S      5 KPLKGFVICCTSIDLKQRTEISTKATKLGAAYRSDFTKDVTHLIAGDFDT 54
+         ::|.|::||:|.|: ..|:||..:|.|:||.|| |||||:||||:| .::
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .      
+S     55 PKYKFAAKSRPDIKIMSSEWIPVLYE 80
+         |||.:|.: :::::|:  |||.  |:
+P     51 PKYEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: XRCC_HUMAN  check: 3314  from: 1  to: 633
+ 
+ID   XRCC_HUMAN     STANDARD;      PRT;   633 AA.
+AC   P18887;
+DT   01-NOV-1990 (REL. 16, CREATED)
+DT   01-NOV-1990 (REL. 16, LAST SEQUENCE UPDATE)
+DT   01-OCT-1993 (REL. 27, LAST ANNOTATION UPDATE)
+DE   DNA-REPAIR PROTEIN XRCC1. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 608.56             Length:     76
+              Ratio:   8.22               Gaps:      1
+
+
+ xrcc_human x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    318 KILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANT 367
+         : |.|.:|.::::..| |||::::|:::||.|||||||| |||||...::
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .      
+S    368 PKYSQVLGLG..GRIVRKEWVLDCHR 391
+         |||. .:. .   |||. ||: .:: 
+P     51 PKYEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: XRCC_MOUSE  check: 2366  from: 1  to: 631
+ 
+ID   XRCC_MOUSE     STANDARD;      PRT;   631 AA.
+AC   Q60596;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   DNA-REPAIR PROTEIN XRCC1. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 593.64             Length:     76
+              Ratio:   8.02               Gaps:      1
+
+
+ xrcc_mouse x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    318 KILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTPDSTHLICAFANT 367
+         : |.|.:|.::::..| |||::::|:::||.|||||| | |||||...::
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .      
+S    368 PKYSQVLGLG..GRIVRKEWVLDCHR 391
+         |||. .:. .   |||. ||: .:: 
+P     51 PKYEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: YM8K_YEAST  check: 8250  from: 1  to: 732
+ 
+ID   YM8K_YEAST     STANDARD;      PRT;   732 AA.
+AC   Q03254;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 83.4 KD PROTEIN IN DSK2-CAT8 INTERGENIC REGION. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 314.54             Length:     58
+              Ratio:   5.42               Gaps:      0
+
+
+ ym8k_yeast x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    522 QRSDIVIWTSTFGATSTPDIDYLTTHLITKNPSTYKARLAKKFNPQIKIV 571
+         .||.|       ||.  ||     ||||    .: |   | :  : ::||
+P     17 ERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYALKWRPDIRIV 66
+                 
+S    572 HPDWIFEC 579
+           :||  :
+P     67 CVEWIWDC 74
+
+
+ (Local) PROFILESEGMENTS of: YJJ0_YEAST  check: 2608  from: 1  to: 764
+ 
+ID   YJJ0_YEAST     STANDARD;      PRT;   764 AA.
+AC   P47027;
+DT   01-FEB-1996 (REL. 33, CREATED)
+DT   01-FEB-1996 (REL. 33, LAST SEQUENCE UPDATE)
+DT   01-FEB-1996 (REL. 33, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 87.2 KD PROTEIN IN SRS2-SIP4 INTERGENIC REGION. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 306.21             Length:     78
+              Ratio:   4.03               Gaps:      2
+
+
+ yjj0_yeast x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S      2 KPFQGITFCPTAINNEILAKKISKKIIKLGGIFSKDLTRQVNVLVVGSTT 51
+         ::..|   | | | .    . |. : .|:|: |  |.|| :  |: | . 
+P      1 KPLKGCVVCLTGIDQPERSE.IRBKALKLGAAYRPDWTRDVTHLICG.FA 48
+                  .         .        
+S     52 NTNKFKFAVKHRFDIIFIDIQAIDDIYQ 79
+         :: |:.:| : : ::  :  : | . |:
+P     49 DTPKYEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: YHV4_YEAST  check: 1477  from: 1  to: 1070
+ 
+ID   YHV4_YEAST     STANDARD;      PRT;  1070 AA.
+AC   P38850;
+DT   01-FEB-1995 (REL. 31, CREATED)
+DT   01-FEB-1995 (REL. 31, LAST SEQUENCE UPDATE)
+DT   01-FEB-1995 (REL. 31, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 123.0 KD PROTEIN IN SPO16-REC104 INTERGENIC REGION. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 298.48             Length:     79
+              Ratio:   3.98               Gaps:      2
+
+
+ yhv4_yeast x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    375 FTSKELTVAYTNYFGSQRFYIQRLVEILGGLSTPELTRKNTHLITKSTIG 424
+          . .   |  |:.   .|  |.  .  :|:   |:.||  ||||     .
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         
+S    425 KKFKVAKKWSLDPQNAIIVTNHMWLEQCY 453
+          |:. | ::   :   : |    |: .:|
+P     51 PKYEYALKWR..P..DIRIVCVEWIWDCY 75
+
+
+ (Local) PROFILESEGMENTS of: YD97_SCHPO  check: 1480  from: 1  to: 878
+ 
+ID   YD97_SCHPO     STANDARD;      PRT;   878 AA.
+AC   Q10337;
+DT   01-OCT-1996 (REL. 34, CREATED)
+DT   01-OCT-1996 (REL. 34, LAST SEQUENCE UPDATE)
+DT   01-OCT-1996 (REL. 34, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 98.4 KD PROTEIN C19G10.07 IN CHROMOSOME I. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 281.62             Length:     74
+              Ratio:   3.91               Gaps:      1
+
+
+ yd97_schpo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    316 LKDQMVAVTNYTDAARIYLEKLLLACGATYTKDLKPTNTLLIAASSYGQK 365
+         |.   |  |:.    |  ::   :  ||.|  |.    | ||:. . . |
+P      3 LKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPK 52
+                  .         .    
+S    366 YGAAKVWN..IPTVHHSWLYSSFK 387
+         |  |  :   :  |   |:     
+P     53 YEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: Y03H_BPT4  check: 3932  from: 1  to: 105
+ 
+ID   Y03H_BPT4      STANDARD;      PRT;   105 AA.
+AC   P13326;
+DT   01-JAN-1990 (REL. 13, CREATED)
+DT   01-JAN-1990 (REL. 13, LAST SEQUENCE UPDATE)
+DT   01-FEB-1995 (REL. 31, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 12.4 KD PROTEIN IN AGT-GP55 INTERGENIC REGION (ORF A). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 226.51             Length:     79
+              Ratio:   3.24               Gaps:      3
+
+
+ y03h_bpt4 x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S      6 EINDEVEKLISSIEEKNRLEAERKANKLLSKNKRELNRLYKHAQIAAENN 55
+              .    :.|  . | | : :| |:  . . :. |   |  : :   
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTH..LICGFA 48
+                  .         .         
+S     56 NFAQYEYAIKKSRDILKQPYNDELISILW 84
+         :  .|:||.:        :    .:   |
+P     49 DTPKYEYALKWR......P.DIRIVCVEW 70
+
+
+ (Local) PROFILESEGMENTS of: REV1_YEAST  check: 3673  from: 1  to: 985
+ 
+ID   REV1_YEAST     STANDARD;      PRT;   985 AA.
+AC   P12689; Q12323;
+DT   01-OCT-1989 (REL. 12, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA REPAIR PROTEIN REV1 (EC 2.7.7.-). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 278.23             Length UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 83.4 KD PROTEIN IN DSK2-CAT8 INTERGENIC REGION. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean:     73
+              Ratio:   4.03               Gaps:      2
+
+
+ rev1_yeast x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    164 KIFKNCVIYINGYTKPGRLQLHEMIVLHGGKFLHYLSSKKTVTHIVASNL 213
+         : .. ::|   :.  | | .:      :|:.|   .:  | :||:::   
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWT..RDVTHLICGFA 48
+                  .         .   
+S    214 PLKKRIEFANYK....VVSPDWI 232
+            |    .  :    ||  :||
+P     49 DTPKYEYALKWRPDIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_THESC  check: 5700  from: 1  to: 674
+ 
+ID   DNLJ_THESC     STANDARD;      PRT;   674 AA.
+AC   P49422;
+DT   01-FEB-1996 (REL. 33, CREATED)
+DT   01-FEB-1996 (REL. 33, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 256.73             Length:     74
+              Ratio:   3.57               Gaps:      1
+
+
+ dnlj_thesc x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    591 LKGLTFVITGELSRPREEVKALLRRLGAKVTDSVSRKTSYLVVGENPGSK 640
+         |.|   . |:     | |:.    ::||.     :|  ::|: |   . |
+P      3 LKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPK 52
+                  .         .    
+S    641 LEKARALG..VPTLTEEELYRLIE 662
+          : |   .  .  .  | :    :
+P     53 YEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_THETH  check: 9955  from: 1  to: 676
+ 
+ID   DNLJ_THETH     STANDARD;      PRT;   676 AA.
+AC   P26996;
+DT   01-AUG-1992 (REL. 23, CREATED)
+DT   01-AUG-1992 (REL. 23, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 254.06             Length:     74
+              Ratio:   3.53               Gaps:      1
+
+
+ dnlj_theth x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    594 LKGLTFVITGELSRPREEVKALLRRLGAKVTDSVSRKTSYLVVGENPGSK 643
+         |.|   . |:     | |:.    ::||.     :|  ::|: |   . |
+P      3 LKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPK 52
+                  .         .    
+S    644 LEKARALG..VPTLTEEELYRLLE 665
+          : |   .  .  .  | :    :
+P     53 YEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: TDT_CHICK  check: 2412  from: 1  to: 506
+ 
+ID   TDT_CHICK      STANDARD;      PRT;   506 AA.
+AC   P36195;
+DT   01-JUN-1994 (REL. 29, CREATED)
+DT   01-JUN-1994 (REL. 29, LAST SEQUENCE UPDATE)
+DT   01-OCT-1996 (REL. 34, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 245.74             Length:     81
+              Ratio:   3.23               Gaps:      1
+
+
+ tdt_chick x 4_4_edited.prf August 26, 1998 18:34  ..
+
+       ||.  ||     ||||    .: |   | :  : ::||
+P     17 ERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYALKWRPDIRIV 66
+                 
+S    572 HPDWIFEC 579
+           :||  :
+P     67 CVEWIWDC 74
+
+
+ (Local) PROFILESEGMENTS of: YJJ0_YEAST  check: 2608  from: 1  to: 764
+ 
+ID   YJJ0_YEAST     STANDARD;      PRT;   764 AA.
+AC   P47027;
+DT   01-FEB-1996 (REL. 33, CREATED)
+DT   01-FEB-1996 (REL. 33, LAST SEQUENCE UPDATE)
+DT   01-FEB-1996 (REL. 33, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 87.2 KD PROTEIN IN SRS2-SIP4 INT                  .         .         .         .         .
+S     32 FNKLVIFIMQRKMGMTRRTFLMELARSKGFRVESELSDSVTHIVAENNSY 81
+                |    ..   |: :   |   |     :.:  :||:::   . 
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         . 
+S     82 PEVLDWLKGQAVGDSSRFEILDISWLTACME 112
+         |.    ::           |.   |:  : :
+P     51 PKYEYALKWR.....PDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: TDT_MONDO  check: 1470  from: 1  to: 518
+ 
+ID   TDT_MONDO      STANDARD;      PRT;   518 AA.
+AC   O02789;
+DT   15-JUL-1998 (REL. 36, CREATED)
+DT   15-JUL-1998 (REL. 36, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 246.47             Length:     81
+              Ratio:   3.24               Gaps:      1
+
+
+ tdt_mondo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     32 FHEFVLFILEKKMGATRRTFLTDLARKKGFRVENELSNSVTHIVAENNSG 81
+                |    ..   |: : : | | |     :.:  :||:::   ..
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         . 
+S     82 SDVLAWLKTHKMEKTTQFELLDISWLIECMK 112
+               ::           ..   |:  :  
+P     51 PKYEYALKWR.....PDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: TDT_MONDO  check: 1470  from: 1  to: 518
+ 
+ID   TDT_MONDO      STANDARD;      PRT;   518 AA.
+AC   O02789;
+DT   15-JUL-1998 (REL. 36, CREATED)
+DT   15-JUL-1998 (REL. 36, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 246.47             Length:     81
+              Ratio:   3.24               Gaps:      1
+
+
+ tdt_mondo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     32 FHEFVLFILEKKMGATRRTFLTDLARKKGFRVENELSNSVTHIVAENNSG 81
+                |    ..   |: : : | | |     :.:  :||:::   ..
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         . 
+S     82 SDVLAWLKTHKMEKTTQFELLDISWLIECMK 112
+               ::           ..   |:  :  
+P     51 PKYEYALKWR.....PDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: TDT_XENLA  check: 3213  from: 1  to: 507
+ 
+ID   TDT_XENLA      STANDARD;      PRT;   507 AA.
+AC   P42118;
+DT   01-NOV-1995 (REL. 32, CREATED)
+DT   01-NOV-1995 (REL. 32, LAST SEQUENCE UPDATE)
+DT   01-NOV-1995 (REL. 32, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 241.48             Length:     69
+              Ratio:   3.77               Gaps:      1
+
+
+ tdt_xenla x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     44 MGSSRRTFLMELARKRGFQTEIELSDSVTHIVAENNSGAEVLEWLQSKKL 93
+         ..   |: :   | | |     :.:  :||:::   .. .    :  :  
+P     13 IDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYALKWRP. 61
+                  .         
+S     94 GFTVKTHILDISWFTECME 112
+                |.   |   : :
+P     62 ....DIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: IF34_ARATH  check: 4492  from: 1  to: 328
+ 
+ID   IF34_ARATH     STANDARD;      PRT;   328 AA.
+AC   Q38884;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   EUKARYOTIC TRANSLATION INITIATION FACTOR 3 DELTA SUBUNIT (EIF-3 DELTA) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 239.58             Length:     30
+              Ratio:   7.99               Gaps:      0
+
+
+ if34_arath x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .
+S     44 RLGTYRGHNGAVWCCDVSRDSSRLITGSAD 73
+         :: .:    || :: | :|| : || | .:
+P     20 EIRBKALKLGAAYRPDWTRDVTHLICGFAD 49
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_ZYMMO  check: 6031  from: 1  to: 731
+ 
+ID   DNLJ_ZYMMO     STANDARD;      PRT;   731 AA.
+AC   P28719;
+DT   01-DEC-1992 (REL. 24, CREATED)
+DT   01-DEC-1992 (REL. 24, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 248.27             Length:     71
+              Ratio:   3.60               Gaps:      3
+
+
+ dnlj_zymmo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    649 PLSGKIIVFTGSLQKITRDEAKRQAENLGAKVASSVSKKTNLVVAGEAAG 698
+         :| | .|. |: ..   | | .  |  :||.     :|    .::| . .
+P      2 PLKGCVVCLTG.IDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         . 
+S    699 SKLSKAKELD..ISIIDEDRW 717
+          | . |      : |:  : |
+P     51 PKYEYALKWRPDIRIVCVE.W 70
+
+
+ (Local) PROFILESEGMENTS of: SYF_SULSO  check: 599  from: 1  to: 468
+ 
+ID   SYF_SULSO      STANDARD;      PRT;   468 AA.
+AC   P95961;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   PROBABLE PHENYLALANYL-TRNA SYNTHETASE (EC 6.1.1.20) (PHENYLALANINE-- . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 236.52             Length:     27
+              Ratio:   9.10               Gaps:      1
+
+
+ syf_sulso x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .       
+S    321 RPKAPQKVFTLGKVFRPDAI.DATHLI 346
+         | .   :.  :|  ||||   | ||||
+P     18 RSEIRBKALKLGAAYRPDWTRDVTHLI 44
+
+
+ (Local) PROFILESEGMENTS of: CHS5_SCHPO  check: 2783  from: 1  to: 620
+ 
+ID   CHS5_SCHPO     STANDARD;      PRT;   620 AA.
+AC   Q92357;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   PROBABLE CHITIN BIOSYNTHESIS PROTEIN C6G9.12 (CHS5 HOMOLOG). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 235.22             Length:     73
+              Ratio:   3.31               Gaps:      2
+
+
+ chs5_schpo x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    172 LTGIQVCVGNMVPNEMEALQKCIERIHARPIQTSVRIDTTHFICSSTGGP 221
+         | |  ||  :.   .   :.    :  |         | ||.||    .|
+P      3 LKGCVVCLTGIDQPERSEIRBKALKLGAA.YRPDWTRDVTHLICGFADTP 51
+                  .         .   
+S    222 EYEKAKAAN..IPILGLDYLLKC 242
+         .|: |      : |.  :::  :
+P     52 KYEYALKWRPDIRIVCVEWIWDC 74
+
+
+ (Local) PROFILESEGMENTS of: MYP0_HETFR  check: 4295  from: 1  to: 246
+ 
+ID   MYP0_HETFR     STANDARD;      PRT;   246 AA.
+AC   P20938;
+DT   01-FEB-1991 (REL. 17, CREATED)
+DT   01-FEB-1991 (REL. 17, LAST SEQUENCE UPDATE)
+DT   01-JUN-1994 (REL. 29, LAST ANNOTATION UPDATE)
+DE   MYELIN P0 PROTEIN PRECURSOR. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 230.54             Length:     71
+              Ratio:   3.49               Gaps:      1
+
+
+ myp0_hetfr x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     35 NLHKTVGSDVTLYCGFWSNEYVSDLTTLSWRFRPDNSRDIISIFHYGNGV 84
+            . .    | .      |  .  . :   |||| :||.  :       
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         . 
+S     85 PYIEKWGQFRG.....RVEWV 100
+         |  :     :      . ||:
+P     51 PKYEYALKWRPDIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: DNL4_HUMAN  check: 9884  from: 1  to: 844
+ 
+ID   DNL4_HUMAN     STANDARD;      PRT;   844 AA.
+AC   P49917;
+DT   01-OCT-1996 (REL. 34, CREATED)
+DT   01-OCT-1996 (REL. 34, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE IV (EC 6.5.1.1) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (ATP)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 248.84             Length:     76
+              Ratio:   3.36               Gaps:      1
+
+
+ dnl4_human x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    591 IFEDVEFCVMSGTDSQPKPDLENRIAEFGGYIVQNPGPDTYCVIAGSENI 640
+                 . :: :   : .:::.  : |:    :   |   .|:|  : 
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .      
+S    641 RVKNIILSNKH..DVVKPAWLLECFK 664
+         .     :  :    ||   |:  :  
+P     51 PKYEYALKWRPDIRIVCVEWIWDCYE 76
+
+
+ (Local) PROFILESEGMENTS of: GUB_RHOMR  check: 6953  from: 1  to: 286
+ 
+ID   GUB_RHOMR      STANDARD;      PRT;   286 AA.
+AC   P45798;
+DT   01-NOV-1995 (REL. 32, CREATED)
+DT   01-NOV-1995 (REL. 32, LAST SEQUENCE UPDATE)
+DT   01-FEB-1996 (REL. 33, LAST ANNOTATION UPDATE)
+DE   BETA-GLUCANASE PRECURSOR (EC 3.2.1.73) (ENDO-BETA-1,3-1,4 GLUCANASE) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 237.56             Length:     95
+              Ratio:   3.25               Gaps:      4
+
+
+ gub_rhomr x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    121 GRFEIRARLPSGRGTWPAIWMLPDRQTYGSAYWPDNGEIDIMEHVGFNPD 170
+           .       :: .      :       | .| ||           |  |
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPD...........WTRD 39
+                  .         .         .         .     
+S    171 VVH...GTVHTKAYNHLLGTQRGGSIRVPTARTDFHVYAIEWTPE 212
+         : |   |.  :  |   :.         :    :  |   || . 
+P     40 VTHLICGFADTPKYEYALKWR.......P....DIRIVCVEWIWD 73
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_HELPY  check: 7606  from: 1  to: 656
+ 
+ID   DNLJ_HELPY     STANDARD;      PRT;   656 AA.
+AC   O25336;
+DT   15-JUL-1998 (REL. 36, CREATED)
+DT   15-JUL-1998 (REL. 36, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 238.42             Length:     62
+              Ratio:   3.97               Gaps:      1
+
+
+ dnlj_helpy x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    587 IVLTGTLSKPRQEYAQMLENLGAKISSSVSAKTDFLIAGENPGSKLALAQ 636
+         |.:|:   . | |       :||.     :     ||:|   . |   | 
+P      8 VCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYAL 57
+                  .  
+S    637 KHG..VSVLNEE 646
+         : .  . |.  |
+P     58 KWRPDIRIVCVE 69
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_HELPY  check: 7606  from: 1  to: 656
+ 
+ID   DNLJ_HELPY     STANDARD;      PRT;   656 AA.
+AC   O25336;
+DT   15-JUL-1998 (REL. 36, CREATED)
+DT   15-JUL-1998 (REL. 36, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 238.42             Length:     62
+              Ratio:   3.97               Gaps:      1
+
+
+ dnlj_helpy x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    587 IVLTGTLSKPRQEYAQMLENLGAKISSSVSAKTDFLIAGENPGSKLALAQ 636
+         |.:|:   . | |       :||.     :     ||:|   . |   | 
+P      8 VCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYAL 57
+                  .  
+S    637 KHG..VSVLNEE 646
+         : .  . |.  |
+P     58 KWRPDIRIVCVE 69
+
+
+ (Local) PROFILESEGMENTS of: Y693_METJA  check: 4404  from: 1  to: 241
+ 
+ID   Y693_METJA     STANDARD;      PRT;   241 AA.
+AC   Q58104;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL PROTEIN MJ0693. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 229.15             Length:     17
+              Ratio:  13.48               Gaps:      0
+
+
+ y693_metja x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .       
+S    119 AFRENITKDNLHLIKGD 135
+         .|| : |||  ||| | 
+P     31 AYRPDWTRDVTHLICGF 47
+
+
+ (Local) PROFILESEGMENTS of: CB4B_LYCES  check: 9067  from: 1  to: 256
+ 
+ID   CB4B_LYCES     STANDARD;      PRT;   256 AA.
+AC   P27525;
+DT   01-AUG-1992 (REL. 23, CREATED)
+DT   01-AUG-1992 (REL. 23, LAST SEQUENCE UPDATE)
+DT   01-JUN-1994 (REL. 29, LAST ANNOTATION UPDATE)
+DE   CHLOROPHYLL A-B BINDING PROTEIN CP24 10B PRECURSOR (CAB-10B) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 232.77             Length:     44
+              Ratio:   5.29               Gaps:      0
+
+
+ cb4b_lyces x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .    
+S     28 LGAHVTARVTTPKRFVVAAAAVAPKKSWIPAVKSGGNLVDPEWL 71
+         :||      |     .::. .  || .     :   :.|  ||:
+P     28 LGAAYRPDWTRDVTHLICGFADTPKYEYALKWRPDIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: SCF_CANFA  check: 8325  from: 1  to: 274
+ 
+ID   SCF_CANFA      STANDARD;      PRT;   274 AA.
+AC   Q06220;
+DT   01-JUN-1994 (REL. 29, CREATED)
+DT   01-JUN-1994 (REL. 29, LAST SEQUENCE UPDATE)
+DT   01-OCT-1996 (REL. 34, LAST ANNOTATION UPDATE)
+DE   STEM CELL FACTOR PRECURSOR (SCF) (MAST CELL GROWTH FACTOR) (MGF) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 220.99             Length:     44
+              Ratio:   5.39               Gaps:      3
+
+
+ scf_canfa x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .    
+S     30 GKRVTDDVKDVTKLVA...NLPKDYKIALKYVPGMDVLPSHCWI 70
+         :.   |  ||:| |::   : || |. |::  :   |.    ||
+P     30 AAYRPDWTRDVTHLICGFADTPK.YEYALKWRPDIRIVCVE.WI 71
+
+
+ (Local) PROFILESEGMENTS of: DNLJ_ECOLI  check: 9920  from: 1  to: 671
+ 
+ID   DNLJ_ECOLI     STANDARD;      PRT;   671 AA.
+AC   P15042;
+DT   01-APR-1990 (REL. 14, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA LIGASE (EC 6.5.1.2) (POLYDEOXYRIBONUCLEOTIDE SYNTHASE (NAD+)). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 237.15             Length:     66
+              Ratio:   3.71               Gaps:      2
+
+
+ dnlj_ecoli x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    597 PFAGKTVVLTGSLSQMSRDDAKARLVELGAKVAGSVSKKTDLVIAGEAAG 646
+         :. |  |.:|: . .  | . . .  ::||.     :|    .|:| . .
+P      2 PLKGCVVCLTG.IDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .      
+S    647 SKLAKAQELG..IEVI 660
+          |   |   .  : |:
+P     51 PKYEYALKWRPDIRIV 66
+
+
+ (Local) PROFILESEGMENTS of: YFCC_CHRVI  check: 1956  from: 1  to: 142
+ 
+ID   YFCC_CHRVI     STANDARD;      PRT;   142 AA.
+AC   Q06536;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   PUTATIVE TETRAHEME CYTOCHROME-C TYPE (ORF1) (FRAGMENT). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 215.95             Length:     70
+              Ratio:   3.27               Gaps:      1
+
+
+ yfcc_chrvi x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     16 YKESLHYKNTSGVQATCADCHVPKELGPKLVTKIVAAKDVYHEVMGTIDT 65
+                   :::.         : :      .    ||: | : |. ::
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .
+S     66 PEKFEARRWY....LANLVW 81
+         |.   | .:     .    |
+P     51 PKYEYALKWRPDIRIVCVEW 70
+
+
+ (Local) PROFILESEGMENTS of: YX26_MYCTU  check: 848  from: 1  to: 283
+ 
+ID   YX26_MYCTU     STANDARD;      PRT;   283 AA.
+AC   Q10816;
+DT   01-OCT-1996 (REL. 34, CREATED)
+DT   01-OCT-1996 (REL. 34, LAST SEQUENCE UPDATE)
+DT   01-OCT-1996 (REL. 34, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 30.6 KD PROTEIN CY274.26C. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 229.07             Length:     65
+              Ratio:   5.33               Gaps:      3
+
+
+ yx26_myctu x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    125 GGAYAPDPAAD.WHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDD 173
+         |:.| ||   |  ||::|  .  |    |:   :                
+P     29 GAAYRPDWTRDVTHLICGFADT.PKYEYALKWRP................ 61
+                  .     
+S    174 EIGLTAPDAVEVNWV 188
+                  |   |:
+P     62 .....DIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: GYRI_SALTY  check: 4404  from: 1  to: 241
+ 
+ID   Y693_METJA     STANDARD;      PRT;   241 AA.
+AC   Q58104;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL PROTEIN MJ0693. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+         check: 1508  from: 1  to: 64
+ 
+ID   GYRI_SALTY     STANDARD;      PRT;    64 AA.
+AC   P41781;
+DT   01-NOV-1995 (REL. 32, CREATED)
+DT   01-NOV-1995 (REL. 32, LAST SEQUENCE UPDATE)
+DT   15-JUL-1998 (REL. 36, LAST ANNOTATION UPDATE)
+DE   DNA GYRASE INHIBITORY PROTEIN HOMOLOG. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 195.35             Length:     53
+              Ratio:   4.34               Gaps:      1
+
+
+ gyri_salty x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S      1 MDYEIRQEQKRKIAGFHMVGPWEHTVKQGFEQLMTWVDRQRIVPVEWIAV 50
+            :  .:    |:|.     ::   : .           |||  |||  
+P     32 YRPDWTRDVTHLICGFADTPKYEYALKWR........PDIRIVCVEWIWD 73
+            
+S     51 YYD 53
+          | 
+P     74 CYE 76
+
+
+ (Local) PROFILESEGMENTS of: CHS5_YEAST  check: 4352  from: 1  to: 671
+ 
+ID   CHS5_YEAST     STANDARD;      PRT;   671 AA.
+AC   Q12114;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   CHITIN BIOSYNTHESIS PROTEIN CHS5 (CAL3 PROTEIN). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 228.52             Length:     35
+              Ratio:   6.92               Gaps:      1
+
+
+ chs5_yeast x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .     
+S    211 DTTHFVCNDLDNEESNEELIRAKHNNIPIVRPEWV 245
+         | ||.:|   :  .    :       : ||. ||:
+P     39 DVTHLICGFADTPKYEYALKWRP..DIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: PEMI_ECOLI  check: 7738  from: 1  to: 85
+ 
+ID   PEMI_ECOLI     STANDARD;      PRT;    85 AA.
+AC   P13975;
+DT   01-JAN-1990 (REL. 13, CREATED)
+DT   01-JAN-1990 (REL. 13, LAST SEQUENCE UPDATE)
+DT   01-FEB-1994 (REL. 28, LAST ANNOTATION UPDATE)
+DE   PEMI PROTEIN. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 209.76             Length:     75
+              Ratio:   3.00               Gaps:      2
+
+
+ pemi_ecoli x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S      1 MHTTRLKRVGGSVMLTVPPALLNALSLGTDNEVGMVIDNGRLIVEPYRRP 50
+                   :            |: :|         |   ||      |
+P      2 PLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTP 51
+                  .         .     
+S     51 QYSLAELLAQCDPNAEISAEEREWL 75
+         .|. |       :   :     ||:
+P     52 KYEYALKWR...P..DIRIVCVEWI 71
+
+
+ (Local) PROFILESEGMENTS of: RS13_ICTPU  check: 2985  from: 1  to: 150
+ 
+ID   RS13_ICTPU     STANDARD;      PRT;   150 AA.
+AC   P47772;
+DT   01-FEB-1996 (REL. 33, CREATED)
+DT   01-FEB-1996 (REL. 33, LAST SEQUENCE UPDATE)
+DT   01-FEB-1996 (REL. 33, LAST ANNOTATION UPDATE)
+DE   40S RIBOSOMAL PROTEIN S13. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 209.24             Length:     20
+              Ratio:  10.46               Gaps:      0
+
+
+ rs13_ictpu x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .
+S     81 PDLPEDLYHLITKDVAVRKH 100
+         ||.  |  |||      .|:
+P     34 PDWTRDVTHLICGFADTPKY 53
+
+
+ (Local) PROFILESEGMENTS of: TDT_MOUSE  check: 1732  from: 1  to: 529
+ 
+ID   TDT_MOUSE      STANDARD;      PRT;   529 AA.
+AC   P09838;
+DT   01-MAR-1989 (REL. 10, CREATED)
+DT   01-NOV-1995 (REL. 32, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 229.79             Length:     80
+              Ratio:   3.06               Gaps:      1
+
+
+ tdt_mouse x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     32 FRDLVLFILEKKMGTTRRAFLMELARRKGFRVENELSDSVTHIVAENNSG 81
+                |    ..   |  :   | : |     :.:  :||:::   ..
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         .
+S     82 SDVWTRDVTHLICGFADT 50
+                  .      
+S    647 SKLAKAQELG..IEVI 660
+          |   |   .  : |:
+P     51 PKYEYALKWRPDIRIV 66
+
+
+ (Local) PROFILESEGMENTS of: YFCC_CHRVI  check: 1956  from: 1  to: 142
+ 
+ID   YFCC_CHRVI     STANDARD;      PRT;   142 AA.
+AC   Q06536;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   PUTATIVE TETRAHEME CYTOCHROME-C TYPE (ORF1) (FRAGMENT). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  fromLEWLQLQNIKASSEFELLDISWLIECM 111
+               :            ..   |:  : 
+P     51 PKYEYALKWR.....PDIRIVCVEWIWDCY 75
+
+
+ (Local) PROFILESEGMENTS of: YAGL_ECOLI  check: 7951  from: 1  to: 232
+ 
+ID   YAGL_ECOLI     STANDARD;      PRT;   232 AA.
+AC   P77607;
+DT   01-NOV-1997 (REL. 35, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL 27.3 KD PROTEIN IN ARGF-INTF INTERGENIC REGION. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 217.94             Length:     53
+              Ratio:   4.27               Gaps:      1
+
+
+ yagl_ecoli x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S    176 KSRYRHVKKKLGRKEGSKYRRDITILKKGGFTQAEIAKKLSIS..LSTVK 223
+         :|: :    |:| .    : ||.| |  | .   .    :        | 
+P     18 RSEIRBKALKLGAAYRPDWTRDVTHLICGFADTPKYEYALKWRPDIRIVC 67
+            
+S    224 RHW 226
+           |
+P     68 VEW 70
+
+
+ (Local) PROFILESEGMENTS of: TDT_HUMAN  check: 1658  from: 1  to: 508
+ 
+ID   TDT_HUMAN      STANDARD;      PRT;   508 AA.
+AC   P04053;
+DT   01-NOV-1986 (REL. 03, CREATED)
+DT   01-AUG-1988 (REL. 08, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   DNA NUCLEOTIDYLEXOTRANSFERASE (EC 2.7.7.31) (TERMINAL ADDITION ENZYME) . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 228.55             Length:     82
+              Ratio:   3.05               Gaps:      2
+
+
+ tdt_human x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .         .         .
+S     32 FQDLVVFILEKKMGTTRRAFLMELARRKGFRVENELSDSVTHIVAENNSG 81
+              . |    ..   |  :   | : |     :.:  :||:::   ..
+P      1 KPLKGCVVCLTGIDQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADT 50
+                  .         .         .  
+S     82 SDVLEWLQAQKVQVSSQP..ELLDVSWLIECI 111
+               :          :   ..   |:  : 
+P     51 PKYEYALKWR.......PDIRIVCVEWIWDCY 75
+
+
+ (Local) PROFILESEGMENTS of: YDAA_HAEIN  check: 3190  from: 1  to: 309
+ 
+ID   YDAA_HAEIN     STANDARD;      PRT;   309 AA.
+AC   P44195;
+DT   01-NOV-1995 (REL. 32, CREATED)
+DT   01-NOV-1997 (REL. 35, LAST SEQUENCE UPDATE)
+DT   01-NOV-1997 (REL. 35, LAST ANNOTATION UPDATE)
+DE   HYPOTHETICAL PROTEIN HI1426. . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76        Weight: 1.00 . . . 
+
+ Profile: 4_4_edited.prf
+
+         Gap Weight: 21.000      Average Match:  3.818
+      Length Weight:  2.000   Average Mismatch: -3.516
+
+            Quality: 218.51             Length:     38
+              Ratio:   5.75               Gaps:      0
+
+
+ ydaa_haein x 4_4_edited.prf August 26, 1998 18:34  ..
+
+                  .         .         .        
+S    168 EQEYQDEFNQELVETGISLAENLNRGNVHLVAAYPSAP 205
+          .  . |      : |     :. |   ||::.  . |
+P     14 DQPERSEIRBKALKLGAAYRPDWTRDVTHLICGFADTP 51
+
+
+ (Local) PROFILESEGMENTS of: FAB2_MANSE  check: 4429  from: 1  to: 131
+ 
+ID   FAB2_MANSE     STANDARD;      PRT;   131 AA.
+AC   P31417;
+DT   01-JUL-1993 (REL. 26, CREATED)
+DT   01-OCT-1993 (REL. 27, LAST SEQUENCE UPDATE)
+DT   01-NOV-1995 (REL. 32, LAST ANNOTATION UPDATE)
+DE   FATTY ACID BINDING PROTEIN 2 (FABP 2). . . . 
+ 
+ to: 4_4_edited.prf  check: 9514  from: 1  to: 76
+ 
+(Peptide) PROFILEMAKE v4.50 of: 4_4_clean.msf{*}  Length: 76
+  Sequences: 3  MaxScore: 731.77  August 26, 1998 18:14
+                          Gap: 1.00              Len: 1.00 
+                     GapRatio: 0.33         LenRatio: 0.10
+     4_4_clean.msf{RAD4_SCHPO}  From: 1         To: 76        Weight: 1.00
+     4_4_clean.msf{XRCC_HUMAN}  From: 1         To: 76    

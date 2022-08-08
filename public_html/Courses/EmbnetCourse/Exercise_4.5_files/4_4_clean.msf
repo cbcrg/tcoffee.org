@@ -1,0 +1,18 @@
+4_4_clean.msf  MSF: 76  Type: P  September 11, 1997 05:58  Check: 977 ..
+
+ Name:   RAD4_SCHPO            Len:    76  Check: 8451  Weight:  1.00
+ Name:   XRCC_HUMAN            Len:    76  Check:  742  Weight:  1.00
+ Name:   RAD4_SCHP2            Len:    76  Check: 1784  Weight:  1.00
+
+//
+
+       1                                                   50
+  RAD4_SCHPO  KPLKGFVICC TSIDLKQRTE ISTKATKLGA AYRSDFTKDV THLIAGDFDT 
+  XRCC_HUMAN  KILQGVVVVL SGFQNPFRSE LRDKALELGA KYRPDWTRDS THLICAFANT 
+  RAD4_SCHP2  PTLFKCRVCL TNIGQPERSR IENYVLKHGG TFCPDLTRDV THLIAGTSSG 
+
+       51                        76
+  RAD4_SCHPO  PKYKFAAKSR PDIKIMSSEW IPVLYE
+  XRCC_HUMAN  PKYSQVLGLG ..GRIVRKEW VLDCH.
+  RAD4_SCHP2  RKYEYALKWK ..INVVCVEW LWQSIQ
+

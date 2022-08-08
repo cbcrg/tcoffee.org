@@ -1,0 +1,429 @@
+ MOTIFS from: swissprot:VAV_HUMAN
+
+ Mismatches: 0                August 26, 1998 13:53  ..
+
+
+           VAV_HUMAN  Check: 4177  Length: 846   ! P15498 VAV PROTO-ONCOGENE. 7/98
+
+______________________________________________________________________________
+
+Asn_Glycosylation     N~(P)(S,T)~(P)
+                         N~P(T)~P
+           377: EVKRD      NETL      RQITN
+
+                         N~P(T)~P
+           510: NIYPE      NATA      NGHDF
+
+                         N~P(S)~P
+           641: WWEGR      NTST      NEIGW
+
+                         N~P(S)~P
+           687: ESILA      NRSD      GTFLV
+
+************************
+* N-glycosylation site *
+************************
+
+It has been known for a long time [1] that potential N-glycosylation sites are
+specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+asparagine residue is glycosylated, due to  the fact that the  folding of  the
+protein plays an important  role in the  regulation of N-glycosylation [2]. It
+has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+inhibit N-glycosylation; this  has  been confirmed by a recent [4] statistical
+analysis of glycosylation sites, which also  shows that about 50% of the sites
+that have a proline C-terminal to Ser/Thr are not glycosylated.
+
+It must also  be noted that there  are  a few  reported cases of glycosylation
+sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+of such a non-standard site is found in the plasma protein C [5].
+
+-Consensus pattern: N-{P}-[ST]-{P}
+                    [N is the glycosylation site]
+-Last update: May 1991 / Text revised.
+
+[ 1] Marshall R.D.
+     Annu. Rev. Biochem. 41:673-702(1972).
+[ 2] Pless D.D., Lennarz W.J.
+     Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+[ 3] Bause E.
+     Biochem. J. 209:331-336(1983).
+[ 4] Gavel Y., von Heijne G.
+     Protein Eng. 3:433-442(1990).
+[ 5] Miletich J.P., Broze G.J. Jr.
+     J. Biol. Chem. 265:11397-11404(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Camp_Phospho_Site     (R,K)2x(S,T)
+                       (K){2}x(S)
+           465: GDRDN     KKWS     HMFLL
+
+****************************************************************
+* cAMP- and cGMP-dependent protein kinase phosphorylation site *
+****************************************************************
+
+There has been a  number of studies  relative to the  specificity of cAMP- and
+cGMP-dependent protein kinases [1,2,3].  Both types of kinases appear to share
+a preference  for  the  phosphorylation  of serine or threonine residues found
+close to at least  two consecutive N-terminal  basic residues. It is important
+to note that there are quite a number of exceptions to this rule.
+
+-Consensus pattern: [RK](2)-x-[ST]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Fremisco J.R., Glass D.B., Krebs E.G.
+     J. Biol. Chem. 255:4240-4245(1980).
+[ 2] Glass D.B., Smith S.B.
+     J. Biol. Chem. 258:14797-14803(1983).
+[ 3] Glass D.B., El-Maghrabi M.R., Pilkis S.J.
+     J. Biol. Chem. 261:2987-2993(1986).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Ck2_Phospho_Site      (S,T)x2(D,E)
+                       (T)x{2}(E)
+            81: RTFLS     TCCE     KFGLK
+
+                       (T)x{2}(E)
+           131: IMPFP     TEEE     SVGDE
+
+                       (S)x{2}(D)
+           135: PTEEE     SVGD     EDIYS
+
+                       (T)x{2}(E)
+           152: DQIDD     TVEE     DEDLY
+
+                       (T)x{2}(D)
+           190: MPPKM     TEYD     KRCCC
+
+                       (S)x{2}(E)
+           285: YGRYC     SQVE     SASKH
+
+                       (T)x{2}(D)
+           321: NNGRF     TLRD     LLMVP
+
+                       (T)x{2}(E)
+           412: GELKI     TSVE     RRSKM
+
+                       (S)x{2}(D)
+           418: SVERR     SKMD     RYAFL
+
+                       (S)x{2}(D)
+           458: QVRDD     SSGD     RDNKK
+
+                       (S)x{2}(E)
+           522: DFQMF     SFEE     TTSCK
+
+                       (T)x{2}(E)
+           628: DIVEL     TKAE     AEQNW
+
+                       (S)x{2}(E)
+           643: EGRNT     STNE     IGWFP
+
+                       (S)x{2}(D)
+           750: FYQQN     SLKD     CFKSL
+
+                       (S)x{2}(E)
+           803: DRSEL     SLKE     GDIIK
+
+*****************************************
+* Casein kinase II phosphorylation site *
+*****************************************
+
+Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+summarized as follows:
+
+ (1) Under comparable conditions Ser is favored over Thr.
+ (2) An acidic residue (either Asp or Glu) must be present three residues from
+     the C-terminal of the phosphate acceptor site.
+ (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+     phosphorylation rate.  Most  physiological  substrates  have at least one
+     acidic residue in these positions.
+ (4) Asp is preferred to Glu as the provider of acidic determinants.
+ (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+     phosphorylation rate, while an acidic one will increase it.
+
+-Consensus pattern: [ST]-x(2)-[DE]
+                    [S or T is the phosphorylation site]
+
+-Note: this pattern is found in most of the known physiological substrates.
+
+-Last update: May 1991 / Text revised.
+
+[ 1] Pinna L.A.
+     Biochim. Biophys. Acta 1054:267-284(1990).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Dag_Pe_Binding_Domain  Hx(L,I,V,M,F,Y,W)x{8,11}Cx2Cx3(L,I,V,M,F,C)x{5,10}Cx2Cx4(H,D)x2Cx{5,9}C
+                                Hx(F)x{10}Cx{2}Cx{3}(L)x{9}Cx{2}Cx{4}(H)x{2}Cx{6}C
+           516: ATANG            HDFQMFSFEETTSCKACQMLLRGTFYQGYRCHRCRASAHKECLGRVPPC            GRHGQ
+
+**************************************************
+* Phorbol esters / diacylglycerol binding domain *
+**************************************************
+
+Diacylglycerol (DAG) is an important second messenger. Phorbol esters (PE) are
+analogues of   DAG  and  potent  tumor  promoters  that  cause  a  variety  of
+physiological  changes when  administered  to  both  cells  and  tissues.  DAG
+activates a  family of serine/threonine protein kinases, collectively known as
+protein  kinase C (PKC) [1]. Phorbol esters can directly stimulate PKC. The N-
+terminal region of PKC, known as C1, has  been shown [2] to bind PE and DAG in
+a phospholipid and zinc-dependent fashion.  The C1 region contains one  or two
+copies (depending  on  the isozyme of PKC)  of a cysteine-rich domain about 50
+amino-acid residues  long and essential for DAG/PE-binding.  Such a domain has
+also been found in the following proteins:
+
+ - Diacylglycerol kinase  (EC 2.7.1.107)  (DGK)  [3], the enzyme that converts
+   DAG into  phosphatidate.  It  contains  two  copies  of  the DAG/PE-binding
+   domain in its N-terminal section.  At least five different forms of DGK are
+   known in mammals.
+ - N-chimaerin.  A  brain  specific  protein which shows sequence similarities
+   with the  BCR  protein at its C-terminal part and contains a single copy of
+   the DAG/PE-binding  domain  at its N-terminal part. It has been shown [4,5]
+   to be able to bind phorbol esters.
+ - The  raf/mil  family  of  serine/threonine  protein  kinases. These protein
+   kinases contain a single N-terminal copy of the DAG/PE-binding domain.
+ - The  unc-13  protein from Caenorhabditis elegans. Its function is not known
+   but it  contains a copy of the DAG/PE-binding domain in its central section
+   and has  been shown to bind specifically to a phorbol ester in the presence
+   of calcium [6].
+ - The vav oncogene.  Vav was generated by a genetic rearrangement during gene
+   transfer  assays.  Its  expression  seems  to be  restricted  to  cells  of
+   hematopoeitic origin. Vav seems [5,7] to contain a DAG/PE-binding domain in
+   the central part of the protein.
+ - The Drosophila GTPase activating protein rotund.
+
+The DAG/PE-binding domain binds two zinc ions; the ligands of these metal ions
+are probably the six  cysteines  and two histidines that are conserved in this
+domain. We have developed a signature pattern that spans completely the DAG/PE
+domain.
+
+-Consensus pattern: H-x-[LIVMFYW]-x(8,11)-C-x(2)-C-x(3)-[LIVMFC]-x(5,10)-
+                    C-x(2)-C-x(4)-[HD]-x(2)-C-x(5,9)-C
+                    [All the C and H are probably involved in binding Zinc]
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ a few DGK's.
+-Other sequence(s) detected in SWISS-PROT: NONE.
+-Last update: November 1997 / Pattern and text revised.
+
+[ 1] Azzi A., Boscoboinik D., Hensey C.
+     Eur. J. Biochem. 208:547-557(1992).
+[ 2] Ono Y., Fujii T., Igarashi K., Kuno T., Tanaka C, Kikkawa U.,
+     Nishizuka Y.
+     Proc. Natl. Acad. Sci. U.S.A. 86:4868-4871(1989).
+[ 3] Sakane F., Yamada K., Kanoh H., Yokoyama C., Tanabe T.
+     Nature 344:345-348(1990).
+[ 4] Ahmed S., Kozma R., Monfries C., Hall C., Lim H.H., Smith P., Lim L.
+     Biochem. J. 272:767-773(1990).
+[ 5] Ahmed S., Kozma R., Lee J., Monfries C., Harden N., Lim L.
+     Biochem. J. 280:233-241(1991).
+[ 6] Ahmed S., Maruyama I.N., Kozma R., Lee J., Brenner S., Lim L.
+     Biochem. J. 287:995-999(1992).
+[ 7] Boguski M.S., Bairoch A., Attwood T.K., Michaels G.S.
+     Nature 358:113-113(1992).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Gds_Cdc24             Lx2(L,I,V,M,F,Y,W)Lx2P(L,I,V,M)x2(L,I,V,M)x(K,R,S)x2Lx(L,I,V,M)x(D,E,Q)(L,I,V,M)x3(S,T)
+                        Lx{2}(L)Lx{2}P(M)x{2}(V)x(K)x{2}Lx(L)x(E)(L)x{3}(T)
+           322: NGRFT   LRDLLMVPMQRVLKYHLLLQELVKHT   QEAME
+
+**********************************************************************
+* Guanine-nucleotide dissociation stimulators CDC24 family signature *
+**********************************************************************
+
+Ras proteins are membrane-associated molecular switches that  bind GTP and GDP
+and  slowly  hydrolyze  GTP to GDP [1].  The  balance  between  the  GTP bound
+(active) and GDP bound (inactive) states  is regulated  by the opposite action
+of proteins activating the GTPase activity and that of  proteins which promote
+the loss of bound GDP and the uptake of fresh GTP [2,3].  The latter  proteins
+are known  as  guanine-nucleotide dissociation stimulators (GDSs)  (or also as
+guanine-nucleotide releasing (or exchange) factors (GRFs)).  Proteins that act
+as GDS can be classified  into at least two families, on the basis of sequence
+similarities.  One of  these families is currently known to group the proteins
+listed below   (references   are   only    provided  for  recently  determined
+sequences):
+
+ - CDC24 from yeast. CDC24 is a GDS that acts on the ras-like protein CDC42.
+ - Dbl (or mcf-2) oncogene from mammals.  Dbl is a GDS for a  ras-like protein
+   known as G25K or CDC42Hs.
+ - p140-RAS GRF (cdc25Mm) from mammals. This protein, a GDS for ras, possesses
+   both a domain belonging to the CDC24 family  and one belonging to the CDC25
+   family.
+ - Bcr oncogene from mammals. Bcr can form a chimera  with the abl protein and
+   then cause   chronic  myelogenous  leukemia  (CML).  Bcr  acts  on  p21-rac
+   proteins.
+ - Oncogene vav from mammals. The target of this protein is not yet known.
+ - Oncogene ect2 from mouse [4]. The target of this protein is not yet known.
+ - scd1 from fission yeast.
+
+The size of  these  proteins range from 736 residues (CDC42)  to 1271 residues
+(bcr). The sequence  similarity shared  by  all these proteins is limited to a
+region of  about  180  amino  acids,  generally located in their N-terminal or
+central section.  As  a signature pattern, we selected the most conserved part
+of this domain.
+
+-Consensus pattern: L-x(2)-[LIVMFYW]-L-x(2)-P-[LIVM]-x(2)-[LIVM]-x-[KRS]-x(2)-
+                    L-x-[LIVM]-x-[DEQ]-[LIVM]-x(3)-[ST]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in SWISS-PROT: NONE.
+
+-Last update: November 1995 / Pattern and text revised.
+
+[ 1] Bourne H.R., Sanders D.A., McCormick F.
+     Nature 349:117-127(1991).
+[ 2] Boguski M.S., McCormick F.
+     Nature 366:643-654(1993).
+[ 3] Downward J.
+     Curr. Biol. 2:329-331(1992).
+[ 4] Miki T., Smith C.L., Long J.E., Eva A., Fleming T.P.
+     Nature 362:462-465(1993).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Myristyl              G~(E,D,R,K,H,P,F,Y,W)x2(S,T,A,G,C,N)~(P)
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            27: RVTWD                  GAQVCE                  LAQAL
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(C)~P
+            40: QALRD                  GVLLCQ                  LLNNL
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(S)~P
+            87: CCEKF                  GLKRSE                  LFEAF
+
+                           G~(E,D,R,K,H,P,F,Y,W)x{2}(A)~P
+           786: STKYF                  GTAKAR                  YDFCA
+
+*************************
+* N-myristoylation site *
+*************************
+
+An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+has been  derived from the sequence of known N-myristoylated proteins and from
+studies using synthetic peptides. It seems to be the following:
+
+ - The N-terminal residue must be glycine.
+ - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+   and large hydrophobic residues are not allowed.
+ - In positions 3 and 4, most, if not all, residues are allowed.
+ - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+   Asn and Gly). Serine is favored.
+ - In position 6, proline is not allowed.
+
+-Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+                    [G is the N-myristoylation site]
+
+-Note: we  deliberately include as  potential myristoylated  glycine residues,
+ those which  are  internal  to a sequence. It could well be that the sequence
+ under study  represents  a  viral  polyprotein  precursor and that subsequent
+ proteolytic processing  could expose an internal glycine as the N-terminal of
+ a mature protein.
+
+-Last update: October 1989 / Pattern and text revised.
+
+[ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+     Annu. Rev. Biochem. 57:69-99(1988).
+[ 2] Grand R.J.A.
+     Biochem. J. 258:625-638(1989).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Pkc_Phospho_Site      (S,T)x(R,K)
+                        (S)x(R)
+            20: RVLPP     SHR     VTWDG
+
+                        (S)x(R)
+           312: KLEEC     SQR     ANNGR
+
+                        (T)x(R)
+           321: NNGRF     TLR     DLLMV
+
+                        (T)x(R)
+           379: KRDNE     TLR     QITNF
+
+                        (S)x(K)
+           528: FEETT     SCK     ACQML
+
+                        (T)x(K)
+           574: QDFPG     TMK     KDKLH
+
+                        (S)x(K)
+           708: AEFAI     SIK     YNVEV
+
+                        (T)x(K)
+           718: VEVKH     TVK     IMTAE
+
+                        (T)x(K)
+           731: GLYRI     TEK     KAFRG
+
+                        (S)x(K)
+           750: FYQQN     SLK     DCFKS
+
+                        (S)x(K)
+           781: RPAVG     STK     YFGTA
+
+                        (T)x(K)
+           787: TKYFG     TAK     ARYDF
+
+                        (S)x(K)
+           803: DRSEL     SLK     EGDII
+
+*****************************************
+* Protein kinase C phosphorylation site *
+*****************************************
+
+In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+serine or  threonine residues found close to a C-terminal basic residue [1,2].
+The presence  of  additional   basic residues at the  N- or C-terminal of  the
+target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+
+-Consensus pattern: [ST]-x-[RK]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Woodget J.R., Gould K.L., Hunter T.
+     Eur. J. Biochem. 161:177-184(1986).
+[ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+     Takeyama Y., Nishizuka Y.
+     J. Biol. Chem. 260:12492-12499(1985).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+______________________________________________________________________________
+
+Rgd                   RGD
+           437: LICKR RGD SYDLK
+****************************
+* Cell attachment sequence *
+****************************
+
+The sequence Arg-Gly-Asp, found in fibronectin, is crucial for its interaction
+with its cell surface receptor, an integrin [1,2].  What  has  been called the
+'RGD' tripeptide is also found in the sequences of a number of other proteins,
+where it has been shown to play a role in cell adhesion.   These proteins are:
+some forms of collagens, fibrinogen, vitronectin, von Willebrand factor (VWF),
+snake disintegrins, and slime mold discoidins.   The 'RGD'  tripeptide is also
+found in other proteins  where  it  may also,  but not always,  serve the same
+purpose.
+
+-Consensus pattern: R-G-D
+-Last update: December 1991 / Text revised.
+
+[ 1] Ruoslahti E., Pierschbacher M.D.
+     Cell 44:517-518(1986).
+[ 2] d'Souza S.E., Ginsberg M.H., Plow E.F.
+     Trends Biochem. Sci. 16:246-250(1991).
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
