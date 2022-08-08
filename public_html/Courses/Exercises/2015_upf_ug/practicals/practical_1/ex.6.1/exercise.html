@@ -1,0 +1,912 @@
+
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.0 transitional//en"> 
+<html><head>
+
+
+  <meta http-equiv="Content-Type" content="text/html; 
+charset=ISO-8859-1">
+  <meta http-equiv="content-type" content="text/html; 
+charset=ISO-8859-1">
+  <title>Bioinformatics UPF 2011 - Practical 13</title>
+</head><body>
+<p align="center">
+</p>
+<div style="text-align: center;"><big style="color: rgb(51, 51, 
+255);"><big><big><span style="font-weight: bold;">Practical 13: Sequence 
+similarity searches<br>
+<small>Bioinformatics 2011</small><br>
+</span></big></big></big></div>
+<font size="2" face=" arial">
+<br>
+<br>
+<br>
+</font>
+
+
+<h2>
+BLAST ( Basic Local Alignment Search Tool )
+</h2> 
+
+<p>
+When we search for homologies, we want to find sequences that have
+related function and are perhaps but not necessarily evolutionary
+related. In general we want to identify the functional domains of an
+unknown sequence using sequence similarity to other sequences and
+infer some a function.
+
+</p><p>
+It is important to distinguish between local and global alignment:
+
+</p><ul>
+<li> A <b>Local alignment</b> finds short similarities between two
+sequences which are not necessarily in the same order in both
+sequences and can occur multiple times. Local alignments are useful
+for finding motifs common to two unrelated sequences, or for aligning
+two related sequences which have undergone some non-local changes
+(e.g. domain shuflling).
+
+</li><li> A <b>global alignment</b> finds a similarity covering as much 
+as
+possible from both sequences. In a global alignment, in general, all
+the characters in both sequences participate in the alignment. Global
+alignments are useful for relating sequences with colinear properties
+(e.g. no domain shuffling) or that we know that they are related in
+their entirety (e.g. orthologous exons).  </li></ul>
+
+<p>
+The dynamic programming algorithms for sequence alignments provide
+the right answer to this problem but are computationally expensive
+to be effective when searching a database with thousands of
+sequences.  
+
+</p><p>
+BLAST (Basic Local Alignment Search Tool) is an algorithm for
+comparing biological sequences, such as the amino-acid sequences of
+different proteins or the DNA sequences.  It is one of the most widely
+used bioinformatics programs, probably because it addresses a
+fundamental problem emphasizing speed over sensitivity. This emphasis
+on speed is vital to making the algorithm practical on the huge genome
+databases currently available. More recent algorithms can be faster,
+but they are all based on heuristics similar to those of BLAST.
+developed where the search is made much faster by using heuristics.
+BLAST is one of these methods. It is important to remember that BLAST
+is a <b>local</b> alignment tool.
+
+</p><p>
+ 
+
+</p><p>
+This lecture is partly based on the 
+<a 
+href="http://www.ncbi.nlm.nih.gov/Education/BLASTinfo/information3.html">
+NCBI education web site</a>
+
+
+</p><p>
+<font color="#5888c0">
+<h2>Log-odds Substitution Matrices for Scoring Amino-Acid 
+Alignments</h2>
+</font>
+
+
+</p><p>
+</p><center>
+<img src="./file/cytochrome-2.gif">
+</center>
+
+<p>
+Everytime we do an alignment of two or more sequences we are making an
+statement about a biological relationship between the sequences. This
+can be evolutionary or functional.  Indeed, during evolution,
+sequences change by mutations, insertions and deletions. The
+evolutionary relationshipts between two or more sequences can be
+recovered by aligning sequences. The relationship between the
+sequences can be measured in terms of a degree of "proximity" or
+"similarity". This measure, as explained below, is based on the
+observed substitution properties between residues (aminoacids or
+nucleotides).
+
+</p><p>
+Given a pair of aligned sequences, we want to assign a score to the
+alignment that gives a measure of the relative likelihood that the
+sequences are related as opposed to being unrelated. We do this by
+having models that assign a probability to the alignment in each of
+the two cases, and then we compare these two probabilities.
+
+</p><p>
+
+Consider 
+<span class="texhtml"><i>q</i><sub><i>i</i>,<i>j</i></sub></span> the
+probability that amino acid 
+<span class="texhtml"><i>i</i></span>
+transforms into amino acid 
+<span class="texhtml"><i>j</i></span> and
+<span class="texhtml"><i>p</i><sub><i>i</i></sub></span> 
+as the
+frequency of amino acid i. We want to compare these
+probabilities, to determine whether an alignment of two residues
+is functionally meaningful. Accordingly, we define a number <span 
+class="texhtml"><i>M</i><sub><i>i</i>,<i>j</i></sub></span> called the
+log-odd ratio, which gives a measure of the likelihood of two
+aminoacids being related:
+
+</p><p>
+</p><center>
+<img src="./file/log_likelihood.png" alt="" align="center">
+</center>
+
+The base of the logarithm is not too
+important, and you will often see the same substitution matrix
+expressed in different bases.<p></p>
+
+<p>
+In general, the background model <span 
+class="texhtml"><i>p</i><sub><i>i</i></sub></span> 
+(also called unrelated or random) is calculated from the data set. 
+Alternatively we can assume a
+homogeneous distribution:
+
+</p><p>
+</p><center>
+<img src="./file/p_i.png" alt="" align="center">
+</center>
+<p>
+since there are 20 aminoacids.
+
+</p><p>
+The number <span 
+class="texhtml"><i>q</i><sub><i>i</i>,<i>j</i></sub></span> can be
+thought of as the probability that two residues have each
+independently derived from some unknown original residue in their
+common ancestor. The simplest model would be an identity model for 
+which:
+
+</p><p>
+</p><center>
+<img src="./file/q_ij.png" alt="" align="center">
+</center>
+and 
+<p>
+</p><center>
+<img src="./file/q_ij2.png" alt="" align="center">
+</center>
+
+
+
+<p>
+</p><center>
+<img src="./file/Scoring.gif" alt="" width="352" align="center" 
+border="1" height="353">
+</center>
+
+<p>
+A substitution matrix for aminoacids is a 20 x 20 matrix in which for
+every pair of aminoacids we assign a log-odd score based on the
+observed frequencies of such occurences in alignments of related
+proteins. Identities are assigned the most positive scores.
+Frequently observed substitutions also receive positive scores and
+seldom observed substitutions are given negative scores.
+
+</p><p>
+PAM-matrices: 
+</p><ul> 
+<li>PAM matrices are based on global alignments of closely related 
+proteins.  
+</li><li>The PAM1 is the matrix calculated from comparisons of sequences 
+with no more than 1% divergence.  
+</li><li>Other PAM matrices are extrapolated from PAM1.
+</li><li>The number with the matrix (e.g. PAM40, PAM100) refers to the
+evolutionary distance; henve greater numbers mean greater distances. 
+</li></ul>
+<br><br> Several later groups have attempted to extend Dayhoff's
+methodology or re-apply her analysis using later databases with more
+examples.
+Extensions
+The BLOSUM matrices:
+<ul>
+<li>BLOSUM matrices are based on local alignments.
+</li><li>The number after "BLOSUM" refers to the minimum percentage
+identity of the blocks used to construct the matrix; hence greater
+numbers mean smaller distances. For example, BLOSUM 62 is a matrix
+calculated from comparisons of sequences with no less than 62%
+similarity.
+</li><li>All BLOSUM matrices are based on observed alignments; they are 
+not extrapolated from comparisons of closely related proteins.
+</li><li>Although BLOSUM 62 is tailored for comparisons of moderately
+distant proteins, it performs well in detecting closer relationships. A
+search for distant relatives may be more sensitive with a different
+matrix. </li><li>The BLOSUM series of matrices generally perform better 
+than PAM matrices for local similarity searches
+</li></ul>
+
+
+
+<center>
+<img src="./file/Matrices.gif" alt="" width="600" align="center" 
+border="0">
+</center>
+<p>
+BLOSUM matrices with higher numbers and PAM matrices with low numbers
+are both designed for comparisons of closely related sequences.
+BLOSUM matrices with low numbers and PAM matrices with high numbers
+are designed for comparisons of distantly related proteins.  
+
+
+
+</p><p>
+<font color="#5888c0">
+<h2>The BLAST Search Algorithm</h2>
+</font>
+
+</p><p>
+</p><center>
+<img src="./file/BLAST_algorithm.gif" alt="" align="center" border="1">
+</center>
+
+<p>
+BLAST looks for word matches between the query and the target. These
+are short segments of length W, typically W is 3 to 5 aminoacis long
+(about 11 nucleotides for DNA-DNA comparison) which are first read
+from the query and stored. BLAST then looks for word matches in the
+target with score T or greater when aligned with the query word, where
+the score is computed with a substitution matrix.  Words in the
+database (target) that score T or greater are 'seed alignments', which
+are subsequently extended in both directions until the maximum
+possible score for the extension is reached. Each alignment built in
+this way is a high-scoring pair or HSP. The minimum score (S) for the
+reported HSPs and the maximum allowed expected value (E) of the HSPs
+can be specified by the user.  HSPs that meet these criteria will be
+reported by BLAST. Additionally, the user can also specify the maximum
+number of reported 'found targets' (B) and HSPs (alignments) (V). Note
+that there can be more than one alignment per target. Follow the
+practical for more details
+
+
+
+
+</p><p>
+<font color="#5888c0">
+<h2>Flavours of Blast</h2>
+</font>
+<br>
+
+</p><p>
+</p><center>
+<table width="444" border="1">
+<tbody><tr>
+<td class="TUTORIAL">Program&nbsp;</td>
+
+<td class="TUTORIAL">Description</td>
+</tr>
+
+<tr>
+<td class="TEXT">BLASTP</td>
+
+<td class="TEXT">Compares an amino acid query sequence against a protein 
+sequence or a database.</td>
+</tr>
+
+<tr>
+<td class="TEXT">BLASTN</td>
+
+<td class="TEXT">Compares a nucleotide query sequence against a 
+nucleotide sequence or a database.</td>
+</tr>
+
+<tr>
+<td class="TEXT">BLASTX</td>
+
+<td class="TEXT">Compares a nucleotide query sequence translated in all 
+reading
+frames against a protein sequence or a database. This option is useful 
+to
+find potential translation products of an uncharacterized nucleotide 
+sequence.</td>
+</tr>
+
+<tr>
+<td class="TEXT">TBLASTN</td>
+
+<td class="TEXT">Compares a protein query sequence against a nucleotide 
+sequence or a database
+dynamically translated in all open reading frames.</td>
+</tr>
+
+<tr>
+<td class="TEXT">TBLASTX</td>
+
+<td class="TEXT">Compares the six-frame translations of a nucleotide 
+query sequence
+against the six-frame translations of a nucleotide sequence or a 
+database. 
+The TBLASTX program is the most computationally intensive. It is useful 
+when
+trying to find distant homologies between coding DNA sequences.
+
+</td>
+</tr>
+</tbody></table>
+</center>
+
+
+<p>
+Some homologies are better found at the AA level. Consider the following 
+two sequences:
+</p><pre>A G G T A C T T A C C G
+  |   | |     |   | |
+C G A T A T A T C C C T
+</pre>
+They have very few matches. However, using TBLASTX, we would see that
+they are possibly homologous:
+<pre>A G G T A C T T A C C G
+ Arg   Tyr   Leu   Pro
+  |     |     :     |
+ Arg   Tyr   Ile   Pro
+C G A T A T A T C C C T
+</pre>
+Three aminoacids coincide and the fourth pair has similar biochemical 
+properties.
+The codon table is:
+
+<pre>            3 Letter   1 Letter       DNA codons for each Amino 
+Acids
+NAME    Abbreviation  Abbreviation
+
+Alanine         Ala       A 		GCA,GCC,GCG,GCU
+Cysteine        Cys       C		UGC,UGU
+Aspartic Acid   Asp       D		GAC,GAU
+Glutamic Acid   Glu       E		GAA,GAG
+Phenylalanine   Phe       F		UUC,UUU
+Glycine         Gly       G		GGA,GGC,GGG,GGU
+Histidine       His       H		CAC,CAU
+Isoleucine      Ile       I		AUA,AUC,AUU
+Lysine          Lys       K		AAA,AAG
+Leucine         Leu       L		UUA,UUG,CUA,CUC,CUG,CUU
+Methionine      Met       M		AUG
+Asparagine      Asn       N		AAC,AAU
+Proline         Pro       P		CCA,CCC,CCG,CCU
+Glutamine       Gln       Q		CAA,CAG
+Arginine        Arg       R		CGA,CGC,CGG,CGU,AGA,AGG
+Serine          Ser       S		UCA,UCC,UCG,UCU,AGC,AGU
+Threonine       Thr       T		ACA,ACC,ACG,ACU
+Valine          Val       V		GUA,GUC,GUG,GUU
+Tryptophan      Trp       W		UGG
+Tyrosine        Tyr       Y		UAC,UAU
+
+Stop Codons               .             UAA,UAG,UGA
+</pre>
+<br>
+<br>
+
+
+
+
+<h2>
+<font color="#5888c0"><b>The Statistics of BLAST</b></font>
+</h2>
+
+<p>
+From a search with BLAST we obtain a series of sequence alignments,
+each one with a similarity score.  However, an important issue is how
+to know the statistical significance of such a score.  This
+significance is based in the probability that two random sequences can
+have the same score as two real sequences that exceed the expected
+score (above average). In other words, when we align two sequences, we
+are actually testing whether this alignment occurred by chance or that
+the two sequences are truly homologous.
+
+</p><p>
+If we perform some sort of comparison between one object and a set
+(database) of objects, each comparison results in a score. The
+resulting scores follow a normal distribution (for global alignments),
+i.e. the sum of many random variables is distributed normally. On the
+other hand, if for each possible comparison we only draw the maximum
+score, the results will follow an extreme value distribution (EVD).
+In sequence alignments, for each comparison we retrieve only the
+optimal alignment, i.e.  the maximum score, hence the results from the
+sequence comparisons are distributed according to an EVD:
+
+</p><p>
+</p><center>
+<img src="./file/extreme_value_distribution.gif" alt="extreme value 
+distribution" width="280" height="220">
+</center>
+
+<p>
+From this distribution, a given a similarity threshold (i.e. a minimal 
+percentage identity) a <b>p-value</b> can be calculated:
+
+</p><p>
+<b>P-value:</b> The probability of observing an alignment with equal or 
+greater similarity
+given the null hypothesis, i.e. how likely is to observe this sequence 
+similarity by chance?
+The p-value gives us an idea of how likely is that BLAST is producing an 
+alignment between
+two sequences that are not functionally related.
+
+</p><p>
+The higher the p-value the less significant the result.
+The most common thresholds are 0.01 and 0.05.
+A threshold of 0.05 means you are 95% sure that the result is 
+significant.
+The threshold to choose will depend upon the costs associated with 
+making a mistake,
+like for instance, performing expensive experimental validation, making 
+clinical treatment decisions, etc.
+
+</p><p>
+When performing a database search, we are in fact performing
+multiple tests. The p-value must then be adjusted for these 
+multiple comparisons. Indeed the probability must be modified by the 
+size of the database.
+This defines the <b>E-value</b>. 
+
+</p><p>
+<b>E-value.</b> The E-value is a version of the p-value that 
+is corrected for multiple tests.
+The E-value is computed by multiplying the p-value times the size of the 
+database.
+The E-value is the expected number of times that the given score would 
+appear in a 
+random database of a given size. For example, for a p-value of 
+<tt>0.001</tt> 
+and a database of <tt>1,000,000</tt> sequences, 
+the corresponding E-value is <tt>0.001 x 1,000,000 = 1,000</tt>.
+
+</p><p>
+The E-value can be interpreted as the expected <b>number</b> of distinct 
+alignments (HSPs) that 
+we would obtain with a score greater or equal to a given value, by 
+chance, in a database search.
+The higher the E-value, the less significant the match. 
+
+</p><p>
+For instance, an
+e-value of 2 means that we expect 2 alignments to occur just by chance
+for the given score. Similarly, 
+an e-value of 0.01 means that we expect one random match in every 
+hundred for the given score.
+Setting a low threshold for the e-value would reduce the number of 
+potential
+errors. This, however, could also reduce the sensitivity of our search.
+Typically we will use an E-value threshold of 0.01 or smaller.
+
+</p><p>The E-value depends on the size of the database (the p-value does 
+not!). 
+
+</p><p>
+More details about the statistics of BLAST can be found in the NCBI
+<a 
+href="http://www.ncbi.nlm.nih.gov/Education/BLASTinfo/information3.html">BLAST 
+Tutorial</a>.
+
+<br>
+<br>
+</p><hr>
+<br>
+<br>
+
+
+<h3>
+Exercise 1: Searching homologous proteins using BlastP
+</h3>
+
+<p>
+In this practical we will study the homology relations of the following
+human protein NP_954673
+</p><ul>
+<li>go to the NCBI web site: <a href="http://www.ncbi.nlm.nih.gov/" 
+target="_blank">www.ncbi.nlm.nih.gov</a>
+</li><li>in the search box select 'Protein' and type in the protein id 
+<a href="./file/NP_954673.fa">NP_954673</a>.
+</li><li>select FASTA in the display and press the 'display' button
+</li></ul>
+
+<p>
+In a new browser go to the Ensembl web site: <a 
+href="http://www.ensembl.org/" target="_blank">www.ensembl.org</a>
+and clik on the Blast button (on the left).
+
+</p><ol>
+<li>Copy and paste the sequence of our query protein above
+</li><li>select 'peptide queries'
+</li><li>select 'Rattus norvegicus' (Rat)
+</li><li>select 'peptide database' and choose 'PEP_ALL'
+</li></ol>
+
+<p>
+<b>Question</b>. There is only one possible BLAST type to use, try you 
+understand why.
+
+<br>
+</p><p>
+</p><ul>
+<li>Click on the button 'Configure' and chose parameter '-E  0.1'. 
+</li></ul>
+
+<b>Question</b>. What is the meaning of the following parameters?
+
+<ul>
+<li> -E : Maximum E-value for reported alignments 
+</li><li> -B : Maximum number of database sequences for which a hit will 
+be reported
+</li><li> -V : Maximum number of HSPs that will be reported
+</li><li> -W : Word size - ( default is 4 for BLASTP ) length of the 
+seeds for the HSPs
+</li><li> -T : minimum score for a word match
+</li></ul>
+
+<p>
+<b>Question</b>. What is the difference between B and V? 
+
+<br>
+</p><p>
+Note that we are going to perform a local alignment. Proteins are
+usually structured in domains. We expect the similarity between two
+sequences to be concentrated in the regions defining common domains,
+while parts of the sequences may not have any similarity. That is why
+we usually prefer a local alignment tool.
+
+</p><p>
+<b>Question</b>. What happens if we change the value of W?
+
+<br>
+</p><p>
+Changes in the parameters permit a tradeoff between speed and 
+sensitivity.
+For instance, a higher T would increase speed but it could miss weak 
+similarities.
+A larger W will provide a faster search, but we will lose sensitivity.
+
+</p><p>
+</p><ul>
+<li> Click on the <b>RUN</b> button. </li>
+<li> Click on 'retrieve' until you obtain the blast results.</li>
+<li> Take note of the number of matches</li>
+<li> Click on View to view the results</li>
+<li> Look at the distribution of matches across the chromosomes (Aligment location vs Karyotype).</li>
+<li> Look at the distribution of aligments on the query (Aligment location vs Query).</li>
+<li> Look at the aligment summary.</li>
+</ul>
+
+<p>
+The alignment results will look like this:
+</p><pre>Query                 Subject                       Genome                      
+Stats
+Name    Start End Ori Name            Start End Ori Name      Start End     Ori Score E-val   %ID   Length
+NP_954673 228 370 +   ENSRNOP00000002504  3 145 +   Chr:11 87256459 87287530 +  642   1.1e-64 85.31 143
+NP_954673 240 311 +   ENSRNOP00000013486 34 102 +   Chr:10 59509455 59576068 +  122   2.1e-07 40.28  72
+NP_954673 232 351 +   ENSRNOP00000006751  1 113 +   Chr:10 37517408 37530229 -  105   4.9e-06 24.79 121
+...
+</pre>
+
+<p>
+Concentrate on the best match:
+</p><ul>
+<li> Click on <font color="red">[A]</font> to view the alignment. What 
+are the X's?
+</li><li> Click on <font color="red">[S]</font> to view the piece of the 
+query that has been aligned.
+</li><li> Click on <font color="red">[C]</font> to see how the query 
+would be placed in the chromosome according to the protein-protein 
+alignment.
+</li><li> You can click on the hit identifier to obtain information 
+about the matched protein (ProteinView).
+</li></ul>
+
+<p>
+Repeat the search using all Ensembl peptides (known and novel). Look at 
+the difference in e-values.
+<br>
+
+</p>
+
+</p><p>
+Try now to search for homologies using the same query but searching 
+against the cDNA sequences. 
+
+<bf>Questions</bf>
+
+</p><ol>
+<li>How many hits do you find now? Is that surprising? Note that we are 
+doing the search with the
+same gene using the same list of genes (however, using DNA instead of 
+aminoacids).
+</li></ol>
+
+
+<br>
+<hr>
+
+<h3>
+Exercise 2: BLAST in command line
+</h3>
+
+<p>
+This exercise must be done in Linux.
+To use the BLAST package from NCBI from the computers in the class copy paste the following commands in the shell:</p>
+<pre>
+$ export PATH=/cursos/BI/bin/ncbiblast/bin:$PATH
+$ cp /cursos/BI/bin/ncbiblast/.ncbirc ~/
+</pre>
+
+<p>to write the symbol <code>~</code> type AltGr-4.</p>
+
+<h4>Using BLAST in the command line: blastall</h4>
+
+<p>
+We can use blast in command line. The three basic things to specify to 
+the balst command is the name of the query, the name
+of the target (database) and the type of blast to run.
+
+</p><p>
+Type <tt>blastall</tt> in the command line to find out about the 
+different options.
+
+</p><p>
+<b>Question:</b>Can you locate the same options that we have seen 
+previously?
+
+
+
+</p><h4>Formatting the database</h4>
+
+<p>First of all, we need to "format" the database. That is, we need to
+pre-process the database for the blast run. We do this with the command
+<tt>formatdb</tt>:
+
+</p><ul>
+<li>Download this file of sequences, which we will use as datbase: <a 
+href="./file/C_parvum.prot">sequences.fa</a>.
+</li><li>In the same directory where you have downloaded the file, run 
+the command:
+
+<p>
+</p><pre>formatdb -i sequences.fa
+</pre>
+
+</li><li> Do "ls" and check that you have generated the following files:
+<pre>sequences.fa.phr  sequences.fa.pin  sequences.fa.psq
+</pre>
+</li></ul>
+<p>
+look at the options of <tt>formatdb</tt> typing "formatdb -".
+
+
+</p><p>
+We are now ready to run BLAST in command line. The basic command is:
+
+</p><pre>blastall -p program_name -d database -i query_file
+</pre>
+
+<p>
+where 
+
+</p><ul>
+<li><tt>program_name</tt> is the type of blast (blatp, blastn, tblastn, 
+tblastx),
+</li><li><tt>databast</tt> the name of the database
+</li><li><tt>query_file</tt> is the name of the query fasta file
+</li></ul>
+
+<p>
+We want to use the following protein query:
+
+</p><pre>&gt;Cele_RSP2
+MVRVYIGRLPNRASDRDVEHFFRGYGKLSDVIMKNGFGFVDFQDQRDADDAVHDLNGKEL
+CGERVILEFPRRKVGYNEERSGSGFRGREPTFRKGGERQFSNRYSRPCSTRFRLVIDNLS
+TRYSWQDIKDHIRKLGIEPTYSEAHKRNVNQAIVCFTSHDDLRDAMNKLQGEDLNGRKLK
+CTDETRDRSRSRSPRRRSRSRSPTRSRSPPARRRSPGSDRSDRKSRSASPKKRSDKRARS
+ESKSRSRSGGRRSRSNSPPNRSPSPKKRRDNSSPRSGSASP
+</pre>
+
+<p>
+store this sequence into a file (e.g. Cele_RSP2.fa). We are now ready to 
+perform
+a BLAST with this query in our database:
+
+</p>
+<pre>blastall -p blastp -d sequences.fa -i Cele_RSP2.fa</pre>
+
+<p>to be able to see the results you can write:
+<pre>blastall -p blastp -d sequences.fa -i Cele_RSP2.fa | more</pre>
+
+<p>
+</p><h4>Setting thresholds for the E-value</h4>
+
+<p>
+We can restrict our alignments setting a threshold for the E-value. For 
+instance:
+
+</p><pre>blastall -p blastp -d sequences.fa -i Cele_RSP2.fa -e 0.01
+</pre>
+
+<p>
+This helps us filtering out non-significant matches from our output.
+</p><p>
+
+</p><p>
+</p><h4>Gapped vs. ungapped alignments</h4>
+
+<p>
+We may restrict our searches only to regions of ungapped similarity:
+
+</p><pre>blastall -p blastp -d sequences.fa -i Cele_RSP2.fa -g F
+</pre>
+
+
+<h4>Masking low complexity regions</h4>
+
+<p>
+Now try with a human homologue:
+
+</p><pre>&gt;Hsap_SR40
+MSGCRVFIGRLNPAAREKDVERFFKGYGRIRDIDLKRGFGFVEFEDPRDADDAVYELDGK
+ELCSERVTIEHARARSRGGRGRGRYSDRFSSRRPRNDRRNAPPVRTENRLIVENLSSRVS
+WQDLKDFMRQAGEVTFADAHRPKLNEGVVEFASYGDLKNAIEKLSGKEINGRKIKLIEGS
+KRHSRSRSRSRSRTRSSSRSRSRSRSRSRKSYSRSRSRSRSRSRSKSRSVSRSPVPEKSQ
+KRGSSSRSKSPASVDRQRSRSRSRSRSVDSGN
+</pre>
+
+<p>
+<b>Question:</b>Can you see the multiple "X"s? Use the option <tt>-F 
+F</tt> and see what happens with the "X"s.
+
+</p><p>
+<b>Question:</b>Do you see a difference in the number of results? Can 
+you understand why?
+
+
+</p><h4>Using TBLASTN</h4>
+
+<p>
+Now we try to compare the same protein with the same list of genes, but 
+this time we use the cDNA sequences for these genes.
+In this file: <a href="./file/C_parvum.cds">cDNA_sequences.fa</a> you 
+can find the cDNA sequences corresponding to the previous protein set.
+
+</p><p>
+Format the datbase as before (now we have to specify that we are 
+formatting a nucleotide database):
+
+</p><p>
+</p><pre>formatdb -i sequences.cds -p F
+</pre>
+
+<li> Do "ls" and check that you have generated the right files:
+
+<pre>sequences.cds.nhr  sequences.cds.nin  sequences.cds.nsq
+</pre>
+
+<p>
+We are now ready to run BLAST in command line as before:
+
+</p><pre>blastall -p tblastn -d sequences.cds -i Cele_RSP2.fa
+</pre>
+
+<p>
+<b>Question:</b> Do you find more or less results than before?
+
+
+</p><h4>Changing the genetic code</h4>
+
+<p>
+There is an option that allows you to change the genetic code when using 
+TBLASTN and TBLASTX:
+</p><pre>-Q (genetic code of the query)
+-D (genetic code of the database)
+</pre>
+
+<p>
+For instance:
+</p><pre>blastall -p tblastn -d sequences.cds -i Cele_RSP2.fa -D 1
+</pre>
+
+<p>Go to the BLAST <a 
+href="http://www.ncbi.nlm.nih.gov/Education/BLASTinfo/tut1.html">tutorial 
+page</a> and check the different genetic codes that you can use.
+
+
+</p><p>
+</p><h4>How to parse BLAST output</h4>
+
+<p>
+BLAST gives you the option to obtain the output in different formats. 
+This is done with the option <tt>-m value </tt>, where <tt>value</tt> 
+can take on the following
+values:
+
+</p><pre>0 = pairwise,
+1 = query-anchored showing identities,
+2 = query-anchored no identities,
+3 = flat query-anchored, show identities,
+4 = flat query-anchored, no identities,
+5 = query-anchored no identities and blunt ends,
+6 = flat query-anchored, no identities and blunt ends,
+...
+(defalut 0)
+</pre>
+
+<p>
+Try the values 4 and 6. Try to understand what they show.
+
+</p><p>
+<b>PARSEBLAST</b>
+
+</p><p>
+We can also use the program <a href="./file/parseblast">parseblast</a>. 
+This is a PERL program written by Josep Abril, which allows you to 
+convert the standard blast output (option -m 0) into different formats. 
+
+</p><ul>
+<li>Download  <a href="./file/parseblast">parseblast</a>, make it 
+executable and run
+<pre>./parseblast -help
+</pre>
+to see the description and the different options
+
+</li><li> Pipe parseblast with the output from blast:
+
+<pre>blastall -p blastp -d sequences.fa -i Cele_RSP2.fa -e 0.01 | 
+./parseblast -P
+</pre>
+
+</li><li> Explore the different options of <tt>parseblast</tt>.
+</li></ul>
+
+
+<hr>
+
+<h4>Using BLAST remotely: blastcl3</h4>
+
+<p>
+The program <tt>blastcl3</tt> allows to make a blast search using a 
+database from the NCBI server.
+Basic command line:
+</p><pre>blastcl3 -p program_name -d database -i query_file -e E-value
+</pre>
+
+<p>
+where 
+
+</p><ul>
+<li><tt>program_name</tt> is the type of blast (blatp, blastn, tblastn, 
+tblastx),
+</li><li><tt>databast</tt> is the NCBI name of the database. Default is 
+"nr" (non-redundant)
+</li><li><tt>query_file</tt> is the name of the query fasta file
+</li><li><tt>E_value</tt> is the E-value threshold.
+</li></ul>
+
+<p>
+For the complete list of parameters, type <tt>blastcl3</tt> in the 
+command line.
+
+</p><p>
+run the query "Cele_RSP2" against "nr" remotely.
+
+</p><p>
+<b>Note:</b>You can use the same parameters for output as before.
+
+</p><p>
+<b>Note:</b>"NR" is a big database, this may take a while.
+
+</p><p>
+There is a list of protein and nucleotide databases available to run 
+blast remotely. Look in the
+<a href="http://www.ncbi.nlm.nih.gov/blast/producttable.shtml#db">BLAST 
+help pages</a> for the list of available databases.
+Tryy using one of them.
+</p>
+
+
+<hr size="2" width="100%"><a 
+href="http://bioinformatica.upf.edu/">Bioinformatica UPF</a>, Feb 2008 
+<br>
+&nbsp;
+<h2><br>
+</h2>
+<p><br>
+</p>
+</li></body></html>
