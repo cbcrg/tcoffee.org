@@ -1,0 +1,154 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="generator" CONTENT="GoLive CyberStudio 3">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; Linux 2.0.32 i686) [Netscape]">
+   <TITLE>Exercises for Day 4 of the EMBNET course </TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H1>
+Exercises for Day 4 of the EMBNET course :</H1></CENTER>
+
+<CENTER><B><FONT SIZE=+3>Multiple Sequence Alignments, Phylogeny and Profiles</FONT></B></CENTER>
+
+<H2>
+<A NAME="4.1"></A>4.1 Checking a sequence for the existence of motifs</H2>
+a) Find the sequence for the human proto-oncogene Vav in SwissProt and
+create a local copy
+
+<P>b) Use this sequence to search the PROSITE database of patterns with
+the <B><I>motifs</I></B> program.
+
+<P>c) Repeat the <B><I>motifs</I></B> run and allow one mismatch per pattern.
+Repeat the <B><I>motifs</I></B> run and include frequent patterns. <B>**NOTE**</B>
+never use both options at the same time!
+
+<P>d) Try the same search on the WWW server, using the URLs:
+<BR><TT><FONT FACE="Courier New"><A HREF="http://expasy.hcuge.ch/sprot/scnpsit1.html">http://expasy.hcuge.ch/sprot/scnpsit1.html</A>
+or</FONT></TT>
+<BR><TT><FONT FACE="Courier New"><A HREF="http://www.isrec.isb-sib.ch/software/PSTSCAN_form.html">http://www.isrec.isb-sib.ch/software/PSTSCAN_form.html</A></FONT></TT>
+<BR>Read the documentation entries of the reported PROSITE matches and
+see if they apply to your sequence.
+
+<P>e) Use this sequence to search the profile section of PROSITE and PFAM
+A, using the URL:
+<BR><TT><FONT FACE="Courier New"><A HREF="http://www.isrec.isb-sib.ch/software/PFSCAN_form.html">http://www</A><A HREF="http://www.isrec.isb-sib.ch/software/PSTSCAN_form.html">.isrec.isb-sib.ch</A><A HREF="http://www.isrec.isb-sib.ch/software/PFSCAN_form.html">/software/PFSCAN_form.html</A></FONT></TT>
+<BR><A HREF="day4_hints_solutions.html#4.1">Hints and Solutions:</A>
+<H2>
+<A NAME="4.2"></A>4.2 Finding occurrences of patterns in protein databases</H2>
+a) Use the <B><I>findpatterns</I></B> program to check if the patterns
+'ISREC' or 'ELVIS' occur in the SwissProt database
+
+<P>b) A motif for ER-localization for type I membrane proteins is the pattern
+KKxx or KxKxx at the extreme C-terminus of a sequence. Formulate a PROSITE
+and a GCG pattern that covers both variants of this motif.
+
+<P>c) check how many times this pattern occurs in SwissProt, using either
+the GCG program <B><I>findpatterns</I></B> or one of the WWW-servers
+<BR><A HREF="http://expasy.hcuge.ch/sprot/scnpsit2.html"><TT><FONT FACE="Courier New">http://expasy.hcuge.ch/sprot/scnpsit2.html</FONT></TT>
+</A>or
+<BR><TT><FONT FACE="Courier New"><A HREF="http://www.isrec.isb-sib.ch/software/PATFND_mailform.html">http://www</A><A HREF="http://www.isrec.isb-sib.ch/software/PSTSCAN_form.html">.isrec.isb-sib.ch</A><A HREF="http://www.isrec.isb-sib.ch/software/PATFND_mailform.html">/software/PATFND_mailform.html</A></FONT></TT>
+<BR>Why do you find so many copies of this motif in non-ER proteins?
+
+<P><A HREF="day4_hints_solutions.html#4.2">Hints and Solutions:</A>
+<BR>&nbsp;
+<H2>
+<A NAME="4.3"></A>4.3 Multiple alignments and Phylogeny</H2>
+<A NAME="1-"></A>a)-produce the multiple alignment and the phylogenic tree
+of the three following sequences in Swiss_prot
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-SCG1_HUMAN
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-SCGA_XENLA
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-STHM_MOUSE
+<BR><A HREF="day4_hints_2.html#1-">Hint</A>&nbsp;&nbsp; <A HREF="day4_solutions_2.html#1-">Solution</A>
+
+<P><A NAME="2-"></A>b)-Discuss the results. What is wrong. Propose a strategy?
+<BR><A HREF="day4_hints_2.html#2-">Hint</A>&nbsp;&nbsp; <A HREF="day4_solutions_2.html#2-">Solution</A>
+
+<P><A NAME="3-"></A>c)-Add sequences from Swiss_prot in your list , make
+a new multiple sequence alignment and a tree.
+<BR><A HREF="day4_hints_2.html#3-">Hint</A>&nbsp;&nbsp; <A HREF="#3-">Solution</A>
+
+<P><A NAME="4-"></A>d)-Discuss the results and propose a new strategy in
+order to obtain a better tree.
+<BR><A HREF="day4_hints_2.html#4-">Hint</A>&nbsp;&nbsp; <A HREF="day4_solutions_2.html#4-">Solution</A>
+
+<P><A NAME="5-"></A>e)-Obtain the nucleotide sequences of your sequences
+from the EMBL database and align them
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(NOTE: the nucleotide sequences of sg1_mouse and sg1_human are not available)
+<BR><A HREF="day4_hints_2.html#5-">Hint</A>&nbsp;&nbsp; <A HREF="day4_solutions_2.html#5-">Solution</A>
+
+<P><A NAME="6-"></A>f)-use your multiple sequence alignment with the programs
+distance and growtree. Produce the rooted tree corresponding to your nucleotide
+alignment.
+<BR><A HREF="day4_hints_2.html#6-">Hint</A>&nbsp;&nbsp; <A HREF="day4_solutions_2.html#6-">Solution</A>
+<BR>&nbsp;
+<BR>&nbsp;
+<H2>
+<A NAME="4.4"></A>4.4 Finding a local homology domain by BLAST and pairwise
+alignment</H2>
+a) Find the sequence for the human DNA repair gene Xrcc1 in SwissProt and
+create a local copy.
+
+<P>b) Perform a <B><I>blast</I></B> search against the non redundant protein
+database. <B>**NOTE**:</B> this sequence contains low complexity regions,
+therefore use <I><B>blast</B>'s</I> filter option, otherwise lots of junk
+will be reported
+
+<P>c) By using pairwise alignment, check which of the matches are significant
+and which are potentially interesting. Check the high scoring matches for
+putative biological relevance and note the results.
+
+<P>d) Find the conserved region of Xrcc1 and Rad4 by using dotplots. (Use
+Window=35, Stringency=20) Note the internal repeat in Rad4.
+<BR><A HREF="day4_hints_solutions.html#4.4">Hints and Solutions:</A>
+<H2>
+<A NAME="4.5"></A>4.5 Multiple alignment of homology domains an profile
+searches</H2>
+a) use <B><I>pileup</I></B> to create a multiple alignment of these three
+sequence fragments (in MSF format)
+
+<P>b) use <B><I>lineup</I></B> to look at the multiple alignment and to
+remove potential non-conserved overhanging ends. Save the edited multiple
+alignment in MSF format.
+
+<P>c) use <B><I>profilemake</I></B> to create a profile from the edited
+MSF file. Create the profile with lineas symbol weighting and stringent
+treatment of non-observed symbols.
+
+<P>d) use <B><I>profilesearch</I></B> to search the profile against a protein
+sequence database. Run this search with compositional averaging switched
+off. Don't forget to restrict the output list to the 100 best sequences,
+otherwise ALL SEQUENCES in the database will be reported ! Profile searches
+against big databases take a lot of time and cpu resources. The output
+file of a <B><I>profilesearch</I></B> against the complete SwissProt database
+will be provided.
+<BR>NOTE: use the substitution matrix blossum45.cmp&nbsp; with the option
+-data=genmoredata:blosum45.cmp)
+
+<P>e) Check the output list for high scoring matches of potential relevance.
+Create profile-to-sequence alignments with selected examples using <B><I>profilesegments</I></B>
+or <B><I>profilegap</I></B>.
+<BR><A HREF="day4_hints_solutions.html#4.4">Hints and Solutions:</A>
+<BR>&nbsp;
+<H2>
+<A NAME="4.6"></A>4.6 Advanced exercises</H2>
+The following exercises might be too time consuming to perform now -maybe
+try them at home!
+
+<P>a) Use <B><I>profilegap</I></B> to extract from the high-scoring sequences
+those fragments that match with the profile.
+
+<P>b) Add these new sequence segments to the existing multiple alignment,
+either by <B><I>pileup</I></B> or by manual editing.
+
+<P>c) Repeat the <B><I>profilemake</I></B>/<B><I>profilesearch</I></B>
+cycle iteratively as described above.
+<BR><A HREF="day4_hints_solutions.html#4.6">Hints and Solutions:</A>
+</BODY>
+</HTML>
