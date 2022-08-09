@@ -353,7 +353,7 @@
 			<hr>
 				<table width="100%" cellpadding="15" cellspacing="0" cellborder="0" valign="top">
 			    <tbody><tr align="center">
-			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/index.html"><font color="#8B4513">HOME</font></a></b></td>
+			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/homepage.html"><font color="#8B4513">HOME</font></a></b></td>
 			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#SERVERS"><font color="#8B4513">SERVERS</font></a></b></td>
 			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#DOWNLOAD"><font color="#8B4513">DOWNLOAD</font></a></b></td>
 			      <td width="15%" onmouseover="style.backgroundColor=&#39;white&#39;;" onmouseout="style.backgroundColor=&#39;#FFE4C4&#39;"><b><a href="http://www.tcoffee.org/Projects/tcs/#COMMANDS"><font color="#8B4513">DOCUMENTATION</font></a></b></td>
