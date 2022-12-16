@@ -20,4 +20,6 @@ jobs:
         aws-region: eu-central-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./public_html/ s3://tcoffee.org --delete --exclude "Packages/Archives/*"
+      run: |
+        aws s3 sync ./public_html/ s3://tcoffee.org --delete --exclude "Packages/Archives/*"
+        aws s3 sync ./public_html/Packages/Binaries/plugins/ s3://tcoffee-packages/Binaries/plugins/ --delete
