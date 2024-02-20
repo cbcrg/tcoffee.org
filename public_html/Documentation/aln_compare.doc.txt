@@ -222,7 +222,7 @@ C.N.R.S UMR 1889
 13402 Marseille Cedex 20,
 France
 
-Email   :  cedric.notredame@europe.com
+Email   :  cedric.notredame@gmail.com
 WWW     :  http://igs-server.cnrs-mrs.fr/~cnotred/
 Tel.    :  +33 491 164 606
 Tel mob :  +33 661 312 531

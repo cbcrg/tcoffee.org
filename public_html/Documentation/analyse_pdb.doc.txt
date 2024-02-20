@@ -292,6 +292,6 @@ specific parameters.
 7-BUG REPORTS
       please report all bugs and problems to:
 
-	    cedric.notredame@europe.com
+	    cedric.notredame@gmail.com
  	  
 	
